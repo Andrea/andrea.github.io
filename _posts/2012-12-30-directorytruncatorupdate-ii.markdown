@@ -4,7 +4,7 @@ comments: true
 date: 2012-12-30 22:33:03+00:00
 layout: post
 slug: directorytruncatorupdate-ii
-title: DirectoryTruncator–Update II
+title: DirectoryTruncator - Update II
 wordpress_id: 1040
 ---
 
@@ -32,8 +32,8 @@ So, this is what happened,
   2. For this one, I ended up making a decision I’m still mulling over. I needed to test that if there is an error on file delete, the process will log and keep going. How to do that? well, I created a thin wrapper around the file system, as far as I could see it, there was no other way to simulate the scenario of you have two files to delete and one of them is deleted before we get to it. I have yet to do this for TruncateByDirectory.
  
 
-This is all for today, and since this is probably the last post of the year. Merry New Year!!!
+This is all for today, and since this is probably the last post of the year. [Merry New Year!!!][merry]
 
  
+[merry]:[http://www.youtube.com/watch?v=JOiN5TQhP2Q&w=448&h=252&hd=1]
 
-[youtube=http://www.youtube.com/watch?v=JOiN5TQhP2Q&w=448&h=252&hd=1]

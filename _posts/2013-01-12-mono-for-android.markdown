@@ -10,7 +10,9 @@ categories:
 - c#
 - mono for android
 tags:
-- '"mono for android" "permissions" "android"'
+- mono for android
+- permissions
+- android
 ---
 
 I’ve been playing with mono for android the last few days. I have also tried it about 2 years ago. It was a good tool then, and it got much much better.
