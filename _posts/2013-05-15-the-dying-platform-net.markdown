@@ -19,7 +19,7 @@ These are some reasons why I think this is happening (not all related directly t
 6. For me, killing XNA. A great SDK, suddenly abandoned. Why? no one ever gave a reason I can remember (can you?) 
 7. XBOX vnext rumoured online only putting a nail on the XBOX coffin.
 
-What could save it  (maybe)
+#### What could save it  (maybe)
 
 1. Strangely, Xamarin because of their amazing mobile tools based on mono . Unity helps too, but I do wonder about what they have in mind for the future
 2. Aliens?
