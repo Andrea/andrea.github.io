@@ -1,0 +1,21 @@
+---
+author: roundcrisis
+comments: true
+date: 2009-05-04 23:16:22+00:00
+layout: post
+slug: scrumy
+title: Scrumy
+wordpress_id: 245
+categories:
+- agile
+- productivity
+tags:
+- agile
+- scrm
+---
+
+Quick post about this little board app. Say you are doing agile and you have the board with cards, why do you need the physical board? head to scrumy[http://scrumy.com](http://scrumy.com/) It s very simple to use and no signup required (love that)
+
+Even at a glance I can see I would miss some things, however It could prove useful to you.
+
+I got to see this because the [masstransit ](http://masstransit.pbworks.com/FrontPage)website has a link to their [scrumy ](http://www.scrumy.com/masstransit).

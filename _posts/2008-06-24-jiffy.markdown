@@ -1,0 +1,15 @@
+---
+author: roundcrisis
+comments: true
+date: 2008-06-24 16:44:00+00:00
+layout: post
+slug: jiffy
+title: Jiffy
+wordpress_id: 24
+categories:
+- ExtJs
+- FireBug
+- javascript
+---
+
+This is a firebug extension for measuring accurately the JS performance I have installed and tested it in [this site](http://billwscott.com/jiffyext/) sounds like a good idea and to see it running makes sense will start using it from now on,particularly on extJs sites ;p

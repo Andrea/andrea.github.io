@@ -1,0 +1,21 @@
+---
+author: roundcrisis
+comments: true
+date: 2008-08-18 22:11:00+00:00
+layout: post
+slug: ssis-pain
+title: SSIS Pain
+wordpress_id: 40
+categories:
+- Sql Server
+- SSIS
+---
+
+hi  
+This post is basically a rant, a rant about SSIS, whoever designed this UI please take a good look at your career and either retire or consider a career change.  
+  
+I think the idea behind this service is great; we all need data migration tools; but why make people suffer?  
+Some examples of why this tool drives me insane; in a data flow, you can createa Derived column, say for some crazy and ridiculous reason (please ntoe sarcasm here) you need to change your something on your source, well then the aforementioned Derived Column thing gies u a nice error(to a level fair enough), but then you deal with the problem you click ok, the dialog closes and then you have to open the same dialog again, why?  
+  
+Anyone that say that they think SSIS is great is just because they haven't used it.  
+Rant over ( however i need to keep going with this data migration)
