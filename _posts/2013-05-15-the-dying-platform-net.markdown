@@ -23,3 +23,6 @@ These are some reasons why I think this is happening (not all related directly t
 
 1. Strangely, Xamarin because of their amazing mobile tools based on mono . Unity helps too, but I do wonder about what they have in mind for the future
 2. Aliens?
+
+Edit: Maybe F#?
+
