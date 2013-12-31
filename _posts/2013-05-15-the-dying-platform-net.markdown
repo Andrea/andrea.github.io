@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The dying platform: .Net"
-date:   2013-05-05 10:40:10
+date:   2013-05-15 10:40:10
 
 ---
 
