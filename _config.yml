@@ -1,3 +1,5 @@
 name: roundcrisis.FindSolution()
 markdown: redcarpet
 pygments: true
+relative_permalinks: true
+permalink:    /:year/:month/:day/:title/

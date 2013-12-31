@@ -30,10 +30,10 @@ I think what is happening here is pretty self explanatory, but I will do it anyw
 It seems to me that this implementation is easier to follow and implement that the previous one, however I took some performance data and this is the result:
 
 Double Buffer
-![alt text](http://roundcrisis.files.wordpress.com/2013/06/image.png "Update Loop")
+![alt text](http://roundcrisis.files.wordpress.com/2013/06/image_thumb.png?w=441&h=35 "Update Loop")
 
 Concurrent Queue
-![alt text](http://roundcrisis.files.wordpress.com/2013/06/image1.png "Update Loop")
+![alt text](http://roundcrisis.files.wordpress.com/2013/06/image_thumb1.png?w=441&h=35 "Update Loop")
 
 Green means execution time, and red means synchronization time.
 
