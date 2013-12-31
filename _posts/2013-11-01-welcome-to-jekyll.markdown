@@ -1,24 +1,11 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Moved to Jekyll!"
 date:   2013-11-02 21:40:10
-categories: jekyll update
+categories: jekyll
 ---
 
-You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
-To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-{% gist 6919222 %}
+I have moved my blog from wordpress to Jekyll. It was a process a little bit longer than I expected and I am not done with it, but I'm glad to have started the process.
 
 Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
 
