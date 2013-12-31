@@ -273,11 +273,3 @@ public void AddCube(Cube primitive)
 
   <p>For the craic <a href=
   "http://en.wikipedia.org/wiki/Multiple_buffering">http://en.wikipedia.org/wiki/Multiple_buffering</a></p><br>
-
-  <a href=
-  "http://feeds.wordpress.com/1.0/gocomments/roundcrisis.wordpress.com/1077/"
-  rel="nofollow"><img alt="" border="0" src=
-  "http://feeds.wordpress.com/1.0/comments/roundcrisis.wordpress.com/1077/"></a>
-  <img alt="" border="0" height="1" src=
-  "http://stats.wordpress.com/b.gif?host=roundcrisis.com&amp;blog=5261556&amp;post=1077&amp;subd=roundcrisis&amp;ref=&amp;feed=1"
-  width="1">
