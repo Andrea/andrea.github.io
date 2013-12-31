@@ -1,5 +1,9 @@
-name: roundcrisis.FindSolution()
 markdown: redcarpet
-pygments: true
-relative_permalinks: true
 permalink:    /:year/:month/:day/:title/
+pygments:     true
+paginate:     10
+images:       /images
+
+name: Roundcrisis
+description: Rambling of mostly technical nature
+url: http://hadihariri.com
