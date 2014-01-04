@@ -1,0 +1,24 @@
+---
+date: 2014-01-03 10:13:00
+layout: post
+title: Yeppp! for numbers
+categories:
+- library
+- SIMD
+- c#
+---
+
+On the interwebz today I found an interesting library that somehow I haven't heard of before, and it is a few years old, 
+I wonder if the low popularity level is due to it's unconventional name: Yesppp! 
+
+## What is it?
+
+Yeppp! is a high-performance SIMD-optimized mathematical library for x86, ARM, and MIPS processors on Windows, Android, 
+Mac OS X, and GNU/Linux systems. Yeppp! functions are presented in several versions with optimizations for different 
+processor microarchitectures. During initialization Yeppp! library detects the processor it is running on, and chooses 
+the optimal function implementations. It is also open source with a very friendly commercial licence and has bindings for 
+C# (as well as Java, C/C++ and strangely FORTRAN)
+
+
+
+
