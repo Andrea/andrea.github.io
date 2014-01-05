@@ -29,7 +29,8 @@ There is some  graphs and numbers to crunch on the Yeppp website I'm going to be
 - With the library you get access to a lot of information about cycle stats and architecture information (handy given that the lib is multiplatform) Have a look at the [CpuInfo sample][cpu-info]
 
 
-The first thing I did was run the examples, I made some small changes so that the code doesn't do anything obviosuly non performant (like creating a new instance of Random inside a loop)
+The first thing I did was run the examples, I made some small changes so that the code doesn't do anything obviosuly non performant (like creating a new instance of Random inside a loop) until I ran into an exception in the Entropy sample... researching.
+
 
 [yep]:[http://yeppp.info]
 [msi]:[http://docs.yeppp.info/cs/index.html]
