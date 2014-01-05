@@ -1,0 +1,36 @@
+---
+date: 2014-01-04 10:13:00
+layout: post
+title: Yeppp!... for numbers
+categories:
+- MEF
+- exception
+- .net
+---
+
+On the interwebz today I found an interesting library that somehow I haven't heard of before, and it is a few years old, 
+I wonder if the low popularity level is due to it's unconventional name: [Yeppp!][yeppp]
+
+## What is it?
+
+Yeppp! is a high-performance SIMD-optimized mathematical library for x86, ARM, and MIPS processors on Windows, Android, 
+Mac OS X, and GNU/Linux systems. Yeppp! functions are presented in several versions with optimizations for different 
+processor microarchitectures. During initialization Yeppp! library detects the processor it is running on, and chooses 
+the optimal function implementations. It is also open source with a very friendly commercial licence
+
+## one, two, one two
+
+It sounds cool right, so what can we do with this and most importantly is it any good? 
+
+There is some  graphs and numbers to crunch on the Yeppp website I'm going to be very unortodox(stupid?), not really look at them, and get my hands dirty first.
+
+- nice, 100% unit test code coverage
+- weird, there was no nuget package. Actually the page [suggested and msi][msi] (why would it need setup scripts mmm)
+- With the library you get access to a lot of information about cycle stats and architecture information (handy given that the lib is multiplatform) Have a look at the [CpuInfo sample][cpu-info]
+
+
+The first thing I did was run the examples, I made some small changes so that the code doesn't do anything obviosuly non performant (like creating a new instance of Random inside a loop)
+
+[yep]:[http://yeppp.info]
+[msi]:[http://docs.yeppp.info/cs/index.html]
+[cpu-info]:[http://docs.yeppp.info/cs/_cpu_info_8cs-example.html]
