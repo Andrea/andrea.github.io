@@ -48,4 +48,4 @@ ok, so I hit the dependencies problem, need to read more about this.
 [ref-cpe]:[http://msdn.microsoft.com/en-us/library/system.componentmodel.composition.primitives.composablepartexception(v=vs.110).aspx]
 [regb]:[http://msdn.microsoft.com/en-us/library/system.componentmodel.composition.registration.registrationbuilder%28v=vs.110%29.aspx]
 [cre-pol]:[http://msdn.microsoft.com/en-us/library/system.componentmodel.composition.creationpolicy%28v=vs.110%29.aspx]
-[dir-cat]:[]
+[dir-cat]:[http://msdn.microsoft.com/en-us/library/system.componentmodel.composition.hosting.directorycatalog%28v=vs.110%29.aspx]
