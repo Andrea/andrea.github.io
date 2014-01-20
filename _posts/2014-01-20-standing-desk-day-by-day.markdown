@@ -1,7 +1,7 @@
 ---
 date: 2014-01-20 12:13:00
 layout: post
-title: Standing desk day by day   
+title: Standing desk day 1
 categories:
 - standing desk
 ---
@@ -11,7 +11,13 @@ I decided to keep a mini journal with updates about having a standing desk, I fi
 ## Day 1
 Today is the first day I am using as standing desk as described in [this article][lifehacker]. It's been exciting "building" this.
 
-I used the desk without the shelf for about 4.5 hours two days ago and I was tired (though I had a long run before that, so that might be the reason). Today is officially the first full day and I am finding that having the shelf really helps, also I'm feeling less tension in by upper back than usual. I got this square cushion as well for standing on it (no shoes), and I think it's more comfortable, compared to standing with runners. 
+I used the desk without the shelf for about 4.5 hours two days ago and I was tired (though I had a long run before that, so that might be the reason). I used it without the shelf
+
+![no shelf]({{ site.images }}/2014-01-20-nearly_desk.jpg)
+
+Today is officially the first full day and I am finding that having the shelf really helps, also I'm feeling less tension in by upper back than usual. I got this square cushion as well for standing on it (no shoes), and I think it's more comfortable, compared to standing with runners. 
+
+![With shelf]({{ site.images }}/2014-01-20--desk_with-shelf.jpg)
 
 I noticed I tend to shift on my feet at lot, probably that's good for circulation.
 
