@@ -37,6 +37,9 @@ I'm at half day and feeling the legs a bit but not much.
 
 I had to show some code to other people here and it was strange to share the space but it actually was nicer to be standing, it seemed more conducive to a conversation about the code.
 
+End of day, it's been eight and a half hours and I am pretty tired, I had a few breaks, and sat down. My plan was to do all coding standing and use a laptop for emails and browsing while sitting down, that plan is not working out so far, perhaps I need to try harder (some emails require my immediate attention and I didn't have the laptop setup there and then). By the way if someone is reading this and have a question feel free to comment or tweet at me [@silverspoon][tweet]
+
 More to come...
 
 [lifehacker]:[http://iamnotaprogrammer.com/Ikea-Standing-desk-for-22-dollars.html]
+[tweet]:[https://twitter.com/silverspoon]
