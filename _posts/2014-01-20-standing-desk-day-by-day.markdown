@@ -27,6 +27,16 @@ I'll update at the end of the day
 
 Had a planning meeting for 3 hours (I was sitting down)
 
+I ended the day pretty tired, the standing aspect stopped me from procastinating a bit
 
+## Day 2
+
+I was slightly dreading the idea of coming to work and standing, but when I got here I forgot about it, I was thinking that a new setup like this would take a little while to get used to.
+
+I'm at half day and feeling the legs a bit but not much.
+
+I had to show some code to other people here and it was strange to share the space but it actually was nicer to be standing, it seemed more conducive to a conversation about the code.
+
+More to come...
 
 [lifehacker]:[http://iamnotaprogrammer.com/Ikea-Standing-desk-for-22-dollars.html]
