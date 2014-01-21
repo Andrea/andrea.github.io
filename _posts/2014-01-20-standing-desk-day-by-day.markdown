@@ -1,7 +1,7 @@
 ---
 date: 2014-01-20 12:13:00
 layout: post
-title: Standing desk day 1
+title: Standing desk day to day 
 categories:
 - standing desk
 ---
