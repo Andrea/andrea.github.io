@@ -9,7 +9,7 @@ categories:
 I decided to keep a mini journal with updates about having a standing desk, I figure a lot of people are thinking about it (like I was) and it might be handy to have this information.
 
 ## Day 1
-Today is the first day I am using as standing desk as described in [this article][lifehacker]. It's been exciting "building" this.
+Today is the first day I am using as standing desk as described in [this article](http://iamnotaprogrammer.com/Ikea-Standing-desk-for-22-dollars.html) . It's been exciting "building" this.
 
 I used the desk without the shelf for about 4.5 hours two days ago and I was tired (though I had a long run before that, so that might be the reason). I used it without the shelf
 
@@ -37,9 +37,8 @@ I'm at half day and feeling the legs a bit but not much.
 
 I had to show some code to other people here and it was strange to share the space but it actually was nicer to be standing, it seemed more conducive to a conversation about the code.
 
-End of day, it's been eight and a half hours and I am pretty tired, I had a few breaks, and sat down. My plan was to do all coding standing and use a laptop for emails and browsing while sitting down, that plan is not working out so far, perhaps I need to try harder (some emails require my immediate attention and I didn't have the laptop setup there and then). By the way if someone is reading this and have a question feel free to comment or tweet at me [@silverspoon][tweet]
+End of day, it's been eight and a half hours and I am pretty tired, I had a few breaks, and sat down. My plan was to do all coding standing and use a laptop for emails and browsing while sitting down, that plan is not working out so far, perhaps I need to try harder (some emails require my immediate attention and I didn't have the laptop setup there and then). By the way if someone is reading this and have a question feel free to comment or tweet at me [@silverspoon](https://twitter.com/silverspoon)
 
 More to come...
 
-[lifehacker]:[http://iamnotaprogrammer.com/Ikea-Standing-desk-for-22-dollars.html]
-[tweet]:[https://twitter.com/silverspoon]
+
