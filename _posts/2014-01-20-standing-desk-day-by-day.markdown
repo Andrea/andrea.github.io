@@ -39,6 +39,19 @@ I had to show some code to other people here and it was strange to share the spa
 
 End of day, it's been eight and a half hours and I am pretty tired, I had a few breaks, and sat down. My plan was to do all coding standing and use a laptop for emails and browsing while sitting down, that plan is not working out so far, perhaps I need to try harder (some emails require my immediate attention and I didn't have the laptop setup there and then). By the way if someone is reading this and have a question feel free to comment or tweet at me [@silverspoon](https://twitter.com/silverspoon)
 
+## Day 3
+
+I slept like a baby ( I' also cycling 16 miles a day commuting, I assume that is a contributing factor, however the big change is the standing) I am noticing I am generally in a better mood though. 
+
+After 8 hours of work I was really really tired. Sat down, I had trouble staying awake :(
+
+## Day 4
+
+Started the day with a lot of energy (and an 8 mile cycle) I m after the first half and feeling good. I m noticing my upper-back is really way less tense than normal (ie never noticed how tense I was) also feeling a bit of pain in my lower back, I guess it's muscle building for standing for longer because it goes away.
+
+
+
+
 More to come...
 
 
