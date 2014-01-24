@@ -26,6 +26,8 @@ Yan Cui's [slides][yc]
 
 Phil Trelford's [video on F# for Trading][ptre], to be honest, even if you are not into trading, this is pretty good.
 
+The talk by Dave Thomas and Jose Valim was pretty cool, no video or slides available at the moment :D.
+
 <iframe class="imgur-album" width="100%" height="550" frameborder="0" src="http://imgur.com/a/3aUb6/embed"></iframe>
 
 [cm]:http://codemesh.io
