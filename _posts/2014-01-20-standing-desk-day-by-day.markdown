@@ -50,8 +50,20 @@ After 8 hours of work I was really really tired. Sat down, I had trouble staying
 Started the day with a lot of energy (and an 8 mile cycle) I m after the first half and feeling good. I m noticing my upper-back is really way less tense than normal (ie never noticed how tense I was) also feeling a bit of pain in my lower back, I guess it's muscle building for standing for longer because it goes away.
 
 
+## Day 5
 
+Nothing new to report really 
 
-More to come...
+## Week 2
+
+I am halfway through week 2, getting more used to this, I need to learn to take breaks more often. After 8 or 9 hours I am really tired.
+Benefits I noticed: not upper back pain, higher energy levels
+ 
+## Week 2 Day 3
+
+I had a breakthrough, I think. I am not only able to stand for longer but also I feel higher levels of energy. I would still really like to be able to sit down (particularly when I need to work late,. I also think this is helping my core muscles, but there is no way to measure that so... i.e. be able to revert to normal desk) however I think this experiment is pretty successful. 
+Oh and yes, when people see it they ll ask you about it, so if you are thinking of doing this the first few days everyone asks you about this.
+
+I think I ll add a summary at the end of the week and consider this post finished 
 
 
