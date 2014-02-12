@@ -1,11 +1,11 @@
 ---
-date: 2014-01-24 12:13:00
+date: 2014-02-12 12:13:00
 layout: post
 title: Game AI pro review
 categories:
 - Ai 
 - game development
-
+- c++
 ---
 
 It is not everyday that I really really need to learn from a book, when I got "Game AI pro" I really needed to learn as much as possible about practical usage of Behaviour Trees, and it really didn't disappoint.
