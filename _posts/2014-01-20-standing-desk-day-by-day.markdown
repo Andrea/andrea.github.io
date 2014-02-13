@@ -66,4 +66,8 @@ Oh and yes, when people see it they ll ask you about it, so if you are thinking 
 
 I think I ll add a summary at the end of the week and consider this post finished 
 
+XKCD one up-ing :D
+
+![lol](http://imgs.xkcd.com/comics/standing.png)
+
 
