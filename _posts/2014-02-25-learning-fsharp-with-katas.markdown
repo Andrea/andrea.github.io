@@ -14,7 +14,8 @@ For a while, I've been trying to learn functional programming and after a lot of
 - F# has a great community, I am looking forward to learning more so that I can perhaps sometime contribute some code.
 - I am a c# developer, using the clr is certainly helpful, and it makes it more likely that I can use the language on a day to day basis. If I do, I'm pretty sure you ll hear about it.
 
-I thought the way to go about it was to do something often, so [functional katas started in january][fk] and I have started to re-write the last kata after a comment on twitter from [Richard Dalton aka DevJoy][dj].
+I thought the way to go about it was to do something often, so [functional katas started in january][fk] and I have started to re-write the last kata after a comment on twitter from [Richard Dalton aka DevJoy][dj], thanks for that.
+
 
 
 
