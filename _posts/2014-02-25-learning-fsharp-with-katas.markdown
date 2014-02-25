@@ -3,9 +3,9 @@ date: 2014-02-25 10:48:00+00:00
 layout: post
 title: Learning F# with Katas
 categories:
-- fsharp
+- f#
 - functional programming
-- csharp
+- scheme
 ---
 
 For a while, I've been trying to learn functional programming and after a lot of proding I chose to learn F# this year, the reasons:
