@@ -1,7 +1,7 @@
 ---
 date: 2014-03-10 12:13:00
 layout: post
-title: The importance of #win times
+title: The importance of win times
 categories:
 - programming 
 - development
@@ -28,7 +28,7 @@ For some reason this reminds me of something I just did, and that is when you fi
 
 {% endhighlight %}
 
-In this case this makes sense because this message is for people of a team that is small and the language is informal. I don't need to do much other than let them know, you might want to react in a more suitable way.
+In this case this makes sense because this message is for people of a team that is small and the language is informal. I don't need to do much other than let them know, you might want to react in a more suitable way. Quality is contextual.
 
 
 [aomm]:http://en.wikipedia.org/wiki/Zen_and_the_Art_of_Motorcycle_Maintenance
