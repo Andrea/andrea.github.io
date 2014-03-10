@@ -64,10 +64,32 @@ Benefits I noticed: not upper back pain, higher energy levels
 I had a breakthrough, I think. I am not only able to stand for longer but also I feel higher levels of energy. I would still really like to be able to sit down (particularly when I need to work late,. I also think this is helping my core muscles, but there is no way to measure that so... i.e. be able to revert to normal desk) however I think this experiment is pretty successful. 
 Oh and yes, when people see it they ll ask you about it, so if you are thinking of doing this the first few days everyone asks you about this.
 
-I think I ll add a summary at the end of the week and consider this post finished 
+## Summary
+
+It's been a good few weeks now since I started using the desk and this what I think about it
+
+#### Pros
+
+* No upper back pain
+* better core strength (didn't measure this because I don't really know how, suggestions welcome)
+* Some productivity increase
+* Easier to show a problem or pair with other people 
+
+#### Cons
+
+* Because I have a cheap/fixed standing desk When I am tired I can't work and sit (I did bring a laptop and remoted into my machine next to me but It felt a bit clunky)
+* it uses more space than a sitting person (at least on our office)
+
+So basically if I had a standing desk where I can also sit if I want to, that would be amazing =). 
+ 
 
 XKCD one up-ing :D
-
 ![lol](http://imgs.xkcd.com/comics/standing.png)
 
 
+## Some related links
+
+[The best standing desks][bsd]
+
+
+[bsd]:http://thewirecutter.com/reviews/the-best-standing-desks/
