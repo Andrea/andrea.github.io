@@ -1,7 +1,7 @@
 ---
 date: 2014-03-10 12:13:00
 layout: post
-title: The importance of #win times
+title: The importance of win times
 categories:
 - programming 
 - development
