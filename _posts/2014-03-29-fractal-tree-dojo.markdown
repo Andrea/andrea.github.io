@@ -19,11 +19,15 @@ FsCheck is this really cool [Pex][pex] like tool, I am trying it out and I could
 ![tree ](http://cdn.makeagif.com/media/3-29-2014/ETACjx.gif)
 
  When I reached this tree I was happy that I had achieved the goal of the exercise, but what else could I do with it? 
- 	* Could I give it some leafs?
- 	* Could I grow the leafs over time?
- 	* Could the colour of the tree change with age (into a multi-coloured tree, because that seems way more fun)
+    	* Could I give it some leafs?
+    	* Could I grow the leafs over time?
+    	* Could the colour of the tree change with age (into a multi-coloured tree, because that seems way more fun)
 
 Adding a leaf at the end of each branch was super simple, but that is not how trees work. I had to go find how real trees worked
+
+![with leaf]({{ site.images }}/2014-03-29-trees-with-leaf1.JPG)
+
+I need to continue this post later, if you are intrigued you should go and try it out yourself :)
 
 
  [mb]:http://clear-lines.com/
