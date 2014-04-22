@@ -31,7 +31,7 @@ Steps to move a gameObject with an F# script if you never used Duality
 - Double clicking on the newly created resource will open the F# file with your default editor for files ending with .fs.
 - You will have access to the GameObject and other engine related properties the same way you do in Duality (or Unity if you are familiar with it) 
 
-{% highlight f# %}
+{% highlight c# %}
 
 module Dualityscript
 
