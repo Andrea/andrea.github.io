@@ -56,6 +56,7 @@ If you want to build all yourself :
 - from the packages folder copy FSharp.Compiler.Services.dll
 - from the packages folder copy Mono.cecil.dll and Mono.cecil.pdb.dll
 
+A video showing this [here][video].
 
 ## Why
 
@@ -80,3 +81,4 @@ I think using F# with a functional approach in our GamePlay code will make us mo
  [djf]:http://fsharp.org/
  [dualityBuild]:https://www.dropbox.com/s/2tjbdnp6h8foju2/Duality.zip
  [dscr]:https://github.com/BraveSirAndrew/DualityScripting
+ [video]:http://youtu.be/HcnNGIeOnPc
