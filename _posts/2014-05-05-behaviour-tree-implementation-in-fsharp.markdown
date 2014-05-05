@@ -1,7 +1,7 @@
 ---
 date: 2014-05-05 14:13:00
 layout: post
-title: Behaviour trees attempt at implementing in F sharp
+title: Behaviour trees first attempt at implementing in F sharp
 categories:
 - programming 
 - development
