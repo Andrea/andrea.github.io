@@ -21,7 +21,7 @@ What I remember when I think about them is that there are 2 types of constructs:
 
 To refresh the old noodle (ie: my brain) I implemented a very simplistic behaviour tree in C#. It looked like this (there are many classes in one file... you will survive):
 
-{% gist 5b8dfa9daff76ffcf3b9 %} 
+<script src="https://gist.github.com/Andrea/5b8dfa9daff76ffcf3b9.js"></script>
 
 ## F# implementation 
 
