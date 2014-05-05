@@ -40,7 +40,7 @@ Anyway, after a glance at the posts I think I need a discriminated union, or may
 
 [Here I took a rather long pause to go and read the posts properly and then do the Koans on records and classes to get my brain warmed up,] 
 
-Then I attempted to implement the tree again but getting stuck again. I decided some procrastination might help so, I went to look for some implementations of BT in every functional language I could think of and found these [one in clojure][cloj], and this [one in common Lisp][clisp].
+Then I attempted to implement the tree again but getting stuck again. I decided some procrastination might help so, I went to look for some implementations of BT in every functional language I could think of and found these [one in clojure][cloj] (I think these might be slightly different Behaviour Trees), and this [one in common Lisp][clisp].
 
 I am going to leave this for today but will return with a solution as soon as I get one.
 
@@ -50,5 +50,5 @@ I am going to leave this for today but will return with a solution as soon as I 
 [fsmf]:http://withouttheloop.com/articles/2014-04-18-fsharp-csharp-statemachines/
 [pape]:http://www.doc.ic.ac.uk/teaching/distinguished-projects/2009/c.lim.pdf
 [scott]:http://fsharpforfunandprofit.com/posts/overview-of-types-in-fsharp/
+[cloj]:https://github.com/nakkaya/alter-ego
 [clisp]:https://bitbucket.org/eeeickythump/behave-tree
-[cloj]:https://bitbucket.org/eeeickythump/behave-tree/src/8e9ebc55868ed1cf9ef328f36e22ba2906829637/behave-tree.lisp?at=default
