@@ -5,8 +5,9 @@ title: Behaviour Tree implementation in F# part I (aka: no f# implementation yet
 categories:
 - programming 
 - AI
-- f sharp
+- fsharp
 - behaviour trees
+- behavior trees
 ---
 
 Recently I saw a post about a simple FSM implementation in F# ([link][fsmf]), and that got me thinking about our Behaviour Trees and how simple or complex it would be to implement them in F#. 
@@ -19,9 +20,9 @@ What I remember when I think about them is that there are 2 types of constructs:
 - Actions and conditions: Actions are changes in the game world  such as animation plays, health decreased, etc. Conditions check certain states of the world. 
 - Sequences and selectors: This is how we link and order the *actions* and *conditions*. Sequences pretty much are what your intuition tells you, they run a sequence of actions or conditions (they all need to return true). Selectors are the flipside of sequences, they run until something returns true.
 
-To refresh the old noodle (ie: my brain) I implemented a very simplistic behaviour tree in C#. It looked like this (there are many classes in one file... you will survive):
+To refresh the old noodle (ie: my brain) I implemented a very simplistic behaviour tree in C#. It looked like this (there are many classes in one file... you will survive), you can see it [here][csbt]
 
-<script src="https://gist.github.com/Andrea/5b8dfa9daff76ffcf3b9.js"></script>
+
 
 ## F# implementation 
 
@@ -52,3 +53,4 @@ I am going to leave this for today but will return with a solution as soon as I 
 [scott]:http://fsharpforfunandprofit.com/posts/overview-of-types-in-fsharp/
 [cloj]:https://github.com/nakkaya/alter-ego
 [clisp]:https://bitbucket.org/eeeickythump/behave-tree
+[csbt]:https://gist.github.com/Andrea/5b8dfa9daff76ffcf3b9
