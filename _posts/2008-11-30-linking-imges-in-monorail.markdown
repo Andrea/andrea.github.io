@@ -1,33 +1,28 @@
 ---
-author: roundcrisis
-comments: true
-date: 2008-11-30 17:56:00+00:00
+date: 2008-11-30 17:56:00
 layout: post
-slug: linking-imges-in-monorail
-title: Linking imges in Monorail
-wordpress_id: 50
+title: Linking images in Monorail
 categories:
 - monorail
 - NVelocity
-- urlhelper
-tags:
-- castle
-- development
-- monorail
+- urlHelper
 ---
+A quick one
 
-A quick one 
-
-Say you have an image or god knows what and  you need to add a link to it, in html you ll do something like
-
+Say you have an image or god knows what and you need to add a link to it, in html you'll do something like:
 
 
+{% highlight html linenos %}
+
+<a href="http://foo.bar/something.html">
+	<img src="..." /> 
+</a>
+{% endhighlight %}
     
-    <span class="kwrd"><</span><span class="html">a</span> <span class="attr">href</span><span class="kwrd">="http://foo.bar/something.html"</span><span class="kwrd">></span>
-    <span class="kwrd"><</span><span class="html">img</span> <span class="attr">src</span><span class="kwrd">="..."</span> <span class="kwrd">/></span> <span class="kwrd"></</span><span class="html">a</span><span class="kwrd">></span>
-    
-    in a view you can do this
-    
-    <span class="kwrd"><</span><span class="html">a</span> <span class="attr">href</span>=$<span class="attr">UrlHelper</span>.<span class="attr">For</span>(<span class="kwrd">"%{ controller='product'}"</span>)<span class="kwrd">></span>  
-        <span class="kwrd"><</span><span class="html">img</span> <span class="attr">src</span><span class="kwrd">="$!Image.Path"</span> <span class="attr">alt</span><span class="kwrd">="$!Name"</span> <span class="kwrd">/></span>
-    <span class="kwrd"></</span><span class="html">a</span><span class="kwrd">></span>
+    In a view you can do this:
+
+{% highlight html linenos %}    
+<a href=$UrlHelper.For("%{ controller='product'}")>  
+    <img src="$!Image.Path" alt="$!Name" />
+</a>
+{% endhighlight %}
