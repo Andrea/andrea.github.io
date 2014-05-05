@@ -1,10 +1,10 @@
 ---
 date: 2014-05-05 22:13:00
 layout: post
-title: Behaviour Trees - Part I (aka: no f# implementation yet)
+title: Behaviour Trees.Part I (aka: no F sharp implementation yet)
 categories:
 - fsharp
-- c#
+- c sharp
 - behaviour trees
 - behavior trees
 ---
@@ -16,11 +16,10 @@ Recently I saw a post about a simple FSM implementation in F# ([link][fsmf]), an
 There is a longer intro to the topic [here][adba] and a more extensive one in this [paper][pape]. 
 What I remember when I think about them is that there are 2 types of constructs:
  
-- Actions and conditions: Actions are changes in the game world  such as animation plays, health decreased, etc. Conditions check certain states of the world. 
-- Sequences and selectors: This is how we link and order the *actions* and *conditions*. Sequences pretty much are what your intuition tells you, they run a sequence of actions or conditions (they all need to return true). Selectors are the flipside of sequences, they run until something returns true.
+-Actions and conditions: Actions are changes in the game world  such as animation plays, health decreased, etc. Conditions check certain states of the world. 
+-Sequences and selectors: This is how we link and order the *actions* and *conditions*. Sequences pretty much are what your intuition tells you, they run a sequence of actions or conditions (they all need to return true). Selectors are the flipside of sequences, they run until something returns true.
 
 To refresh the old noodle (ie: my brain) I implemented a very simplistic behaviour tree in C#. It looked like this (there are many classes in one file... you will survive), you can see it [here][csbt]
-
 
 
 ## F# implementation 
