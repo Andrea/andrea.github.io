@@ -19,7 +19,9 @@ Say you have an image or god knows what and you need to add a link to it, in htm
 </a>
 {% endhighlight %}
     
-    In a view you can do this:
+
+In a view you can do this:
+
 
 {% highlight html linenos %}    
 <a href=$UrlHelper.For("%{ controller='product'}")>  
