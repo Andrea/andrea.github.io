@@ -1,11 +1,10 @@
 ---
 date: 2014-05-05 22:13:00
 layout: post
-title: Behaviour Tree implementation in F# part I (aka: no f# implementation yet)
+title: Behaviour Trees - Part I (aka: no f# implementation yet)
 categories:
-- programming 
-- AI
 - fsharp
+- c#
 - behaviour trees
 - behavior trees
 ---
