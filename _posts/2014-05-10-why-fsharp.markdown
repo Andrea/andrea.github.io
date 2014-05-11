@@ -14,9 +14,9 @@ Why I have been learning F# (and functional programming in general) lately:
 - No more NullReferenceExceptions (wooohoo yeah! PARTY NOISES!!)
 - Amazing type system. Think type inference on steroids and automatic generalization.
 	* Tuples: it is great to be able to have multiple results for a function 
-	* Discriminated Unions. 
+	* Discriminated Unions
 	* Records
-	* Moar
+	* Moar. There are other f# Types
 - Open source 
 - Great community
 - Great interop with C#
@@ -31,10 +31,10 @@ I though it would be good to expand on the points above
 
 ##Functional first
 
-At some point during last year as I watched a talk by [Bodil Stokke][bodil], called [Programming, Only better][onlyBetter] (go watch all the videos of her talks, she is super smart you will learn a lot) in the talk she mentioned a paper called ["Out of the tar pit"][tar] both talk and paper made me think about the way I code. The end result of watching and reading was that I finally understood that side effect free code is better because it is simpler, and we all know that writing simple code that does exactly what you imagine the code is doing is pretty damn hard. 
-Basically this and going to [Code Mesh][codemesh] last year is what made me go from curious about functional programming, to I have to learn and truly understand at least one functional programming now.
-
+At some point during last year as I watched a talk by [Bodil Stokke][bodil], called [Programming, Only better][onlyBetter] (go watch all the videos of her talks, she is super smart you will learn a lot) in the talk she mentioned a paper called ["Out of the tar pit"][tar] both talk and paper made me think about the way I code. The end result of watching and reading was that I finally understood that side effect free code is better because it is simpler. We all know that writing simple code that does exactly what you imagine the code is doing is pretty damn hard, and functional programming can help making this a little simple. 
 I feel that by trying to do a little synopsis of what the paper and Bodil said is doing a disservice to both, so go watch and read, beats whatever else you are doing :-D.  
+
+This and going to [Code Mesh][codemesh] last year is what made me go from a person curious about functional programming, to "I have to learn and truly understand at least one functional programming right now!.
 
 ##No more NullReferenceException
 
@@ -67,7 +67,7 @@ Tuples are one of the F# types, they represent a pair, triple or larger combinat
 {% highlight FSharp %}
 
 let personInfo =
-    "Andrea", 45454545
+    "Tayla", 45454545
 
 let myFunction =
     let name, number = personInfo
@@ -78,10 +78,10 @@ let myFunction =
 
 	And this is what shows in f# interactive :
 
-	name is Andrea, number 45454545
-	Name is Andrea, number 45454545 --
+	name is Tayla, number 45454545
+	Name is Tayla, number 45454545 --
 
-	val personInfo : string * int = ("Andrea", 45454545)
+	val personInfo : string * int = ("Tayla", 45454545)
 	val myFunction : unit = ()
 
 An advantage of using tuples is that when you are working with .net types that have out parameters, F# automatically turns that into tuples. Exmaple
@@ -90,9 +90,9 @@ An advantage of using tuples is that when you are working with .net types that h
 open System.Collections.Concurrent
 
 let convert =
-    let dictionary = new BlockingCollection<int>() 
-    dictionary.Add 4
-    dictionary.TryTake()
+    let collection = new BlockingCollection<int>() 
+    collection.Add 4
+    collection.TryTake()
 {% endhighlight %}
 
 	val convert : bool * int = (true, 4)
@@ -163,7 +163,7 @@ Many f# people in twitter and very vocal and welcoming. F# power tools is a must
 
 ## Supports imperative and OO paradigms
 
-Been able to use pre-existing libraries and paradigms can be very useful.
+Being able to use pre-existing libraries and paradigms can be very useful.
 
 ## Great interop with C#. 
 
