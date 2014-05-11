@@ -51,7 +51,7 @@ match num with
 
 {% endhighlight %}
 
-There is an in-depth post about this [here][option]
+There is an in-depth post about this [here][option].
 
 ## Amazing Type system
 
@@ -99,6 +99,7 @@ let convert =
 
 As you can see this returns convert : bool * int, when you see a * in the result section of f# interactive that means that the type is a tuple
 
+
 ## Records
 
 Yet another F# type, I really like it because it makes classes definitions look like giganto-monsters. 
@@ -114,9 +115,10 @@ let equal =
 
 {% endhighlight %}
 
+
 ## Discriminated Unions
 
-This is another f# type.
+This is another f# type. I think an example will speak for itself.
 
 {% highlight FSharp lineos %}
 
@@ -132,11 +134,11 @@ let jiro = Player("Throw", "Katana")
 let tree = Scenery
 let mempoWarrior = NPC("Chase")
 
-
 {% endhighlight %}
 
 
-The fsi console returns 
+The fsi console returns
+
 
 	type Weapon = string
 	type Move = string
@@ -189,7 +191,16 @@ let readLanguageData =
 
 {% endhighlight %}
 
-That is pretty much all you need to start playing with the data of a csv file. I don't know you, but I am totally blown away by this.
+That is pretty much all you need to start playing with the data of a csv file. And by playing I mean you have typed access to the fields in the csv.
+This will print in the console the fist response (not a great use), but it show that it's typed, see the %s and that I can access fields by column name (it will use by default the first row for headers)
+
+{% highlight FSharp %}
+	let first = data.Rows |> Seq.head
+    printfn "The first person production language %s" first.``What programming language(s) are you using in production?``
+
+{% endhighlight %}
+
+I don't know you, but I am totally blown away by this. There is also a graph tool that will help you plot data.
 
 ## Other people
 Just for the craic (and to double check on my madness level) I asked on twitter what is people's preferred language feature and this is what I got:
@@ -214,21 +225,23 @@ Just for the craic (and to double check on my madness level) I asked on twitter 
 
 
 
-
-
 ## Summary
 
 It might seem like there is a lot to know to just even get started, but I think if you just jump right in, you have a lot to win. Most of the names of the features come from a maths background, it can feel a bit of putting, but it's really not that bad.
+Maybe it's because diving into a new language is just new and exciting, but it's been a while since my brain reacts so positively to learning something new. Sometimes I get stuck but then that's when the community aspect really kicks in.
 
 ##Resources
 
-- [F# for fun and profit](http://fsharpforfunandprofit.com/)
-- [Community for F#]()
-- [Phil Trelford blog]()
-- [Thomas Petriceck blog]()
 - Books:
-	* [Expert F# 3.0]()
-	* [Real world functional programmingg]()
+	* [Expert F# 3.0 by Don Syme, Adam Granicz, Antonio Cisternino](http://www.apress.com/9781430246503)
+	* [Real world functional programming by Tomas Petricek with Jon Skeet](http://www.manning.com/petricek/)
+
+- [F# for fun and profit](http://fsharpforfunandprofit.com/)
+- [Phil Trelford blog](http://trelford.com/blog/)
+- [Thomas Petricek blog](http://tomasp.net/blog/)
+- [Community for F#](http://c4fsharp.net/)
+- [F# foundation](http://fsharp.org/)
+
 
 
 Another good talk about functional programming for the OO developer [from Jessica Kerr](https://vimeo.com/78909069) 
