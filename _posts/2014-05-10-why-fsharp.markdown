@@ -38,7 +38,7 @@ This and going to [Code Mesh][codemesh] last year is what made me go from a pers
 
 ##No more NullReferenceException
 
-The F# compiler will still have to deal with these NullReferenceException when dealing with .net types, however when dealing with Option type you can use pattern matching to match all the cases.
+The F# compiler will still have to deal with NullReferenceExceptions when dealing with .net types, however when dealing with Option type you can use pattern matching to match all the cases. 
 
 {% highlight FSharp %}
 
