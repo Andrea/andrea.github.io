@@ -1,12 +1,11 @@
 ---
 date: 2014-05-24 14:13:00
 layout: post
-title: DevSum14: Like a rabbit in headlights presentation slides
+title: Devsum14: Like a rabbit in headlights presentation slides
 categories:
 - programming 
 - development
 - f sharp
-- rabbits
 ---
 
 Went to #devSum14 in Stockholm and had a great time. Talked to amazing people and gave my second presentation about F#, people seemed happy. 
