@@ -15,5 +15,4 @@ Went to #devSum14 in Stockholm and had a great time. Talked to amazing people an
 If any of you attended and have some questions or feedback I would love to hear about it.
 
 ### Any questions, comments and corrections very welcome as always
-
-
+:D
