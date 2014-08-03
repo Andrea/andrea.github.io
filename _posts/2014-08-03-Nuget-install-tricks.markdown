@@ -79,4 +79,8 @@ I don't do a lot of nugeting(?) but there are a few features I think can be very
 * You can use the content folder in the manifest and add files to the project you are installing the package. More info [here](http://docs.nuget.org/docs/reference/nuspec-reference) search for the **Content Files** section
 * You can target different frameworks 
 
+I like adding pictures to posts, in this case the most representative one might be this one, the view of the project with just installed package with the added FsCheckAddin.fs , and references to nunit.core and nunit.core.interfaces. 
+
+![project]({{ site.images }}/2014-08-03-project-view.JPG)
+
 Till the next time.
