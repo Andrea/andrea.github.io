@@ -7,7 +7,7 @@ categories:
 - development
 ---
 
-Recently I was finishing off the great work [Carsten](http://gettingsharper.de/) started on the Nunit addin for [FsCheck](https://github.com/fsharp/FsCheck) and I had to use a not very common feature of Nuget, running powershell scripts automatically on install.
+Recently I was finishing off the great work [Carsten](http://gettingsharper.de/) started (well pretty much completed, I was just adding the nuget package and change the build so it would build the aformentioned package )  on the Nunit addin for [FsCheck](https://github.com/fsharp/FsCheck) and I had to use a not very common feature of Nuget, running powershell scripts automatically on install.
 
 Disclaimer: I don't like powershell, it is better than nothing, but every time I use is harder that it needs to be.
 
@@ -78,5 +78,9 @@ I don't do a lot of nugeting(?) but there are a few features I think can be very
 * You can specify assemblies that will be referenced (and have more assemblies available on the files tag )
 * You can use the content folder in the manifest and add files to the project you are installing the package. More info [here](http://docs.nuget.org/docs/reference/nuspec-reference) search for the **Content Files** section
 * You can target different frameworks 
+
+I like adding pictures to posts, in this case the most representative one might be this one, the view of the project with just installed package with the added FsCheckAddin.fs , and references to nunit.core and nunit.core.interfaces. 
+
+![project]({{ site.images }}/2014-08-03-project-view.JPG)
 
 Till the next time.
