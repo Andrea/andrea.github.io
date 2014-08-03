@@ -22,18 +22,18 @@ In the docs above, when you are looking at what you can do regarding project, it
 
 I ran into a little problem when building this, I had specified a path wrong on my script and this is the error I got:
 
-{% highlight %}
+<pre>
  Exception calling "Add" with "1" argument(s): "Unspecified error
  (Exception from HRESULT: 0x80004005 (E_FAIL))" At
 
  + $project.Object.References.Add <<<< ($NunitRunners+"nunit.core.dll")
      + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
      + FullyQualifiedErrorId : ComMethodTargetInvocation
-{% endhighlight %}
+</pre>
 
 Just for completeness this is the final install.ps1
 
-{% highlight lineos  %}
+{% highlight PowerShell lineos  %}
 param($installPath, $toolsPath, $package, $project)
 
 write-host "Adding a reference to nunit.core and nunit.core.interfaces to the project"
