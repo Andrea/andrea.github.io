@@ -33,7 +33,7 @@ I ran into a little problem when building this, I had specified a path wrong on 
 
 Just for completeness this is the final install.ps1
 
-{% highlight  %}
+{% highlight lineos  %}
 param($installPath, $toolsPath, $package, $project)
 
 write-host "Adding a reference to nunit.core and nunit.core.interfaces to the project"
