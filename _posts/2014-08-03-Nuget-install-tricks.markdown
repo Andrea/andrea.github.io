@@ -18,25 +18,22 @@ Init.ps1 runs the first time a package is installed in a solution, install.ps1 r
 
 #### The script
 
-In the docs above, when you are looking at what you can do regarding project, it refers you to [this page](http://msdn.microsoft.com/en-us/library/51h9a6ew%28v=VS.80%29.aspx) hint there is no info about Object :/. Thankfully I was pointed towards SpecFlow's install.ps1 file:
-
-https://github.com/techtalk/SpecFlow/blob/master/Installer/NuGetPackages/NUnit.Runners/Install.ps1
-
+In the docs above, when you are looking at what you can do regarding project, it refers you to [this page](http://msdn.microsoft.com/en-us/library/51h9a6ew%28v=VS.80%29.aspx) hint there is no info about Object :/. Thankfully I was pointed towards SpecFlow's [install.ps1 file](https://github.com/techtalk/SpecFlow/blob/master/Installer/NuGetPackages/NUnit.Runners/Install.ps1).
 
 I ran into a little problem when building this, I had specified a path wrong on my script and this is the error I got:
 
-{% highlight %}
+<pre>
  Exception calling "Add" with "1" argument(s): "Unspecified error
  (Exception from HRESULT: 0x80004005 (E_FAIL))" At
 
  + $project.Object.References.Add <<<< ($NunitRunners+"nunit.core.dll")
      + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
      + FullyQualifiedErrorId : ComMethodTargetInvocation
-{% endhighlight %}
+</pre>
 
 Just for completeness this is the final install.ps1
 
-{% highlight PowerShell %}
+{% highlight PowerShell lineos  %}
 param($installPath, $toolsPath, $package, $project)
 
 write-host "Adding a reference to nunit.core and nunit.core.interfaces to the project"
@@ -69,8 +66,6 @@ if ($version -ne "")
 	if ($nunitCoreRef) { $nunitCoreRef.Remove() }
 	$project.Object.References.Add($nunitPackageToolsLibFolder + "nunit.core.dll")
 }
-
-
 
 {% endhighlight %}
 
