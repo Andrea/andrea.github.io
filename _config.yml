@@ -1,9 +1,8 @@
 markdown: redcarpet
 permalink:    /:year/:month/:day/:title/
-pygments:     true
+highlihter:	pygments
 paginate:     10
 images:       /images
-
 name: Roundcrisis
 description: Something something something dark code
 url: http://roundcrisis.com

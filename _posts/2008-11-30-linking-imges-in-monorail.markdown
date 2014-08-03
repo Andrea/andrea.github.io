@@ -12,19 +12,19 @@ A quick one
 Say you have an image or god knows what and you need to add a link to it, in html you'll do something like:
 
 
-{% highlight html linenos %}
+<pre>
 
 <a href="http://foo.bar/something.html">
 	<img src="..." /> 
 </a>
-{% endhighlight %}
+</pre>
     
 
 In a view you can do this:
-
 
 {% highlight html linenos %}    
 <a href=$UrlHelper.For("%{ controller='product'}")>  
     <img src="$!Image.Path" alt="$!Name" />
 </a>
 {% endhighlight %}
+
