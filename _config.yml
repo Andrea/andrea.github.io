@@ -1,6 +1,6 @@
 markdown: redcarpet
 permalink:    /:year/:month/:day/:title/
-highlihter:	pygments
+highlighter:	pygments
 paginate:     10
 images:       /images
 name: Roundcrisis
