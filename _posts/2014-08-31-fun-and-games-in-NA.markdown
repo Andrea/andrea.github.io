@@ -22,6 +22,7 @@ I will  in the following user groups
 * Wednesday 24th September - Washington DC 
 * Tuesday 30th September - Toronto 
 
+I will be updating the details of the times here as I learn about it. I hope to see you there! 
 
 ## Game on!
 
@@ -35,15 +36,17 @@ It is very possible I'll be attending the amazing [F# Progressive tutorials](htt
 
 <img src="http://www.gamecraft.it/static/img/gamecraft-logo-466x479.png" alt="GameCraft Logo" style="width: 200px;"/>
 
-On the 4th October at GameCenter NYU I'll be at [New York GameCraft](https://www.gamecraft.it/events/new-york-gamecraft-2014/). In this event you have 10 hours to start and finish a game with a given theme (the theme is announced on the day). You can use any technology you want. If you never took part on a game jam I would recommend you do. The first question I get generally is skills do I need? you need to want to make a game, and quite possibly a laptop. [Phil Trelford](http://trelford.com/blog/category/GameCraft.aspx) is no stranger to GameCraft and wrote a lot about it in his blog. Attendance is free but you need to [register]((https://www.gamecraft.it/events/new-york-gamecraft-2014/)) . Thanks to SkillsMatters and Game Center NYU for helping make this event happen.  
+On October the 4th at GameCenter NYU  [New York GameCraft](https://www.gamecraft.it/events/new-york-gamecraft-2014/) is happening. In this 12 hour event, you have 10 hours to start and finish a game with a given theme (the theme is announced on the day), in case you are wondering the extra 2 hours is to play each other games and get prizes!. 
+You can use any technology you want. 
+If you never took part on a game jam I would recommend you do, the first question I get generally is: What skills do I need? you need to want to make a game, and quite possibly a laptop. [Phil Trelford](http://trelford.com/blog/category/GameCraft.aspx) is no stranger to GameCraft and wrote a lot about it in his blog. 
+Attendance is free but you need to [register]((https://www.gamecraft.it/events/new-york-gamecraft-2014/)) . Thanks to SkillsMatters and Game Centre NYU for helping make this event happen.  
 
 
-I will be updating the details of the times here as I learn about it. I hope to see you there! 
 
 Thanks to [fsharpWorks](http://fsharpworks.com/) for Sponsoring this trip! 
 
 ![fsharpWorks](http://fsharpworks.com/images/fsharp_works_logo_100.png)
 
-## Halpz!
+## Hi, Halpz!?
 
-If you have any tips on how to move around the cities I will be in, or want to meet up, that would be great!! Just leave a comment here or I am on twitter [@silverspoon](http://twitter.com/silverspoon)
+If you have any tips, suggestions, ideas on how to move around the cities I will be in, or want to meet up, that would be great!! Just leave a comment here or I am on twitter [@silverspoon](http://twitter.com/silverspoon)
