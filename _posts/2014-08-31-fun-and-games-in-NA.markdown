@@ -25,11 +25,11 @@ I will  in the following user groups
 
 ## Game on!
 
-I think that people learn certain things better when there is interaction. To that end we will be using Duality (an open source game engine) with a F# plugin (also OSS) to create power-ups (or power downs? ) to [Breakout](http://en.wikipedia.org/wiki/Breakout_(video_game)). 
+It is way more entertaining to learn by doing. To that end we will be using [Duality](https://github.com/bravesirandrew/duality) (an open source game engine) with a F# plug-in (also OSS) to create power-ups (or power downs? ) to [Breakout](http://en.wikipedia.org/wiki/Breakout_(video_game)). 
 
-![Breakout](http://en.wikipedia.org/wiki/Breakout_(video_game)#mediaviewer/File:Breakout2600.png) 
+![Breakout](http://www.mathworks.com/matlabcentral/fileexchange/screenshots/1604/original.jpg) 
 
-I think I will be attending the amazing [F# Progressive tutorials](https://skillsmatter.com/conferences/1886-progressive-f-tutorials-nyc-2014) in New York, the line up is pretty good, and suitable for both beginners and advanced f#ers.
+It is very possible I'll be attending the amazing [F# Progressive tutorials](https://skillsmatter.com/conferences/1886-progressive-f-tutorials-nyc-2014) in New York, the line up is pretty good, and suitable for both beginners and advanced f#ers. If you are close and into functional programming, this looks like a great conference and Don Syme, Scott Wlashin, Rachel Resse and more involved in it.
 
 ## More Game at GameCraft
 
