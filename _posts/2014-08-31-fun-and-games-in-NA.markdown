@@ -33,7 +33,7 @@ I think I will be attending the amazing [F# Progressive tutorials](https://skill
 
 ## More Game at GameCraft
 
-![gamecraft](https://www.gamecraft.it/static/img/gamecraft-logo-466x479.png)
+![gamecraft](https://www.gamecraft.it/static/img/gamecraft-logo-466x479.png  =200x200)
 On the 4th October at GameCenter NYU I'll be at [New York GameCraft](https://www.gamecraft.it/events/new-york-gamecraft-2014/). In this event you have 10 hours to start and finish a game with a given theme (the theme is announced on the day). You can use any technology you want. If you never took part on a game jam I would recommend you do. The first question I get generally is skills do I need? you need to want to make a game, and quite possibly a laptop. [Phil Trelford](http://trelford.com/blog/category/GameCraft.aspx) is no stranger to GameCraft and wrote a lot about it in his blog. Attendance is free but you need to [register]((https://www.gamecraft.it/events/new-york-gamecraft-2014/)) . Thanks to SkillsMatters and Game Center NYU for helping make this event happen.  
 
 
