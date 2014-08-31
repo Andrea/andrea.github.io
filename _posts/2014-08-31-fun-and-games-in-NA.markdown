@@ -14,7 +14,7 @@ categories:
 F#n and games 
 
 
-I am extremely happy to announce that I will be going about North America showing off some F# and games! 
+I am extremely happy to announce that after [Strange Loop](https://thestrangeloop.com/schedule) a conference I am lucky to attend!. I will be going about North America showing off some F# and games! 
 
 I will  in the following user groups
 
