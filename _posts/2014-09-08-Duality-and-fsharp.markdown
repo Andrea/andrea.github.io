@@ -1,12 +1,13 @@
 ---
 date: 2014-09-08 11:44:00
 layout: post
-title: Duality and FSharp
+title: Writing Duality Components in FSharp
 categories:
 - programming 
 - development
 - Duality
 ---
+
 
 Duality is a 2D game engine with an extensible editor (If you follow my blog you'll see it mention it a few times), I added F# Scripting support a good while ago but I haven't been posting too much about it, I probably should change that. 
 
