@@ -1,5 +1,5 @@
 ---
-date: 2014-09-08 11:44:00
+date: 2014-09-15 11:44:00
 layout: post
 title: Converting a small game from C# to F# part 1
 categories:
