@@ -30,6 +30,12 @@ type BreakoutFSharpCorePlugin() =
 Lastly if you want to F5 to launch the editor you can add the following to the end of Editor.csproj.user file (replace DualityEditor.exe locations )
 
 {% highlight xml %}
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <StartAction>Program</StartAction>
+    <StartProgram>Pathto\where\editor\is\DualityEditor.exe</StartProgram>
+    <StartWorkingDirectory>Pathto\where\editor\is</StartWorkingDirectory>
+  </PropertyGroup>
 <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
     <StartAction>Program</StartAction>
     <StartProgram>Path\to\DualityEditor.exe</StartProgram>
