@@ -12,7 +12,7 @@ categories:
 
 This post could also be called:One step forward, two steps backwards.
 
-I though I should rewind a little bit, and have an overview of the game before we continue.
+I thought I should rewind a little bit, and have an overview of the game before we continue.
 
 The C# version of the game has 9 files and each, each has a class where (generally a component is defined), I decided to change this for the F# version of the game, tho I am not sure type per file is an idiom of F# or not. (Comments on this, really welcome)
 
