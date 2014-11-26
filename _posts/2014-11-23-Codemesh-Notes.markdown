@@ -7,7 +7,9 @@ categories:
 - development
 - Duality
 - Fsharp
-- Csharp
+- AI
+- Idris
+- Conferences
 ---
 
 I took some notes during CodeMesh a few weeks ago, and here they are. There are a few good talks that I couldn't attend that are totally worth it, check them out when their videos become available.
