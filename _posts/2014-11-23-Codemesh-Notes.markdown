@@ -10,11 +10,9 @@ categories:
 - Csharp
 ---
 
-I took some noted during CodeMesh a few weeks ago, and here they are. There are a few good topics that 
+I took some notes during CodeMesh a few weeks ago, and here they are. There are a few good talks that I couldn't attend that are totally worth it, check them out when their videos become available.
 
-CodeMesh 2014
-
-Last year, CodeMesh showed me a lot of what I felt I was missing. This year was also quite amazing, the talks and people made it totally worth it.
+Last year, CodeMesh showed me a lot of what I felt I was missing. This year was also quite amazing, the talks and people made it totally worth it. These are some notes I took during the talks, not sure they would help anyone, you never know.
 
 
 ## QuickCheck tutorial
