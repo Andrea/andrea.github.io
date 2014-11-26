@@ -52,7 +52,8 @@ Not all of us build software with a narrow specific focus
 ## Gamedev-grade Debugging - Leszek Godlewski
 
 This session felt like therapy, all the crazy bugs that are gamedev specific, exposed
-*  Three types of bugs: temporal, graphical, content.
+
+* Three types of bugs: temporal, graphical, content.
 * sometimes terrible hakcs,
 * Domain specific debbugers
 
@@ -84,6 +85,7 @@ I'm going to do this the other way around and tell you how was it for me to prep
 
 The talk was about highlighting the importance of tools, and how important it is for us to make sure we provide good tools for others to work with. 
 As developers our tools are also important:
+
  * Languages
  * Ecosystem
  * Comunities
@@ -92,7 +94,8 @@ Tools model the way we think, it might be worth trying out something totally dif
 
 ## Alex Champandard
 
-Talked about AI on the GPU. Very nice talk and presentation.
+Talked about AI on the GPU. Great talk and presentation. Not only content but style (impecable)
+
 * OpenCL and what we can do
 * can do A*
 * seaparate GPU for processing and rendering
@@ -103,10 +106,11 @@ Talked about AI on the GPU. Very nice talk and presentation.
 ## Ramsey and Tims
 
 This is the second time i see this presentation however, it was totally different than the last time I saw it
+
 * Simplify game development by using a more terse language (I can relate :) )
 * [Arcadia](https://github.com/arcadia-unity/Arcadia), using CLR implementation of Clojure on top of Unity.
 * REPL as a way to game design
-* extra bonus points because they showed a game with cats
+* extra bonus points because they showed a game with cats!
 
 
 ## Keynote: Chad Fowler
