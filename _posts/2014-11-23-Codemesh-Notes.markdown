@@ -129,8 +129,8 @@ I have to add, Ambrose passion and enthusiasm for this project is contagious
 
 ## Functional Patterns in Domain Driven Design applied to Financial Models - Debasish Ghosh
  
-* Modelling in finantial
-* Introduced some algebra at a nice pace
+* Modelling in financial
+* Introduced some algebra at a nice pace, logically.
 * Financial with cool examples
 
 ## Naming things - Ian Barber
