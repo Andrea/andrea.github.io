@@ -42,6 +42,7 @@ It felt like the code needed to balance itself. The editor environment was a hug
 ## Keynote: Jessica Kerr and Dan North
 
 Great keynote that made us all think about the systems we write, about all the concerns we need to be aware of.
+
 * estimation by range , the bigger the range the bigger the unknowns
 * introduce research as part of all sprints
 
@@ -60,7 +61,9 @@ He also recommended and missed Valgrind. The Valgrind tool suite provides a numb
 
 ## Yan Cui, Neo 4 J
 
-Very cool tool about the complexity of their game and economy and how they are suing this graph database to curb it
+Very cool tool about the complexity of their game and economy and how they are suing this graph database to curb it.
+I am not sure we can/should use this because we don't have the same scaling issues, but great to see none the less.
+Awesome style of presentation too. 
 
 
 ## Behaving in the 21st Century - AI Productivity through Tooling - Emil Johansen
@@ -68,15 +71,24 @@ Very cool tool about the complexity of their game and economy and how they are s
 [Slides](http://www.codemesh.io/static/upload/media/1415724623396237behavinginthe21stcentury.pdf)
 
 Emil presented a tool he built for Behaviour Trees, the tool generates behaviour code. I really liked the demo he showeed
-My main take on it was that I am glad to see tools like this and 
-* BTs as iterative
+My main take on it was that I am glad to see tools like this 
+
+ * BTs as iterative tools
+ * code generation
+ * A different workflow (to ours in Duality)
 
 
 ## The tools that shape us
 
-I m going to do this the other way around and tell you how was it for me to prepare this talk, because ...coverage and correctness (and as a test)
-The talk was about trying to highlight the importance of tools, and how important it is for us to make sure we provide tools for others to work and make sure we are ourselves as developers , with the tools we have (and if not, make them or change tham)
-Tools model the way we think, it might be worth trying out something totally different just to see what though process itbring us
+I'm going to do this the other way around and tell you how was it for me to prepare this talk, because ...coverage and correctness (and as a test).
+
+The talk was about highlighting the importance of tools, and how important it is for us to make sure we provide good tools for others to work with. 
+As developers our tools are also important:
+ * Languages
+ * Ecosystem
+ * Comunities
+ 
+Tools model the way we think, it might be worth trying out something totally different just to see what though process it bring us.
 
 ## Alex Champandard
 
@@ -103,10 +115,10 @@ This is the second time i see this presentation however, it was totally differen
 * Big tends to fail
 * Some of his experince with failure
 * where are we now.
-...
-left me thinking 
 
- ## Typed Clojure in Practice - Ambrose Bonnaire-Sergeant
+Left me thinking 
+
+## Typed Clojure in Practice - Ambrose Bonnaire-Sergeant
 
 I was really curious about this because I imagined it would be hard to add typing to a lisp, as a noob, that only did the equivalent of a hello world in clojure.
 I have to add, Ambrose passion and enthusiasm for this project is contagious 
@@ -125,3 +137,6 @@ A lot of stuff to think, but didn't take notes, worth a watch when it comes onli
 
 Really liked checking out Shake and Bake, and how people are deplying things in Haskell. Great presenter too.
 
+## Summary
+
+As you see, my notes got sparse towards the end, but ... I'll learn to take better notes hopefully. Again, one of the most interesting things about conferences is that, you get to talk to a lot of people thinking similar or totally diffrent thoughts to yours about similar topics. Left inspired and looking forward to next year!
