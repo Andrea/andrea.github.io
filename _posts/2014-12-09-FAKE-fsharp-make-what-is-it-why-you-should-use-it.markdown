@@ -1,5 +1,5 @@
 ---
-date: 2014-11-24 11:44:00
+date: 2014-12-09 11:44:00
 layout: post
 title: FAKE: F# Make, What is it, and why you should use it.
 categories:
@@ -9,7 +9,7 @@ categories:
 - Fsharp
 ---
 
-## FAKE: Build all the things!
+## FAKE: F# Make, What is it, and why you should use it.
 
 I have mentioned FAKE (aka F# Make) in pretty much all the talks I have done so far, however I never explained some of the key aspects of this amazing build DSL.
 
