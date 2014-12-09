@@ -11,5 +11,5 @@ categories:
 - Conferences
 ---
 
-You can find my [slides]((http://roundcrisis.com/presentations/fsharp_this_aint_a_game/index.html)) and [Video](http://www.ndcvideos.com/#/app/video/3181) for NDC London
+You can find my [slides](http://roundcrisis.com/presentations/fsharp_this_aint_a_game/index.html) and [Video](http://www.ndcvideos.com/#/app/video/3181) for NDC London.
 
