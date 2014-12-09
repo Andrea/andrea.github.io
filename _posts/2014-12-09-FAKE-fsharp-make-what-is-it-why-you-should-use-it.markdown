@@ -1,12 +1,13 @@
 ---
 date: 2014-12-09 11:44:00
 layout: post
-title: FAKE: F# Make, What is it, and why you should use it.
+title: FAKE, What is it and Why you should check it out
 categories:
 - programming 
 - development
-- FAKE
 - Fsharp
+- AI
+- Conferences
 ---
 
 ## FAKE: F# Make, What is it, and why you should use it.
