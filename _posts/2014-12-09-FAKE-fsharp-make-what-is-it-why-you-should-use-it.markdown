@@ -10,4 +10,5 @@ categories:
 - Conferences
 ---
 
-test
+I have mentioned FAKE (aka F# Make) in pretty much all the talks I have done so far, however I never explained some of the key aspects of this amazing build DSL.
+
