@@ -9,19 +9,20 @@ categories:
 - Fsharp
 ---
 
-FAKE: Build all the things!
+## FAKE: Build all the things!
 
 I have mentioned FAKE (aka F# Make) in pretty much all the talks I have done so far, however I never explained some of the key aspects of this amazing build DSL.
 
 FAKE is a is a build automation system with capabilities which are similar to make and rake. 
 The DSL includes support for: 
+
   * building with MsBuild + xbuild
   * Testing with nUnit, xunit,  MSpec
   * Creating nuget packages
   * Ziping resulting files
   * [More !](http://fsharp.github.io/FAKE/apidocs/index.html)
 
-Good to know
+### Good to know
 
 * **It's mature**. I want my build scripts to be reliable and easy to change, if this was a  toy project by someone I would be a little hesitant in recommending, however with over 4 years in development, FAKE is a mature project.
 * **Builds for .net and mono, it's cross platform**. (disclaimer I don't use mono in production so I haven't felt any pain on that) However I some people [do](http://youtu.be/Awl4vGo7Yj0?t=14m52s).
@@ -38,12 +39,14 @@ From the very beginning we have been using [TeamCity](https://www.jetbrains.com/
 * Deployment. We have to remove certain content and package the game with just the bits needed to run, this requires some custom removing and adding of things at the right time.
 
 One of our build scripts is open source, I spent a lot of time looking at OSS projects that use FAKE, as it is, in my humble opinion, the best for of documentation: 
+
 * [FsCheck](https://github.com/fsharp/FsCheck/blob/master/build.fsx)
 * [OctoKit](https://github.com/octokit/octokit.net/blob/master/build.fsx)
 
 ## Summary
 
 Try it, you will probably love it.
+
 
 ### Resources
 * [Fake Docs](http://fsharp.github.io/FAKE/gettingstarted.html)
