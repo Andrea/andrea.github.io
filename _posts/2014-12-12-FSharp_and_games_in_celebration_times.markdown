@@ -55,6 +55,7 @@ The frequencies can be found [here](http://liutaiomottola.com/formulae/freqtab.h
 Then, with some research into the OpenAl docs this is how we can convert those frequencies into data that can be played.
 
 {% highlight FSharp %}
+
     let samplingFrequency = 44100
     let samplingFrequency' = float samplingFrequency
     
@@ -68,4 +69,34 @@ Then, with some research into the OpenAl docs this is how we can convert those f
                         |> int16
                         )
 
-{% end highlight %}
+{% endhighlight %}
+
+the idea here is that you do magic xMas stuff that means you make a wave with the following shape. We are limiting all sounds to be of the same length, however it seems like it would be fun to also change the length of each tone.
+
+After that you need to combine this to return the complete sequence, here 'Seq.collect' really shines
+
+{% highlight FSharp %}
+        let freqToWaves = toFrequency >>  generateNote
+        let data = notes                        
+                        |> Seq.collect freqToWaves                        
+                        |> Array.ofSeq
+{% endhighlight %}
+
+Finally we use OpenAl to actually play the data
+
+{% highlight FSharp %}
+
+        AL.BufferData (buffer, ALFormat.Mono16, data, data.Length * 2, samplingFrequency)
+        AL.Source(audioSourceIndex, ALSourcei.Buffer, buffer)
+        AL.SourcePlay(audioSourceIndex)
+
+{% endhighlight %}
+
+There is a mystery song you can play (in the key of F#).
+
+You can find the complete sample [here](https://gist.github.com/Andrea/9212fa6249545d3987a9)
+
+
+### Summary
+
+Try it, you will probably love it. Another little toy to play with during the jolly season.
