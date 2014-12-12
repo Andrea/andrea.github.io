@@ -110,7 +110,8 @@ Finally we use OpenAl to actually play the wave:
 {% endhighlight %}
 
 
-There is a mystery song you can play (in the key of F#).
+
+<small>There is a mystery song you can play (in the key of F#)</small>
 
 You can see it all together in this sample [here](https://gist.github.com/Andrea/9212fa6249545d3987a9)
 
@@ -118,3 +119,7 @@ You can see it all together in this sample [here](https://gist.github.com/Andrea
 ### Summary
 
 Try it, you will probably love it. Another little toy to play with during the jolly season.
+
+
+Thanks to Sergey and the F# community for this cool [FsAdvent](https://sergeytihon.wordpress.com/2014/11/24/f-advent-calendar-in-english-2014/)
+
