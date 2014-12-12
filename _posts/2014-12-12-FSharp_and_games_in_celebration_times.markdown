@@ -15,9 +15,6 @@ Make sure you check out the previous entries in the series.
 
 For today, I thought we would celebrate with sound, in the Key of F# :D
 
-
-
-
 To that effect we can use OpenAl. To be honest this was a little be more difficult to do that it needed to be, mostly because there was plenty of playing around with values to make sure stuff worked and sounded somewhat ok.
 
 The good thing about this is that you can run the sample off in F# interctive (make sure you change the path to your location of OpenAl, you should get the Nuget package called OpenTKWithOpenAL)
@@ -55,7 +52,7 @@ Then we need to get something to play, if our input is a string with the whole s
 
 The frequencies can be found [here](http://liutaiomottola.com/formulae/freqtab.htm)
 
-Then, with some reasearch into the OpenAl docs this is how we can convert those frequencies into data that can be played
+Then, with some research into the OpenAl docs this is how we can convert those frequencies into data that can be played.
 
 {% highlight FSharp %}
     let samplingFrequency = 44100
@@ -102,9 +99,3 @@ You can find the complete sample [here](https://gist.github.com/Andrea/9212fa624
 ### Summary
 
 Try it, you will probably love it. Another little toy to play with during the jolly season.
-
-
-### Resources
-
-* [OpenAl Docs](http://fsharp.github.io/FAKE/gettingstarted.html)
-* [FAKE Everywhere](http://www.ilker.de/fake-everywhere.html)
