@@ -123,6 +123,8 @@ Try it, you will probably love it. Another little toy to play with during the jo
 
 Thanks to Sergey and the F# community for this cool [FsAdvent](https://sergeytihon.wordpress.com/2014/11/24/f-advent-calendar-in-english-2014/).
 
-Also thanks to everyone for a truly amazing year. This seems completely unsiutable but you are here already
+Also thanks to everyone (yes you, you rock!) for a truly amazing year. 
+
+The gif below seems completely unsuitable but you are here already :) 
 
 <img src="http://www.gifbin.com/bin/052011/1305562847_skiing-ostrich.gif">
