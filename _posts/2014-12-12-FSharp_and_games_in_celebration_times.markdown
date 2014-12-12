@@ -13,25 +13,38 @@ Make sure you check out the previous entries in the series.
 
 For today, I thought we would celebrate with sound, in the Key of F# :D
 
-To that effect we can use OpenAl. To be honest this was a little be more difficult to do that it needed to be, mostly because there was plenty of playing around with values to make sure stuff worked and sounded somewhat ok.
+![meowmoew](http://i.imgur.com/3rYHhEu.jpg) src [reddit](http://www.reddit.com/r/aww/comments/2p2r01/our_indoor_cat_moved_from_a_gray_apartment_block/)
 
-The good thing about this is that you can run the sample off in F# interactive (make sure you change the path to your location of OpenAl, you should get the NuGet package called OpenTKWithOpenAL)
-To start off you need a context, a buffer and a source
+To that effect we can use OpenAl. To be honest this was a little more difficult to do that it needed to be, mostly because there was plenty of playing around with values to make sure stuff worked and sounded somewhat ok. 
+
+The good thing about this is that you can run the sample either via a console app or in F# interactive (make sure you change the path to your location of OpenAl, you should get the NuGet package called OpenTKWithOpenAL) Disclaimer this is the first time I play with vanilla OpenAl (it will probably show).
+
+#### Bird's eye
+
+The end goal is to transform something like this ``"F# F# G# F# F# D# D# D# F# F# G# F# F# D# D# D#" `` into a collection of numbers that represent a wave, then we can feed that into OpenAl for it to play. 
+The graph below represent one note (generated with [F# Charting](http://fsharp.github.io/FSharp.Charting/)) 
+
+![waves](http://www.roundcrisis.com/images/waves.png)
+
+#### Step by Step
+
+To start off you need a context, a buffer and a source, these are OpenAl requirements.
 
 {% highlight FSharp %}
 
-        use audioContext = new AudioContext()
-        let buffer = AL.GenBuffer()
-        let audioSourceIndex = AL.GenSource()
+use audioContext = new AudioContext()
+let buffer = AL.GenBuffer()
+let audioSourceIndex = AL.GenSource()
 
 {% endhighlight %}
 
-Then we need to get something to play, if our input is a string with the whole song then we can do something like this:
+
+Then we need to get something to play, if our input is a string with the whole song then we can do something like this to get the frequencies calculated for each note
 
 {% highlight FSharp %}
 
-    let toFrequency note =
-        match note with
+    let toFrequency (note:string) =
+        match note.ToUpper() with
         | "C" ->  261.626f
         | "C#" -> 277.183f
         | "D"-> 293.665f
@@ -48,20 +61,21 @@ Then we need to get something to play, if our input is a string with the whole s
 
 {% endhighlight %}
 
-The frequencies can be found [here](http://liutaiomottola.com/formulae/freqtab.htm)
+I was thinking we could have a discriminated union here, however this seemed to serve the purpose of this example in a simple and concise way. 
 
-Then, with some research into the [OpenAl docs](http://www.opentk.com/node/209) this is how we can convert those frequencies into data that can be played.
+You might be wondering how I came to those numbers, well turns up the internet is great for this sort of thing, they can be found [here](http://liutaiomottola.com/formulae/freqtab.htm). Tried a few octaves and these were the ones I preferred.
 
-{% highlight FSharp %}
+Then, with some research into the [OpenAl docs](http://www.opentk.com/node/209) and a bit of reading into [Duality's source code](https://github.com/AdamsLair/duality) this is how we can convert those frequencies into data that can be played.
 
-    let samplingFrequency = 44100
-    let samplingFrequency' = float samplingFrequency
+{% highlight FSharp lineos %}
+
+    let samplingFrequency = 44100.0    
     
     let generateNote (freq:float32) =
         let noteLength = 0.5
-        let seqLength = int  (samplingFrequency' * noteLength)
+        let seqLength = int  (samplingFrequency * noteLength)
         Seq.init seqLength (fun i -> 
-                    (2.0 * Math.PI * float freq) / samplingFrequency' * float i
+                    (2.0 * Math.PI * float freq) / samplingFrequency * float i
                         |> Math.Sin                        
                         |> ( * )  (float Int16.MaxValue)
                         |> int16
@@ -69,11 +83,13 @@ Then, with some research into the [OpenAl docs](http://www.opentk.com/node/209) 
 
 {% endhighlight %}
 
-the idea here is that you do magic xMas stuff that means you make a wave with the following shape. We are limiting all sounds to be of the same length, however it seems like it would be fun to also change the length of each tone.
+As mentioned in the first section, we are using 44100 as the base frequency, to simplify things the note length is set to half a second, however this is something that could be easily changed to support different lengths.
+Then we are creating a **sequence** that is half the frequency, and the reason for that is this is the number of samples required. Each item in that sequence is part of a curve that represents the sound for that given note (the freq parameter). 
 
-![waves](http://www.roundcrisis.com/images/waves.png)
+With those two key functions you can create the complete collection. In this case Seq.collect really shines, it is perfectly suited to what we need to do:
 
-After that you need to combine this to return the complete sequence, here 'Seq.collect' really shines
+> Combines the given enumeration-of-enumerations as a single concatenated enumeration.
+
 
 {% highlight FSharp %}
 
@@ -83,9 +99,9 @@ After that you need to combine this to return the complete sequence, here 'Seq.c
                         |> Array.ofSeq
 {% endhighlight %}
 
-Finally we use OpenAl to actually play the data
+Finally we use OpenAl to actually play the wave:
 
-{% highlight FSharp %}
+{% highlight FSharp lineos %}
 
 	AL.BufferData (buffer, ALFormat.Mono16, data, data.Length * 2, samplingFrequency)
 	AL.Source(audioSourceIndex, ALSourcei.Buffer, buffer)
@@ -93,9 +109,10 @@ Finally we use OpenAl to actually play the data
 
 {% endhighlight %}
 
+
 There is a mystery song you can play (in the key of F#).
 
-You can find the complete sample [here](https://gist.github.com/Andrea/9212fa6249545d3987a9)
+You can see it all together in this sample [here](https://gist.github.com/Andrea/9212fa6249545d3987a9)
 
 
 ### Summary
