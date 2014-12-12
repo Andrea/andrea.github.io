@@ -29,3 +29,43 @@ To start off you need a context, a buffer and a source
 {% endhighlight %}
 
 Then we need to get something to play, if our input is a string with the whole song then we can do something like this:
+
+{% highlight FSharp %}
+
+    let toFrequency note =
+        match note with
+        | "C" ->  261.626f
+        | "C#" -> 277.183f
+        | "D"-> 293.665f
+        |"D#"-> 311.127f
+        |"E"-> 329.628f
+        |"F"-> 349.228f
+        |"F#"-> 369.994f
+        |"G"-> 391.995f
+        |"G#"-> 415.305f
+        |"A"-> 440.0f
+        |"A#"-> 466.164f
+        |"B"-> 493.883f
+        |_ ->  369.994f (*Defaults to F# because xMas ;) *)
+
+{% endhighlight %}
+
+The frequencies can be found [here](http://liutaiomottola.com/formulae/freqtab.htm)
+
+Then, with some research into the OpenAl docs this is how we can convert those frequencies into data that can be played.
+
+{% highlight FSharp %}
+    let samplingFrequency = 44100
+    let samplingFrequency' = float samplingFrequency
+    
+    let generateNote (freq:float32) =
+        let noteLength = 0.5
+        let seqLength = int  (samplingFrequency' * noteLength)
+        Seq.init seqLength (fun i -> 
+                    (2.0 * Math.PI * float freq) / samplingFrequency' * float i
+                        |> Math.Sin                        
+                        |> ( * )  (float Int16.MaxValue)
+                        |> int16
+                        )
+
+{% end highlight %}
