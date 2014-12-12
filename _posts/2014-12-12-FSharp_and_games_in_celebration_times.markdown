@@ -9,7 +9,7 @@ categories:
 ---
 
 The title of this post was a bit obscure as I didn't really know what I was going to do for this entry on the [#FsAdvent Calendar](https://sergeytihon.wordpress.com/2014/11/24/f-advent-calendar-in-english-2014/)
-Make sure you check out the previous entries in the series.
+Make sure you check out the previous and future entries in the series.
 
 For today, I thought we would celebrate with sound, in the Key of F# :D
 
@@ -17,7 +17,7 @@ For today, I thought we would celebrate with sound, in the Key of F# :D
 
 To that effect we can use OpenAl. To be honest this was a little more difficult to do that it needed to be, mostly because there was plenty of playing around with values to make sure stuff worked and sounded somewhat ok. 
 
-The good thing about this is that you can run the sample either via a console app or in F# interactive (make sure you change the path to your location of OpenAl, you should get the NuGet package called OpenTKWithOpenAL) Disclaimer this is the first time I play with vanilla OpenAl (it will probably show).
+The good thing about this sample is that you can run the sample either via a console app or in F# interactive (make sure you change the path to your location of OpenAl, you should get the NuGet package called OpenTKWithOpenAL) Disclaimer this is the first time I play with vanilla OpenAl (it will probably show).
 
 #### Bird's eye
 
@@ -121,5 +121,8 @@ You can see it all together in this sample [here](https://gist.github.com/Andrea
 Try it, you will probably love it. Another little toy to play with during the jolly season.
 
 
-Thanks to Sergey and the F# community for this cool [FsAdvent](https://sergeytihon.wordpress.com/2014/11/24/f-advent-calendar-in-english-2014/)
+Thanks to Sergey and the F# community for this cool [FsAdvent](https://sergeytihon.wordpress.com/2014/11/24/f-advent-calendar-in-english-2014/).
 
+Also thanks to everyone for a truly amazing year. This seems completely unsiutable but you are here already
+
+<img src="http://www.gifbin.com/bin/052011/1305562847_skiing-ostrich.gif">
