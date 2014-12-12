@@ -8,7 +8,7 @@ categories:
 - Fsharp
 ---
 
-The title of this post was a bit obscure as I didn't really know what I was going to do for this entry on the [#FsAdvent calendar](https://sergeytihon.wordpress.com/2014/11/24/f-advent-calendar-in-english-2014/)
+The title of this post was a bit obscure as I didn't really know what I was going to do for this entry on the [#FsAdvent Calendar](https://sergeytihon.wordpress.com/2014/11/24/f-advent-calendar-in-english-2014/)
 Make sure you check out the previous entries in the series.
 
 For today, I thought we would celebrate with sound, in the Key of F# :D
@@ -50,7 +50,7 @@ Then we need to get something to play, if our input is a string with the whole s
 
 The frequencies can be found [here](http://liutaiomottola.com/formulae/freqtab.htm)
 
-Then, with some research into the OpenAl docs this is how we can convert those frequencies into data that can be played.
+Then, with some research into the [OpenAl docs](http://www.opentk.com/node/209) this is how we can convert those frequencies into data that can be played.
 
 {% highlight FSharp %}
 
@@ -71,11 +71,12 @@ Then, with some research into the OpenAl docs this is how we can convert those f
 
 the idea here is that you do magic xMas stuff that means you make a wave with the following shape. We are limiting all sounds to be of the same length, however it seems like it would be fun to also change the length of each tone.
 
-![waves](images/waves.png)
+![waves](http://www.roundcrisis.com/images/waves.png)
 
 After that you need to combine this to return the complete sequence, here 'Seq.collect' really shines
 
 {% highlight FSharp %}
+
         let freqToWaves = toFrequency >>  generateNote
         let data = notes                        
                         |> Seq.collect freqToWaves                        
@@ -86,9 +87,9 @@ Finally we use OpenAl to actually play the data
 
 {% highlight FSharp %}
 
-        AL.BufferData (buffer, ALFormat.Mono16, data, data.Length * 2, samplingFrequency)
-        AL.Source(audioSourceIndex, ALSourcei.Buffer, buffer)
-        AL.SourcePlay(audioSourceIndex)
+	AL.BufferData (buffer, ALFormat.Mono16, data, data.Length * 2, samplingFrequency)
+	AL.Source(audioSourceIndex, ALSourcei.Buffer, buffer)
+	AL.SourcePlay(audioSourceIndex)
 
 {% endhighlight %}
 
