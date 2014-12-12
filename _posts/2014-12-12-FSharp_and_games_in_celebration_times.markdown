@@ -6,8 +6,6 @@ categories:
 - programming 
 - development
 - Fsharp
-- AI
-- Conferences
 ---
 
 The title of this post was a bit obscure as I didn't really know what I was going to do for this entry on the [#FsAdvent calendar](https://sergeytihon.wordpress.com/2014/11/24/f-advent-calendar-in-english-2014/)
@@ -17,7 +15,7 @@ For today, I thought we would celebrate with sound, in the Key of F# :D
 
 To that effect we can use OpenAl. To be honest this was a little be more difficult to do that it needed to be, mostly because there was plenty of playing around with values to make sure stuff worked and sounded somewhat ok.
 
-The good thing about this is that you can run the sample off in F# interctive (make sure you change the path to your location of OpenAl, you should get the Nuget package called OpenTKWithOpenAL)
+The good thing about this is that you can run the sample off in F# interactive (make sure you change the path to your location of OpenAl, you should get the NuGet package called OpenTKWithOpenAL)
 To start off you need a context, a buffer and a source
 
 {% highlight FSharp %}
@@ -72,6 +70,8 @@ Then, with some research into the OpenAl docs this is how we can convert those f
 {% endhighlight %}
 
 the idea here is that you do magic xMas stuff that means you make a wave with the following shape. We are limiting all sounds to be of the same length, however it seems like it would be fun to also change the length of each tone.
+
+![waves](images/waves.png)
 
 After that you need to combine this to return the complete sequence, here 'Seq.collect' really shines
 
