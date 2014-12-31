@@ -1,7 +1,7 @@
 ---
 date: 2014-12-31 11:44:00
 layout: post
-title: Type systems
+title: What is a type system
 categories:
 - programming 
 - development
@@ -38,6 +38,7 @@ Ok, a bit generic, but helpful:
 * There are rules 
 * There are constructs
 * A program is composed by the aforementioned constructs
+* type systems help prevent errors
 
 
 Other definitions I found online are as simple as:
@@ -47,7 +48,7 @@ Other definitions I found online are as simple as:
 and a type is a name for a collection of values that we code with
 that have similar properties" From Erik Meijer latest course on [functional programming (Lecture 2 part 1)](https://courses.edx.org/courses/DelftX/FP101x/3T2014/info)
 
-Then I found this gem that really got me thinking
+Then I found this **gem** that really got me thinking
 
 [@mrb_bk](http://twitter.com/mrb_bk) wondered [What is a type system for](http://michaelrbernste.in/2014/02/17/what-is-a-type-system-for.html) This is totally worth the read. The TL;DR
 
@@ -61,7 +62,9 @@ What does "go wrong" means in this context?
 
 "What we want to know, then, is that well-typed terms do not get stuck. We show this in two steps, commonly known as the progress and preservation theorems."
 
-That is where I am going to leave this for today, plenty to think about.
+"Safety = Progress + Preservation"
+
+That is where I am going to leave this for today, plenty to think about. 
 
 ### Worth Reading
 
@@ -81,3 +84,6 @@ Also [this pdf](http://www.cis.upenn.edu/~bcpierce/papers/tng-lics2003-slides.pd
 [2](http://lucacardelli.name/Papers/TypeSystems.pdf)
 [Type Systems for Programming Languages](http://www.cs.cmu.edu/~rwh/misc/tspl.pdf) It's a scary one 
 [Practical Foundations for Programming Languages](http://www.cs.cmu.edu/~rwh/plbook/book.pdf)
+
+
+Happy new year!! 
