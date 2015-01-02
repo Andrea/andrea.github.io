@@ -22,7 +22,7 @@ I don't know you, but after using a few programming languages I have too many qu
 
 Probably some of those questions make no sense, at least, until I understand the answers.
 
-Thankfully, I was not alone in asking myself questions. For example [this question](http://lambda-the-ultimate.org/node/412) seems to spiral into no true answers. 
+Thankfully, I was not alone in asking myself questions. For example [this question](http://lambda-the-ultimate.org/node/412) seems to spiral into no concrete answers. 
 
 If you are looking for a post about  Strong vs Weak typing and Static vs dynamic typing articles I found a this one (there are many more)
 
@@ -52,7 +52,7 @@ Other definitions I found online are as simple as:
 and a type is a name for a collection of values that we code with
 that have similar properties" From Erik Meijer latest course on [functional programming (Lecture 2 part 1)](https://courses.edx.org/courses/DelftX/FP101x/3T2014/info)
 
-* [**Benjamin C Pierce TAPL**][]A type system is a tractable syntactic method for proving the absence of certain program behaviours by classifying phrases according to the kinds of values they compute. 
+* [**Benjamin C Pierce TAPL**](http://www.cis.upenn.edu/~bcpierce/tapl/index.html) A type system is a tractable syntactic method for proving the absence of certain program behaviours by classifying phrases according to the kinds of values they compute. 
 
 Then I found this **gem** of a post that really got me thinking
 
