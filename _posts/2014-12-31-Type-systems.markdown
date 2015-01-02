@@ -31,7 +31,7 @@ If you are looking for a post about  Strong vs Weak typing and Static vs dynamic
 
 Anyway I am starting off with the first question.
 
-### What is a type system?
+### What is a type system? 
 
 According to
 
@@ -103,4 +103,10 @@ Also [this pdf](http://www.cis.upenn.edu/~bcpierce/papers/tng-lics2003-slides.pd
 * [Practical Foundations for Programming Languages](http://www.cs.cmu.edu/~rwh/plbook/book.pdf)
 
 
-Happy new year!! 
+## Feedback other resources?
+
+Do you know of other type system resources I should look into? 
+Do you know of any other links I should look into?
+Any comments? Let me know
+
+# Happy new year!! 
