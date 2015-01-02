@@ -35,7 +35,7 @@ Anyway I am starting off with the first question.
 
 According to
 
-* [**Wikipedia**](http://en.wikipedia.org/wiki/Type_system#cite_note-FOOTNOTECardelli20041-2) In programming languages, a type system is a collection of rules that assign a property called a type to the various construct—​such as variables, expressions, functions or modules—​that a computer program is composed of.[1][1] The main purpose of a type system is to reduce bugs in computer programs[2][2] by defining interfaces between different parts of a computer program, and then checking that the parts have been connected in a consistent way. This checking can happen statically (at compile time), dynamically (at run time), or it can happen as a combination of static and dynamic checking. Type systems have other purposes as well, such as enabling certain compiler optimizations, allowing for multiple dispatch, providing a form of documentation, etc.
+* [**Wikipedia**](http://en.wikipedia.org/wiki/Type_system#cite_note-FOOTNOTECardelli20041-2) In programming languages, a type system is a collection of rules that assign a property called a type to the various construct—​such as variables, expressions, functions or modules—​that a computer program is composed of.[1](http://www.cis.upenn.edu/~bcpierce/tapl/) The main purpose of a type system is to reduce bugs in computer programs[2](http://lucacardelli.name/Papers/TypeSystems.pdf) by defining interfaces between different parts of a computer program, and then checking that the parts have been connected in a consistent way. This checking can happen statically (at compile time), dynamically (at run time), or it can happen as a combination of static and dynamic checking. Type systems have other purposes as well, such as enabling certain compiler optimizations, allowing for multiple dispatch, providing a form of documentation, etc.
 
 Ok, a bit generic, but helpful:
 
@@ -52,9 +52,15 @@ Other definitions I found online are as simple as:
 and a type is a name for a collection of values that we code with
 that have similar properties" From Erik Meijer latest course on [functional programming (Lecture 2 part 1)](https://courses.edx.org/courses/DelftX/FP101x/3T2014/info)
 
-* [**Benjamin C Pierce TAPL**](http://www.cis.upenn.edu/~bcpierce/tapl/index.html) A type system is a tractable syntactic method for proving the absence of certain program behaviours by classifying phrases according to the kinds of values they compute. 
+* [**Benjamin C Pierce from TAPL**](http://www.cis.upenn.edu/~bcpierce/tapl/index.html) A type system is a tractable syntactic method for proving the absence of certain program behaviours by classifying phrases according to the kinds of values they compute. 
 
-Then I found this **gem** of a post that really got me thinking
+This is a more helpful
+
+* Tractable and syntactic **method**
+* **absence of behaviours** (perhaps runtime errors)
+* Classification of phrases according to kind of values
+
+As I was thinking a little about this I found this **gem** of a post:
 
 [@mrb_bk](http://twitter.com/mrb_bk) wondered [What is a type system for](http://michaelrbernste.in/2014/02/17/what-is-a-type-system-for.html) This is totally worth the read. The post is based on studying TAPL. The TL;DR of the post goes like:
  
@@ -92,8 +98,6 @@ Also [this pdf](http://www.cis.upenn.edu/~bcpierce/papers/tng-lics2003-slides.pd
 
 ### References
 
-[1][http://www.cis.upenn.edu/~bcpierce/tapl/]
-[2][http://lucacardelli.name/Papers/TypeSystems.pdf]
 
 * [Type Systems for Programming Languages](http://www.cs.cmu.edu/~rwh/misc/tspl.pdf) It's a scary one 
 * [Practical Foundations for Programming Languages](http://www.cs.cmu.edu/~rwh/plbook/book.pdf)
