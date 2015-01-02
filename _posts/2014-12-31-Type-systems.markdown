@@ -35,7 +35,7 @@ Anyway I am starting off with the first question.
 
 According to
 
-* [**Wikipedia**](http://en.wikipedia.org/wiki/Type_system#cite_note-FOOTNOTECardelli20041-2) In programming languages, a type system is a collection of rules that assign a property called a type to the various construct—​such as variables, expressions, functions or modules—​that a computer program is composed of.[1] The main purpose of a type system is to reduce bugs in computer programs[2] by defining interfaces between different parts of a computer program, and then checking that the parts have been connected in a consistent way. This checking can happen statically (at compile time), dynamically (at run time), or it can happen as a combination of static and dynamic checking. Type systems have other purposes as well, such as enabling certain compiler optimizations, allowing for multiple dispatch, providing a form of documentation, etc.
+* [**Wikipedia**](http://en.wikipedia.org/wiki/Type_system#cite_note-FOOTNOTECardelli20041-2) In programming languages, a type system is a collection of rules that assign a property called a type to the various construct—​such as variables, expressions, functions or modules—​that a computer program is composed of.[1][1] The main purpose of a type system is to reduce bugs in computer programs[2][2] by defining interfaces between different parts of a computer program, and then checking that the parts have been connected in a consistent way. This checking can happen statically (at compile time), dynamically (at run time), or it can happen as a combination of static and dynamic checking. Type systems have other purposes as well, such as enabling certain compiler optimizations, allowing for multiple dispatch, providing a form of documentation, etc.
 
 Ok, a bit generic, but helpful:
 
@@ -92,10 +92,11 @@ Also [this pdf](http://www.cis.upenn.edu/~bcpierce/papers/tng-lics2003-slides.pd
 
 ### References
 
-[1](http://www.cis.upenn.edu/~bcpierce/tapl/)
-[2](http://lucacardelli.name/Papers/TypeSystems.pdf)
-[Type Systems for Programming Languages](http://www.cs.cmu.edu/~rwh/misc/tspl.pdf) It's a scary one 
-[Practical Foundations for Programming Languages](http://www.cs.cmu.edu/~rwh/plbook/book.pdf)
+[1][http://www.cis.upenn.edu/~bcpierce/tapl/]
+[2][http://lucacardelli.name/Papers/TypeSystems.pdf]
+
+* [Type Systems for Programming Languages](http://www.cs.cmu.edu/~rwh/misc/tspl.pdf) It's a scary one 
+* [Practical Foundations for Programming Languages](http://www.cs.cmu.edu/~rwh/plbook/book.pdf)
 
 
 Happy new year!! 
