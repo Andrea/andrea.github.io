@@ -58,18 +58,19 @@ Then I found this **gem** of a post that really got me thinking
 
 [@mrb_bk](http://twitter.com/mrb_bk) wondered [What is a type system for](http://michaelrbernste.in/2014/02/17/what-is-a-type-system-for.html) This is totally worth the read. The post is based on studying TAPL. The TL;DR of the post goes like:
  
-    "The most basic property of this type system or any other is safety (also called 
-    soundness): well-typed terms do not 'go wrong.'"
+    "The most basic property of this type system or any other is safety (also
+    called soundness): well-typed terms do not 'go wrong.'"
 
 What does "go wrong" means in this context?
 
-    "...it means reaching a 'stuck state' that is not designated as a final value but 
-    where the evaluation rules do not tell us what to do next."
+    "...it means reaching a 'stuck state' that is not designated as a 
+    final value but where the evaluation rules do not tell us what to do next."
 
 In this context thinking of getting stuck as runtime errors is acceptable.
 
-    "What we want to know, then, is that well-typed terms do not get stuck. We show this
-     in two steps, commonly known as the progress and preservation theorems."
+    "What we want to know, then, is that well-typed terms do not get stuck. We 
+    show this in two steps, commonly known as the progress and preservation 
+    theorems."
 
 The theorem definition and explanation is in the post, but I had to stop and thing about:
 
