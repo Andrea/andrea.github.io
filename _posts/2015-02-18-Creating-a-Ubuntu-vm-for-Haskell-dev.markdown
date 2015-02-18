@@ -1,5 +1,5 @@
 ---
-date: 2015-01-09 11:44:00
+date: 2015-02-19 11:44:00
 layout: post
 title: Creating a vm for Haskell development
 categories:
