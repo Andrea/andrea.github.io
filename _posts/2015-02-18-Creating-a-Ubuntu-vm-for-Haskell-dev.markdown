@@ -28,13 +28,18 @@ cabal install Cabal cabal-install
 * Thanks to [@TailCallingDev](https://twitter.com/tailcallingdev) (btw check out his blog, seriously), I had to add cabal to the path like this:
 
 in .profile 
+
 ``` 
+
 # set PATH so it includes cabal
 if [ -d "$HOME/.cabal/bin" ] ; then
     PATH="$HOME/.cabal/bin:$PATH"
 fi
+
 ```
-also the version of ghc I was on doesn't play nice with cabal > 1.22 so after updating the path I had to call the _cabal install_ command this way 
+
+Also the version of ghc I was on doesn't play nice with cabal > 1.22 so after updating the path I had to call the _cabal install_ command this way:
+
 
 ```
 cabal install cabal-install --constraint="cabal-install < 1.22"
