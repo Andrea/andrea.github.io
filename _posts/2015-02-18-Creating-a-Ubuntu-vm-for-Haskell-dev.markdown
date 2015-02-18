@@ -44,7 +44,7 @@ The source of this cabal + ghc seems is better described [here](https://github.c
 
 And then I called _leksah_ on the terminal and it worked!
 
-![leksah]({{site.url}}images/leksah.jpg) 
+![leksah]({{site.url}}/images/leksah.jpg) 
 
 This is all for today, will update this post with a link to this VM hosted somewhere, as It might be useful to someone.
 
