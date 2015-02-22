@@ -56,6 +56,8 @@ The first line is just a path, in the second line we create a type using the Csv
 
 
 ![squirrel](http://i.vimeocdn.com/portrait/1954123_300x300.jpg)
+
+
 If you are into type providers, you need to know [Ross McSquirrel](http://www.pinksquirrellabs.com/)(I might have made up a better last name for him), check out his talk [about Ridiculous type providers ](https://skillsmatter.com/skillscasts/6126-where-no-type-has-gone-before)(again I might have given the talk a new and hopefully better name :D).
 
 
