@@ -66,6 +66,8 @@ In the party, there was pizza and beer and a lot of talk about types. At some po
 
 Day 2 of Lambda days started with a talk by Kinga Panasiewicz, a neuroscientist. She did a super interesting talk about how our brains work, I would like to see more like it. In the talk she mentioned the effects of too much light before sleeping time, how poor our memory is and other things that I can't remember (maybe because I am trying to remember more than 7 things?).  
 
+![kp]({{ site.images }}/ld-kp.jpg)
+
 [Scala, Akka, Play: The Why and How of reactive web-applications on the JVM](http://www.lambdadays.org/lambdadays2015/manuel-bernhardt) by [Manuel Bernhardt](https://twitter.com/elmanu), admittedly Scala is not something I know much about at the moment, but I thought it would be good to learn a little bit more about it. On this talk Manuel went over the basics of Scala, Akka and Play super fast and went on to explain how they work together. One of the gems of this talk was when Manuel showed how Mailbox works with an example from Star Wars please skip for spoilers.
 
 ![sw]({{ site.images }}/ld-mb.jpg)
