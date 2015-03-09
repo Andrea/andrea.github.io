@@ -43,15 +43,17 @@ I had some hallway sessions and then I went to [Rafał Studnicki's](https://gith
 
 After lunch, it was [Evelina Gabasova's](https://github.com/evelinag/) turn to [talk](https://github.com/evelinag/Projects/tree/master/FSharpCancerResearch), she had a quite large room-full of people. The talk went over a comparison of other tools used for research in cancer and how she uses F# and the type providers to do better Science. One bit of info I didn't know about, men can also get breast cancer.
 
+![eg]({{ site.images }}/ld-eg.jpg)
+
 After that I went to "A year of Haskell" by Justin , this was a cool talk, if someone can go and set up a start up in Ecuador that does Haskell and it's working out, well this is pretty inspiring. :D He mentioned the pain of supporting ageing Rails projects and how he found Haskell a good alternative. A not precise quote:"Haskell is easier to learn than Ruby". The tone of my comments here leave out how he is really not trying to force this on you but rather, he is talking through his own experience.
 This is what is like when you get to an existing Ruby project
 
 ![j1]({{ site.images }}/ld-j1.jpg)
 
-![j2]({{ site.images }}/ld-j1.jpg)
+![j2]({{ site.images }}/ld-j2.jpg)
 
 
-Then it was my turn to give a talk. My slides are [here](http://www.roundcrisis.com/presentations/the_tools_that_shape_us_ld2015/index.html#/)
+Then it was my turn to give a talk. My slides are [here](http://www.roundcrisis.com/presentations/the_tools_that_shape_us_ld2015/index.html#/) thankfully I have no pictures.
 
 
 In the party, there was pizza and beer and a lot of talk about types. At some point [Edwin Brady](https://edwinb.wordpress.com/) said something around the lines of "I would write a php backend for Idris" (there is a story behind the beer tokens you see in the pics), this was immediately twitted by [Alvaro Videla](https://twitter.com/old_sound) a few days later Edwin sent this tweet around:
@@ -68,9 +70,20 @@ Day 2 of Lambda days started with a talk by Kinga Panasiewicz, a neuroscientist.
 
 ![sw]({{ site.images }}/ld-mb.jpg)
 
-After that I went to a talk called Implementing graph representation model for parallel and distributed systems using Erlang, this talk was a little confusing, there were many definitions at the start and then a bunch of graphs, the graphs showed some sort of really good performance metric, but I really couldn't understand much of it, I am going to put it to lack of sufficient tea, too early :D
+After that I went to a talk called Implementing graph representation model for parallel and distributed systems using Erlang, this talk was a little confusing, there were many definitions at the start and then a bunch of graphs, the graphs showed some sort of really good performance metric, but I really couldn't understand much of it, I am going to put it to lack of sufficient tea, too early :D. I am also sorry I forgot that at the same time Tomasz Jaskula was giving a talk about F# that got really good comments. 
+
+After that I went to [Alvaro Videla's](http://www.lambdadays.org/lambdadays2015/alvaro-videla) excellent talk about RabbitMQ, he had a live simulation of how things worked that I really enjoyed. He talked about the internals of RabbitMQ and the result of that is that I am more and more curious about Erlang; I wish the recording of it was online already.
+
+![sw]({{ site.images }}/ld-av.jpg)
+
+After that I went to a talk by [Michał Łusiak](http://mlusiak.com/) his talk started super well because his first slide was a picture of a bridge in Dublin, and he was talking about type providers, something I have been interested [of late](http://www.roundcrisis.com/2015/02/22/Type-providers/) the talk was pretty cool as he went on showing many existing type providers and their use cases, including the ones that seem rather useless but are fun (like squirrelify) :) 
+
+Finally Tomas Petriceck had a cool talk on literate programming, he was talking about the origin of literate programming from Knuth and trying to rescue the feel of it and bring it into F#. He was missing some graphs so he created a DSL for making them and he said he would make it available, which he did [slides](http://tpetricek.github.io/Talks/2015/literate-programming/krakow/#/) and [code](https://github.com/tpetricek/Talks/tree/master/2015/literate-programming) a few days after the talk (and prompt me to finish this post). As always there was another talk I wanted to attend to too but sadly you can only be in one place at a time.
+
+![sw]({{ site.images }}/ld-tp.jpg)
+
+After the conference a good few of us went for dinner, Lambda Days and Krakow was super fun :) Big kudos to the organizers and everyone involved in making it happen.
 
 
-
-
+![end]({{ site.images }}/ld-end.jpg)
 
