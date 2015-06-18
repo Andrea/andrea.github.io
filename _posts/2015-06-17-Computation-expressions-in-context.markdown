@@ -12,9 +12,9 @@ categories:
 
 ![NDC](http://i.imgur.com/aQkTWvT.png)
 
-Yesterday at NDC Oslo I presented a talk about computation expressions, you can find the slides [here]({{ site.url }}/Presentations/ndc-oslo)
+Yesterday at NDC Oslo I presented a talk about computation expressions, you can find the slides [here]({{ site.url }}/Presentations/ndc-oslo/index.html)
 
-[![slides]({{ site.url }}/images/ndcoslo.png =250x)]({{ site.url }}/Presentations/ndc-oslo)
+[![slides]({{ site.url }}/images/ndcoslo.png)]({{ site.url }}/Presentations/ndc-oslo/index.html)
 
 All of the code shown during the talk (plus some handy extras) can be found [here](https://github.com/Andrea/Presentations/tree/master/NDC_Oslo-ComputationExpressions)
 
