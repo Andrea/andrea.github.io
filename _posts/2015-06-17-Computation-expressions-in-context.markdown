@@ -10,11 +10,11 @@ categories:
 - fsharp
 ---
 
-[Imgur](http://i.imgur.com/aQkTWvT.png)
+![NDC](http://i.imgur.com/aQkTWvT.png)
 
-Today at NDC Oslo I presented a talk about computation expressions, you can find the slides [here]()
+Yesterday at NDC Oslo I presented a talk about computation expressions, you can find the slides [here]({{ site.url }}/Presentations/ndc-oslo)
 
-![slides]({images}/ndcoslo.png)
+[![slides]({{ site.url }}/images/ndcoslo.png)]({{ site.url }}/Presentations/ndc-oslo)
 
 All of the code shown during the talk (plus some handy extras) can be found [here](https://github.com/Andrea/Presentations/tree/master/NDC_Oslo-ComputationExpressions)
 
@@ -45,4 +45,4 @@ Once there is a video I will also add the link here
 [4]:http://fsharp.org/specs/language-spec/
 
 Thanks 
-![]
+![otter](http://www.cotswoldwildlifepark.co.uk/images/meet-animals/otter.jpg)
