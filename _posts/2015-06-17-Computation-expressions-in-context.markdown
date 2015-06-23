@@ -18,6 +18,7 @@ Yesterday at NDC Oslo I presented a talk about computation expressions, you can 
 
 <iframe src="https://player.vimeo.com/video/131410829" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/131410829">Computation expression in context : a history of the otter king - Andrea Magnorsky</a> from <a href="https://vimeo.com/ndcconferences">NDC Conferences</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
+I started a little fp-track NDC Oslo album, https://vimeo.com/album/3452190 (I will add them as they come)
 
 All of the code shown during the talk (plus some handy extras) can be found [here](https://github.com/Andrea/Presentations/tree/master/NDC_Oslo-ComputationExpressions)
 
