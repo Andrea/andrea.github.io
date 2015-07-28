@@ -24,7 +24,7 @@ Also I have to apologize to people trying to use the Duality Scripting plugin as
 
 ![CatTax](http://i.imgur.com/FShbUoXl.jpg)
 
-Which reminds me come to [*Kats Conf 15*](functionalkats.com), a functional programming conference in Dublin on September the 12th, if you are in Dublin or close you should consider attending. 
+Which reminds me, Come to [*Kats Conf 15*](functionalkats.com)!!!, a functional programming conference in Dublin on September the 12th, if you are in Dublin or close you should consider attending. 
 
 
 ![Kats Conf](http://functionalkats.com/assets/pictures/functional-kats-logo.png)
