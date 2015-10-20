@@ -29,6 +29,8 @@ I think we got some very honest as well as some promising answers. I am looking 
 
 Next it was lunch time and time to mingle. Great food. Kudos to the organisation team and the sponsors, for putting on a great event.
 
+![Charles and Riccardo]({{ site.images }}/fs-gotham/c_a_r.jpg)
+
 Then it was time to listen to [Charles Petzold](https://en.wikipedia.org/wiki/Charles_Petzold) talk about Using F# for Xamarin forms. He started off talking about his early career as a Programmer using Fortran and APL amongst other languages.
 Then he built a series of samples targeting multiple devices using Xamarin Forms with F#.
 He showed:
@@ -41,7 +43,7 @@ He showed:
 and more. Nicely presented.
 I wish I could find a way to contact him to let him know about [Paket](https://fsprojects.github.io/Paket/), I think he might appreciate it.
 
-![Xam]()
+![xam]({{ site.images }}/fs-gotham/t2.jpg)
 
 Then it was time for the optimization panel with Jon Harrop, Jack Pappas, and Lev Gorodinski. MCed by Paulmichael Blasucci. This was a highly interactive session  where we heard about collections and data structures (how they always turn up on these type of conversations.... :D) common things to avoid and some very funny war stories.
 One of the questions was about a particular [post](http://flyingfrogblog.blogspot.com) Jon Harrop had posted a few years ago doing a language comparision, and how that evolved and how it compared to now.
@@ -50,11 +52,12 @@ One of the questions was about a particular [post](http://flyingfrogblog.blogspo
 Finally Phil Trelford closed the conference with a talk that I am lucky to have seen multiple times, his "Write your own compiler in 24 hour" talk. It is funny how you always pick up new things when you watch something a couple of times. This time I was looking at how focused on the process of writing the compiler, starting with the parser and testing out his design before moving off to implementing the AST.
 This made me think about something else we were discussing on a "hallway session" about how do we make decisions when you have limited knowledge, my take on it is you choose a path and try to do a very small implementation trying to fail fast, as fast as possible, focusing on how is it failing , iterating and then implementing a solution you know does what it should do.
 
-![phil]()
-> And here you can see Roslyn
+![phil]({{ site.images }}/fs-gotham/t3.jpg)
+
 
 Another thing that was really cool about this conference was the one track and highly relaxed feeling around it (lots of space, comfortable sitting).
 
 Since I was wearing a cape that was given to all of us as swag, someone called me BatmAndrea, I think I'll keep this :)
 
 Yours BatmAndrea
+![view]({{ site.images }}/fs-gotham/view2.jpg)
