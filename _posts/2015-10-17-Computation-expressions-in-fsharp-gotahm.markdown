@@ -28,6 +28,7 @@ This was followed by some questions from the audience, Jay Schmelzer, one of the
 I think we got some very honest as well as some promising answers. I am looking  forward to see how it all goes and the near and distant future. I believe all  sessions have been recorded and will link it here as soon as they becomes available.
 
 Next it was lunch time and time to mingle. Great food. Kudos to the organisation team and the sponsors, for putting on a great event.
+[Update 21-10-2015] There is an article on [InfoQ](http://www.infoq.com/news/2015/10/fsharp-gotham) with more details about this talk.
 
 ![Charles and Riccardo]({{ site.images }}/fs-gotham/c_a_r.jpg)
 
