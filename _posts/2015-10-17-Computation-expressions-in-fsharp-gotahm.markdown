@@ -11,7 +11,7 @@ categories:
 
 [F# Gotham](http://www.fsharpgotham.com/) stared on the morning of the 16th of October at [Jet's]() Offices (lovely views of the city)
 
-![view](http://www.roundcrisis.com/images/jet-view.jpg){ height: 300px}
+![view](http://www.roundcrisis.com/images/jet-view.jpg)
 
 
 I saw the very start of [Riccardo Terrel's](https://twitter.com/TRikace) tutorial on Reactive and Concurrent F#. He was covering  the practical aspects of writing safe concurrent programs, and how to do that with functional programming languages, in particular F# . Sadly I was rehearsing my talk. From the distance it looked fun.
@@ -27,7 +27,11 @@ Then it was time for two people from Microsoft to answer some questions. David S
 This was followed by some questions from the audience, Jay Schmelzer, one of the directors from DevDiv, joined David. The questions varied from feature parity to marketing support, azure, the collaboration with the F# Software Foundation and more.
 I think we got some very honest as well as some promising answers. I am looking  forward to see how it all goes and the near and distant future. I believe all  sessions have been recorded and will link it here as soon as they becomes available.
 
+[Update 21-10-2015] There is an article on [InfoQ](http://www.infoq.com/news/2015/10/fsharp-gotham) with more details about this talk.
+
+
 Next it was lunch time and time to mingle. Great food. Kudos to the organisation team and the sponsors, for putting on a great event.
+
 
 ![Charles and Riccardo]({{ site.images }}/fs-gotham/c_a_r.jpg)
 
@@ -46,7 +50,7 @@ I wish I could find a way to contact him to let him know about [Paket](https://f
 ![xam]({{ site.images }}/fs-gotham/t2.jpg)
 
 Then it was time for the optimization panel with Jon Harrop, Jack Pappas, and Lev Gorodinski. MCed by Paulmichael Blasucci. This was a highly interactive session  where we heard about collections and data structures (how they always turn up on these type of conversations.... :D) common things to avoid and some very funny war stories.
-One of the questions was about a particular [post](http://flyingfrogblog.blogspot.com) Jon Harrop had posted a few years ago doing a language comparision, and how that evolved and how it compared to now.
+One of the questions was about a particular [post](http://flyingfrogblog.blogspot.com) Jon Harrop had posted a few years ago doing a language comparision, and how that evolved and how it compared to now. There was also some discussion on tooling  where the usual ones turned up VS interated one , Concurrency visualization, roll your own, and also one I heard of but never used, [Perf View](http://www.microsoft.com/en-ie/download/details.aspx?id=28567). I was kind of suprised no one mentioned dotTrace and dotMemory.
 
 
 Finally Phil Trelford closed the conference with a talk that I am lucky to have seen multiple times, his "Write your own compiler in 24 hour" talk. It is funny how you always pick up new things when you watch something a couple of times. This time I was looking at how focused on the process of writing the compiler, starting with the parser and testing out his design before moving off to implementing the AST.
