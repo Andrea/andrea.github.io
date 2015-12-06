@@ -12,12 +12,97 @@ It is that time of the year, and [#FsAdvent](https://sergeytihon.wordpress.com/t
 
 In the [previous post](http://www.roundcrisis.com/2015/12/06/Computation-expressions-in-practice/) I introduced a definition and parts of a computation expression, as well as some samples.
 
-###
+### The beauty of reality
+
+I started looking at computation expressions because I was trying to deal with the "C#-F# design mismatch"(™) (yes I just made ~~discovered~~ that up) meaning that I wanted to deal in some nice ways with the fact that when I am using a C# object it will occasionally be null and other fun things. And when I started reading about solutions to that, I found that there are some well known ways to deal with that.
+
+Sometimes, you are on your way and the world surprises you with something amazing, could be a moon rising in the night sky, or maybe someone having a nice gesture towards another fellow human just because. Perhaps there is something to this natural ordered chaos.
+And with ordered chaos in mind, a great example of usage of computation expressions is error handling.
+
+So, lets see some code
+
+{% highlight FSharp lineos %}
+
+    type MaybeBuilder() =         
+        member __.Bind(maybeValue, func) =
+            match maybeValue with
+            | Some value -> func value
+            | None -> None        
+        member __.Return value = Some value
+
+    let divide a b =
+        match b with
+        | 0 -> None
+        | _ -> Some(a / b)
+
+    let maybe = MaybeBuilder()
+
+    let divisionM a b c d =
+        maybe { let! x = divide a b
+                let! y = divide x c
+                let! z = divide y d
+                return z }
 
 
+{% endhighlight %}
 
-Another great example of computation expressions is error handling, how about
+Similar to the example in the previous post, we have a builder, in this case, `MaybeBuilder` and the signature for this function is :
 
+>   Bind:: 'a option * ('a -> 'b option) -> 'b option
+
+Bind takes a wrapped value ('a option) and a function that takes an `'a` and returns a wrapped `'b` ('b option) and returns a wrapped `'b`('b option). In F#, `'a option` means that 'a can be any  type and Option is a generic type. You can use most generic types as wrappers.
+
+A great explanation on why this signature is relevant comes from [this post](http://adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.html). Go ahead and read it. I'll just pretend you didn't read it try to explain it and then you will think that it might be good to go and read it :D
+
+What happens in `Bind` if `maybeValue` has a value
+
+* Unwrap 'a , execute the function
+* Return a wrapped value (of type 'b option)
+
+What happens in `Bind` if `maybeValue` is nothing
+
+* there is `None` so we just
+* Return a None (which is still of type 'b option )
+
+The good thing is, because we return with signature `'b option` that means we can feed the result back into Bind if that is necessary.
+
+This triple of: a type, an operation and an identity is called a monad, and that is cool because when you realise something is a monad, then that means you get some other stuff for free. To show you how, I'll start talking about Monoids.
+
+### Monoids
+
+I am sure you have heard that a monad is a monoid in the category of endofunctors, when I read that first I have to admit that was not terribly useful. So I went to check out Monoid, and it turns out they are pretty cool :D
+
+A monoid needs a type and an operation and it needs to follow the following rules:
+
+1. Clousure.  The operation must have the following signature 'a -> 'a -> 'a
+2. identity.  There must exist an instance I of 'a such that 'a . I = 'a
+3. Associativity. Given the same order, no matter how we associate the operations so (a . b). c  = a .( b. c ) where a, b and c are instances of 'a
+
+examples For The Win!!
+
+lets say we have a type `Colour` and an operation `addColour`
+
+{% highlight FSharp %}
+  type Colour =
+      { r : byte
+        g : byte
+        b : byte
+        a : byte }
+
+  let addColour c1 c2 =
+      { r = c1.r + c2.r
+        g = c1.g + c2.g
+        b = c1.b + c2.b
+        a = c1.a + c2.a }
+
+{% endhighlight %}
+
+Does this constitute a monoid?
+1. Clousure: the function `addColour` has the signature:
+
+> val addColour : c1:Colour -> c2:Colour -> Colour
+  It looks like we do have closure.
+2.  
 
 ### Custom Operations
 
@@ -35,7 +120,6 @@ Another great example of computation expressions is error handling, how about
 {% endhighlight %}
 
 and you can call this
-
 
 {% highlight FSharp %}
 
@@ -57,3 +141,7 @@ this translates to:
       fun x -> x > 5)
 
 {% endhighlight %}
+
+
+I guess by now we are all a bit tired like the otters
+![naptime](https://pbs.twimg.com/media/CVi7DaPVEAALfSE.jpg)
