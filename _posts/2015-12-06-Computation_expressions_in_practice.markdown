@@ -25,7 +25,7 @@ dramatically reduce redundant code.
 
 ### You were saying about practice?
 
-Below is an example of a computation expression builder.  
+Below is an example of a computation expression builder. Which is a "normal" F# type that has some methods that the F# compiler will look for. The compiler recognizes a builder because it has certain functions with well defined names (such as Bind, Return, For, etc), more on this later.
 
 {% highlight FSharp  lineos %}
 
@@ -108,11 +108,14 @@ The builder works by using the compiler to convert the syntax into a block like 
 
 {% endhighlight %}
 
-I have to say that this de-sugared syntax not only is harder to write, but also harder to read.
+This de-sugared syntax (*syntax-max* if you will :) ) is harder to write and also harder to read.
 
-So this post tells us a little bit about what is a computation expression and how you can create the a simple computation expression. In the next post we will see how to use them with a little more context.
+![syntax-max]({{ site.images }}/syntax-max.jpg)
+
+So this post tells us a little bit about what computation expressions are and how you can create very simple versions of them. In the next post we will see how to use them with a little more context.
 
 Thanks for reading and happy holidays!!
+
 ![otter-xmas](https://s-media-cache-ak0.pinimg.com/236x/22/5d/fc/225dfc73941c511e67f628bf63bc6ac4.jpg)
 
 Yours Batmandrea
