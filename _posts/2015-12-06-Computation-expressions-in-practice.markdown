@@ -1,9 +1,9 @@
 ---
-date: 2015-02-22 19:44:00
+date: 2015-12-06 19:13:00
 layout: post
 title: Computation expressions and microphones
 categories:
-- computation expressions
+- programming
 - fsharp
 - monoids
 ---
@@ -58,7 +58,8 @@ Below is an example of a computation expression builder. Which is a "normal" F# 
 
   It might be worth remembering other computation expressions you might be already familiar with, such as.
 
-  #### Async workflows
+#### Async workflows
+
   (workflow is a common alternative name for some computation expressions)
 
   {% highlight FSharp %}
@@ -80,7 +81,7 @@ Below is an example of a computation expression builder. Which is a "normal" F# 
   {% endhighlight %}
   [[Example from wikibooks](https://en.wikibooks.org/wiki/F_Sharp_Programming/Async_Workflows)]
 
-  #### MBrace
+#### MBrace
 
   {% highlight FSharp  lineos %}
 
@@ -93,7 +94,7 @@ Below is an example of a computation expression builder. Which is a "normal" F# 
 
   In both examples the builder is defined elsewhere, and as consumers of the computation we have a set of things we can do. When we don't use the workflow with the expected syntax, (generally) the compiler will warn us with errors like:
 
-  > This control construct may only be used if the computation expression builder defines a 'ReturnFrom' method.
+> This control construct may only be used if the computation expression builder defines a 'ReturnFrom' method.
 
   The builder works by using the compiler to convert the syntax into a block like this, for the SimplestBuilder we saw at the very start of this post:
 
