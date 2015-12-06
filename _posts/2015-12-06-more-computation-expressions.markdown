@@ -102,6 +102,7 @@ lets say we have a type `Colour` and an operation `addColour`
 {% endhighlight %}
 
 Does this constitute a monoid?
+
 1. Closure: the function `addColour` has the signature:
    `val addColour : c1:Colour -> c2:Colour -> Colour`
   It looks like we do have closure.
@@ -168,8 +169,28 @@ let monoidAdd xs= monoid {
 
 {% endhighlight %}
 
-In here we are using some new members: Zero, Yield, Combine and For. There are a few other operations that can be performed in a builder.
-You can also have some custom operations.
+In here we are using some new members: Zero, Yield, Combine and For.
+Below are all the functions that can be used on builders,
+
+Method      | Typical signature(s)            | Description
+------------|---------------------------------|-----------------------------------------------------
+Bind        | M<'T> * ('T -> M<'U>) -> M<'U>  | Called for let! and do! in computation expressions.
+Delay       | (unit -> M<'T>) -> M<'T>         | Wraps a computation expression as a function.
+Return      | 'T -> M<'T>                      | Called for return in computation expressions.
+ReturnFrom  | M<'T> -> M<'T>                  | Called for return! in computation expressions.
+Run         | M<'T> -> M<'T> or M<'T> -> 'T   | Executes a computation expression.
+Combine     | M<'T> * M<'T> -> M<'T> or M<unit> * M<'T> -> M<'T> | Called for sequencing in computation expressions.
+For         | seq<'T> * ('T -> M<'U>) -> M<'U> or seq<'T> * ('T -> M<'U>) -> seq<M<'U>> | Called for for...do expressions in computation expressions.
+TryFinally  | M<'T> * (unit -> unit) -> M<'T>  | Called for try...finally expressions in computation expressions.
+TryWith     | M<'T> * (exn -> M<'T>) -> M<'T>  | Called for try...with expressions in computation expressions.
+Using       | 'T * ('T -> M<'U>) -> M<'U> when 'U :> IDisposable | Called for use bindings in computation expressions.
+While       | (unit -> bool) * M<'T> -> M<'T>  | Called for while...do expressions in computation expressions.
+Yield       | 'T -> M<'T>                      | Called for yield expressions in computation expressions.
+YieldFrom   | M<'T> -> M<'T>                   | Called for yield! expressions in computation expressions.
+Zero        | unit -> M<'T>                    | Called for empty else branches of if...then expressions in computation expressions.
+
+[(source)](https://msdn.microsoft.com/en-us/library/dd233182.aspx)
+
 
 
 ### Custom Operations
@@ -211,7 +232,7 @@ this translates to:
 {% endhighlight %}
 
 
-I guess by now we are all a bit tired like the otters.
+I guess by now we are all a bit tired like these otters:
 
 ![naptime](https://pbs.twimg.com/media/CVi7DaPVEAALfSE.jpg)
 
@@ -219,3 +240,18 @@ I guess by now we are all a bit tired like the otters.
 See you next time
 
 Batmandrea
+
+
+
+#### References
+
+* [Functors, Applicatives, And Monads In Pictures](http://adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.html)
+* [Computation expression wikibooks](https://en.wikibooks.org/wiki/F_Sharp_Programming/Computation_Expressions)
+* [Computation Expressions (F#) msdn](https://msdn.microsoft.com/en-us/library/dd233182.aspx)
+* [Some Details on F# Computation Expressions - D Syme 2007](http://blogs.msdn.com/b/dsyme/archive/2007/09/22/some-details-on-f-computation-expressions-aka-monadic-or-workflow-syntax.aspx)
+* [The computation expression series - F# for fun and profit](http://fsharpforfunandprofit.com/series/computation-expressions.html)
+* [Why Do Monads Matter?](https://cdsmith.wordpress.com/2012/04/18/why-do-monads-matter/)
+* [Where is the monad](http://www.quanttec.com/fparsec/users-guide/where-is-the-monad.html) A post on FParsec about why they moved away from a monadic aproach due to performance
+* [The Road to Functional Programming in F# – From Imperative to Computation Expressions](http://richardminerich.com/2011/02/the-road-to-functional-programming-in-f-from-imperative-to-computation-expressions/)
+* [FSharpx.Extras (github repo)](http://fsprojects.github.io/FSharpx.Extras/index.html)
+* [The marvels of monads - Wes Dyer ](http://blogs.msdn.com/b/wesdyer/archive/2008/01/11/the-marvels-of-monads.aspx)

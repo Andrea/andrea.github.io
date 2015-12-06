@@ -90,7 +90,7 @@ Below is an example of a computation expression builder. Which is a "normal" F# 
         |> cluster.Run
 
 {% endhighlight %}
-[[Example from Brace.io](https://github.com/mbraceproject/MBrace.StarterKit/blob/master/HandsOnTutorial/1-hello-world.fsx)]
+[[Example from MBrace.io](https://github.com/mbraceproject/MBrace.StarterKit/blob/master/HandsOnTutorial/1-hello-world.fsx)]
 
 In both examples the builder is defined elsewhere, and as consumers of the computation we have a set of things we can do. When we don't use the workflow with the expected syntax, (generally) the compiler will warn us with errors like:
 
