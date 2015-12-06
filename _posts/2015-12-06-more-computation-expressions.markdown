@@ -211,5 +211,11 @@ this translates to:
 {% endhighlight %}
 
 
-I guess by now we are all a bit tired like the otters
+I guess by now we are all a bit tired like the otters.
+
 ![naptime](https://pbs.twimg.com/media/CVi7DaPVEAALfSE.jpg)
+
+
+See you next time
+
+Batmandrea
