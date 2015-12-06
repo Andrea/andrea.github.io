@@ -66,7 +66,7 @@ What happens in `Bind` if `maybeValue` is nothing
 
 The good thing is, because we return with signature `'b option` that means we can feed the result back into Bind if that is necessary.
 
-This triple of *a type*, *an operation* and *an identity* is called a monad, and that is cool because when you realise something is a monad, then that means you get some other stuff for free. To show you how, I'll start talking about Monoids.
+This triple of *a wrapped type*, *Bind* and *Return* is called a monad, and that is cool because when you realise something is a monad, then that means you get some other stuff for free. To show you how, I'll start talking about Monoids.
 
 ### Monoids
 

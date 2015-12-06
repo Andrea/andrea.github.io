@@ -83,39 +83,39 @@ Below is an example of a computation expression builder. Which is a "normal" F# 
 
 #### MBrace
 
-  {% highlight FSharp  lineos %}
+{% highlight FSharp  lineos %}
 
-      let remoteResult =
-          cloud { printfn "hello, world" ; return Environment.MachineName }
-          |> cluster.Run
+    let remoteResult =
+        cloud { printfn "hello, world" ; return Environment.MachineName }
+        |> cluster.Run
 
-  {% endhighlight %}
-  [[Example from Brace.io](https://github.com/mbraceproject/MBrace.StarterKit/blob/master/HandsOnTutorial/1-hello-world.fsx)]
+{% endhighlight %}
+[[Example from Brace.io](https://github.com/mbraceproject/MBrace.StarterKit/blob/master/HandsOnTutorial/1-hello-world.fsx)]
 
-  In both examples the builder is defined elsewhere, and as consumers of the computation we have a set of things we can do. When we don't use the workflow with the expected syntax, (generally) the compiler will warn us with errors like:
+In both examples the builder is defined elsewhere, and as consumers of the computation we have a set of things we can do. When we don't use the workflow with the expected syntax, (generally) the compiler will warn us with errors like:
 
 > This control construct may only be used if the computation expression builder defines a 'ReturnFrom' method.
 
-  The builder works by using the compiler to convert the syntax into a block like this, for the SimplestBuilder we saw at the very start of this post:
+The builder works by using the compiler to convert the syntax into a block like this, for the SimplestBuilder we saw at the very start of this post:
 
-  {% highlight FSharp %}
+{% highlight FSharp %}
 
-      let y =
-        simple.Bind("One", fun one ->
-          simple.Bind("Two", fun two ->
-            simple.Bind(one + two, fun testing ->
-              simple.Return(testing))))
+    let y =
+      simple.Bind("One", fun one ->
+        simple.Bind("Two", fun two ->
+          simple.Bind(one + two, fun testing ->
+            simple.Return(testing))))
 
-  {% endhighlight %}
+{% endhighlight %}
 
-  This de-sugared syntax (*syntax-max* if you will :) ) is harder to write and also harder to read.
+This de-sugared syntax (*syntax-max* if you will :) ) is harder to write and also harder to read.
 
-  ![syntax-max]({{ site.images }}/syntax-max.jpg)
+![syntax-max]({{ site.images }}/syntax-max.jpg)
 
-  So this post tells us a little bit about what computation expressions are and how you can create very simple versions of them. In the next post we will see how to use them with a little more context.
+So this post tells us a little bit about what computation expressions are and how you can create very simple versions of them. In the [next post](http://www.roundcrisis.com/2015/12/06/more-computation-expressions/) we will see how to use them with a little more context.
 
-  Thanks for reading and happy holidays!!
+Thanks for reading and happy holidays!!
 
-  ![otter-xmas](https://s-media-cache-ak0.pinimg.com/236x/22/5d/fc/225dfc73941c511e67f628bf63bc6ac4.jpg)
+![otter-xmas](https://s-media-cache-ak0.pinimg.com/236x/22/5d/fc/225dfc73941c511e67f628bf63bc6ac4.jpg)
 
   Yours Batmandrea
