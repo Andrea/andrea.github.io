@@ -61,12 +61,12 @@ What happens in `Bind` if `maybeValue` has a value
 
 What happens in `Bind` if `maybeValue` is nothing
 
-* there is `None` so we just
+* There is `None` so we do nothing.
 * Return a None (which is still of type 'b option )
 
 The good thing is, because we return with signature `'b option` that means we can feed the result back into Bind if that is necessary.
 
-This triple of: a type, an operation and an identity is called a monad, and that is cool because when you realise something is a monad, then that means you get some other stuff for free. To show you how, I'll start talking about Monoids.
+This triple of a type, an operation and an identity is called a monad, and that is cool because when you realise something is a monad, then that means you get some other stuff for free. To show you how, I'll start talking about Monoids.
 
 ### Monoids
 
@@ -74,7 +74,7 @@ I am sure you have heard that a monad is a monoid in the category of endofunctor
 
 A monoid needs a type and an operation and it needs to follow the following rules:
 
-1. Clousure.  The operation must have the following signature 'a -> 'a -> 'a
+1. Closure.  The operation must have the following signature 'a -> 'a -> 'a
 2. identity.  There must exist an instance I of 'a such that 'a . I = 'a
 3. Associativity. Given the same order, no matter how we associate the operations so (a . b). c  = a .( b. c ) where a, b and c are instances of 'a
 
@@ -98,11 +98,41 @@ lets say we have a type `Colour` and an operation `addColour`
 {% endhighlight %}
 
 Does this constitute a monoid?
-1. Clousure: the function `addColour` has the signature:
+1. Closure: the function `addColour` has the signature:
 
 > val addColour : c1:Colour -> c2:Colour -> Colour
   It looks like we do have closure.
-2.  
+
+2. Identity. There exist a colour, black, that if you add to any other colour, the result is the same colour.
+
+{% highlight FSharp %}
+
+    let neutral = { r = 0uy; g = 0uy; b = 0uy; a = 0uy }
+    let someColour = {r=44uy; g=21uy;b=99uy;a=255uy};;
+    do someColour = (addColour neutral someColour) |> printfn "Should be true: %A"
+    // This test covers just one case, we will deal with that shortly
+
+{% endhighlight %}    
+  It looks like we have an identity
+3. Associativity. We can add three different colours and no matter which two we add in which order, the result is the same colour.
+
+{% highlight FSharp %}
+
+  let ``The operation is commutative`` (a : Colour, b : Colour, c : Colour) =
+    addColour a  (addColour b  c) = ( addColour (addColour a b)  c)
+
+  Check.Quick ``The operation is commutative``
+
+{% endhighlight %}    
+
+When we run that the result is:
+
+> Ok, passed 100 tests.
+> val it : unit = ()
+
+What happened here is that we randomly generated a, b and c to be 3 colours and we ran that test a hundred times.
+
+
 
 ### Custom Operations
 
