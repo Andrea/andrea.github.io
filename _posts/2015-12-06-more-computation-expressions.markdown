@@ -172,22 +172,7 @@ let monoidAdd xs= monoid {
 In here we are using some new members: Zero, Yield, Combine and For.
 Below are all the functions that can be used on builders,
 
-Method      | Typical signature(s)            | Description
-------------|---------------------------------|-----------------------------------------------------
-Bind        | M<'T> * ('T -> M<'U>) -> M<'U>  | Called for let! and do! in computation expressions.
-Delay       | (unit -> M<'T>) -> M<'T>         | Wraps a computation expression as a function.
-Return      | 'T -> M<'T>                      | Called for return in computation expressions.
-ReturnFrom  | M<'T> -> M<'T>                  | Called for return! in computation expressions.
-Run         | M<'T> -> M<'T> or M<'T> -> 'T   | Executes a computation expression.
-Combine     | M<'T> * M<'T> -> M<'T> or M<unit> * M<'T> -> M<'T> | Called for sequencing in computation expressions.
-For         | seq<'T> * ('T -> M<'U>) -> M<'U> or seq<'T> * ('T -> M<'U>) -> seq<M<'U>> | Called for for...do expressions in computation expressions.
-TryFinally  | M<'T> * (unit -> unit) -> M<'T>  | Called for try...finally expressions in computation expressions.
-TryWith     | M<'T> * (exn -> M<'T>) -> M<'T>  | Called for try...with expressions in computation expressions.
-Using       | 'T * ('T -> M<'U>) -> M<'U> when 'U :> IDisposable | Called for use bindings in computation expressions.
-While       | (unit -> bool) * M<'T> -> M<'T>  | Called for while...do expressions in computation expressions.
-Yield       | 'T -> M<'T>                      | Called for yield expressions in computation expressions.
-YieldFrom   | M<'T> -> M<'T>                   | Called for yield! expressions in computation expressions.
-Zero        | unit -> M<'T>                    | Called for empty else branches of if...then expressions in computation expressions.
+![members]({{ site.images }}/comp-exp-functions.png)
 
 [(source)](https://msdn.microsoft.com/en-us/library/dd233182.aspx)
 
