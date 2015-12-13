@@ -59,6 +59,8 @@ Zero is one of those functions that are quite useful, it runs when
 * Have an if expression with no else
 * There is nothing else on the block
 
+After reading the [F# language spec](fsharp.org/specs/language-spec/) it seems those are the only two scenarios.
+
 For example, the following
 
 {% highlight FSharp%}
@@ -67,13 +69,39 @@ type ZeroBuilder ()=
   member this.Zero() =
     printfn "from Zero"
 
+
 let zero = ZeroBuilder()
 
+let justPrint ()= zero {
+     printfn "Inside the computation expression"
+ }
+    justPrint()
+    
+let withIf (x:bool) = zero {
+   if (x) then printfn("This is true")
+}
+withIf true
+	
 let test = zero{
 	  printfn "not much going on"
 	}
 
 {% endhighlight %}
+
+when running `justPrint()` the repl shows
+> Inside the computation expression
+> From  Zero
+> val it : int = 0
+
+when running `withIf true`
+
+>This is true
+>From within Zero
+>val it : int = 0
+
+as expected
+
+#### For
 
 
 See you next time
