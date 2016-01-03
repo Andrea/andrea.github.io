@@ -1,0 +1,157 @@
+---
+date: 2016-01-03 20:13:00
+layout: post
+title: Past and future
+categories:
+- programming
+- Algol
+- APL
+- FORTRAN
+- FLOWMATIC
+---
+This post is a (not so short) summary of the wonderful 1972 paper entitled: "Programming Languages: History and Future" by Jean Sammet. She is not only one of the first (computing science) historians but also a language creator.
+
+The paper is written in a highly enjoyable style and if you are remotely interested in programming, reading it is surely going to reward you. This paper focuses in the historical development of the languages and their interrelations.
+The key piece in this paper is the chart below where the relationships between programming languages is shown. The graph makes more sense with certain context.
+
+![pls]({{ site.images }}/sammet72-graph.png)
+
+### Definition of programming language
+
+On the definition of a programming language:
+
+> A programming language is considered to be a set of characters and rules for combining them
+which have the following characteristics:
+
+1. machine code knowledge is unnecessary
+2. there is good potential for conversion to other computers
+3. there is an instruction explosion (from one to many)
+4. there is a notation which is closer to the original problem than assembly language would be
+
+The scope of the paper is roughly 20 years, going from 1952 to 1072, when, according to the paper there are about 180 programming languages.
+
+Given that this paper context is history, When do you consider a programming languages started? or created? It is something that I encountered as a problem when I was doing some reading on this area and not only dates are not always documented, but also the stage of development at which a defined specification occurs varies, or can be iterated over to become a new version of the language, and in that case, is this the same language or should it be considered a new one?
+
+### Why so many languages? ###
+
+This list is pretty similar to what I would guess today's historians might come up with:
+
+1. A really new language concept has been developed and/or a new application area is deemed worthy of having its own language.
+2. After experience with a particular language, its deficiencies are clear enough that a complete new language is needed and justifiably created to correct them.
+3. Facilities of several languages are best combined into a single new language
+4. It is felt to be easier to get additional capability or changes in style with a new language rather than to extend or modify an existing one.
+5. It is fun to design and implement a new language, and someone wants to do it and can obtain the funds.
+6. There are personal preferences  and prejudices against the existing languages even though one of these languages might serve the purpose for which the new language is intended.
+7. The developer is unaware of the existence of a language that meets his needs, so he creates his own while believing he is meeting the conditions of (1) or (2).
+
+I wish 2 would happen more often.
+Can't think of an example for 3, anyone?
+Perhaps 5 would be different because I think funds are not really necessary but probably a good idea, I am thinking of Elixir, Elm as great examples of projects that started.
+
+### Reasons for the importance of a language ###
+
+This section has the most memorable quotes (stuff that is still sadly true, 4 decades later):
+
+> For example, the psychological issue of snob appeal is more important than many people might
+think. Thus, the personal prestige and leadership (or lack thereof) of those individuals who are involved in the development of a language play an enormous role.
+
+...
+
+> The best example of languages which inspire some people are ALGOL and  APE\360; on
+the other hand neither BASIC (at the small end) nor PL/I (at the large end) generate as much _personal enthusiastm_
+
+
+### Major Languages (at the time) ###
+
+This is my favourite section of the paper. The languages below have been chosen because of their relevance as well as their uniqueness (except Cobol), they also apear to have been developed independently of each other.
+
+* **APT**. The first language for a specialized application area.
+* **FORTRAN**. The first higher level language to be widely used. It opened the door to practical usage of computers by large numbers of scientific and engineering personnel.
+* **FLOWMATIC**. The first language suitable for business data processing and the first to have heavy emphasis on an "English-like" syntax.
+* **IPL-V**. The first--and also a major--language for doing list processing.
+* **COMIT**. The first realistic string handling and pattern matching language; most of its features appear (although with different syntax) in any other language attempting to do any string manipulation.
+* **COBOL**. One of the most widely used languages on an absolute basis, and the most widely used for business applications. Technical attributes include real attempts at an English-like syntax and at machine independence.
+* **ALGOL 60**. Introduced many specific features in an elegant fashion, and combined with its formal syntactic definition, inspired most of the theoretical work in programming languages and much of the work on implementation techniques. More widely used in Europe than in the United States.
+* **LISP**. Introduced concepts of functional programming combined with facility for doing list processing. Used by many of the people working in the field of artificial intelligence.
+* **JOVIAL**. The first language to include adequate capability for handling scientific computations, input/output, logical manipulation of information, and data storage and handling. Most JOVIAL compilers were written in JOVIAL.
+* **GPSS**. The first language which made simulation a practical tool for most people.
+* **JOSS**. The first interactive language; it spawned a number of dialects which collectively helped to make time-sharing practical for computational problems.
+* **FORMAC**. The first language to be used fairly widely on a practical basis for mathematical problems needing formula manipulation.
+* **APL\360**. Provided many higher level operators, which permitted extremely short algorithms and caused new ways of looking at some problems.
+
+
+## Important eras
+
+These are highlights of important periods and events associated (genreally happening in the form of a conference)
+
+* Earliest(1952-1956) The beginnings of understanding of concepts. The terms pseudo-code, automatic coding,automatic programming, compiler, and interpreter were common.
+* Milestone Meeting (1956). First meeting to talk about high level programming languages, so what we are calling programming languages in the context of this paper
+* Most prolific years (1958-1959). The following events all occurred during that period: (I am just listing the ones I found more relevant)
+  1. The development and publishing of the IgL (International Algebraic Language) report, which became known as ALGOL 58.
+  2. The development of three languages based on the IgL specifications.
+  3. The presentation to the 1959 UNESCO meeting of J. Backus' formalism for describing  ALGOL.  This was the foundation for much of the theoretical work done in programming languages since then.
+  4. The formation in May 1959 of the CODASYL Short Range Committee (later renamed the COBOL committee) and the completion of the specifications by December 1959 (although they were not published until 1960).
+  5. The start of work on the development of LISP in 1959.
+
+* 1960-1970. Maturation of the field. Perhaps one of the most important practical developments, although scorned by many theoreticians, was the development of official standards for FORTRAN and
+COBOL, and the start of standardization for PL/1.
+
+
+
+### Key concepts
+
+In this section, Sammet highlights some concepts.
+
+Starts of with the Backus Normal Form, introduced by John Backus (since it is so relevant to the history of PLs I guess the mention tried to highlight the historical impotance).
+
+
+> The significance of a formal syntactic notation is threefold:
+
+1. It provides a rigorous way of defining the syntax of a language and eliminating the annoying ambiguities of sentences such as  "a  name contains six characters and both the first and last character cannot be a hyphen."
+2. It provides the link between the practical concerns in the programming language field and the theoretical work done by linguists, most notably N. Chomsky. This permits application of linguistic concepts and techniques to programming languages. Although BNF was developed independently by Backus, it is really one of Chomsky's grammars with a different notation.
+3. It led to the development of syntax directed compilers, which in turn gave rise to a more theoretical study of compilation techniques and the possibility of a "production line approach" to developing new compilers.
+
+There is also mention of the _formal semantic definitional techniques_, where McCarthy and IBM Vienna Laboratory are key contributors. IBM Vienna created the formal definition for PL/1
+> The monumental size of the formal definition of PL/I precludes it from .being of current practical use. However, it is a major conceptual part of a currently unsolved problem in  all  of programming
+which is how to determine whether a program does what we want it to do.
+
+Then _The attempt at designing computers whose instruction code is a higher level language_, significant concept, not yet achieved (I have to admit I don't know anything about this, feedback or related links most welcome)
+
+Finally , there is _User defined languages_  have been an area of interest for many years. Is this what we call DSLs these days? ( I'll need to read up on the references), it kind of sounds like it, tho they talk about directly giving access to users.
+
+
+### Current status (as of 1972)
+
+This is really interesting, at the time these were the interesting topics:
+
+* Extensible languages
+* Proving correctness of a programs
+* Use of higher language programming for systems programming
+
+Cool stuff particularly when you think about the research that became into being around that time with type systems.
+
+### The future
+
+The rest of the paper goes of to talk about what seems to be the future. Most predictions have more or less become real.
+
+> The user could use his native language, including notation (e.g. algebra, molecular diagrams) appropriate to his particular field. This concept  does not  envision one single computer
+system understanding all of English. It  does  envision many systems, each of which is capable of dealing with a particular field...
+
+> the next best thing will be  user defined languages. By this we mean (software) systems which permit users, first, to define languages that fit their own needs with respect to functional capability,jargon, and personal tastes in style
+
+>While the day of asking the computer to  "COMPUTE THE PAYROLL FOR MY COMPANY"  is at least one or two decades in the future, I believe we will see a large decrease in the amount of
+detail a user must provide.
+
+...
+
+> The  use of current languages  is not likely to change drastically for many years. It seems likely that FORTRAN and COBOL will be with us for at least five and probably ten more years.
+
+:)
+
+>ALOOL 68 will ... namely inspire another round of development of implementation
+techniques and devotion to elegance in language with less concern for the practical world. It seems virtually certain that ALGOL 68 will  not  become widely used in the United States, and probably not elsewhere.
+
+>Computers are now becoming common... To determine the real effect--both direct and subliminal--of this education on the next generation requires a better crystal ball than this author possesses...people will grow up recognizing the computer as a tool for everyone, just as the automobile, the telephone, and the stove
+
+
+Wow...feels like I was just in a great alternative version of Back to the Future, :D.  
