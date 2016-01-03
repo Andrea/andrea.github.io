@@ -1,7 +1,7 @@
 ---
 date: 2016-01-03 20:13:00
 layout: post
-title: Past and future, a summary of Programming Languages: History and Future
+title: Past and future, a summary of Programming Languages\: History and Future
 categories:
 - programming
 - Algol
