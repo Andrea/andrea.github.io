@@ -28,7 +28,7 @@ which have the following characteristics:
 3. there is an instruction explosion (from one to many)
 4. there is a notation which is closer to the original problem than assembly language would be
 
-The scope of the paper is roughly 20 years, going from 1952 to 1072, when, according to the paper there are about 180 programming languages.
+The scope of the paper is roughly 20 years, going from 1952 to 1972, when, according to the paper there are about 180 programming languages.
 
 Given that this paper context is history, When do you consider a programming languages started? or created? It is something that I encountered as a problem when I was doing some reading on this area and not only dates are not always documented, but also the stage of development at which a defined specification occurs varies, or can be iterated over to become a new version of the language, and in that case, is this the same language or should it be considered a new one?
 
