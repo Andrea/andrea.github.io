@@ -14,8 +14,8 @@ This post is a (not so short) summary of the wonderful 1972 paper entitled: "Pro
 The paper is written in a highly enjoyable style and if you are remotely interested in programming, reading it is surely going to reward you. This paper focuses in the historical development of the languages and their interrelations.
 The key piece in this paper is the chart below where the relationships between programming languages is shown. The graph makes more sense with certain context.
 
-![pls]({{ site.images }}/sammet72-graph.png)
-
+![pls]({{ site.images }}/sammet72-graph-small.png)
+[link to bigger version of the graph](({{ site.images }}/sammet72-graph.png))
 ### Definition of programming language
 
 On the definition of a programming language:
