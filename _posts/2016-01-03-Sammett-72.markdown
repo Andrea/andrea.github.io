@@ -15,7 +15,8 @@ The paper is written in a highly enjoyable style and if you are remotely interes
 The key piece in this paper is the chart below where the relationships between programming languages is shown. The graph makes more sense with certain context.
 
 ![pls]({{ site.images }}/sammet72-graph-small.png)
-[link to bigger version of the graph](({{ site.images }}/sammet72-graph.png))
+
+[link to bigger version of the graph](http://www.roundcrisis.com/images/sammet72-graph.png)
 ### Definition of programming language
 
 On the definition of a programming language:
