@@ -1,7 +1,7 @@
 ---
 date: 2016-02-13 19:13:00
 layout: post
-title: Database of programming
+title: Database of programming languages?
 categories:
 - programming
 - Algol
@@ -32,3 +32,11 @@ then this (not completed )
 
 I did these by hand because I am trying to iterate fast. It would be pretty amazing to generate these with concrete data.
 Wow...feels like I was just in a great alternative version of Back to the Future, :D.  
+
+So what am I exactly looking for? a database? with at a minimum:
+
+- Programming language name
+- When it first appeared (anywhere outside of someone's mind)
+- Designer and anyone else involved and level of involved
+- some tags (ie paradigm, typed or untyped?, etc)
+- Influenced by / influenced.
