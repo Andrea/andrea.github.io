@@ -1,4 +1,5 @@
 permalink:    /:year/:month/:day/:title/
+syntax_highlighter: rouge
 paginate:     10
 images:       /images
 name: Roundcrisis
