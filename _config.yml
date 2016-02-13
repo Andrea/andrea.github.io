@@ -1,7 +1,6 @@
 permalink:    /:year/:month/:day/:title/
-highlighter:	pygments
 paginate:     10
 images:       /images
 name: Roundcrisis
-description: Something something something dark code
+description: roundcrisis's adventures in code.
 url: http://roundcrisis.com
