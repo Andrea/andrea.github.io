@@ -24,11 +24,11 @@ someone knows about other similar efforts.
 These are the iterations of my graph, this is not complete. However it might give you some idea
 of what I would like for data points given this.
 
-![1]({{ site.images }}/2016-influences.jpg)
+![1](http://www.roundcrisis.com/images/2016-influences.jpg)
 
 then this (not completed )
 
-![2]({{ site.images }}/wip-pl.jpg)
+![2](http://www.roundcrisis.com/images/wip-pl.jpg)
 
 I did these by hand because I am trying to iterate fast. It would be pretty amazing to generate these with concrete data.
 Wow...feels like I was just in a great alternative version of Back to the Future, :D.  
