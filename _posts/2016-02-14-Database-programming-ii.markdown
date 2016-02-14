@@ -37,3 +37,14 @@ Following links from this one I found these other very promising links:
 
 - [Levenez computer languages history](http://www.levenez.com/lang/)
 - [The (programming) Language list](http://people.ku.edu/~nkinners/LangList/Extras/langlist.htm)
+
+Indirectly I also found:
+
+- [Language Study diagram](http://rigaux.org/language-study/diagram.html)
+- [Mother tongues of computer languages DigiBarn](http://www.digibarn.com/collections/posters/tongues/)
+
+
+Also of course, the [timeline from the computer history museum](http://www.computerhistory.org/revolution/timeline).
+
+
+I was pretty sad to see so many dead links. 
