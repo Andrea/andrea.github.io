@@ -1,5 +1,5 @@
 ---
-date: 2016-02-14 19:13:00
+date: 2016-02-14 11:50:00
 layout: post
 title: Database of programming languages II
 categories:
@@ -29,5 +29,11 @@ Make sure to follow the source as you can click on the nodes to see the influenc
 
 ![paradigms](https://www.info.ucl.ac.be/~pvr/paradigmsDIAGRAMeng108.jpg)
 
-And this one
+And this one by O'Reilly
 ![languages](http://www.digibarn.com/collections/posters/tongues/ComputerLanguagesChart.png)
+[Large pdf](http://cdn.oreillystatic.com/news/graphics/prog_lang_poster.pdf)
+
+Following links from this one I found these other very promising links:
+
+- [Levenez computer languages history](http://www.levenez.com/lang/)
+- [The (programming) Language list](http://people.ku.edu/~nkinners/LangList/Extras/langlist.htm)
