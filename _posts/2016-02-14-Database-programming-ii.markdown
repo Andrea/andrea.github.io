@@ -6,7 +6,7 @@ categories:
 - programming
 - Algol
 ---
-I mentioned in [a post](http://www.roundcrisis.com/2016/02/13/Database-programming/) yesterday that I was looking for at a minimum:
+I mentioned in [a post](http://www.roundcrisis.com/2016/02/13/Database-programming/) yesterday that I was looking for at a programming languages database with these as the minimum info:
 
 - Programming language name
 - When it first appeared (anywhere outside of someone's mind)
@@ -18,7 +18,9 @@ I got some good responses on twitter. The one closest was this one from [Dmitry 
 
 ![twitter](http://roundcrisis.com/images/2016-pl-db.jpg)
 
-Where he links to this visualisation, which lead to the [freebase db](http://www.freebase.com/computer/programming_language), this is very close to what I was looking for. There is also a need to be able to amplify this need.
+Where he links to the visualisation below, which lead to the [freebase db](http://www.freebase.com/computer/programming_language). Very close to what I was looking for.
+I see a need to be able to amplify this information with extra details ...
+
 Make sure to follow the source as you can click on the nodes to see the influence of any language shown there.
 
 ![viz](http://roundcrisis.com/images/2016-pl-viz.jpg)
@@ -47,4 +49,4 @@ Indirectly I also found:
 Also of course, the [timeline from the computer history museum](http://www.computerhistory.org/revolution/timeline).
 
 
-I was pretty sad to see so many dead links. 
+I was pretty sad to see so many dead links.
