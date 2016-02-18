@@ -26,13 +26,13 @@ dramatically reduce redundant code.
 
 Below is an example of a computation expression builder. Which is a "normal" F# type that has some methods that the F# compiler will look for. The compiler recognizes a builder because it has certain functions with well defined names (such as Bind, Return, For, etc), more on this later.
 
-  {% highlight FSharp  lineos %}
+~~~ FSharp
 
       type SimplestBuilder () =
         member this.Bind(x,f) = f x          
         member this.Return(x) = x
 
-  {% endhighlight %}
+~~~
 
   The `SimplestBuilder` type is a computation expression builder. "A builder is a record of operations that defines the semantics but also the syntax available in the block." [[Petricek, Syme (2014)](http://tomasp.net/academic/papers/computation-zoo/computation-zoo.pdf)]. In this case we are just saying that when `Bind` runs it will just call the function *f* with the parameter *x*. And when we call *Return* the function result will be the parameter passed into the function. The question here is how do they get called?, we answer this as follows:
 
