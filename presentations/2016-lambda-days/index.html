@@ -1,0 +1,861 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>History of programming languages</title>
+    <meta name="description" content="History of Programming languages">
+    <meta name="author" content="Andrea Magnorsky">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <script src="//code.jquery.com/jquery-1.8.0.js"></script>
+    <script src="//code.jquery.com/ui/1.8.23/jquery-ui.js"></script>
+    <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.2.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.2.1/css/bootstrap-combined.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/simple.css" id="theme">
+    <link type="text/css" rel="stylesheet" href="fsharp.formatting/styles/style.css" />
+    <link type="text/css" rel="stylesheet" href="fsharp.formatting/styles/deedle.css" />
+    <link type="text/css" rel="stylesheet" href="css/custom.css" />
+    <script src="fsharp.formatting/styles/tips.js" type="text/javascript"></script>
+    <!-- For syntax highlighting -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+    <!-- If the query includes 'print-pdf', include the PDF print sheet -->
+    <script>
+			if( window.location.search.match( /print-pdf/gi ) ) {
+				var link = document.createElement( 'link' );
+				link.rel = 'stylesheet';
+				link.type = 'text/css';
+				link.href = 'css/print/pdf.css';
+				document.getElementsByTagName( 'head' )[0].appendChild( link );
+			}
+    </script>
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <div class="reveal">
+        <div class="tip" id="fs1">type &#39;T list = List&lt;&#39;T&gt;<br /><br />Full name: Microsoft.FSharp.Collections.list&lt;_&gt;</div>
+<div class="tip" id="fs2">Multiple items<br />val int : value:&#39;T -&gt; int (requires member op_Explicit)<br /><br />Full name: Microsoft.FSharp.Core.Operators.int<br /><br />--------------------<br />type int = int32<br /><br />Full name: Microsoft.FSharp.Core.int<br /><br />--------------------<br />type int&lt;&#39;Measure&gt; = int<br /><br />Full name: Microsoft.FSharp.Core.int&lt;_&gt;</div>
+<div class="tip" id="fs3">Multiple items<br />val string : value:&#39;T -&gt; string<br /><br />Full name: Microsoft.FSharp.Core.Operators.string<br /><br />--------------------<br />type string = System.String<br /><br />Full name: Microsoft.FSharp.Core.string</div>
+
+        <!-- Any section element inside of this container is displayed as a slide -->
+        <div class="slides">
+            <section data-background="images/history.png" data-background-size="1500px">
+
+<h2>A brief history of programming languages</h2>
+
+<h3>Lambda days - February 2016</h3>
+
+</section>
+
+<section >
+
+<p><img src="images/roundcrisis.jpg" alt="me" /></p>
+
+</section>
+
+<section data-background="images/hilbert.jpg">
+
+<section data-background="images/hilbert.jpg">
+
+<h2>David Hilbert</h2>
+
+</section>
+
+<section author="Andrea Magnorsky" description="History of Programming languages" theme="simple" title="History of programming languages" transition="default">
+
+<blockquote>
+  <p>We must know.
+We will know.</p>
+</blockquote>
+
+</section>
+
+<section author="Andrea Magnorsky" description="History of Programming languages" theme="simple" title="History of programming languages" transition="default">
+
+<p><img src="images/question-cat.png" alt="q" /></p>
+
+</section>
+
+<section author="Andrea Magnorsky" description="History of Programming languages" theme="simple" title="History of programming languages" transition="default">
+
+<blockquote>
+  <p>Can we devise a process to determine in a finite number of operations, whether a first order logic statement is valid?</p>
+</blockquote>
+
+</section>
+
+</section>
+
+<section data-background="images/godel.jpg">
+
+<section data-background="images/godel.jpg">
+
+<h3>Nope</h3>
+
+</section>
+
+<section author="Andrea Magnorsky" description="History of Programming languages" theme="simple" title="History of programming languages" transition="default">
+
+<h2>Kurt Gödel</h2>
+
+</section>
+
+</section>
+
+<section data-background="images/church.jpg">
+
+<section data-background="images/church.jpg">
+
+<h2>Alonzo Church</h2>
+
+<aside class="notes">
+June 14, 1903 – August 11, 1995<br/>
+</aside>
+
+</section>
+
+<section author="Andrea Magnorsky" description="History of Programming languages" theme="simple" title="History of programming languages" transition="default">
+
+<h2>λ Calculus</h2>
+
+</section>
+
+</section>
+
+<section data-background="images/turing.jpg">
+
+<section data-background="images/turing.jpg">
+
+<h2>Alan Turing</h2>
+
+</section>
+
+<section author="Andrea Magnorsky" description="History of Programming languages" theme="simple" title="History of programming languages" transition="default">
+
+<h2>Turing Machine</h2>
+
+<p><img src="images/turing-machine.jpg" alt="q" /><a href="http://aturingmachine.com/">sauce</a></p>
+
+</section>
+
+</section>
+
+<section >
+
+<h2>Church-Turing Thesis</h2>
+
+</section>
+
+<section data-background="images/ww2.jpg">
+
+<h2>World war II</h2>
+
+</section>
+
+<section data-background="images/hopper.jpg">
+
+<section data-background="images/hopper.jpg">
+
+<h2>Grace Hopper</h2>
+
+<aside class="notes">
+December 9, 1906 – January 1, 1992<br/>
+</aside>
+
+</section>
+
+<section author="Andrea Magnorsky" description="History of Programming languages" theme="simple" title="History of programming languages" transition="default">
+
+<h2>The first compiler: A-0</h2>
+
+</section>
+
+<section author="Andrea Magnorsky" description="History of Programming languages" theme="simple" title="History of programming languages" transition="default">
+
+<h1>FLOW-MATIC</h1>
+
+</section>
+
+<section author="Andrea Magnorsky" description="History of Programming languages" theme="simple" title="History of programming languages" transition="default">
+
+<table class="pre"><tr><td class="lines"><pre class="fssnip">
+<span class="l"> 1: </span>
+<span class="l"> 2: </span>
+<span class="l"> 3: </span>
+<span class="l"> 4: </span>
+<span class="l"> 5: </span>
+<span class="l"> 6: </span>
+<span class="l"> 7: </span>
+<span class="l"> 8: </span>
+<span class="l"> 9: </span>
+<span class="l">10: </span>
+<span class="l">11: </span>
+<span class="l">12: </span>
+<span class="l">13: </span>
+</pre>
+</td>
+<td class="snippet"><pre class="fssnip">
+<span class="n">0</span>) <span class="i">INPUT</span> <span class="i">INVENTORY</span> <span class="i">FILE</span><span class="o">=</span><span class="i">A</span>
+<span class="i">PRICE</span> <span class="i">FILE</span><span class="o">=</span><span class="i">B</span>,
+<span class="i">OUTPUT</span> <span class="i">PRICED</span><span class="o">-</span><span class="i">INV</span> <span class="i">FILE</span><span class="o">=</span><span class="i">C</span>
+<span class="i">UNPRICED</span><span class="o">-</span><span class="i">INV</span> <span class="i">FILE</span><span class="o">=</span><span class="i">D</span>,
+<span class="i">HSP</span> <span class="i">D</span><span class="o">.</span>
+<span class="n">1</span>) <span class="i">COMPARE</span> <span class="i">PRODUCT</span><span class="o">-</span><span class="i">NO</span>(<span class="i">A</span>) <span class="i">WITH</span> <span class="i">PRODUCT</span><span class="o">-</span><span class="i">NO</span>(<span class="i">B</span>)
+<span class="i">IF</span> <span class="i">GREATER</span> <span class="i">GO</span> <span class="i">TO</span> <span class="i">OPERATION</span> <span class="n">10</span>;
+<span class="i">IF</span> <span class="i">EQUAL</span> <span class="i">GO</span> <span class="i">TO</span> <span class="i">OPERATION</span> <span class="n">5</span>;
+<span class="i">OTHERWISE</span> <span class="i">GO</span> <span class="i">TO</span> <span class="i">OPERATION</span> <span class="n">2.</span>
+<span class="n">2</span>) <span class="i">TRANSFER</span> <span class="i">A</span> <span class="i">TO</span> <span class="i">D</span><span class="o">.</span>
+<span class="n">3</span>) <span class="i">WRITE</span> <span class="i">ITEM</span> <span class="i">D</span><span class="o">.</span>
+<span class="n">4</span>) <span class="i">JUMP</span> <span class="i">TO</span> <span class="i">OPERATION</span> <span class="n">8.</span>
+<span class="n">5</span>) <span class="i">TRANSFER</span> <span class="i">A</span> <span class="i">TO</span> <span class="i">C</span><span class="o">.</span>
+</pre>
+</td>
+</tr>
+</table>
+
+</section>
+
+<section author="Andrea Magnorsky" description="History of Programming languages" theme="simple" title="History of programming languages" transition="default">
+
+<table class="pre"><tr><td class="lines"><pre class="fssnip">
+<span class="l"> 1: </span>
+<span class="l"> 2: </span>
+<span class="l"> 3: </span>
+<span class="l"> 4: </span>
+<span class="l"> 5: </span>
+<span class="l"> 6: </span>
+<span class="l"> 7: </span>
+<span class="l"> 8: </span>
+<span class="l"> 9: </span>
+<span class="l">10: </span>
+<span class="l">11: </span>
+<span class="l">12: </span>
+<span class="l">13: </span>
+<span class="l">14: </span>
+</pre>
+</td>
+<td class="snippet"><pre class="fssnip">
+ <span class="n">6</span>) <span class="i">MOVE</span> <span class="i">UNIT</span><span class="o">-</span><span class="i">PRICE</span>(<span class="i">B</span>) <span class="i">TO</span> <span class="i">UNIT</span><span class="o">-</span><span class="i">PRICE</span>(<span class="i">C</span>)<span class="o">.</span>
+ <span class="n">7</span>) <span class="i">WRITE</span> <span class="i">ITEM</span> <span class="i">C</span><span class="o">.</span>
+ <span class="n">8</span>) <span class="i">READ</span> <span class="i">ITEM</span> <span class="i">A</span>; <span class="i">IF</span> <span class="i">END</span> <span class="i">OF</span> <span class="i">DATA</span> <span class="i">GO</span> <span class="i">TO</span> <span class="i">OPERATION</span> <span class="n">14.</span>
+ <span class="n">9</span>) <span class="i">JUMP</span> <span class="i">TO</span> <span class="i">OPERATION</span> <span class="n">1.</span>
+<span class="n">10</span>) <span class="i">READ</span> <span class="i">ITEM</span> <span class="i">B</span>; <span class="i">IF</span> <span class="i">END</span> <span class="i">OF</span> <span class="i">DATA</span> <span class="i">GO</span> <span class="i">TO</span> <span class="i">OPERATION</span> <span class="n">12.</span>
+<span class="n">11</span>) <span class="i">JUMP</span> <span class="i">TO</span> <span class="i">OPERATION</span> <span class="n">1.</span>
+<span class="n">12</span>) <span class="i">SET</span> <span class="i">OPERATION</span> <span class="n">9</span> <span class="i">TO</span> <span class="i">GO</span> <span class="i">TO</span> <span class="i">OPERATION</span> <span class="n">2.</span>
+<span class="n">13</span>) <span class="i">JUMP</span> <span class="i">TO</span> <span class="i">OPERATION</span> <span class="n">2.</span>
+<span class="n">14</span>) <span class="i">TEST</span> <span class="i">PRODUCT</span><span class="o">-</span><span class="i">NO</span>(<span class="i">B</span>) <span class="i">AGAINST</span> <span class="i">ZZZZZZZZZZZZ</span>;
+ <span class="i">IF</span> <span class="i">EQUAL</span> <span class="i">GO</span> <span class="i">TO</span> <span class="i">OPERATION</span> <span class="n">16</span>;
+ <span class="i">OTHERWISE</span> <span class="i">GO</span> <span class="i">TO</span> <span class="i">OPERATION</span> <span class="n">15.</span>
+<span class="n">15</span>) <span class="i">REWIND</span> <span class="i">B</span><span class="o">.</span>
+<span class="n">16</span>) <span class="i">CLOSE</span><span class="o">-</span><span class="i">OUT</span> <span class="i">FILES</span> <span class="i">C</span>, <span class="i">D</span><span class="o">.</span>
+<span class="n">17</span>) <span class="i">STOP</span><span class="o">.</span> (<span class="i">END</span>)
+</pre>
+</td>
+</tr>
+</table>
+
+</section>
+
+</section>
+
+<section data-background="images/backus.jpg">
+
+<section data-background="images/backus.jpg">
+
+<h2>John Backus</h2>
+
+</section>
+
+<section author="Andrea Magnorsky" description="History of Programming languages" theme="simple" title="History of programming languages" transition="default">
+
+<h2>Speedcoding</h2>
+
+<h2>BNF</h2>
+
+</section>
+
+<section author="Andrea Magnorsky" description="History of Programming languages" theme="simple" title="History of programming languages" transition="default">
+
+<p><img src="images/fortran.jpg" alt="fortran" /></p>
+
+</section>
+
+</section>
+
+<section data-background="images/mccarthy.jpg">
+
+<section data-background="images/mccarthy.jpg">
+
+<h2>John McCarthy</h2>
+
+</section>
+
+<section author="Andrea Magnorsky" description="History of Programming languages" theme="simple" title="History of programming languages" transition="default">
+
+<h2>Lisp</h2>
+
+<h2>AI, time-sharing</h2>
+
+</section>
+
+</section>
+
+<section data-background="images/algol.png">
+
+<h2>ALGOL</h2>
+
+</section>
+
+<section data-background="images/history50-70.png" data-background-size="900px">
+
+</section>
+
+<section >
+
+<section >
+
+<h2>'50s</h2>
+
+<ul>
+<li>ALGOL (58)</li>
+<li>COBOL (59)</li>
+<li>FORTRAN (57)</li>
+<li>LISP (59)</li>
+</ul>
+
+</section>
+
+<section author="Andrea Magnorsky" description="History of Programming languages" theme="simple" title="History of programming languages" transition="default">
+
+<h2>LISP</h2>
+
+<table class="pre"><tr><td class="lines"><pre class="fssnip">
+<span class="l"> 1: </span>
+<span class="l"> 2: </span>
+<span class="l"> 3: </span>
+<span class="l"> 4: </span>
+<span class="l"> 5: </span>
+<span class="l"> 6: </span>
+<span class="l"> 7: </span>
+<span class="l"> 8: </span>
+<span class="l"> 9: </span>
+<span class="l">10: </span>
+<span class="l">11: </span>
+<span class="l">12: </span>
+<span class="l">13: </span>
+</pre>
+</td>
+<td class="snippet"><pre class="fssnip">
+(<span class="i">defun</span> <span class="i">eval</span><span class="o">.</span> (<span class="i">e</span> <span class="i">a</span>)
+  (<span class="i">cond</span>
+    ((<span class="i">atom</span> <span class="i">e</span>) (<span class="i">assoc</span><span class="o">.</span> <span class="i">e</span> <span class="i">a</span>))
+    ((<span class="i">atom</span> (<span class="i">car</span> <span class="i">e</span>))
+     (<span class="i">cond</span>
+       ((<span class="i">eq</span> (<span class="i">car</span> <span class="i">e</span>) <span class="o">&#39;</span><span class="i">quote</span>) (<span class="i">cadr</span> <span class="i">e</span>))
+       ((<span class="i">eq</span> (<span class="i">car</span> <span class="i">e</span>) <span class="o">&#39;</span><span class="i">atom</span>)  (<span class="i">atom</span>   (<span class="i">eval</span><span class="o">.</span> (<span class="i">cadr</span> <span class="i">e</span>) <span class="i">a</span>)))
+       ((<span class="i">eq</span> (<span class="i">car</span> <span class="i">e</span>) <span class="o">&#39;</span><span class="i">eq</span>)    (<span class="i">eq</span>     (<span class="i">eval</span><span class="o">.</span> (<span class="i">cadr</span> <span class="i">e</span>) <span class="i">a</span>)
+                                    (<span class="i">eval</span><span class="o">.</span> (<span class="i">caddr</span> <span class="i">e</span>) <span class="i">a</span>)))
+       ((<span class="i">eq</span> (<span class="i">car</span> <span class="i">e</span>) <span class="o">&#39;</span><span class="i">car</span>)   (<span class="i">car</span>    (<span class="i">eval</span><span class="o">.</span> (<span class="i">cadr</span> <span class="i">e</span>) <span class="i">a</span>)))
+       ((<span class="i">eq</span> (<span class="i">car</span> <span class="i">e</span>) <span class="o">&#39;</span><span class="i">cdr</span>)   (<span class="i">cdr</span>    (<span class="i">eval</span><span class="o">.</span> (<span class="i">cadr</span> <span class="i">e</span>) <span class="i">a</span>)))
+       ((<span class="i">eq</span> (<span class="i">car</span> <span class="i">e</span>) <span class="o">&#39;</span><span class="i">cons</span>)  (<span class="i">cons</span>   (<span class="i">eval</span><span class="o">.</span> (<span class="i">cadr</span> <span class="i">e</span>) <span class="i">a</span>)
+                                    (<span class="i">eval</span><span class="o">.</span> (<span class="i">caddr</span> <span class="i">e</span>) <span class="i">a</span>)))
+</pre>
+</td>
+</tr>
+</table>
+
+</section>
+
+<section author="Andrea Magnorsky" description="History of Programming languages" theme="simple" title="History of programming languages" transition="default">
+
+<table class="pre"><tr><td class="lines"><pre class="fssnip">
+<span class="l"> 1: </span>
+<span class="l"> 2: </span>
+<span class="l"> 3: </span>
+<span class="l"> 4: </span>
+<span class="l"> 5: </span>
+<span class="l"> 6: </span>
+<span class="l"> 7: </span>
+<span class="l"> 8: </span>
+<span class="l"> 9: </span>
+<span class="l">10: </span>
+<span class="l">11: </span>
+</pre>
+</td>
+<td class="snippet"><pre class="fssnip">
+       ((<span class="i">eq</span> (<span class="i">car</span> <span class="i">e</span>) <span class="o">&#39;</span><span class="i">cond</span>)  (<span class="i">evcon</span><span class="o">.</span> (<span class="i">cdr</span> <span class="i">e</span>) <span class="i">a</span>))
+       (<span class="o">&#39;</span><span class="i">t</span> (<span class="i">eval</span><span class="o">.</span> (<span class="i">cons</span> (<span class="i">assoc</span><span class="o">.</span> (<span class="i">car</span> <span class="i">e</span>) <span class="i">a</span>)
+                        (<span class="i">cdr</span> <span class="i">e</span>))
+                  <span class="i">a</span>))))
+    ((<span class="i">eq</span> (<span class="i">caar</span> <span class="i">e</span>) <span class="o">&#39;</span><span class="i">label</span>)
+     (<span class="i">eval</span><span class="o">.</span> (<span class="i">cons</span> (<span class="i">caddar</span> <span class="i">e</span>) (<span class="i">cdr</span> <span class="i">e</span>))
+            (<span class="i">cons</span> (<span onmouseout="hideTip(event, 'fs1', 1)" onmouseover="showTip(event, 'fs1', 1)" class="i">list</span><span class="o">.</span> (<span class="i">cadar</span> <span class="i">e</span>) (<span class="i">car</span> <span class="i">e</span>)) <span class="i">a</span>)))
+    ((<span class="i">eq</span> (<span class="i">caar</span> <span class="i">e</span>) <span class="o">&#39;</span><span class="i">lambda</span>)
+     (<span class="i">eval</span><span class="o">.</span> (<span class="i">caddar</span> <span class="i">e</span>)
+            (<span class="i">append</span><span class="o">.</span> (<span class="i">pair</span><span class="o">.</span> (<span class="i">cadar</span> <span class="i">e</span>) (<span class="i">evlis</span><span class="o">.</span> (<span class="i">cdr</span> <span class="i">e</span>) <span class="i">a</span>))
+                     <span class="i">a</span>)))))
+</pre>
+</td>
+</tr>
+</table>
+
+</section>
+
+<section author="Andrea Magnorsky" description="History of Programming languages" theme="simple" title="History of programming languages" transition="default">
+
+<table class="pre"><tr><td class="lines"><pre class="fssnip">
+<span class="l">1: </span>
+<span class="l">2: </span>
+<span class="l">3: </span>
+<span class="l">4: </span>
+<span class="l">5: </span>
+<span class="l">6: </span>
+<span class="l">7: </span>
+</pre>
+</td>
+<td class="snippet"><pre class="fssnip">
+(<span class="i">defun</span> <span class="i">is</span><span class="o">-</span><span class="i">prime</span> (<span class="i">n</span>)
+  (<span class="i">cond</span> ((<span class="o">=</span> <span class="n">2</span> <span class="i">n</span>) <span class="i">t</span>) 
+        ((<span class="o">=</span> <span class="n">3</span> <span class="i">n</span>) <span class="i">t</span>) 
+        ((<span class="i">evenp</span> <span class="i">n</span>) <span class="i">nil</span>) 
+        (<span class="i">t</span> 
+           (<span class="i">loop</span> <span class="k">for</span> <span class="i">i</span> <span class="i">from</span> <span class="n">3</span> <span class="k">to</span> (<span class="i">isqrt</span> <span class="i">n</span>) <span class="i">by</span> <span class="n">2</span>
+                 <span class="i">never</span> (<span class="i">zerop</span> (<span class="k">mod</span> <span class="i">n</span> <span class="i">i</span>))))))
+</pre>
+</td>
+</tr>
+</table>
+
+</section>
+
+</section>
+
+<section >
+
+<section >
+
+<h2>'60s</h2>
+
+<ul>
+<li>APL (62)</li>
+<li>BASIC (64)</li>
+<li>LOGO (67)</li>
+<li>Pascal (69)</li>
+</ul>
+
+</section>
+
+<section author="Andrea Magnorsky" description="History of Programming languages" theme="simple" title="History of programming languages" transition="default">
+
+<h3>APL</h3>
+
+<p><span class="math">\((\sim T \in T \circ.×T)/T←1 \downarrow \iota R\)</span></p>
+
+</section>
+
+</section>
+
+<section >
+
+<section >
+
+<h2>'70s</h2>
+
+<ul>
+<li>Smalltalk  (72)</li>
+<li>ML (73)</li>
+<li>Prolog (72)</li>
+<li>C (72)</li>
+</ul>
+
+</section>
+
+<section author="Andrea Magnorsky" description="History of Programming languages" theme="simple" title="History of programming languages" transition="default">
+
+<h3>Prolog</h3>
+
+<blockquote>
+  <p>Prolog is the best thing since smoked cheese</p>
+</blockquote>
+
+</section>
+
+<section author="Andrea Magnorsky" description="History of Programming languages" theme="simple" title="History of programming languages" transition="default">
+
+<h3>Prolog</h3>
+
+<table class="pre"><tr><td class="lines"><pre class="fssnip">
+<span class="l"> 1: </span>
+<span class="l"> 2: </span>
+<span class="l"> 3: </span>
+<span class="l"> 4: </span>
+<span class="l"> 5: </span>
+<span class="l"> 6: </span>
+<span class="l"> 7: </span>
+<span class="l"> 8: </span>
+<span class="l"> 9: </span>
+<span class="l">10: </span>
+</pre>
+</td>
+<td class="snippet"><pre class="fssnip">
+<span class="i">mother_child</span>(<span class="i">trude</span>, <span class="i">sally</span>)<span class="o">.</span>
+ 
+<span class="i">father_child</span>(<span class="i">tom</span>, <span class="i">sally</span>)<span class="o">.</span>
+<span class="i">father_child</span>(<span class="i">tom</span>, <span class="i">erica</span>)<span class="o">.</span>
+<span class="i">father_child</span>(<span class="i">mike</span>, <span class="i">tom</span>)<span class="o">.</span>
+ 
+<span class="i">sibling</span>(<span class="i">X</span>, <span class="i">Y</span>) <span class="o">:</span><span class="o">-</span> <span class="i">parent_child</span>(<span class="i">Z</span>, <span class="i">X</span>), <span class="i">parent_child</span>(<span class="i">Z</span>, <span class="i">Y</span>)<span class="o">.</span>
+ 
+<span class="i">parent_child</span>(<span class="i">X</span>, <span class="i">Y</span>) <span class="o">:</span><span class="o">-</span> <span class="i">father_child</span>(<span class="i">X</span>, <span class="i">Y</span>)<span class="o">.</span>
+<span class="i">parent_child</span>(<span class="i">X</span>, <span class="i">Y</span>) <span class="o">:</span><span class="o">-</span> <span class="i">mother_child</span>(<span class="i">X</span>, <span class="i">Y</span>)<span class="o">.</span>
+</pre>
+</td>
+</tr>
+</table>
+
+</section>
+
+</section>
+
+<section >
+
+<section >
+
+<h2>'80s</h2>
+
+<ul>
+<li>Erlang (86)</li>
+<li>SQL (83)</li>
+<li>Miranda (85)</li>
+<li>C++ (83)</li>
+</ul>
+
+</section>
+
+<section author="Andrea Magnorsky" description="History of Programming languages" theme="simple" title="History of programming languages" transition="default">
+
+<h3>Erlang</h3>
+
+<table class="pre"><tr><td class="lines"><pre class="fssnip">
+<span class="l">1: </span>
+<span class="l">2: </span>
+<span class="l">3: </span>
+<span class="l">4: </span>
+<span class="l">5: </span>
+<span class="l">6: </span>
+<span class="l">7: </span>
+<span class="l">8: </span>
+</pre>
+</td>
+<td class="snippet"><pre class="fssnip">
+<span class="o">-</span><span class="k">module</span>(<span class="i">mymath</span>)<span class="o">.</span>
+<span class="o">-</span><span class="i">export</span>([<span class="i">square</span><span class="o">/</span><span class="n">1</span>,<span class="i">fib</span><span class="o">/</span><span class="n">1</span>])<span class="o">.</span>
+
+<span class="i">square</span>(<span class="i">Value</span>) <span class="k">-&gt;</span> <span class="i">Value</span><span class="o">*</span><span class="i">Value</span><span class="o">.</span>
+
+<span class="i">fib</span>(<span class="n">0</span>) <span class="k">-&gt;</span> <span class="n">0</span>;
+<span class="i">fib</span>(<span class="n">1</span>) <span class="k">-&gt;</span> <span class="n">1</span>;
+<span class="i">fib</span>(<span class="i">N</span>) <span class="k">when</span> <span class="i">N</span><span class="o">&gt;</span><span class="n">1</span> <span class="k">-&gt;</span> <span class="i">fib</span>(<span class="i">N</span><span class="o">-</span><span class="n">1</span>) <span class="o">+</span> <span class="i">fib</span>(<span class="i">N</span><span class="o">-</span><span class="n">2</span>)<span class="o">.</span>
+</pre>
+</td>
+</tr>
+</table>
+
+</section>
+
+</section>
+
+<section >
+
+<section >
+
+<h2>'90s</h2>
+
+<ul>
+<li>Haskell (90)</li>
+<li>Delphi (95)</li>
+<li>Java (95)</li>
+<li>Ruby (95)</li>
+<li>Python(91)</li>
+<li>Visual Basic (91)</li>
+<li>Javascript (95)</li>
+</ul>
+
+</section>
+
+<section author="Andrea Magnorsky" description="History of Programming languages" theme="simple" title="History of programming languages" transition="default">
+
+<h2>Javascript</h2>
+
+<table class="pre"><tr><td class="lines"><pre class="fssnip">
+<span class="l">1: </span>
+<span class="l">2: </span>
+<span class="l">3: </span>
+<span class="l">4: </span>
+<span class="l">5: </span>
+<span class="l">6: </span>
+</pre>
+</td>
+<td class="snippet"><pre class="fssnip">
+<span class="k">function</span> <span class="i">factorial</span>(<span class="i">n</span>) {
+    <span class="k">if</span> (<span class="i">n</span> <span class="o">==</span> <span class="n">0</span>) {
+        <span class="k">return</span> <span class="n">1</span>;
+    }
+    <span class="k">return</span> <span class="i">n</span> <span class="o">*</span> <span class="i">factorial</span>(<span class="i">n</span> <span class="o">-</span> <span class="n">1</span>);
+}
+</pre>
+</td>
+</tr>
+</table>
+
+</section>
+
+</section>
+
+<section >
+
+<section >
+
+<h2>'00s</h2>
+
+<ul>
+<li>C# (00)</li>
+<li>Scala (04)</li>
+<li>F# (05)</li>
+<li>Clojure (07)</li>
+<li>D (01)</li>
+<li>Go(07)</li>
+</ul>
+
+</section>
+
+<section author="Andrea Magnorsky" description="History of Programming languages" theme="simple" title="History of programming languages" transition="default">
+
+<h2>D</h2>
+
+<table class="pre"><tr><td class="lines"><pre class="fssnip">
+<span class="l"> 1: </span>
+<span class="l"> 2: </span>
+<span class="l"> 3: </span>
+<span class="l"> 4: </span>
+<span class="l"> 5: </span>
+<span class="l"> 6: </span>
+<span class="l"> 7: </span>
+<span class="l"> 8: </span>
+<span class="l"> 9: </span>
+<span class="l">10: </span>
+<span class="l">11: </span>
+<span class="l">12: </span>
+<span class="l">13: </span>
+</pre>
+</td>
+<td class="snippet"><pre class="fssnip">
+<span class="k">void</span> <span class="i">Quack</span>(<span class="i">Animal</span>)(<span class="i">Animal</span> <span class="i">a</span>)
+    <span class="k">if</span>( <span class="i">__traits</span>(<span class="i">compiles</span>, <span class="i">a</span><span class="o">.</span><span class="i">Quack</span>()))
+{
+    <span class="i">a</span><span class="o">.</span><span class="i">Quack</span>();        
+}
+
+<span class="k">struct</span> <span class="i">Duck</span> { <span class="k">void</span> <span class="i">Quack</span>(){ <span class="s">&quot;Quack&quot;</span><span class="o">.</span><span class="i">writeln</span>; }}
+
+<span onmouseout="hideTip(event, 'fs2', 2)" onmouseover="showTip(event, 'fs2', 2)" class="i">int</span> <span class="i">main</span>(<span onmouseout="hideTip(event, 'fs3', 3)" onmouseover="showTip(event, 'fs3', 3)" class="i">string</span>[] <span class="i">argv</span>) { 
+    <span class="i">Duck</span> <span class="i">d</span>;
+    <span class="i">Quack</span>(<span class="i">d</span>); <span class="c">// good</span>
+    <span class="i">Quack</span>(<span class="n">5</span>); <span class="c">// compile time error</span>
+}
+</pre>
+</td>
+</tr>
+</table>
+
+</section>
+
+</section>
+
+<section >
+
+<section >
+
+<h2>'10s</h2>
+
+<ul>
+<li>Elixir (12)</li>
+<li>Elm (12)</li>
+<li>Rust (10)</li>
+<li>Pony (14)</li>
+<li>Idris (12)</li>
+</ul>
+
+</section>
+
+<section author="Andrea Magnorsky" description="History of Programming languages" theme="simple" title="History of programming languages" transition="default">
+
+<h2>Idris</h2>
+
+<table class="pre"><tr><td class="lines"><pre class="fssnip">
+<span class="l">1: </span>
+<span class="l">2: </span>
+<span class="l">3: </span>
+<span class="l">4: </span>
+<span class="l">5: </span>
+<span class="l">6: </span>
+<span class="l">7: </span>
+<span class="l">8: </span>
+</pre>
+</td>
+<td class="snippet"><pre class="fssnip">
+<span class="i">data</span> <span class="i">Vect</span> <span class="o">:</span> <span class="i">Nat</span> <span class="k">-&gt;</span> <span class="i">Type</span> <span class="k">-&gt;</span> <span class="i">Type</span> <span class="i">where</span>
+  <span class="i">Nil</span>  <span class="o">:</span> <span class="i">Vect</span> <span class="n">0</span> <span class="i">a</span>
+  (<span class="o">::</span>) <span class="o">:</span> (<span class="i">x</span> <span class="o">:</span> <span class="i">a</span>) <span class="k">-&gt;</span> (<span class="i">xs</span> <span class="o">:</span> <span class="i">Vect</span> <span class="i">n</span> <span class="i">a</span>) <span class="k">-&gt;</span> <span class="i">Vect</span> (<span class="i">n</span> <span class="o">+</span> <span class="n">1</span>) <span class="i">a</span>
+
+<span class="i">total</span>
+<span class="i">append</span> <span class="o">:</span> <span class="i">Vect</span> <span class="i">n</span> <span class="i">a</span> <span class="k">-&gt;</span> <span class="i">Vect</span> <span class="i">m</span> <span class="i">a</span> <span class="k">-&gt;</span> <span class="i">Vect</span> (<span class="i">n</span> <span class="o">+</span> <span class="i">m</span>) <span class="i">a</span>
+<span class="i">append</span> <span class="i">Nil</span>       <span class="i">ys</span> <span class="o">=</span> <span class="i">ys</span>
+<span class="i">append</span> (<span class="i">x</span> <span class="o">::</span> <span class="i">xs</span>) <span class="i">ys</span> <span class="o">=</span> <span class="i">x</span> <span class="o">::</span> <span class="i">append</span> <span class="i">xs</span> <span class="i">ys</span>
+</pre>
+</td>
+</tr>
+</table>
+
+</section>
+
+</section>
+
+<section data-background="images/programming-languges-graph.png" data-background-size="800px">
+
+</section>
+
+<section >
+
+<p><img src="https://www.info.ucl.ac.be/~pvr/paradigmsDIAGRAMeng108.jpg" alt="paradigms" /></p>
+
+</section>
+
+<section >
+
+<div style="border: 0px; overflow: hidden; max-width: 900px;">
+<iframe scrolling="no" src="http://exploringdata.github.io/vis/programming-languages-influence-network" style="border: 0px none; margin-left: -85px; height: 700px; margin-top: -33px; width: 926px;">
+</iframe>
+</div>
+
+</section>
+
+<section >
+
+<blockquote>
+  <p>We must know. We Will know</p>
+</blockquote>
+
+</section>
+
+<section >
+
+<h3>Thanks :D</h3>
+
+<p><img src="images/otter-laughing.jpg" alt="thanks" /></p>
+
+<ul>
+<li>@SilverSpoon</li>
+<li><a href="roundcrisis.com">roundcrisis.com</a></li>
+</ul>
+
+</section>
+
+<section >
+
+<h2>Events and User Groups</h2>
+
+<p><img src="images/fk.jpeg" alt="fk" /></p>
+
+<ul>
+<li><a href="http://www.meetup.com/nyc-fsharp/">Functional Kats</a></li>
+<li>Other user groups about programming languages that have no cats with capes on their logos :D</li>
+</ul>
+
+</section>
+
+<section >
+
+<section >
+
+<h3>Resources</h3>
+
+<ul>
+<li><a href="http://www.csee.umbc.edu/courses/undergraduate/331/resources/papers/sammet1972.pdf">Programming languages: History and future (1972 Jean E. Sammet)</a></li>
+<li><a href="http://plato.stanford.edu/entries/turing-machine/">Definition of Turing Machines - Standford Encyclopedia of Philosophy</a></li>
+<li><a href="https://www.youtube.com/watch?v=jmRE5pXFi04">This has happened before and will happen again - Strange Loop conference recording-  Video </a></li>
+<li><a href="http://lotsasplainin.blogspot.ie/2007/09/david-hilbert.html">David Hilbert</a></li>
+<li><a href="https://www.youtube.com/watch?v=WJzi9R_55Iw">Alan Kay: Computer Applications: A Dynamic Medium for Creative Thought 1972</a></li>
+<li><a href="http://www.computerhistory.org/atchm/the-apl-programming-language-source-code/">The APL Programming Language Source Code</a></li>
+<li><a href="http://www.digibarn.com/collections/posters/tongues/ComputerLanguagesChart.png">Roots of computer languages through the ages</a></li>
+<li><a href="https://www.info.ucl.ac.be/~pvr/paradigmsDIAGRAMeng108.jpg">Principal programming paradigms</a></li>
+</ul>
+
+</section>
+
+<section author="Andrea Magnorsky" description="History of Programming languages" theme="simple" title="History of programming languages" transition="default">
+
+<ul>
+<li><a href="http://exploringdata.github.io/info/programming-languages-influence-network/">Visualizing influence relations of programming languages</a></li>
+<li><a href="http://www.freebase.com/view/computer/programming_language">Freebase programming language collection</a></li>
+<li><a href="http://swizec.com/blog/week-1-turings-on-computable-numbers/swizec/6375">Turing on computable numbers</a></li>
+<li><a href="http://www.users.cloud9.net/~bradmcc/APL.html">A Programming Language</a></li>
+</ul>
+
+</section>
+
+<section author="Andrea Magnorsky" description="History of Programming languages" theme="simple" title="History of programming languages" transition="default">
+
+<h3>Photo credits</h3>
+
+<ul>
+<li><a href="http://rigaux.org/language-study/diagram.html">history main starting the talk</a></li>
+<li>"Alonzo Church" by Princeton University. Licensed under Fair use via
+<a href="https://en.wikipedia.org/wiki/File:Alonzo_Church.jpg#/media/File:Alonzo_Church.jpg">Wikipedia</a></li>
+</ul>
+
+</section>
+
+</section>
+
+
+
+        </div>
+    </div>
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+    <script>
+
+        // Full list of configuration options available here:
+        // https://github.com/hakimel/reveal.js#configuration
+        Reveal.initialize({
+            controls: true,
+            progress: true,
+            history: true,
+            center: true,
+
+            transition: 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+            // Parallax scrolling
+            // parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+            // parallaxBackgroundSize: '2100px 900px',
+
+            // Optional libraries used to extend on reveal.js
+            dependencies: [
+                { src: 'lib/js/classList.js', condition: function () { return !document.body.classList; } },
+                { src: 'plugin/markdown/marked.js', condition: function () { return !!document.querySelector('[data-markdown]'); } },
+                { src: 'plugin/markdown/markdown.js', condition: function () { return !!document.querySelector('[data-markdown]'); } },
+                { src: 'plugin/highlight/highlight.js', async: true, callback: function () { hljs.initHighlightingOnLoad(); } },
+                { src: 'plugin/zoom-js/zoom.js', async: true, condition: function () { return !!document.body.classList; } },
+                { src: 'plugin/notes/notes.js', async: true, condition: function () { return !!document.body.classList; } }
+            ]
+        });
+
+    </script>
+</body>
+</html>
+
