@@ -70,9 +70,15 @@ h1 a:hover {
   line-height: 1.5em;
 }
 
+.site .header {
+  background-image: url("images/roundcrisis.png");
+  background-size: 60px;
+  background-repeat: no-repeat;
+  background-position: right;
+}
 .site .header a {
   font-weight: bold;
-  text-decoration: none;
+  text-decoration: none;  
 }
 
 .site .header h1.title {
@@ -81,7 +87,7 @@ h1 a:hover {
 }
 
 .site .header h1.title a {
-  color: #a00;
+  color: #4C1485;
 }
 
 .site .header h1.title a:hover {
