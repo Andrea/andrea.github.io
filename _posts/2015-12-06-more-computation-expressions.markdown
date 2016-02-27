@@ -21,7 +21,7 @@ And with ordered chaos in mind, a great example of usage of computation expressi
 
 So, lets see some code
 
-{% highlight FSharp lineos %}
+```fsharp
 
     type MaybeBuilder() =         
         member __.Bind(maybeValue, func) =
@@ -44,7 +44,7 @@ So, lets see some code
                 return z }
 
 
-{% endhighlight %}
+```
 
 Similar to the example in the previous post, we have a builder, in this case, `MaybeBuilder` and the signature for this function is :
 
