@@ -1,7 +1,9 @@
 permalink:    /:year/:month/:day/:title/
-syntax_highlighter: rouge
+#syntax_highlighter: rouge
 paginate:     10
 images:       /images
 name: Roundcrisis
 description: roundcrisis's adventures in code.
 url: http://roundcrisis.com
+markdown: redcarpet
+highlighter: pygments
