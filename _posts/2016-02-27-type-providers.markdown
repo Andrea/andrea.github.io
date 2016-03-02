@@ -21,6 +21,7 @@ Let's say that I want to use the Giphy API, which gives back data in json format
 3. Use the following code:
 
 ```fsharp
+
 type GiphyTP = JsonProvider<"http://api.giphy.com/v1/gifs/search?q=monkey+cat&rating=pg-13&api_key=dc6zaTOxFJmzC">
 let baseUrl = "http://api.giphy.com/v1/gifs/search"
 let key = // Since Giphy might change the key from time to time, go fetch it off their site

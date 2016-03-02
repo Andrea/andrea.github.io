@@ -5,5 +5,4 @@ images:       /images
 name: Roundcrisis
 description: roundcrisis's adventures in code.
 url: http://roundcrisis.com
-markdown: redcarpet
 highlighter: pygments
