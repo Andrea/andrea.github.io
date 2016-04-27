@@ -1,0 +1,1109 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Computation expressions in context</title>
+    <meta name="description" content="Monoids, monads and computation expressions">
+    <meta name="author" content="Andrea Magnorsky">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <script src="//code.jquery.com/jquery-1.8.0.js"></script>
+    <script src="//code.jquery.com/ui/1.8.23/jquery-ui.js"></script>
+    <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.2.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.2.1/css/bootstrap-combined.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/solarized.css" id="theme">
+    <link type="text/css" rel="stylesheet" href="fsharp.formatting/styles/style.css" />
+    <link type="text/css" rel="stylesheet" href="fsharp.formatting/styles/deedle.css" />
+    <link type="text/css" rel="stylesheet" href="css/custom.css" />
+    <script src="fsharp.formatting/styles/tips.js" type="text/javascript"></script>
+    <!-- For syntax highlighting -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+    <!-- If the query includes 'print-pdf', include the PDF print sheet -->
+    <script>
+			if( window.location.search.match( /print-pdf/gi ) ) {
+				var link = document.createElement( 'link' );
+				link.rel = 'stylesheet';
+				link.type = 'text/css';
+				link.href = 'css/print/pdf.css';
+				document.getElementsByTagName( 'head' )[0].appendChild( link );
+			}
+    </script>
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <div class="reveal">
+        <div class="tip" id="fs1">val getHtml : url:string -&gt; &#39;a<br /><br />Full name: index.getHtml</div>
+<div class="tip" id="fs2">val url : string</div>
+<div class="tip" id="fs3">Multiple items<br />val string : value:&#39;T -&gt; string<br /><br />Full name: Microsoft.FSharp.Core.Operators.string<br /><br />--------------------<br />type string = System.String<br /><br />Full name: Microsoft.FSharp.Core.string</div>
+<div class="tip" id="fs4">val req : obj</div>
+<div class="tip" id="fs5">val response : obj</div>
+<div class="tip" id="fs6">val streatm : System.IDisposable</div>
+<div class="tip" id="fs7">val reader : System.IDisposable</div>
+<div class="tip" id="fs8">val getHtmlA : url:string -&gt; Async&lt;&#39;a&gt;<br /><br />Full name: index.getHtmlA</div>
+<div class="tip" id="fs9">val async : AsyncBuilder<br /><br />Full name: Microsoft.FSharp.Core.ExtraTopLevelOperators.async</div>
+<div class="tip" id="fs10">val getHtmlA : url:string -&gt; &#39;a<br /><br />Full name: index.getHtmlA</div>
+<div class="tip" id="fs11">val req : &#39;a</div>
+<div class="tip" id="fs12">val response : &#39;a</div>
+<div class="tip" id="fs13">val streatm : &#39;a (requires &#39;a :&gt; System.IDisposable)</div>
+<div class="tip" id="fs14">val reader : &#39;a (requires &#39;a :&gt; System.IDisposable)</div>
+<div class="tip" id="fs15">union case Option.Some: Value: &#39;T -&gt; Option&lt;&#39;T&gt;</div>
+<div class="tip" id="fs16">val printfn : format:Printf.TextWriterFormat&lt;&#39;T&gt; -&gt; &#39;T<br /><br />Full name: Microsoft.FSharp.Core.ExtraTopLevelOperators.printfn</div>
+<div class="tip" id="fs17">namespace System</div>
+<div class="tip" id="fs18">Multiple items<br />type Async<br />static member AsBeginEnd : computation:(&#39;Arg -&gt; Async&lt;&#39;T&gt;) -&gt; (&#39;Arg * AsyncCallback * obj -&gt; IAsyncResult) * (IAsyncResult -&gt; &#39;T) * (IAsyncResult -&gt; unit)<br />static member AwaitEvent : event:IEvent&lt;&#39;Del,&#39;T&gt; * ?cancelAction:(unit -&gt; unit) -&gt; Async&lt;&#39;T&gt; (requires delegate and &#39;Del :&gt; Delegate)<br />static member AwaitIAsyncResult : iar:IAsyncResult * ?millisecondsTimeout:int -&gt; Async&lt;bool&gt;<br />static member AwaitTask : task:Task&lt;&#39;T&gt; -&gt; Async&lt;&#39;T&gt;<br />static member AwaitWaitHandle : waitHandle:WaitHandle * ?millisecondsTimeout:int -&gt; Async&lt;bool&gt;<br />static member CancelDefaultToken : unit -&gt; unit<br />static member Catch : computation:Async&lt;&#39;T&gt; -&gt; Async&lt;Choice&lt;&#39;T,exn&gt;&gt;<br />static member FromBeginEnd : beginAction:(AsyncCallback * obj -&gt; IAsyncResult) * endAction:(IAsyncResult -&gt; &#39;T) * ?cancelAction:(unit -&gt; unit) -&gt; Async&lt;&#39;T&gt;<br />static member FromBeginEnd : arg:&#39;Arg1 * beginAction:(&#39;Arg1 * AsyncCallback * obj -&gt; IAsyncResult) * endAction:(IAsyncResult -&gt; &#39;T) * ?cancelAction:(unit -&gt; unit) -&gt; Async&lt;&#39;T&gt;<br />static member FromBeginEnd : arg1:&#39;Arg1 * arg2:&#39;Arg2 * beginAction:(&#39;Arg1 * &#39;Arg2 * AsyncCallback * obj -&gt; IAsyncResult) * endAction:(IAsyncResult -&gt; &#39;T) * ?cancelAction:(unit -&gt; unit) -&gt; Async&lt;&#39;T&gt;<br />static member FromBeginEnd : arg1:&#39;Arg1 * arg2:&#39;Arg2 * arg3:&#39;Arg3 * beginAction:(&#39;Arg1 * &#39;Arg2 * &#39;Arg3 * AsyncCallback * obj -&gt; IAsyncResult) * endAction:(IAsyncResult -&gt; &#39;T) * ?cancelAction:(unit -&gt; unit) -&gt; Async&lt;&#39;T&gt;<br />static member FromContinuations : callback:((&#39;T -&gt; unit) * (exn -&gt; unit) * (OperationCanceledException -&gt; unit) -&gt; unit) -&gt; Async&lt;&#39;T&gt;<br />static member Ignore : computation:Async&lt;&#39;T&gt; -&gt; Async&lt;unit&gt;<br />static member OnCancel : interruption:(unit -&gt; unit) -&gt; Async&lt;IDisposable&gt;<br />static member Parallel : computations:seq&lt;Async&lt;&#39;T&gt;&gt; -&gt; Async&lt;&#39;T []&gt;<br />static member RunSynchronously : computation:Async&lt;&#39;T&gt; * ?timeout:int * ?cancellationToken:CancellationToken -&gt; &#39;T<br />static member Sleep : millisecondsDueTime:int -&gt; Async&lt;unit&gt;<br />static member Start : computation:Async&lt;unit&gt; * ?cancellationToken:CancellationToken -&gt; unit<br />static member StartAsTask : computation:Async&lt;&#39;T&gt; * ?taskCreationOptions:TaskCreationOptions * ?cancellationToken:CancellationToken -&gt; Task&lt;&#39;T&gt;<br />static member StartChild : computation:Async&lt;&#39;T&gt; * ?millisecondsTimeout:int -&gt; Async&lt;Async&lt;&#39;T&gt;&gt;<br />static member StartChildAsTask : computation:Async&lt;&#39;T&gt; * ?taskCreationOptions:TaskCreationOptions -&gt; Async&lt;Task&lt;&#39;T&gt;&gt;<br />static member StartImmediate : computation:Async&lt;unit&gt; * ?cancellationToken:CancellationToken -&gt; unit<br />static member StartWithContinuations : computation:Async&lt;&#39;T&gt; * continuation:(&#39;T -&gt; unit) * exceptionContinuation:(exn -&gt; unit) * cancellationContinuation:(OperationCanceledException -&gt; unit) * ?cancellationToken:CancellationToken -&gt; unit<br />static member SwitchToContext : syncContext:SynchronizationContext -&gt; Async&lt;unit&gt;<br />static member SwitchToNewThread : unit -&gt; Async&lt;unit&gt;<br />static member SwitchToThreadPool : unit -&gt; Async&lt;unit&gt;<br />static member TryCancelled : computation:Async&lt;&#39;T&gt; * compensation:(OperationCanceledException -&gt; unit) -&gt; Async&lt;&#39;T&gt;<br />static member CancellationToken : Async&lt;CancellationToken&gt;<br />static member DefaultCancellationToken : CancellationToken<br /><br />Full name: Microsoft.FSharp.Control.Async<br /><br />--------------------<br />type Async&lt;&#39;T&gt;<br /><br />Full name: Microsoft.FSharp.Control.Async&lt;_&gt;</div>
+<div class="tip" id="fs19">static member Async.Sleep : millisecondsDueTime:int -&gt; Async&lt;unit&gt;</div>
+<div class="tip" id="fs20">static member Async.RunSynchronously : computation:Async&lt;&#39;T&gt; * ?timeout:int * ?cancellationToken:System.Threading.CancellationToken -&gt; &#39;T</div>
+<div class="tip" id="fs21">val sprintf : format:Printf.StringFormat&lt;&#39;T&gt; -&gt; &#39;T<br /><br />Full name: Microsoft.FSharp.Core.ExtraTopLevelOperators.sprintf</div>
+<div class="tip" id="fs22">val failwith : message:string -&gt; &#39;T<br /><br />Full name: Microsoft.FSharp.Core.Operators.failwith</div>
+<div class="tip" id="fs23">Multiple items<br />val byte : value:&#39;T -&gt; byte (requires member op_Explicit)<br /><br />Full name: Microsoft.FSharp.Core.Operators.byte<br /><br />--------------------<br />type byte = System.Byte<br /><br />Full name: Microsoft.FSharp.Core.byte</div>
+<div class="tip" id="fs24">Multiple items<br />module List<br /><br />from Microsoft.FSharp.Collections<br /><br />--------------------<br />type List&lt;&#39;T&gt; =<br />&#160;&#160;| ( [] )<br />&#160;&#160;| ( :: ) of Head: &#39;T * Tail: &#39;T list<br />&#160;&#160;interface IEnumerable<br />&#160;&#160;interface IEnumerable&lt;&#39;T&gt;<br />&#160;&#160;member Head : &#39;T<br />&#160;&#160;member IsEmpty : bool<br />&#160;&#160;member Item : index:int -&gt; &#39;T with get<br />&#160;&#160;member Length : int<br />&#160;&#160;member Tail : &#39;T list<br />&#160;&#160;static member Cons : head:&#39;T * tail:&#39;T list -&gt; &#39;T list<br />&#160;&#160;static member Empty : &#39;T list<br /><br />Full name: Microsoft.FSharp.Collections.List&lt;_&gt;</div>
+<div class="tip" id="fs25">val reduce : reduction:(&#39;T -&gt; &#39;T -&gt; &#39;T) -&gt; list:&#39;T list -&gt; &#39;T<br /><br />Full name: Microsoft.FSharp.Collections.List.reduce</div>
+<div class="tip" id="fs26">union case Option.None: Option&lt;&#39;T&gt;</div>
+<div class="tip" id="fs27">Multiple items<br />val int : value:&#39;T -&gt; int (requires member op_Explicit)<br /><br />Full name: Microsoft.FSharp.Core.Operators.int<br /><br />--------------------<br />type int = int32<br /><br />Full name: Microsoft.FSharp.Core.int<br /><br />--------------------<br />type int&lt;&#39;Measure&gt; = int<br /><br />Full name: Microsoft.FSharp.Core.int&lt;_&gt;</div>
+<div class="tip" id="fs28">module Seq<br /><br />from Microsoft.FSharp.Collections</div>
+<div class="tip" id="fs29">val fold : folder:(&#39;State -&gt; &#39;T -&gt; &#39;State) -&gt; state:&#39;State -&gt; source:seq&lt;&#39;T&gt; -&gt; &#39;State<br /><br />Full name: Microsoft.FSharp.Collections.Seq.fold</div>
+
+        <!-- Any section element inside of this container is displayed as a slide -->
+        <div class="slides">
+            <section data-background="images/fsharp.png" data-background-size="900px">
+
+<aside class="notes">
+change back image?<br/>
+</aside>
+
+<h2>Computation expressions in context</h2>
+
+<h3>FP User Group + Craft Conf - April 2016</h3>
+
+</section>
+
+<section data-background="images/roundcrisis.png" data-background-size="900px">
+
+<h2>Andrea Magnorsky</h2>
+
+<h4>@SilverSpoon</h4>
+
+<h4><a href="roundcrisis.com">roundcrisis.com</a></h4>
+
+<p><img src="images/wd-logo.gif" alt="wd" /></p>
+
+</section>
+
+<section data-background="images/otter-question.jpg">
+
+<section data-background="images/otter-question.jpg">
+
+<aside class="notes">
+introduce comp expressions<br/>
+</aside>
+
+<h2>Computation Expressions</h2>
+
+</section>
+
+<section author="Andrea Magnorsky" description="Monoids, monads and computation expressions" theme="solarized" title="Computation expressions in context" transition="default">
+
+<table class="pre"><tr><td class="lines"><pre class="fssnip">
+<span class="l">1: </span>
+<span class="l">2: </span>
+<span class="l">3: </span>
+<span class="l">4: </span>
+<span class="l">5: </span>
+<span class="l">6: </span>
+<span class="l">7: </span>
+</pre>
+</td>
+<td class="snippet"><pre class="fssnip">
+<span class="k">let</span> <span onmouseout="hideTip(event, 'fs1', 1)" onmouseover="showTip(event, 'fs1', 1)" class="f">getHtml</span>(<span onmouseout="hideTip(event, 'fs2', 2)" onmouseover="showTip(event, 'fs2', 2)" class="i">url</span><span class="o">:</span><span onmouseout="hideTip(event, 'fs3', 3)" onmouseover="showTip(event, 'fs3', 3)" class="t">string</span>) <span class="o">=</span>  
+  <span class="k">let</span> <span onmouseout="hideTip(event, 'fs4', 4)" onmouseover="showTip(event, 'fs4', 4)" class="i">req</span> <span class="o">=</span> <span class="i">WebRequest</span><span class="o">.</span><span class="i">Create</span> <span onmouseout="hideTip(event, 'fs2', 5)" onmouseover="showTip(event, 'fs2', 5)" class="i">url</span>
+  <span class="k">let</span> <span onmouseout="hideTip(event, 'fs5', 6)" onmouseover="showTip(event, 'fs5', 6)" class="i">response</span> <span class="o">=</span> <span onmouseout="hideTip(event, 'fs4', 7)" onmouseover="showTip(event, 'fs4', 7)" class="i">req</span><span class="o">.</span><span class="i">GetResponse</span>()
+  <span class="k">use</span> <span onmouseout="hideTip(event, 'fs6', 8)" onmouseover="showTip(event, 'fs6', 8)" class="i">streatm</span> <span class="o">=</span> <span onmouseout="hideTip(event, 'fs5', 9)" onmouseover="showTip(event, 'fs5', 9)" class="i">response</span><span class="o">.</span><span class="i">GetResponseStream</span>()
+  <span class="k">use</span> <span onmouseout="hideTip(event, 'fs7', 10)" onmouseover="showTip(event, 'fs7', 10)" class="i">reader</span> <span class="o">=</span> <span class="k">new</span> <span class="i">StreamReader</span>(<span onmouseout="hideTip(event, 'fs6', 11)" onmouseover="showTip(event, 'fs6', 11)" class="i">streatm</span>)
+
+  <span onmouseout="hideTip(event, 'fs7', 12)" onmouseover="showTip(event, 'fs7', 12)" class="i">reader</span><span class="o">.</span><span class="i">ReadToEnd</span>()<span class="o">.</span><span class="i">Length</span>
+</pre>
+</td>
+</tr>
+</table>
+
+</section>
+
+<section author="Andrea Magnorsky" description="Monoids, monads and computation expressions" theme="solarized" title="Computation expressions in context" transition="default">
+
+<table class="pre"><tr><td class="lines"><pre class="fssnip">
+<span class="l">1: </span>
+<span class="l">2: </span>
+<span class="l">3: </span>
+<span class="l">4: </span>
+<span class="l">5: </span>
+<span class="l">6: </span>
+<span class="l">7: </span>
+<span class="l">8: </span>
+</pre>
+</td>
+<td class="snippet"><pre class="fssnip">
+<span class="k">let</span> <span onmouseout="hideTip(event, 'fs8', 13)" onmouseover="showTip(event, 'fs8', 13)" class="f">getHtmlA</span>(<span onmouseout="hideTip(event, 'fs2', 14)" onmouseover="showTip(event, 'fs2', 14)" class="i">url</span><span class="o">:</span><span onmouseout="hideTip(event, 'fs3', 15)" onmouseover="showTip(event, 'fs3', 15)" class="t">string</span>) <span class="o">=</span>  
+  <span onmouseout="hideTip(event, 'fs9', 16)" onmouseover="showTip(event, 'fs9', 16)" class="i">async</span>{
+      <span class="k">let</span> <span onmouseout="hideTip(event, 'fs4', 17)" onmouseover="showTip(event, 'fs4', 17)" class="i">req</span> <span class="o">=</span> <span class="i">WebRequest</span><span class="o">.</span><span class="i">Create</span> <span onmouseout="hideTip(event, 'fs2', 18)" onmouseover="showTip(event, 'fs2', 18)" class="i">url</span>
+      <span class="k">let!</span> <span onmouseout="hideTip(event, 'fs5', 19)" onmouseover="showTip(event, 'fs5', 19)" class="i">response</span> <span class="o">=</span> <span onmouseout="hideTip(event, 'fs4', 20)" onmouseover="showTip(event, 'fs4', 20)" class="i">req</span><span class="o">.</span><span class="i">AsyncGetResponse</span>() <span class="c">// ding!</span>
+      <span class="k">use</span> <span onmouseout="hideTip(event, 'fs6', 21)" onmouseover="showTip(event, 'fs6', 21)" class="i">streatm</span> <span class="o">=</span> <span onmouseout="hideTip(event, 'fs5', 22)" onmouseover="showTip(event, 'fs5', 22)" class="i">response</span><span class="o">.</span><span class="i">GetResponseStream</span>()
+      <span class="k">use</span> <span onmouseout="hideTip(event, 'fs7', 23)" onmouseover="showTip(event, 'fs7', 23)" class="i">reader</span> <span class="o">=</span> <span class="k">new</span> <span class="i">StreamReader</span>(<span onmouseout="hideTip(event, 'fs6', 24)" onmouseover="showTip(event, 'fs6', 24)" class="i">streatm</span>)
+      <span class="k">return</span> <span onmouseout="hideTip(event, 'fs7', 25)" onmouseover="showTip(event, 'fs7', 25)" class="i">reader</span><span class="o">.</span><span class="i">ReadToEndAsync</span>()<span class="o">.</span><span class="i">Length</span> <span class="c">// ding!</span>
+      }
+</pre>
+</td>
+</tr>
+</table>
+
+</section>
+
+<section author="Andrea Magnorsky" description="Monoids, monads and computation expressions" theme="solarized" title="Computation expressions in context" transition="default">
+
+<table class="pre"><tr><td class="lines"><pre class="fssnip">
+<span class="l">1: </span>
+<span class="l">2: </span>
+<span class="l">3: </span>
+<span class="l">4: </span>
+<span class="l">5: </span>
+<span class="l">6: </span>
+<span class="l">7: </span>
+<span class="l">8: </span>
+</pre>
+</td>
+<td class="snippet"><pre class="fssnip">
+<span class="k">let</span> <span onmouseout="hideTip(event, 'fs10', 26)" onmouseover="showTip(event, 'fs10', 26)" class="f">getHtmlA</span>(<span onmouseout="hideTip(event, 'fs2', 27)" onmouseover="showTip(event, 'fs2', 27)" class="i">url</span><span class="o">:</span><span onmouseout="hideTip(event, 'fs3', 28)" onmouseover="showTip(event, 'fs3', 28)" class="t">string</span>) <span class="o">=</span>  
+  <span class="c">//async{</span>
+      <span class="k">let</span> <span onmouseout="hideTip(event, 'fs11', 29)" onmouseover="showTip(event, 'fs11', 29)" class="i">req</span> <span class="o">=</span> <span class="i">WebRequest</span><span class="o">.</span><span class="i">Create</span> <span onmouseout="hideTip(event, 'fs2', 30)" onmouseover="showTip(event, 'fs2', 30)" class="i">url</span>
+      <span class="k">let</span> <span class="c">(*! *)</span> <span onmouseout="hideTip(event, 'fs12', 31)" onmouseover="showTip(event, 'fs12', 31)" class="i">response</span> <span class="o">=</span> <span onmouseout="hideTip(event, 'fs11', 32)" onmouseover="showTip(event, 'fs11', 32)" class="i">req</span><span class="o">.</span><span class="i">AsyncGetResponse</span>() 
+      <span class="k">use</span> <span onmouseout="hideTip(event, 'fs13', 33)" onmouseover="showTip(event, 'fs13', 33)" class="i">streatm</span> <span class="o">=</span> <span onmouseout="hideTip(event, 'fs12', 34)" onmouseover="showTip(event, 'fs12', 34)" class="i">response</span><span class="o">.</span><span class="i">GetResponseStream</span>()
+      <span class="k">use</span> <span onmouseout="hideTip(event, 'fs14', 35)" onmouseover="showTip(event, 'fs14', 35)" class="i">reader</span> <span class="o">=</span> <span class="k">new</span> <span class="i">StreamReader</span>(<span onmouseout="hideTip(event, 'fs13', 36)" onmouseover="showTip(event, 'fs13', 36)" class="i">streatm</span>)
+      <span class="c">(*return *)</span> <span onmouseout="hideTip(event, 'fs14', 37)" onmouseover="showTip(event, 'fs14', 37)" class="i">reader</span><span class="o">.</span><span class="i">ReadToEndAsync</span>()<span class="o">.</span><span class="i">Length</span> 
+  <span class="c">//    }</span>
+</pre>
+</td>
+</tr>
+</table>
+
+</section>
+
+</section>
+
+<section >
+
+<section >
+
+<table class="pre"><tr><td class="lines"><pre class="fssnip">
+<span class="l">1: </span>
+<span class="l">2: </span>
+<span class="l">3: </span>
+<span class="l">4: </span>
+<span class="l">5: </span>
+<span class="l">6: </span>
+<span class="l">7: </span>
+<span class="l">8: </span>
+</pre>
+</td>
+<td class="snippet"><pre class="fssnip">
+<span class="k">let</span> <span class="i">maybe</span> <span class="o">=</span> <span class="k">new</span> <span class="i">MaybeBuilder</span>()
+<span class="k">let</span> <span class="i">addNUmbers</span>  <span class="o">=</span>
+    <span class="i">maybe</span> {
+        <span class="k">let</span> <span class="i">x</span> <span class="o">=</span> <span class="n">12</span>
+        <span class="k">let!</span> <span class="i">y</span> <span class="o">=</span> <span onmouseout="hideTip(event, 'fs15', 38)" onmouseover="showTip(event, 'fs15', 38)" class="i">Some</span> <span class="n">11</span>
+        <span class="k">let!</span> <span class="i">z</span> <span class="o">=</span> <span onmouseout="hideTip(event, 'fs15', 39)" onmouseover="showTip(event, 'fs15', 39)" class="i">Some</span> <span class="n">30</span>
+        <span class="k">return</span> <span class="i">x</span> <span class="o">+</span> <span class="i">y</span> <span class="o">+</span> <span class="i">z</span>
+    }
+</pre>
+</td>
+</tr>
+</table>
+
+<aside class="notes">
+Block of code  that represent a computation with a non standard aspect<br/>
+code inside the block is reinterpreted using a computation builder<br/>
+</aside>
+
+</section>
+
+<section author="Andrea Magnorsky" description="Monoids, monads and computation expressions" theme="solarized" title="Computation expressions in context" transition="default">
+
+<aside class="notes">
+record of operations that define the semantics and syntax<br/>
+</aside>
+
+<p><img src="images/otter-builder.jpg" alt="builder" /></p>
+
+</section>
+
+<section author="Andrea Magnorsky" description="Monoids, monads and computation expressions" theme="solarized" title="Computation expressions in context" transition="default">
+
+<p>type SimplestBuilder () =</p>
+
+<table class="pre"><tr><td class="lines"><pre class="fssnip">
+<span class="l">1: </span>
+<span class="l">2: </span>
+<span class="l">3: </span>
+<span class="l">4: </span>
+<span class="l">5: </span>
+<span class="l">6: </span>
+<span class="l">7: </span>
+<span class="l">8: </span>
+</pre>
+</td>
+<td class="snippet"><pre class="fssnip">
+  <span class="k">member</span> <span class="i">this</span><span class="o">.</span><span class="i">Bind</span>(<span class="i">x</span>,<span class="i">f</span>) <span class="o">=</span> 
+    <span onmouseout="hideTip(event, 'fs16', 40)" onmouseover="showTip(event, 'fs16', 40)" class="i">printfn</span> <span class="s">&quot;Bind begin  %A %s &quot;</span> (<span class="i">DateTime</span><span class="o">.</span><span class="i">Now</span><span class="o">.</span><span class="i">TimeOfDay</span>)  (<span class="i">x</span><span class="o">.</span><span class="i">ToString</span>()) 
+    <span class="k">let</span> <span class="i">y</span> <span class="o">=</span> <span class="i">f</span> <span class="i">x</span>
+    <span onmouseout="hideTip(event, 'fs16', 41)" onmouseover="showTip(event, 'fs16', 41)" class="i">printfn</span> <span class="s">&quot;Bind end  %A %s &quot;</span> (<span class="i">DateTime</span><span class="o">.</span><span class="i">Now</span><span class="o">.</span><span class="i">TimeOfDay</span>)  (<span class="i">x</span><span class="o">.</span><span class="i">ToString</span>()) 
+    <span class="i">y</span>
+  <span class="k">member</span> <span class="i">this</span><span class="o">.</span><span class="i">Return</span>(<span class="i">x</span>) <span class="o">=</span> 
+      <span onmouseout="hideTip(event, 'fs16', 42)" onmouseover="showTip(event, 'fs16', 42)" class="i">printfn</span> <span class="s">&quot;Return %A %s&quot;</span>  (<span class="i">DateTime</span><span class="o">.</span><span class="i">Now</span><span class="o">.</span><span class="i">TimeOfDay</span>) (<span class="i">x</span><span class="o">.</span><span class="i">ToString</span>())
+      <span class="i">x</span>
+</pre>
+</td>
+</tr>
+</table>
+
+</section>
+
+<section author="Andrea Magnorsky" description="Monoids, monads and computation expressions" theme="solarized" title="Computation expressions in context" transition="default">
+
+<h2>async</h2>
+
+<table class="pre"><tr><td class="lines"><pre class="fssnip">
+<span class="l">1: </span>
+<span class="l">2: </span>
+<span class="l">3: </span>
+<span class="l">4: </span>
+<span class="l">5: </span>
+<span class="l">6: </span>
+<span class="l">7: </span>
+<span class="l">8: </span>
+<span class="l">9: </span>
+</pre>
+</td>
+<td class="snippet"><pre class="fssnip">
+<span class="k">open</span> <span onmouseout="hideTip(event, 'fs17', 43)" onmouseover="showTip(event, 'fs17', 43)" class="i">System</span>
+
+<span class="k">let</span> <span class="i">sleepWorkflow</span>  <span class="o">=</span> <span onmouseout="hideTip(event, 'fs9', 44)" onmouseover="showTip(event, 'fs9', 44)" class="i">async</span>{
+    <span onmouseout="hideTip(event, 'fs16', 45)" onmouseover="showTip(event, 'fs16', 45)" class="i">printfn</span> <span class="s">&quot;Starting at %O&quot;</span> <span class="i">DateTime</span><span class="o">.</span><span class="i">Now</span><span class="o">.</span><span class="i">TimeOfDay</span>
+    <span class="k">do!</span> <span onmouseout="hideTip(event, 'fs18', 46)" onmouseover="showTip(event, 'fs18', 46)" class="i">Async</span><span class="o">.</span><span onmouseout="hideTip(event, 'fs19', 47)" onmouseover="showTip(event, 'fs19', 47)" class="i">Sleep</span> <span class="n">2000</span>
+    <span onmouseout="hideTip(event, 'fs16', 48)" onmouseover="showTip(event, 'fs16', 48)" class="i">printfn</span> <span class="s">&quot;Finished at %O&quot;</span> <span class="i">DateTime</span><span class="o">.</span><span class="i">Now</span><span class="o">.</span><span class="i">TimeOfDay</span>
+    }
+
+<span onmouseout="hideTip(event, 'fs18', 49)" onmouseover="showTip(event, 'fs18', 49)" class="i">Async</span><span class="o">.</span><span onmouseout="hideTip(event, 'fs20', 50)" onmouseover="showTip(event, 'fs20', 50)" class="i">RunSynchronously</span> <span class="i">sleepWorkflow</span>      
+</pre>
+</td>
+</tr>
+</table>
+
+</section>
+
+<section author="Andrea Magnorsky" description="Monoids, monads and computation expressions" theme="solarized" title="Computation expressions in context" transition="default">
+
+<h2>mbrace</h2>
+
+<table class="pre"><tr><td class="lines"><pre class="fssnip">
+<span class="l">1: </span>
+<span class="l">2: </span>
+<span class="l">3: </span>
+<span class="l">4: </span>
+<span class="l">5: </span>
+</pre>
+</td>
+<td class="snippet"><pre class="fssnip">
+<span class="k">let</span> <span class="i">job</span> <span class="o">=</span>
+    <span class="i">cloud</span> {
+        <span class="k">return</span> <span onmouseout="hideTip(event, 'fs21', 51)" onmouseover="showTip(event, 'fs21', 51)" class="i">sprintf</span>
+        <span class="s">&quot;run on worker &#39;%s&#39; &quot;</span> <span class="i">Environment</span><span class="o">.</span><span class="i">MachineName</span> }
+    <span class="o">|&gt;</span> <span class="i">runtime</span><span class="o">.</span><span class="i">CreateProcess</span>
+</pre>
+</td>
+</tr>
+</table>
+
+</section>
+
+<section author="Andrea Magnorsky" description="Monoids, monads and computation expressions" theme="solarized" title="Computation expressions in context" transition="default">
+
+<table class="pre"><tr><td class="lines"><pre class="fssnip">
+<span class="l"> 1: </span>
+<span class="l"> 2: </span>
+<span class="l"> 3: </span>
+<span class="l"> 4: </span>
+<span class="l"> 5: </span>
+<span class="l"> 6: </span>
+<span class="l"> 7: </span>
+<span class="l"> 8: </span>
+<span class="l"> 9: </span>
+<span class="l">10: </span>
+<span class="l">11: </span>
+<span class="l">12: </span>
+<span class="l">13: </span>
+<span class="l">14: </span>
+</pre>
+</td>
+<td class="snippet"><pre class="fssnip">
+<span class="k">let</span> <span class="i">makeJob</span> <span class="i">i</span> <span class="o">=</span>
+    <span class="i">cloud</span> {
+        <span class="k">if</span> <span class="i">i</span> <span class="o">%</span> <span class="n">8</span> <span class="o">=</span> <span class="n">0</span> <span class="k">then</span> <span onmouseout="hideTip(event, 'fs22', 52)" onmouseover="showTip(event, 'fs22', 52)" class="i">failwith</span> <span class="s">&quot;fail&quot;</span>
+        <span class="k">let</span> <span class="i">primes</span> <span class="o">=</span> <span class="i">Sieve</span><span class="o">.</span><span class="i">getPrimes</span> <span class="n">1000000</span>
+        <span class="k">return</span> <span onmouseout="hideTip(event, 'fs21', 53)" onmouseover="showTip(event, 'fs21', 53)" class="i">sprintf</span>
+        <span class="s">&quot;calculated %d primes %A on machine &#39;%s&#39;&quot;</span>
+            <span class="i">primes</span><span class="o">.</span><span class="i">Length</span>
+            <span class="i">primes</span>
+            <span class="i">Environment</span><span class="o">.</span><span class="i">MachineName</span>
+    }
+
+<span class="k">let</span> <span class="i">jobs2</span> <span class="o">=</span>  
+    [ <span class="k">for</span> <span class="i">i</span> <span class="k">in</span> <span class="n">1</span> <span class="o">..</span> <span class="n">10</span> <span class="k">-&gt;</span>
+         <span class="i">makeJob</span> <span class="i">i</span> <span class="o">|&gt;</span> <span class="i">cluster</span><span class="o">.</span><span class="i">CreateProcess</span> ]
+</pre>
+</td>
+</tr>
+</table>
+
+<p><a href="https://github.com/mbraceproject/MBrace.StarterKit/blob/master/HandsOnTutorial/3-cloud-parallel-cpu-intensive.fsx">example source</a></p>
+
+</section>
+
+</section>
+
+<section >
+
+<section >
+
+<aside class="notes">
+read -> maths heavy<br/>
+first person to describe monads for functional programming was Eugenio Moggi, paper called ["Notions of computation and monads"](http://www.disi.unige.'it/person/MoggiE/ftp/ic91.pdf) this paper is maths heavy tho I am sure some of you will be interested in looking at this.<br/>
+</aside>
+
+<h3>Notions of computation and monads (1991)</h3>
+
+<p><img src="images/Eugenio_Moggi.jpg" alt="Moggi" /></p>
+
+</section>
+
+<section author="Andrea Magnorsky" description="Monoids, monads and computation expressions" theme="solarized" title="Computation expressions in context" transition="default">
+
+<aside class="notes">
+Philip Wadler, these papers made monads in programming widely known.<br/>
+</aside>
+
+<h3>Comprehending Monads (1990)</h3>
+
+<h3>Monads for functional programming (1995)</h3>
+
+<p><img src="images/wadler.gif" alt="wadler" /></p>
+
+<aside class="notes">
+purity vs impurity and how when trying to keep pure certain things become harder than they would be in imperative code<br/>
+F# is an impure language<br/>
+Pure language: it has referential transparency, so, you can replace any expression with its value without changing the meaning of the program.<br/>
+</aside>
+
+</section>
+
+<section author="Andrea Magnorsky" description="Monoids, monads and computation expressions" theme="solarized" title="Computation expressions in context" transition="default">
+
+<p>Some <code>not-useful-right-away</code> info</p>
+
+<ul>
+<li>There is a strong link between monads and category theory</li>
+<li>Monads have 3 monadic laws that every monad must satisfy:
+<ul>
+<li>Left identity</li>
+<li>Right identity and</li>
+<li>Associativity</li>
+</ul></li>
+</ul>
+
+</section>
+
+<section author="Andrea Magnorsky" description="Monoids, monads and computation expressions" theme="solarized" title="Computation expressions in context" transition="default">
+
+<h2>Monads eh?</h2>
+
+<p><img src="images/otter_notimpressed.jpg" alt="meh" /></p>
+
+<aside class="notes">
+lots of noise many monads tutorials<br/>
+f# not a pure language<br/>
+</aside>
+
+</section>
+
+</section>
+
+<section >
+
+<section >
+
+<h1>Monoids</h1>
+
+<aside class="notes">
+ Convert pairwise operations into work in collections<br/>
+Parallelization and Incrementalism<br/>
+</aside>
+
+</section>
+
+<section author="Andrea Magnorsky" description="Monoids, monads and computation expressions" theme="solarized" title="Computation expressions in context" transition="default">
+
+<h2>Monoids</h2>
+
+<ul>
+<li>Closures  <span class="math">\(a' \rightarrow  a' \rightarrow  a'\)</span> (example  int -> int -> int   )</li>
+<li>Identity   <span class="math">\(x + I  = x\)</span></li>
+<li>Associativity  <span class="math">\(x + (y + z) = (x + y ) + z\)</span></li>
+</ul>
+
+</section>
+
+<section author="Andrea Magnorsky" description="Monoids, monads and computation expressions" theme="solarized" title="Computation expressions in context" transition="default">
+
+<table class="pre"><tr><td class="lines"><pre class="fssnip">
+<span class="l">1: </span>
+<span class="l">2: </span>
+<span class="l">3: </span>
+<span class="l">4: </span>
+<span class="l">5: </span>
+<span class="l">6: </span>
+<span class="l">7: </span>
+<span class="l">8: </span>
+</pre>
+</td>
+<td class="snippet"><pre class="fssnip">
+<span class="k">type</span> <span class="i">Colour</span> <span class="o">=</span> { <span class="i">r</span><span class="o">:</span> <span onmouseout="hideTip(event, 'fs23', 54)" onmouseover="showTip(event, 'fs23', 54)" class="i">byte</span>; <span class="i">g</span><span class="o">:</span> <span onmouseout="hideTip(event, 'fs23', 55)" onmouseover="showTip(event, 'fs23', 55)" class="i">byte</span>; <span class="i">b</span><span class="o">:</span> <span onmouseout="hideTip(event, 'fs23', 56)" onmouseover="showTip(event, 'fs23', 56)" class="i">byte</span>; <span class="i">a</span><span class="o">:</span> <span onmouseout="hideTip(event, 'fs23', 57)" onmouseover="showTip(event, 'fs23', 57)" class="i">byte</span> }
+
+<span class="k">let</span> <span class="i">addTwo</span> <span class="i">c1</span> <span class="i">c2</span> <span class="o">=</span> {
+    <span class="i">r</span> <span class="o">=</span> <span class="i">c1</span><span class="o">.</span><span class="i">r</span> <span class="o">+</span> <span class="i">c2</span><span class="o">.</span><span class="i">r</span>
+    <span class="i">g</span> <span class="o">=</span> <span class="i">c1</span><span class="o">.</span><span class="i">g</span> <span class="o">+</span> <span class="i">c2</span><span class="o">.</span><span class="i">g</span>
+    <span class="i">b</span> <span class="o">=</span> <span class="i">c1</span><span class="o">.</span><span class="i">b</span> <span class="o">+</span> <span class="i">c2</span><span class="o">.</span><span class="i">b</span>
+    <span class="i">a</span> <span class="o">=</span> <span class="i">c1</span><span class="o">.</span><span class="i">a</span> <span class="o">+</span> <span class="i">c2</span><span class="o">.</span><span class="i">a</span>
+}
+</pre>
+</td>
+</tr>
+</table>
+
+</section>
+
+<section author="Andrea Magnorsky" description="Monoids, monads and computation expressions" theme="solarized" title="Computation expressions in context" transition="default">
+
+<table class="pre"><tr><td class="lines"><pre class="fssnip">
+<span class="l">1: </span>
+<span class="l">2: </span>
+<span class="l">3: </span>
+</pre>
+</td>
+<td class="snippet"><pre class="fssnip">
+<span class="k">type</span> <span class="i">Monoid</span><span class="o">&lt;</span><span class="o">&#39;</span><span class="i">a</span><span class="o">&gt;</span> <span class="o">=</span>
+    { <span class="i">neutral</span> <span class="o">:</span> <span class="o">&#39;</span><span class="i">a</span>
+      <span class="i">op</span> <span class="o">:</span> <span class="o">&#39;</span><span class="i">a</span> <span class="k">-&gt;</span> <span class="o">&#39;</span><span class="i">a</span> <span class="k">-&gt;</span> <span class="o">&#39;</span><span class="i">a</span> }
+</pre>
+</td>
+</tr>
+</table>
+
+</section>
+
+<section author="Andrea Magnorsky" description="Monoids, monads and computation expressions" theme="solarized" title="Computation expressions in context" transition="default">
+
+<table class="pre"><tr><td class="lines"><pre class="fssnip">
+<span class="l">1: </span>
+<span class="l">2: </span>
+<span class="l">3: </span>
+<span class="l">4: </span>
+<span class="l">5: </span>
+<span class="l">6: </span>
+</pre>
+</td>
+<td class="snippet"><pre class="fssnip">
+<span class="k">let</span> <span class="i">black</span> <span class="o">=</span> { <span class="i">r</span> <span class="o">=</span> <span class="n">0uy</span>; <span class="i">g</span> <span class="o">=</span> <span class="n">0uy</span>; <span class="i">b</span> <span class="o">=</span> <span class="n">0uy</span>; <span class="i">a</span> <span class="o">=</span> <span class="n">0uy</span> }
+
+<span class="k">let</span> <span class="i">colourAdd</span> <span class="o">:</span> <span class="i">Monoid</span><span class="o">&lt;</span><span class="i">Colour</span><span class="o">&gt;</span> <span class="o">=</span> {
+    <span class="i">neutral</span> <span class="o">=</span> <span class="i">black</span>
+    <span class="i">op</span> <span class="o">=</span> (<span class="i">addTwo</span>)
+}
+</pre>
+</td>
+</tr>
+</table>
+
+</section>
+
+<section author="Andrea Magnorsky" description="Monoids, monads and computation expressions" theme="solarized" title="Computation expressions in context" transition="default">
+
+<table class="pre"><tr><td class="lines"><pre class="fssnip">
+<span class="l">1: </span>
+<span class="l">2: </span>
+<span class="l">3: </span>
+<span class="l">4: </span>
+<span class="l">5: </span>
+</pre>
+</td>
+<td class="snippet"><pre class="fssnip">
+<span class="k">let</span> <span class="i">c1</span> <span class="o">=</span> { <span class="i">black</span> <span class="k">with</span> <span class="i">g</span> <span class="o">=</span> <span class="n">254uy</span> }
+<span class="k">let</span> <span class="i">c2</span> <span class="o">=</span> { <span class="i">black</span> <span class="k">with</span> <span class="i">r</span> <span class="o">=</span> <span class="n">254uy</span> }
+
+<span class="k">let</span> <span class="i">l</span> <span class="o">=</span> [ <span class="i">c1</span>; <span class="i">c2</span>; <span class="i">black</span> ]
+        <span class="o">|&gt;</span> <span onmouseout="hideTip(event, 'fs24', 58)" onmouseover="showTip(event, 'fs24', 58)" class="i">List</span><span class="o">.</span><span onmouseout="hideTip(event, 'fs25', 59)" onmouseover="showTip(event, 'fs25', 59)" class="i">reduce</span> (<span class="i">addTwo</span>)
+</pre>
+</td>
+</tr>
+</table>
+
+</section>
+
+<section author="Andrea Magnorsky" description="Monoids, monads and computation expressions" theme="solarized" title="Computation expressions in context" transition="default">
+
+<aside class="notes">
+Oh, yes and you can property check that your type is a monoid!!<br/>
+</aside>
+
+<table class="pre"><tr><td class="lines"><pre class="fssnip">
+<span class="l"> 1: </span>
+<span class="l"> 2: </span>
+<span class="l"> 3: </span>
+<span class="l"> 4: </span>
+<span class="l"> 5: </span>
+<span class="l"> 6: </span>
+<span class="l"> 7: </span>
+<span class="l"> 8: </span>
+<span class="l"> 9: </span>
+<span class="l">10: </span>
+<span class="l">11: </span>
+<span class="l">12: </span>
+<span class="l">13: </span>
+</pre>
+</td>
+<td class="snippet"><pre class="fssnip">
+<span class="k">type</span> <span class="i">T</span> <span class="o">=</span> <span class="i">Colour</span>
+
+<span class="k">let</span> <span class="i">M</span> <span class="o">=</span> <span class="i">colourAdd</span>
+<span class="k">let</span> <span class="i">Z</span> <span class="o">=</span> <span class="i">M</span><span class="o">.</span><span class="i">neutral</span>
+<span class="k">let</span> (<span class="o">++</span>) <span class="o">=</span> <span class="i">M</span><span class="o">.</span><span class="i">op</span>
+
+[&lt;<span class="i">Property</span>&gt;]
+<span class="k">let</span> <span class="i">`` Z is the neutral element``</span> (<span class="i">v</span> <span class="o">:</span> <span class="i">T</span>) <span class="o">=</span>
+    <span class="i">Z</span> <span class="o">++</span> <span class="i">v</span> <span class="o">=</span> <span class="i">v</span> <span class="o">&amp;&amp;</span> <span class="i">v</span> <span class="o">++</span> <span class="i">Z</span> <span class="o">=</span> <span class="i">v</span>
+
+[&lt;<span class="i">Property</span>&gt;]
+<span class="k">let</span> <span class="i">``The op is associative``</span> (<span class="i">a</span> <span class="o">:</span> <span class="i">T</span>, <span class="i">b</span> <span class="o">:</span> <span class="i">T</span>, <span class="i">c</span> <span class="o">:</span> <span class="i">T</span>) <span class="o">=</span>
+    <span class="i">a</span> <span class="o">++</span> (<span class="i">b</span> <span class="o">++</span> <span class="i">c</span>) <span class="o">=</span> (<span class="i">a</span> <span class="o">++</span> <span class="i">b</span> <span class="o">++</span> <span class="i">c</span>)
+</pre>
+</td>
+</tr>
+</table>
+
+</section>
+
+<section author="Andrea Magnorsky" description="Monoids, monads and computation expressions" theme="solarized" title="Computation expressions in context" transition="default">
+
+<p><img src="images/otter_fixer.jpg" alt="fixer" /></p>
+
+<aside class="notes">
+Because of closures-> We can convert pairwise operations into operations that work on collections<br/>
+Because of associativity -> We can implement divide and conquer algorithms that are great for<br/>
+                              Parallelization<br/>
+                              Incrementalism<br/>
+Because of identity -> we can actually perform certain of the above<br/>
+</aside>
+
+</section>
+
+</section>
+
+<section data-background="images/working.jpg">
+
+</section>
+
+<section >
+
+<section >
+
+<blockquote>
+  <p>A <strong>monad</strong> is a monoid in the category of endofunctors.</p>
+</blockquote>
+
+</section>
+
+<section author="Andrea Magnorsky" description="Monoids, monads and computation expressions" theme="solarized" title="Computation expressions in context" transition="default">
+
+<blockquote>
+  <p>A <strong>monad</strong> is like a burrito.</p>
+</blockquote>
+
+</section>
+
+<section author="Andrea Magnorsky" description="Monoids, monads and computation expressions" theme="solarized" title="Computation expressions in context" transition="default">
+
+<blockquote>
+  <p>Think of <strong>monads</strong> just like you would think about Legos.
+<img src="images/legos.jpg" alt="legos" /></p>
+</blockquote>
+
+</section>
+
+<section author="Andrea Magnorsky" description="Monoids, monads and computation expressions" theme="solarized" title="Computation expressions in context" transition="default">
+
+<aside class="notes">
+It all seemed pretty strange to me and I wound up understanding less and less<br/>
+</aside>
+
+<p><img src="images\otter_surprised.png" alt="scared-otter" /></p>
+
+</section>
+
+<section author="Andrea Magnorsky" description="Monoids, monads and computation expressions" theme="solarized" title="Computation expressions in context" transition="default">
+
+<aside class="notes">
+then I see this in the news!! Is there some sort of link between otters and monads?<br/>
+</aside>
+
+<p><img src="images/terror.png" alt="Terror" /></p>
+
+</section>
+
+</section>
+
+<section >
+
+<section >
+
+<aside class="notes">
+Wadler talked about handling errors in his monad paper, MAYBE we should try to write some code and see how can we use this stuff<br/>
+</aside>
+
+<h2>Errors</h2>
+
+<table class="pre"><tr><td class="lines"><pre class="fssnip">
+<span class="l">1: </span>
+<span class="l">2: </span>
+<span class="l">3: </span>
+<span class="l">4: </span>
+<span class="l">5: </span>
+<span class="l">6: </span>
+<span class="l">7: </span>
+<span class="l">8: </span>
+</pre>
+</td>
+<td class="snippet"><pre class="fssnip">
+<span class="k">let</span> <span class="i">division</span> <span class="i">a</span> <span class="i">b</span> <span class="i">c</span> <span class="i">d</span><span class="o">=</span>
+    <span class="k">match</span> <span class="i">b</span> <span class="k">with</span>
+    | <span class="n">0</span> <span class="k">-&gt;</span> <span onmouseout="hideTip(event, 'fs26', 60)" onmouseover="showTip(event, 'fs26', 60)" class="i">None</span>
+    | _ <span class="k">-&gt;</span> <span class="k">match</span> <span class="i">c</span> <span class="k">with</span>
+           | <span class="n">0</span> <span class="k">-&gt;</span> <span onmouseout="hideTip(event, 'fs26', 61)" onmouseover="showTip(event, 'fs26', 61)" class="i">None</span>
+           | _ <span class="k">-&gt;</span> <span class="k">match</span> <span class="i">d</span> <span class="k">with</span>
+                  | <span class="n">0</span> <span class="k">-&gt;</span> <span onmouseout="hideTip(event, 'fs26', 62)" onmouseover="showTip(event, 'fs26', 62)" class="i">None</span>
+                  | _ <span class="k">-&gt;</span> <span onmouseout="hideTip(event, 'fs15', 63)" onmouseover="showTip(event, 'fs15', 63)" class="i">Some</span> (((<span class="i">a</span><span class="o">/</span><span class="i">b</span>)<span class="o">/</span><span class="i">c</span>)<span class="o">/</span><span class="i">d</span>)
+</pre>
+</td>
+</tr>
+</table>
+
+</section>
+
+<section author="Andrea Magnorsky" description="Monoids, monads and computation expressions" theme="solarized" title="Computation expressions in context" transition="default">
+
+<h3>1. Extract the core</h3>
+
+<table class="pre"><tr><td class="lines"><pre class="fssnip">
+<span class="l">1: </span>
+<span class="l">2: </span>
+<span class="l">3: </span>
+<span class="l">4: </span>
+</pre>
+</td>
+<td class="snippet"><pre class="fssnip">
+ <span class="k">let</span> <span class="i">divide</span> <span class="i">a</span> <span class="i">b</span> <span class="o">=</span>
+    <span class="k">match</span> <span class="i">b</span> <span class="k">with</span>
+    | <span class="n">0</span> <span class="k">-&gt;</span> <span onmouseout="hideTip(event, 'fs26', 64)" onmouseover="showTip(event, 'fs26', 64)" class="i">None</span>
+    | _ <span class="k">-&gt;</span> <span onmouseout="hideTip(event, 'fs15', 65)" onmouseover="showTip(event, 'fs15', 65)" class="i">Some</span> (<span class="i">a</span><span class="o">/</span><span class="i">b</span> )
+</pre>
+</td>
+</tr>
+</table>
+
+</section>
+
+<section author="Andrea Magnorsky" description="Monoids, monads and computation expressions" theme="solarized" title="Computation expressions in context" transition="default">
+
+<h3>2. Write the Builder</h3>
+
+<table class="pre"><tr><td class="lines"><pre class="fssnip">
+<span class="l">1: </span>
+<span class="l">2: </span>
+<span class="l">3: </span>
+<span class="l">4: </span>
+<span class="l">5: </span>
+<span class="l">6: </span>
+</pre>
+</td>
+<td class="snippet"><pre class="fssnip">
+<span class="k">type</span> <span class="i">MaybeBuilder</span>() <span class="o">=</span>
+    <span class="k">member</span> <span class="i">__</span><span class="o">.</span><span class="i">Bind</span>(<span class="i">value</span>, <span class="i">func</span>) <span class="o">=</span>
+        <span class="k">match</span> <span class="i">value</span> <span class="k">with</span>
+        | <span onmouseout="hideTip(event, 'fs15', 66)" onmouseover="showTip(event, 'fs15', 66)" class="i">Some</span> <span class="i">value</span> <span class="k">-&gt;</span> <span class="i">func</span> <span class="i">value</span>
+        | <span onmouseout="hideTip(event, 'fs26', 67)" onmouseover="showTip(event, 'fs26', 67)" class="i">None</span> <span class="k">-&gt;</span> <span onmouseout="hideTip(event, 'fs26', 68)" onmouseover="showTip(event, 'fs26', 68)" class="i">None</span>
+    <span class="k">member</span> <span class="i">__</span><span class="o">.</span><span class="i">Return</span> <span class="i">value</span> <span class="o">=</span> <span onmouseout="hideTip(event, 'fs15', 69)" onmouseover="showTip(event, 'fs15', 69)" class="i">Some</span> <span class="i">value</span>
+</pre>
+</td>
+</tr>
+</table>
+
+</section>
+
+<section author="Andrea Magnorsky" description="Monoids, monads and computation expressions" theme="solarized" title="Computation expressions in context" transition="default">
+
+<h3>3. Profit</h3>
+
+<table class="pre"><tr><td class="lines"><pre class="fssnip">
+<span class="l">1: </span>
+<span class="l">2: </span>
+<span class="l">3: </span>
+<span class="l">4: </span>
+<span class="l">5: </span>
+<span class="l">6: </span>
+<span class="l">7: </span>
+<span class="l">8: </span>
+<span class="l">9: </span>
+</pre>
+</td>
+<td class="snippet"><pre class="fssnip">
+<span class="k">let</span> <span class="i">maybe</span>  <span class="o">=</span> <span class="i">MaybeBuilder</span>()
+
+<span class="k">let</span> <span class="i">divisionM</span> <span class="i">a</span> <span class="i">b</span> <span class="i">c</span> <span class="i">d</span><span class="o">=</span>
+    <span class="i">maybe</span>{
+        <span class="k">let!</span> <span class="i">x</span> <span class="o">=</span> <span class="i">divide</span> <span class="i">a</span> <span class="i">b</span>
+        <span class="k">let!</span> <span class="i">y</span> <span class="o">=</span> <span class="i">divide</span> <span class="i">x</span> <span class="i">c</span>
+        <span class="k">let!</span> <span class="i">z</span> <span class="o">=</span> <span class="i">divide</span> <span class="i">y</span> <span class="i">d</span>
+        <span class="k">return</span> <span class="i">z</span>
+    }
+</pre>
+</td>
+</tr>
+</table>
+
+<aside class="notes">
+what is happening here ?<br/>
+Monads apply a function that returns a wrapped value to a wrapped value. Monads have a function >>= (pronounced “bind”) to do this.<br/>
+</aside>
+
+</section>
+
+<section author="Andrea Magnorsky" description="Monoids, monads and computation expressions" theme="solarized" title="Computation expressions in context" transition="default">
+
+<aside class="notes">
+oh, oh! and you can also property check a monad (tho a little harder to read than the monoids)<br/>
+</aside>
+
+<table class="pre"><tr><td class="lines"><pre class="fssnip">
+<span class="l"> 1: </span>
+<span class="l"> 2: </span>
+<span class="l"> 3: </span>
+<span class="l"> 4: </span>
+<span class="l"> 5: </span>
+<span class="l"> 6: </span>
+<span class="l"> 7: </span>
+<span class="l"> 8: </span>
+<span class="l"> 9: </span>
+<span class="l">10: </span>
+<span class="l">11: </span>
+<span class="l">12: </span>
+<span class="l">13: </span>
+<span class="l">14: </span>
+</pre>
+</td>
+<td class="snippet"><pre class="fssnip">
+[&lt;<span class="i">Test</span>&gt;]
+<span class="k">let</span> <span class="i">``monad laws``</span>() <span class="o">=</span>
+    <span class="k">let</span> <span class="i">ret</span> (<span class="i">x</span><span class="o">:</span> <span onmouseout="hideTip(event, 'fs27', 70)" onmouseover="showTip(event, 'fs27', 70)" class="i">int</span>) <span class="o">=</span> <span class="i">choose</span><span class="o">.</span><span class="i">Return</span> <span class="i">x</span>
+    <span class="k">let</span> <span class="i">n</span> <span class="o">=</span> <span onmouseout="hideTip(event, 'fs21', 71)" onmouseover="showTip(event, 'fs21', 71)" class="i">sprintf</span> <span class="s">&quot;Choice : monad %s&quot;</span>
+    <span class="k">let</span> <span class="k">inline</span> (<span class="o">&gt;</span><span class="o">&gt;</span><span class="o">=</span>) <span class="i">m</span> <span class="i">f</span> <span class="o">=</span> <span class="i">choose</span><span class="o">.</span><span class="i">Bind</span>(<span class="i">m</span>,<span class="i">f</span>)
+    <span class="i">fsCheck</span> <span class="s">&quot;left identity&quot;</span> <span class="o">&lt;|</span>
+        <span class="k">fun</span> <span class="i">f</span> <span class="i">a</span> <span class="k">-&gt;</span> <span class="i">ret</span> <span class="i">a</span> <span class="o">&gt;</span><span class="o">&gt;</span><span class="o">=</span> <span class="i">f</span> <span class="o">=</span> <span class="i">f</span> <span class="i">a</span>
+    <span class="i">fsCheck</span> <span class="s">&quot;right identity&quot;</span> <span class="o">&lt;|</span>
+        <span class="k">fun</span> <span class="i">x</span> <span class="k">-&gt;</span> <span class="i">x</span> <span class="o">&gt;</span><span class="o">&gt;</span><span class="o">=</span> <span class="i">ret</span> <span class="o">=</span> <span class="i">x</span>
+    <span class="i">fsCheck</span> <span class="s">&quot;associativity&quot;</span> <span class="o">&lt;|</span>
+        <span class="k">fun</span> <span class="i">f</span> <span class="i">g</span> <span class="i">v</span> <span class="k">-&gt;</span>
+            <span class="k">let</span> <span class="i">a</span> <span class="o">=</span> (<span class="i">v</span> <span class="o">&gt;</span><span class="o">&gt;</span><span class="o">=</span> <span class="i">f</span>) <span class="o">&gt;</span><span class="o">&gt;</span><span class="o">=</span> <span class="i">g</span>
+            <span class="k">let</span> <span class="i">b</span> <span class="o">=</span> <span class="i">v</span> <span class="o">&gt;</span><span class="o">&gt;</span><span class="o">=</span> (<span class="k">fun</span> <span class="i">x</span> <span class="k">-&gt;</span> <span class="i">f</span> <span class="i">x</span> <span class="o">&gt;</span><span class="o">&gt;</span><span class="o">=</span> <span class="i">g</span>)
+            <span class="i">a</span> <span class="o">=</span> <span class="i">b</span>
+</pre>
+</td>
+</tr>
+</table>
+
+</section>
+
+<section author="Andrea Magnorsky" description="Monoids, monads and computation expressions" theme="solarized" title="Computation expressions in context" transition="default">
+
+<h1>Why learn this?</h1>
+
+<aside class="notes">
+how many of you read about DDD's ubiquitous language?<br/>
+</aside>
+
+<aside class="notes">
+Because understanding the abstraction and having a common language is worth it<br/>
+enables pure FP to represent non functions such as IO, state<br/>
+control side effect (via the type system)<br/>
+metaprogramming (haskell, c++ via templates)<br/>
+</aside>
+
+</section>
+
+</section>
+
+<section >
+
+<section >
+
+<h2>Computation Expressions</h2>
+
+<blockquote>
+  <p>Most monads are computation expressions, not all computation expressions are monads</p>
+</blockquote>
+
+</section>
+
+<section author="Andrea Magnorsky" description="Monoids, monads and computation expressions" theme="solarized" title="Computation expressions in context" transition="default">
+
+<h2>let, for and try .. with, but with a different semantics</h2>
+
+</section>
+
+</section>
+
+<section >
+
+<section >
+
+<h2>Monoids again</h2>
+
+<table class="pre"><tr><td class="lines"><pre class="fssnip">
+<span class="l">1: </span>
+<span class="l">2: </span>
+<span class="l">3: </span>
+<span class="l">4: </span>
+<span class="l">5: </span>
+<span class="l">6: </span>
+<span class="l">7: </span>
+<span class="l">8: </span>
+<span class="l">9: </span>
+</pre>
+</td>
+<td class="snippet"><pre class="fssnip">
+  <span class="k">type</span> <span class="i">Colour</span> <span class="o">=</span> { <span class="i">r</span> <span class="o">:</span> <span onmouseout="hideTip(event, 'fs23', 72)" onmouseover="showTip(event, 'fs23', 72)" class="i">byte</span>; <span class="i">g</span> <span class="o">:</span> <span onmouseout="hideTip(event, 'fs23', 73)" onmouseover="showTip(event, 'fs23', 73)" class="i">byte</span>; <span class="i">b</span> <span class="o">:</span> <span onmouseout="hideTip(event, 'fs23', 74)" onmouseover="showTip(event, 'fs23', 74)" class="i">byte</span>; <span class="i">a</span> <span class="o">:</span> <span onmouseout="hideTip(event, 'fs23', 75)" onmouseover="showTip(event, 'fs23', 75)" class="i">byte</span> }
+
+  <span class="k">let</span> <span class="i">addColour</span> <span class="i">c1</span> <span class="i">c2</span> <span class="o">=</span> 
+      { <span class="i">r</span> <span class="o">=</span> <span class="i">c1</span><span class="o">.</span><span class="i">r</span> <span class="o">+</span> <span class="i">c2</span><span class="o">.</span><span class="i">r</span>
+        <span class="i">g</span> <span class="o">=</span> <span class="i">c1</span><span class="o">.</span><span class="i">g</span> <span class="o">+</span> <span class="i">c2</span><span class="o">.</span><span class="i">g</span>
+        <span class="i">b</span> <span class="o">=</span> <span class="i">c1</span><span class="o">.</span><span class="i">b</span> <span class="o">+</span> <span class="i">c2</span><span class="o">.</span><span class="i">b</span>
+        <span class="i">a</span> <span class="o">=</span> <span class="i">c1</span><span class="o">.</span><span class="i">a</span> <span class="o">+</span> <span class="i">c2</span><span class="o">.</span><span class="i">a</span> }
+
+  <span class="k">let</span> <span class="i">neutral</span> <span class="o">=</span> { <span class="i">r</span> <span class="o">=</span> <span class="n">0uy</span>; <span class="i">g</span> <span class="o">=</span> <span class="n">0uy</span>; <span class="i">b</span> <span class="o">=</span> <span class="n">0uy</span>; <span class="i">a</span> <span class="o">=</span> <span class="n">0uy</span> }
+</pre>
+</td>
+</tr>
+</table>
+
+</section>
+
+<section author="Andrea Magnorsky" description="Monoids, monads and computation expressions" theme="solarized" title="Computation expressions in context" transition="default">
+
+<table class="pre"><tr><td class="lines"><pre class="fssnip">
+<span class="l">1: </span>
+<span class="l">2: </span>
+<span class="l">3: </span>
+<span class="l">4: </span>
+<span class="l">5: </span>
+<span class="l">6: </span>
+<span class="l">7: </span>
+<span class="l">8: </span>
+</pre>
+</td>
+<td class="snippet"><pre class="fssnip">
+  <span class="k">type</span> <span class="i">MonoidBuilder</span> ()<span class="o">=</span> 
+    <span class="k">member</span> <span class="i">this</span><span class="o">.</span><span class="i">Zero</span>() <span class="o">=</span> <span class="i">neutral</span>
+    <span class="k">member</span> <span class="i">this</span><span class="o">.</span><span class="i">Combine</span>(<span class="i">x</span>, <span class="i">y</span>) <span class="o">=</span> <span class="i">addColour</span> <span class="i">x</span>  <span class="i">y</span>    
+    <span class="k">member</span> <span class="i">x</span><span class="o">.</span><span class="i">For</span>(<span class="i">sequence</span>, <span class="i">f</span>) <span class="o">=</span>
+        <span class="k">let</span> <span class="i">combine</span> <span class="i">a</span> <span class="i">b</span> <span class="o">=</span> <span class="i">x</span><span class="o">.</span><span class="i">Combine</span>(<span class="i">a</span>, <span class="i">f</span> <span class="i">b</span>)
+        <span class="k">let</span> <span class="i">Z</span> <span class="o">=</span> <span class="i">x</span><span class="o">.</span><span class="i">Zero</span>()
+        <span onmouseout="hideTip(event, 'fs28', 76)" onmouseover="showTip(event, 'fs28', 76)" class="i">Seq</span><span class="o">.</span><span onmouseout="hideTip(event, 'fs29', 77)" onmouseover="showTip(event, 'fs29', 77)" class="i">fold</span> <span class="i">combine</span> <span class="i">Z</span> <span class="i">sequence</span>
+    <span class="k">member</span> <span class="i">x</span><span class="o">.</span><span class="i">Yield</span> (<span class="i">a</span>) <span class="o">=</span> <span class="i">a</span>
+</pre>
+</td>
+</tr>
+</table>
+
+</section>
+
+<section author="Andrea Magnorsky" description="Monoids, monads and computation expressions" theme="solarized" title="Computation expressions in context" transition="default">
+
+<table class="pre"><tr><td class="lines"><pre class="fssnip">
+<span class="l">1: </span>
+<span class="l">2: </span>
+<span class="l">3: </span>
+<span class="l">4: </span>
+<span class="l">5: </span>
+<span class="l">6: </span>
+</pre>
+</td>
+<td class="snippet"><pre class="fssnip">
+  <span class="k">let</span> <span class="i">monoid</span> <span class="o">=</span> <span class="k">new</span> <span class="i">MonoidBuilder</span>()
+
+  <span class="k">let</span> <span class="i">monoidAdd</span> <span class="i">xs</span><span class="o">=</span> <span class="i">monoid</span> {
+       <span class="k">for</span> <span class="i">x</span> <span class="k">in</span> <span class="i">xs</span> <span class="k">do</span>
+         <span class="k">yield</span> <span class="i">x</span>
+       }
+</pre>
+</td>
+</tr>
+</table>
+
+</section>
+
+</section>
+
+<section >
+
+<section >
+
+<h3>Computation expressions or workflows</h3>
+
+<p>Computation expressions have been available in F# since 2007 and they are fully documented in the <a href="http://fsharp.org/specs/language-spec/">F# language specification</a></p>
+
+<ul>
+<li>Abstract computations</li>
+<li>Handling of effects</li>
+</ul>
+
+</section>
+
+<section author="Andrea Magnorsky" description="Monoids, monads and computation expressions" theme="solarized" title="Computation expressions in context" transition="default">
+
+<h2>Maybe problems</h2>
+
+<ul>
+<li>Slow</li>
+<li>Hard to debug</li>
+<li>Operator overuse</li>
+</ul>
+
+<aside class="notes">
+nesting of expression<br/>
+</aside>
+
+</section>
+
+<section author="Andrea Magnorsky" description="Monoids, monads and computation expressions" theme="solarized" title="Computation expressions in context" transition="default">
+
+<p><img src="images/math_otter.png" alt="otter" /></p>
+
+</section>
+
+</section>
+
+<section >
+
+<h2>Next</h2>
+
+<p><img src="images/rop.png" alt="rop" /></p>
+
+<ul>
+<li><a href="http://fsharpforfunandprofit.com/rop/#monads">Railway Oriented Programming</a></li>
+<li><a href="https://fsprojects.github.io/Chessie/">Chessie</a></li>
+</ul>
+
+</section>
+
+<section data-background="images/roundcrisis.png" data-background-size="900px">
+
+<h2>Thanks</h2>
+
+<h4>@SilverSpoon</h4>
+
+<h4><a href="roundcrisis.com">roundcrisis.com</a></h4>
+
+</section>
+
+<section >
+
+<section >
+
+<h3>Resources</h3>
+
+<ul>
+<li><a href="https://byorgey.wordpress.com/2009/01/12/abstraction-intuition-and-the-monad-tutorial-fallacy/">Abstraction, intuition, and the “monad tutorial fallacy”</a></li>
+<li><a href="http://two-wrongs.com/the-what-are-monads-fallacy">The "What are monads?" fallacy</a></li>
+<li><a href="http://www.infoq.com/articles/pickering-fsharp-workflow">Beyond Foundations of F# - Workflows</a></li>
+<li><a href="http://homepages.inf.ed.ac.uk/wadler/topics/monads.html">Monads, Arrows and idioms</a>  papers here.</li>
+<li><a href="http://www.infoq.com/presentations/Why-is-a-Monad-Like-a-Writing-Desk">Why a monad is like a writing desk</a> Video</li>
+<li><a href="(http://fsharpforfunandprofit.com/posts/monoids-without-tears/#series-toc)">Understanding Monoids</a> F# for fun and profit on monoids</li>
+<li><a href="http://gettingsharper.de/2015/03/03/understanding-monoids-using-f/">Understanding Monoids using F#</a> From gettingsharp-er :)</li>
+<li><a href="http://tomasp.net/academic/papers/computation-zoo/syntax-matters.pdf">Syntax Matters: Writing abstract computations in F#</a> paper by Tomas Petricek and Don Syme about computation expressions</li>
+<li><a href="(http://homepages.inf.ed.ac.uk/wadler/papers/marktoberdorf/baastad.pdf)">Monads for functional programming</a> P.Wadler paper</li>
+</ul>
+
+</section>
+
+<section author="Andrea Magnorsky" description="Monoids, monads and computation expressions" theme="solarized" title="Computation expressions in context" transition="default">
+
+<h3>Resources</h3>
+
+<ul>
+<li><a href="http://fsharp.org/specs/language-spec/">F# language specification</a></li>
+<li><a href="http://tryjoinads.org/index.html?computations/home.html">Try Joinads F# research extension for concurrent, parallel and asynchronous programming.</a></li>
+<li><a href="http://adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.html">Functors Applicatives and monads in pictures</a></li>
+<li><a href="https://www.youtube.com/watch?v=9fohXBj2UEI">Monads explained from a maths point of view</a> Video</li>
+<li><a href="(http://ncatlab.org/nlab/files/WadlerMonads.pdf)">Comprehending Monads</a> P.Wadler paper</li>
+<li><a href="http://www.davesquared.net/2013/11/freedom-from-side-effects-fsharp.html">More freedom from side effects</a></li>
+</ul>
+
+</section>
+
+</section>
+
+
+
+        </div>
+    </div>
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+    <script>
+
+        // Full list of configuration options available here:
+        // https://github.com/hakimel/reveal.js#configuration
+        Reveal.initialize({
+            controls: true,
+            progress: true,
+            history: true,
+            center: true,
+
+            transition: 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+            // Parallax scrolling
+            // parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+            // parallaxBackgroundSize: '2100px 900px',
+
+            // Optional libraries used to extend on reveal.js
+            dependencies: [
+                { src: 'lib/js/classList.js', condition: function () { return !document.body.classList; } },
+                { src: 'plugin/markdown/marked.js', condition: function () { return !!document.querySelector('[data-markdown]'); } },
+                { src: 'plugin/markdown/markdown.js', condition: function () { return !!document.querySelector('[data-markdown]'); } },
+                { src: 'plugin/highlight/highlight.js', async: true, callback: function () { hljs.initHighlightingOnLoad(); } },
+                { src: 'plugin/zoom-js/zoom.js', async: true, condition: function () { return !!document.body.classList; } },
+                { src: 'plugin/notes/notes.js', async: true, condition: function () { return !!document.body.classList; } }
+            ]
+        });
+
+    </script>
+</body>
+</html>
+
