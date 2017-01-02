@@ -8,11 +8,11 @@ categories:
 - tooling
 ---
 
-For the first post of the year, an extermely short post about something I keep forgetting, hopefully it will help someone else.
+For the first post of the year, a short post on something I keep forgetting, hopefully it will help someone else.
 
-On [Visual Studio Code](http://code.visualstudio.com/), a performant fork of [Atom](http://atom.io/) if you want to use F\# then 
+With [Visual Studio Code](http://code.visualstudio.com/), a performant fork of [Atom](http://atom.io/), if you want to use F\# then 
 you are probably using [Ionide-fsharp](https://marketplace.visualstudio.com/items?itemName=Ionide.Ionide-fsharp) extension with [Ionide-FAKE](https://marketplace.visualstudio.com/items?itemName=Ionide.Ionide-fake) and [Ionide-Paket](https://marketplace.visualstudio.com/items?itemName=Ionide.Ionide-paket) some aspects of these
-extensions make this really easy to use to people who are used to the F# environment, slightly less to the person starting off on F\# on a  *\nix system for the first time.
+extensions make this really easy to use for  people who are used to the F# environment, but slightly less to the person starting off on F\# on a *\nix system for the first time.
 
 ### Such cheatsheet
 
