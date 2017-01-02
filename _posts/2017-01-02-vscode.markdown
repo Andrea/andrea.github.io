@@ -23,4 +23,5 @@ Some aspects of these extensions make this really easy to use for  people who ar
    This is what it should look like:
  
    ![img]({{ site.images }}/2017-01-palete.png)
+ * F12 to go to definition while the cursor is positioned in the code.
  
