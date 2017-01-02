@@ -1,0 +1,25 @@
+---
+date: 2017-01-02 23:13:00
+layout: post
+title: VS Code + Ionide-FSharp
+categories:
+- programming
+- fsharp
+- tooling
+---
+
+For the first post of the year, I am  writting this entirely for myself, but hopefully it will help some other people.
+On [Visual Studio Code](http://code.visualstudio.com/), a performant fork of [Atom](http://atom.io/) if you want to use F\# then 
+you are probably using [Ionide-fsharp]() extension with [Ionide-FAKE]() and [Ionide-Paket]() some usability aspects of these cool 
+extensions make this really easy to use to people who are used to the F# environment, slightly less to the person starting off on F\#.
+
+### Such cheatsheet
+ * `Alt+enter` to send to F\# interactive is a great example of something really useful that if you have used F\# on Visual Studio you 
+   will definetly try but if you haven't you never will until someone tells you.
+ * In Atom and VS Code you can press Command + P (on mac) or Ctrl+P on Windows and it will bring up the `Command Palette` (you get 
+   something like this on Sublime as well) once there enter `>` and then `fsi` or `FAKE` the `>` character is the key. (I keep forgetting about 
+   this because I don't use vscode often)
+   This is what it should look like:
+ 
+   ![img]({{images/2017-01-palete.png}})
+ 
