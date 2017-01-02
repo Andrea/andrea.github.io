@@ -21,5 +21,5 @@ extensions make this really easy to use to people who are used to the F# environ
    this because I don't use vscode often)
    This is what it should look like:
  
-   ![img]({{images/2017-01-palete.png}})
+   ![img]({{ site.images }}/2017-01-palete.png)
  
