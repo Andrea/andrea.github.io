@@ -82,8 +82,10 @@ then since we are here, might as well go and try and see what it looks like with
 
 An interesting thing is that the usage of parens and braces is something I still find confusing in time in Scala. 
 The source of my confusion is not totally unfounded, in the [docs]() we can see that: 
-( )        // Delimit expressions and parameters
-{ }        // Delimit blocks
+
+* ( )        // Delimit expressions and parameters
+* { }        // Delimit blocks
+
 however [here](https://www.scala-lang.org/files/archive/spec/2.11/06-expressions.html) we see that blocks can also be expressions...
 
 
