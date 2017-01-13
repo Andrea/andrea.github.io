@@ -13,8 +13,8 @@ I was playing around with a small function in Scala and found it kind of interes
 We are writting a function that will fold over a string an accumulate on running `parensToFloor` a function that looks
 like:
 
-```Scala
-	def parensToFloor(c:Char): Int = ???
+```
+def parensToFloor(c:Char): Int = ???
 ```
 
 
