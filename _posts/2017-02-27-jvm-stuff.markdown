@@ -1,0 +1,74 @@
+---
+date: 2017-02-27 03:13:00
+layout: post
+title: JVM stuff
+categories:
+- programming
+- scala
+- jvm
+- gradle
+- sbt
+---
+
+When you come from a .net background into the JVM the languages differences are something you are 
+nearly looking forward to learn about, C\# and Java have so much in common, F\# and Scala are 
+pretty different but some ideas are the same.  
+
+These are some things that are handy to know about (also suggestions on good resources on each of these, most welcome)
+
+
+## System properties and environment variables
+
+Tl;DR: environment is OS related, system properties are JVM related.
+
+You can set both in a number of ways, and they are both basically a key value store generally used
+ for configuration or similar where some data is passed to a java process. 
+[System Properties](http://docs.oracle.com/javase/7/docs/api/java/lang/System.html#EnvironmentVSSystemProperties)
+
+As you might expect there are many ways to set system properties 
+	
+	```
+		> java -Dtest="true" -jar myApplication.jar
+	```
+	
+Also possible to do this with [sbt](http://www.scala-sbt.org/) in the same way. And [in build.sbt](http://stackoverflow.com/questions/3127007/how-do-i-set-a-system-property-for-my-project-in-sbt)
+
+	
+In [Gradle](http://gradle.org/) pass system properties to a gradle build, (  also possible to set them up in the gradle build script)
+
+		```
+			.gradle build -Dyour.key=value
+		```
+
+Finally if you want to set them up programatically (uses System from java.lang) perhaps for tests:
+	
+	```
+		System.setProperty(k, v)
+	```
+
+## Log4J
+
+## Build systems
+
+* SBT: 
+* gradle: 
+* ant:
+
+* Maven and ivy?
+
+## Namespaces, projects.
+
+In .net we have solutions that have one of more projects. Each project when compiled generates a *.dll or *.exe in Debug or release mode (there is more here but that is bread and butter build configurations)
+
+current directory
+System.getProperty("user.dir"));
+
+## Runtime differences
+
+Paths.get(mydir, "myfile"); –
+
+no destructors ?? -> finalize
+
+## The same things with different names
+
+DI 
