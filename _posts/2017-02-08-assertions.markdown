@@ -18,3 +18,4 @@ Initialization error :
 this is becasue intellij doesn't import this setting from gradle.
 
 To disable it go to Run -> Edit Configurations... in VM options remove `-ea` 
+Removing this option means we are not checking for [assertions](http://docs.oracle.com/javase/specs/jls/se8/html/jls-14.html#jls-14.10) sometimes external libraries use this.
