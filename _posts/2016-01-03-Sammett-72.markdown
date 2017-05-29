@@ -9,7 +9,7 @@ categories:
 - FORTRAN
 - FLOWMATIC
 ---
-This post is a (not so short) summary of the wonderful 1972 paper entitled: "Programming Languages: History and Future" by Jean Sammet. She is not only one of the first (computing science) historians but also a language creator.
+This post is a (not so short) summary of the wonderful 1972 paper entitled: "Programming Languages: History and Future" by Jean Sammet[1]. She is not only one of the first (computing science) historians but also a language creator.
 
 The paper is written in a highly enjoyable style and if you are remotely interested in programming, reading it is surely going to reward you. This paper focuses in the historical development of the languages and their interrelations.
 The key piece in this paper is the chart below where the relationships between programming languages is shown. The graph makes more sense with certain context.
@@ -156,3 +156,5 @@ techniques and devotion to elegance in language with less concern for the practi
 
 
 Wow...feels like I was just in a great alternative version of Back to the Future, :D.  
+
+[1] Sammet, Jean E. "Programming languages: History and future." Communications of the ACM 15.7 (1972): 601-610. [Download](https://github.com/Andrea/andrea.github.io/raw/0a8e8e04ba5ae1ff8b34b275a749fbd661c51b60/downloadables/Programming_Languages_-_Sammet.pdf)
