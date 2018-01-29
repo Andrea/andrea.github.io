@@ -10,7 +10,7 @@ categories:
 
 It has been a long time since I posted anything here. 
 
-I recently had the pleasure of giving a talk at [Middlessex University](http://www.mdx.ac.uk/), for students at the 
+I recently had the pleasure of giving a talk at [Middlesex University](http://www.mdx.ac.uk/), for students at the 
 start of their CS degree. It was a really nice experience.
 
 I was wondering what would be useful things for them to hear and wound up talking to them a little about:
