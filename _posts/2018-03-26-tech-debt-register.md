@@ -9,7 +9,7 @@ categories:
 ---
 
 There is really no hard and fast rule for recording technical debt, some people do it on their bug trackers, others in their agile/kanban boards, storing it in a text file with the code is another way. The reason why this can be helpful is because technical debt can be committed with the code, also code can be reviewed with it, giving it extra context.
-You could simply record this in a file as separete paragraphs, however I have been thinking that standardising the format might help. This template is somewhat inspired by (this article)(https://insights.sei.cmu.edu/sei_blog/2016/06/got-technical-debt-track-technical-debt-to-improve-your-development-practices.html), I was compelled to introduce some  modifications to it, keeping it small enough to be able to record tech debt fast. 
+You could simply record this in a file as separete paragraphs, however I have been thinking that standardising the format might help. This template is somewhat inspired by [this article](https://insights.sei.cmu.edu/sei_blog/2016/06/got-technical-debt-track-technical-debt-to-improve-your-development-practices.html), I was compelled to introduce some  modifications to it, keeping it small enough to be able to record tech debt fast. 
 
 It might be tempting to think that a template is not needed but I digress, without a template:
 
