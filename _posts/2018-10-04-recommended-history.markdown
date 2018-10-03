@@ -3,13 +3,13 @@ author: roundcrisis
 comments: true
 date: 2018-10-04 10:48:00+00:00
 layout: post
-title: Recommended history of computer books
+title: Recommended history of computing books
 categories:
 - history of computing
 ---
 
-These are some great history of computing books, most of these books tend to focus on software and programming languages.
-I like in categories I invented myself. 
+These are some great history of computing books, in this list I chose books that tend to focus on software and programming languages.
+These are books I like in categories I invented myself. 
 
 ## Reference books
 
