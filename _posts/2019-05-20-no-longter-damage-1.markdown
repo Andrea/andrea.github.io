@@ -46,10 +46,9 @@ Dinner was food cooked with item that were already at home, so nothing to report
 
 ### Long lived Rubbish so far
 
-* tea wrapper
+![day1]({{ site.images }}/2019-tea.png )
 
- 
-  ![Day1]({{ site.images }}/2019-tea.png )
+* tea wrapper
 
 ### Conclusion so far
 
