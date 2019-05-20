@@ -3,7 +3,7 @@ author: roundcrisis
 comments: true
 date: 2019-05-20 20:48:00+00:00
 layout: post
-title: 
+title: No long term damage. Day 1
 categories:
 - environmental
 ---
@@ -16,13 +16,12 @@ A week trying to generate the least amount of long lived rubbish by not buying n
 * From Monday 20/05 till Sunday 26/05 evening.
 * Document what I do buy and questions that arise from this experiment.
 
-
 ## Day 1: Monday
 
 Commuting by train and tube: I have a card that I can top up so no train receipt. but makes me wonder if those train tickets are recyclable or 
 biodegradable.
 
-#### Hot drinks
+### Hot drinks
 
 I love tea, generally I brew my own leaf tea, however in the office there is tea and I had a cup nearly without thinking. It was a 
 Twinnings Individually Wrapped Tea (no recyclable marking so I have to assume that the wrappers are non recyclable)
@@ -43,14 +42,13 @@ Makes you wonder if most places would be OK with this?
 
 #### Dinner
 
-Dinner was food that was already at home, so nothing to report there.
+Dinner was food cooked with item that were already at home, so nothing to report there.
 
-### Long lived Rrubbish so far:
+### Long lived Rubbish so far
 
 * tea wrapper
 
-![wrapper]({images})
-![day1]({{ site.images }}/twinnings.jpg)
+![Day1]({{ site.images }}/twinnings.jpg)
 
 ### Conclusion so far
 
@@ -73,12 +71,8 @@ Are the following items recyclable or biodegradable:
 * Sugar sachets
 * Certain types of food packaging
 
-
-
-#### TL;DR:
+#### TL;DR
 
 * Individually wrapped tea, it looks like the wrappers are not recyclable, and the tea bags have plastic.
-* Severely reduced lunch options. Most of the take away options come in some form of plastic, in the end a hot 
-wrap wrapped in paper from Prett did the trick but at the cost of changing my diet.
+* Severely reduced lunch options. Most of the take away options come in some form of plastic, in the end a hot wrap wrapped in paper from Pret did the trick but at the cost of changing my diet.
 * I emailed [TossedUK](https://tosseduk.com/) about being able to use my own container and they said yes (meaning I need to carry my container with me, which is fine).
-
