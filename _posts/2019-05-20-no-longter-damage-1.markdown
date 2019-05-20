@@ -48,7 +48,8 @@ Dinner was food cooked with item that were already at home, so nothing to report
 
 * tea wrapper
 
-![Day1]({{ site.images }}/twinnings.jpg)
+ 
+  ![Day1]({{ site.images }}/2019-tea.png )
 
 ### Conclusion so far
 
