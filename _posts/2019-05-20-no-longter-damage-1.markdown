@@ -25,8 +25,12 @@ biodegradable.
 
 I love tea, generally I brew my own leaf tea, however in the office there is tea and I had a cup nearly without thinking. It was a 
 Twinnings Individually Wrapped Tea (no recyclable marking so I have to assume that the wrappers are non recyclable)
-What are these wrappers made of? [I asked them a question on twitter](https://twitter.com/silverSpoon/status/1130539990180605953) while I
-wait, I checked online and it seems that not only the wrapping might not be cool, it seems like the tea bag itself contains plastic [source from 2018](https://moralfibres.co.uk/is-there-plastic-in-your-tea/).
+What are these wrappers made of? [I asked them a question on twitter](https://twitter.com/silverSpoon/status/1130539990180605953) while Iwait, I checked online and it seems that not only the wrapping might not be cool, it seems like the tea bag itself contains plastic [source from 2018](https://moralfibres.co.uk/is-there-plastic-in-your-tea/). 
+
+*Update:* Twinnings replied 
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="en" dir="ltr">Hi Andrea, thanks for getting in touch. Our envelopes are not currently recyclable, however rest assured that the environmental sustainability of our products &amp; our packaging is really important to us &amp; we are working with our suppliers on ways of improving this.</p>&mdash; Twinings Tea (@TwiningsTeaUK) <a href="https://twitter.com/TwiningsTeaUK/status/1130795019743498240?ref_src=twsrc%5Etfw">May 21, 2019</a></blockquote>
+
 By the way, I use the mugs in the office and I don't generally drink take away tea nor coffee.
 
 Sugar sachets, are they recyclable? biodegradable?  I erred on the side of caution and didn't use sugar.
