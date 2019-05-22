@@ -26,11 +26,11 @@ Commuting by train, tube, bus and taxi(boo)
 
 It seems like I need to find out about the environmental impact of the taxi ride. I guess this goes in the questions section.
 
-Today's hot drinks were either leaf tea or coffee from the coffee machine in the office, no sugar.
+Today's hot drinks was all leaf tea, no sugar in sachets.
 
 #### Lunch time:
 
-Had lunch at a place with table service. So no waste here, The napkins were paper and they were not the hard kitchen towel type, so I think I can count that as compostable. 
+Had lunch at a place with table service. So no waste here. The napkins were paper and they were not the hard kitchen towel type, so I think I can count that as compostable.
 
 I also had table service for dinner.
 
@@ -50,8 +50,17 @@ On discussing this with a group they made the point that this plastic has a long
 
 * Correct ways to calculate the environmental impact of car rides.
 * I assume plastic plant pots are not biodegradable, so what is their impact.
+* How can one calculate the environmental impact of eating out?
 
 #### TL;DR
 
-* Taxis and car rides in general, I need to understand their impact when it comes to polluting the air (I see this as my rubbish too )
+* Taxis and car rides in general, I need to understand their impact when it comes to polluting the air (I see this as my rubbish too)
 * Hot drinks seem like a very tricky thing to get whilst being environmentally friendly.
+
+## Conclusions from today
+
+Three days into this experiment, the most impactful thing seems to be *getting people to about it their everyday rubbish*. Many seem interested in improving on this, so when I finish this week I am going to do a summary of the actions that one can take that would reduce the most rubbish, at the same time I think there is nothing like trying it yourself.
+Also, I am not trying to beat myself up for doing things that I need to do. The experiment was about learning, and see if I can do better, learn, adapt, repeat.
+If you think doing the experiment would be too hard for you, try to do something you think you can do, or even talking about it helps because it gets people thinking about the rubbish they generate.
+
+Thanks for reading.
