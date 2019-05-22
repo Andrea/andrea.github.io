@@ -80,3 +80,6 @@ Are the following items recyclable or biodegradable:
 * Individually wrapped tea, it looks like the wrappers are not recyclable, and the tea bags have plastic.
 * Severely reduced lunch options. Most of the take away options come in some form of plastic, in the end a hot wrap wrapped in paper from Pret did the trick but at the cost of changing my diet.
 * I emailed [TossedUK](https://tosseduk.com/) about being able to use my own container and they said yes (meaning I need to carry my container with me, which is fine).
+
+
+ [Read about Day 2](http://www.roundcrisis.com/2019/05/21/no-longter-damage-2/)
