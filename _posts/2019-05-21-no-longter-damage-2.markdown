@@ -49,4 +49,4 @@ Nothing!!!! Very happy, tomorrow I am meeting with some friends, so I imagine I 
 *Update*: The council replied and they forwarded my query to Veolia who are the company doing the composting.
 
 
-[Read about Day 3](http://www.roundcrisis.com/2019/05/22/no-longter-damage-3/)
+[Read about Day 3](http://www.roundcrisis.com/2019/05/22/no-longer-damage-3/)
