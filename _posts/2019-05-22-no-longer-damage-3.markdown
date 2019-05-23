@@ -20,6 +20,7 @@ For previous days:
 * [Day 2](http://www.roundcrisis.com/2019/05/21/no-longter-damage-2/)
 
 
+
 ## Day 3: Wednesday
 
 Commuting by train, tube, bus and taxi(boo)
@@ -27,6 +28,8 @@ Commuting by train, tube, bus and taxi(boo)
 It seems like I need to find out about the environmental impact of the taxi ride. I guess this goes in the questions section.
 
 Today's hot drinks was all leaf tea, no sugar in sachets.
+
+*Update* Someone mentioned you can request electric taxis (I hailed a cab on the street because I was lost and late) but this is a good idea.
 
 #### Lunch time:
 
