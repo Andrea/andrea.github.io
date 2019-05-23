@@ -32,10 +32,9 @@ For previous days:
 * Yay for food you can grow yourself. Even if it is just a small percentage of what we eat.
 * It is looking like it is really hard to dispose of biscuits wrappers, there is a way to reuse(?) them some how via Terracycle, but I was not able to find out any specifics as to how to do this exactly.
 
-## All the rubbish in one place 
+## All the rubbish in one place
 
 Of the kind we can see:
 
-<img src="http://roundcrisis.com/images/2019-tea.png" align="left" height="400" >
-<img src="http://roundcrisis.com/images/2019/wrapper.png" align="left" height="400" >
-
+![]({{ site.images }}/2019-tea.png)
+![]({{ site.images }}/2019/wrapper.png)

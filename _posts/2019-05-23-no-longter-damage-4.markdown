@@ -30,8 +30,9 @@ All food an drink consumed today was bought before the start of the week or not 
 
 I had a salad that I prepared myself, some of the spinach you see there are from self-grown. There was just compostable waste left behind.
 
-<img src="http://roundcrisis.com/images/2019/spinach.png" align="left" height="400" >
-<img src="http://roundcrisis.com/images/2019/salad.png" align="left" height="400" >
+![]({{ site.images }}/2019/spinach.png)
+![]({{ site.images }}/2019/salad.png)
+
 
 I was feeling peckish later and I had a few biscuits, this resulted in an empty package (no I didn't eat them all then and there, promise), as I read it I found a reference to [Terracycle](https://twitter.com/terracycle) however when I went to try to use it for the specific brand there was nothing. This is sad, but I ask them on twitter maybe it is just their UX.
 *Update* I asked McVities *and* Terracycle. Lets see what happens
@@ -46,7 +47,7 @@ Food that we already have at home.
 
 A biscuit wrapper.
 
-<img src="http://roundcrisis.com/images/2019/wrapper.png" align="left" height="400" >
+![]({{ site.images }}/2019/wrapper.png)
 
 #### Today's questions
 
@@ -56,6 +57,5 @@ A biscuit wrapper.
 
 * Yay for food you can grow yourself. Even if it is just a small percentage of what we eat.
 * It is looking like it is really hard to dispose of biscuits wrappers, there is a way to reuse(?) them some how via Terracycle, but I was not able to find out any specifics as to how to do this exactly.
-
 
 [Read about Day 3](http://www.roundcrisis.com/2019/05/22/no-longter-damage-3/)
