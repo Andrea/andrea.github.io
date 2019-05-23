@@ -44,13 +44,12 @@ After lunch I ordered a coffee and it came with this chocolate coated coffee bea
 Today I bought a potted plant as a gift, the plant had a plastic container. I will count this as my rubbish.
 On discussing this with a group they made the point that this plastic has a long life of use, and that since it contains a plant, it carbon offsets itself.
 
-<img src="http://roundcrisis.com/images/2019/potted-plat.png" align="left" height="400"  >
-
+![]({{ site.images }}/2019/potted.png)
 
 ### Long lived Rubbish for today
 
-* one plant pot
-* taxi ride (approximately 2+ miles, 25 minutes on the vehicles)
+* One plant pot.
+* Taxi ride (approximately 2+ miles, 25 minutes on the vehicles)
 
 #### Today's questions
 

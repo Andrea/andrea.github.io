@@ -18,8 +18,8 @@ For previous days:
 
 * [Day 1](http://www.roundcrisis.com/2019/05/20/no-longter-damage-1/)
 * [Day 2](http://www.roundcrisis.com/2019/05/21/no-longter-damage-2/)
-* [Day 3](http://www.roundcrisis.com/2019/05/22/no-longter-damage-3/)
-* [Day 4](http://www.roundcrisis.com/2019/05/22/no-longter-damage-3/)
+* [Day 3](http://www.roundcrisis.com/2019/05/22/no-longer-damage-3/)
+* [Day 4](http://www.roundcrisis.com/2019/05/23/no-longer-damage-4/)
 
 ## Gotchas so far
 
@@ -37,4 +37,5 @@ For previous days:
 Of the kind we can see:
 
 ![]({{ site.images }}/2019-tea.png)
+![]({{ site.images }}/2019/potted.png)
 ![]({{ site.images }}/2019/wrapper.png)
