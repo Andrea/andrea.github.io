@@ -31,6 +31,7 @@ For previous days:
 * Hot drinks seem like a very tricky thing to get whilst being environmentally friendly.
 * Yay for food you can grow yourself. Even if it is just a small percentage of what we eat.
 * It is looking like it is really hard to dispose of biscuits wrappers, there is a way to reuse(?) them some how via Terracycle, but I was not able to find out any specifics as to how to do this exactly.
+* There was a note on a plastic container about how you can bring this to a big store, my nearest one is about 5 miles from here, which I would probably have to drive to, especially If I am buying more food there.  I wonder if the home delivery would take this instead.
 
 ## All the rubbish in one place
 
@@ -39,3 +40,9 @@ Of the kind we can see:
 ![]({{ site.images }}/2019-tea.png)
 ![]({{ site.images }}/2019/potted.png)
 ![]({{ site.images }}/2019/wrapper.png)
+
+![]({{ site.images }}/2019/friday-lunch1.png)
+![]({{ site.images }}/2019/friday-lunch2.png)
+![]({{ site.images }}/2019/friday1.png)
+![]({{ site.images }}/2019/friday2.png)
+![]({{ site.images }}/2019/friday3.png)
