@@ -43,15 +43,9 @@ For previous days:
 Of the kind we can see:
 
 ![]({{ site.images }}/2019-tea.png)
-![]({{ site.images }}/2019/potted.png)
-![]({{ site.images }}/2019/wrapper.png)
+![]({{ site.images }}/2019/montage.png)
 
-![]({{ site.images }}/2019/friday-lunch1.png)
-![]({{ site.images }}/2019/friday-lunch2.png)
-![]({{ site.images }}/2019/friday1.png)
-![]({{ site.images }}/2019/friday2.png)
-![]({{ site.images }}/2019/friday3.png)
-
-## Awaiting answers from.
+## Awaiting answers from:
 
 * [Veolia](https://twitter.com/silverSpoon/status/1131620052451635201)
+* [McVities](https://twitter.com/silverSpoon/status/1131628993147486210)
