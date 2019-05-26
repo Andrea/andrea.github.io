@@ -32,7 +32,6 @@ All food an drink consumed today was bought before the start of the week or not 
 
 I had a salad that I prepared myself, I used the last of some nice spicy beetroot. The container was clear plastic which is "widely" recycled, not so for the fork (or at least not mentioned) nor the film covering it. There was a note about how you can bring this to a big store, my nearest one is about 5 miles from here, which I would probably have to drive to, especially If I am buying more food there.  I wonder if the home delivery would take this instead.
 
-
 ![]({{ site.images }}/2019/friday-lunch1.png)
 ![]({{ site.images }}/2019/friday-lunch2.png)
 

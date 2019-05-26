@@ -20,10 +20,12 @@ For previous days:
 * [Day 2](http://www.roundcrisis.com/2019/05/21/no-longter-damage-2/)
 * [Day 3](http://www.roundcrisis.com/2019/05/22/no-longer-damage-3/)
 * [Day 4](http://www.roundcrisis.com/2019/05/23/no-longer-damage-4/)
+* [Day 5](http://www.roundcrisis.com/2019/05/24/no-longer-damage-5/)
+* [Day 6](http://www.roundcrisis.com/2019/05/25/no-longer-damage-6/)
 
 ## Gotchas so far
 
-* Individually wrapped tea, wrappers are not recyclable, and the tea bags have plastic. Awaiting answers from [Veolia]()
+* Individually wrapped tea, wrappers are not recyclable, and the tea bags have plastic. Awaiting answers from [Veolia](https://twitter.com/silverSpoon/status/1131620052451635201).
 * Severely reduced lunch options. Most of the take away options come in some form of plastic, in the end a hot wrap wrapped in paper from Pret did the trick but at the cost of changing my diet.
 * I emailed [TossedUK](https://tosseduk.com/) about being able to use my own container and they said yes (meaning I need to carry my container with me, which is fine).
 * It seems my council doesn't support composting of paper kitchen towels but do allow composting of tea bags (which contain plastic). I emailed them to check.
@@ -32,6 +34,9 @@ For previous days:
 * Yay for food you can grow yourself. Even if it is just a small percentage of what we eat.
 * It is looking like it is really hard to dispose of biscuits wrappers, there is a way to reuse(?) them some how via Terracycle, but I was not able to find out any specifics as to how to do this exactly.
 * There was a note on a plastic container about how you can bring this to a big store, my nearest one is about 5 miles from here, which I would probably have to drive to, especially If I am buying more food there.  I wonder if the home delivery would take this instead.
+* Can anything be done about these things that are not recyclable? How could we upcycle them?
+* I heard (but not researched yet) that there is some rubbish you can bring back to where you bought it and they will deal with it, but I don't understand if that is true or what does "deal with it" means? 
+
 
 ## All the rubbish in one place
 
@@ -46,3 +51,7 @@ Of the kind we can see:
 ![]({{ site.images }}/2019/friday1.png)
 ![]({{ site.images }}/2019/friday2.png)
 ![]({{ site.images }}/2019/friday3.png)
+
+## Awaiting answers from.
+
+* [Veolia](https://twitter.com/silverSpoon/status/1131620052451635201)
