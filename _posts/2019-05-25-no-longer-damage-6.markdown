@@ -3,13 +3,13 @@ author: roundcrisis
 comments: true
 date: 2019-05-24 20:48:00+00:00
 layout: post
-title: No long term damage. Day 5
+title: No long term damage. Day 6
 categories:
 - environmental
-- wfh
+- days_out
 ---
 
-Day 5 of a week trying to generate the least amount of long lived rubbish by not buying non renewable things. My rules are:
+Day 6 of a week trying to generate the least amount of long lived rubbish by not buying non renewable things. My rules are:
 
 * Focus only on things I buy or consume directly.
 * From Monday 20/05 till Sunday 26/05 evening.
