@@ -1,7 +1,7 @@
 ---
 author: roundcrisis
 comments: true
-date: 2019-05-24 20:48:00+00:00
+date: 2019-05-25 20:48:00+00:00
 layout: post
 title: No long term damage. Day 6
 categories:

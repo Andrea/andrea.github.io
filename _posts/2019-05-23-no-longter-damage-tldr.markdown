@@ -22,6 +22,7 @@ For previous days:
 * [Day 4](http://www.roundcrisis.com/2019/05/23/no-longer-damage-4/)
 * [Day 5](http://www.roundcrisis.com/2019/05/24/no-longer-damage-5/)
 * [Day 6](http://www.roundcrisis.com/2019/05/25/no-longer-damage-6/)
+* [Day 7](http://www.roundcrisis.com/2019/05/26/no-longer-damage-7/)
 
 ## Gotchas so far
 
@@ -36,7 +37,10 @@ For previous days:
 * There was a note on a plastic container about how you can bring this to a big store, my nearest one is about 5 miles from here, which I would probably have to drive to, especially If I am buying more food there.  I wonder if the home delivery would take this instead.
 * Can anything be done about these things that are not recyclable? How could we upcycle them?
 * I heard (but not researched yet) that there is some rubbish you can bring back to where you bought it and they will deal with it, but I don't understand if that is true or what does "deal with it" means? 
-
+* How does the Pet process work? There is some information [here](https://www.thebalancesmb.com/recycling-polyethylene-terephthalate-pet-2877869). Definitely a step in the right direction but given the urgency of the situation with the environment it seems like not enough.
+* What are good alternatives for meat wrapping? Are there any secure alternatives?
+* Are there alternative ways to source spinach and other vegetables that come in film wrapping? 
+* It is good to know about the sourcing of the materials as well as the recycling capabilities. Some packages have [Fsc label](https://ic.fsc.org/en/choosing-fsc/fsc-labels).
 
 ## All the rubbish in one place
 
@@ -45,7 +49,7 @@ Of the kind we can see:
 ![]({{ site.images }}/2019-tea.png)
 ![]({{ site.images }}/2019/montage.png)
 
-## Awaiting answers from:
+## Awaiting answers from
 
 * [Veolia](https://twitter.com/silverSpoon/status/1131620052451635201)
 * [McVities](https://twitter.com/silverSpoon/status/1131628993147486210)
