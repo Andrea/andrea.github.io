@@ -37,12 +37,12 @@ For lunch we used a full package of sausages. The label on the package showed no
 
 Also used the end of a package of butter. It was hard to see if the package was recyclable or not, but thankfully I had a new one, and it is recyclable as seen on the picture below.
 
-![]({{ site.images }}/2019/saturday2.png)
-![]({{ site.images }}/2019/saturday1.png)
+![]({{ site.images }}/2019/sunday.png)
+![]({{ site.images }}/2019/sunday1.png)
 
 I really like spinach, so I am going to have to think about how to source it, what I produce with my plants is not enough, and everywhere I buy them they come in film packaging, which is not recyclable.
 
-![]({{ site.images }}/2019/saturday5.png)
+![]({{ site.images }}/2019/sunday5.png)
 
 ### Long lived Rubbish for today
 
