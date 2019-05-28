@@ -19,7 +19,7 @@ For previous days:
 * [Day 1](http://www.roundcrisis.com/2019/05/20/no-longter-damage-1/)
 * [Day 2](http://www.roundcrisis.com/2019/05/21/no-longter-damage-2/)
 * [Day 3](http://www.roundcrisis.com/2019/05/22/no-longer-damage-3/)
-* [Day 4](http://www.roundcrisis.com/2019/05/23/no-longer-damage-4/)
+* [Day 4](http://www.roundcrisis.com/2019/05/23/no-longter-damage-4/)
 * [Day 5](http://www.roundcrisis.com/2019/05/24/no-longer-damage-5/)
 * [Day 6](http://www.roundcrisis.com/2019/05/25/no-longer-damage-6/)
 * [Day 7](http://www.roundcrisis.com/2019/05/26/no-longer-damage-7/)
