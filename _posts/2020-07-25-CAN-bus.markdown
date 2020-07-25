@@ -1,0 +1,22 @@
+---
+author: roundcrisis
+date: 2020-07-25 20:48:00+00:00
+layout: post
+title: CAN Bus  
+categories:
+- automotive
+- CAN
+---
+
+## CAN bus: High level introduction
+
+* Mandatory in EU since 2001, us 2008
+* Runs on 2 wires. CANH (high) CANL (low)
+* Uses differential signaling  (some exceptions) 
+    * When a signal comes in, CAN raises the voltage on one line and drops the other line an equal amount
+    * Differential sinaling is used in environments that must be fault tolerant to noise 
+    *  When a bit is transmitted then signal is simultaneously broadcast to both high and low, the sensors check that they match and if they don't the packet is discarded as noise
+* The two twisted pair wires require the bus to be terminated on each end. There is a 120-ohm resistor across both wires on the termination ends
+* Most vehicles come with the ODB-II connector, aka Diagnostic Link Connector (dlc). It communitcates with the vehicle internal netowrk
+
+![]({{ site.images }}/2020/odb2-pinout.jpg})
