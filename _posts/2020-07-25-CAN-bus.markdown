@@ -10,6 +10,8 @@ categories:
 
 ## CAN bus: High level introduction
 
+Short for Controller Area Network, a standard designed to allow electronic control units (ECUs) to communicate without a centralised computer. It is a message based protocol. 
+
 * Mandatory in EU since 2001, us 2008
 * Runs on 2 wires. CANH (high) CANL (low)
 * Uses differential signaling  (some exceptions) 
@@ -19,6 +21,6 @@ categories:
 * The two twisted pair wires require the bus to be terminated on each end. There is a 120-ohm resistor across both wires on the termination ends
 * Most vehicles come with the ODB-II connector, aka Diagnostic Link Connector (dlc). It communitcates with the vehicle internal netowrk
 
-![]({{ site.images }}/2020/obd2-pinout.jpg)
+![]({{ site.images }}/2020/obd2-pinout.png)
 
-(source: https://de.wikipedia.org/wiki/Datei:OBD2-Buchse-Stecker-Belegung.jpg)
+(source: https://components101.com/connectors/obd2)
