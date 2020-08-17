@@ -9,7 +9,7 @@ categories:
 - scala-steward
 ---
 
-## Running scala steward locally
+## Running scala steward on private repos 
 
 ### Motivation
 
