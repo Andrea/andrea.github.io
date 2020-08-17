@@ -45,7 +45,7 @@ The first few options are for docker to run and mount the current directory as a
 * git-author-email: The email that will be used in the commit.
 * vcs-api-host: Generally it will be `"https://api.github.com"` the url of the api of the git host server. AFAIK github, gitlab and bitbucket supported so far.
 * vcs-login: the username of the git account
-* git-ask-pass: I found this kind of strange, and have to wonder about alternatives (I started a chat about this on the gitter channel). This is for the path to an script file that returns: the plain text password :( *or* an authentication token. The script must start with `!#/bin/sh` 
+* git-ask-pass: I found this kind of strange, and ~have to wonder about alternatives~ [this is why](https://github.com/scala-steward-org/scala-steward/issues/518). This is for the path to an script file that returns: the plain text password :( *or* an authentication token. The script must start with `!#/bin/sh` 
 * sign-commits: I don't use this. Might be useful in case one wants to sign the commits.
 * env-var: if you need to add any extra environment variables so that the repos run.
 
@@ -66,3 +66,13 @@ Also you don't want to block CI for a while (if that is your setup). I suggest y
 
 
 Since not so long ago *Scalafix* updates enabled by default, also you can add your custom scalafix changes.
+
+Please note, you can set up configuration per project if you want to stop particular updates.
+
+### Some other ways
+
+Since this is all about managing dependencies, these are some interesting projects that I am planning to check out(but haven't yet):
+
+* [sbt-bobby](https://github.com/hmrc/sbt-bobby): You create a set of rules which outlaw particular versions of a library or plugin, and task Bobby to enforce those rules. If a violation is detected, the whistle is blown, and the build is failed.
+
+* [Enforcing Consistent Versions of Third Party Dependencies](https://softwarecorner.wordpress.com/2020/06/30/a-simple-sbt-plugin-enforcing-consistent-versions-of-third-party-dependencies/) A blog post that describes a way to manage consistent dependencies using an sbt plugin. I think this works if the projects all have the same collection of deps.
