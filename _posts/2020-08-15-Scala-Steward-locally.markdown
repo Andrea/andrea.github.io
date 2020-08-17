@@ -17,7 +17,7 @@ Keep the dependencies in many repositories up to date as automatically as possib
 
 ### How to run
 
-You can run by clonning the repo and running it, check the [instructions](https://github.com/scala-steward-org/scala-steward/blob/master/docs/running.md).If you want to run this on private repos on some CI I find that it might be easier to run from Docker. I especially like that you can use a particular version you know works and move when you are ready.
+You can run by cloning the repo and running it, check the [instructions](https://github.com/scala-steward-org/scala-steward/blob/master/docs/running.md).If you want to run this on private repos on some CI I find that it might be easier to run from Docker. I especially like that you can use a particular version you know works and move when you are ready.
 
 To run from Docker, execute something like this from where you checked out scala-steward(setup the necessary env vars STEWARD_DIR, LOGIN and EMAIL accordingly):
 
@@ -65,9 +65,9 @@ Also you don't want to block CI for a while (if that is your setup). I suggest y
 <img src="https://imgs.xkcd.com/comics/compiling.png" >
 
 
-Since not so long ago *Scalafix* updates enabled by default, also you can add your custom scalafix changes.
+Since not so long ago *Scalafix* updates are enabled by default, a nice enhancement. Also you can add your custom *scalafix* changes.
 
-Please note, you can set up configuration per project if you want to stop particular updates.
+Please note, you can set up configuration per project if you want to stop particular updates. If you have questions, the FAQ is pretty good.
 
 ### Some other ways
 
