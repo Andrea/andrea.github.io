@@ -45,7 +45,7 @@ The first few options are for docker to run and mount the current directory as a
 * git-author-email: The email that will be used in the commit.
 * vcs-api-host: Generally it will be `"https://api.github.com"` the url of the api of the git host server. AFAIK github, gitlab and bitbucket supported so far.
 * vcs-login: the username of the git account
-* git-ask-pass: I found this kind of strange, and ~have to wonder about alternatives~ [this is why](https://github.com/scala-steward-org/scala-steward/issues/518). This is for the path to an script file that returns: the plain text password :( *or* an authentication token. The script must start with `!#/bin/sh` 
+* git-ask-pass: I found this kind of strange, and ~have to wonder about alternatives~ [this is why](https://github.com/scala-steward-org/scala-steward/issues/518). This is for the path to an script file that returns: the plain text password :( *or* an authentication token. The script must start with `!#/bin/sh`. For this, since running this internally, I create the file on the fly with information available in my CI environment, similar to what how it is described ine the link above. 
 * sign-commits: I don't use this. Might be useful in case one wants to sign the commits.
 * env-var: if you need to add any extra environment variables so that the repos run.
 
