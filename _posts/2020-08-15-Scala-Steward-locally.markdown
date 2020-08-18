@@ -2,14 +2,14 @@
 author: roundcrisis
 date: 2020-08-15 20:48:00+00:00
 layout: post
-title: Running scala steward locally
+title: Running scala steward on private repos
 categories:
 - scala
 - dependencies
 - scala-steward
 ---
 
-## Running scala steward on private repos 
+
 
 ### Motivation
 
