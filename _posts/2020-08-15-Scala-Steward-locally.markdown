@@ -62,7 +62,10 @@ Optionally you might want to also set up [Mergify](https://mergify.io/) or somet
 So with PR building set up you might be tempted to add all your repos at once. That might be a bad idea. This tools creates one PR per change, it is very likely you might want to update many libraries at once. To know what is out of date you can simple use `sbt dependecyUpdates`
 Also you don't want to block CI for a while (if that is your setup). I suggest you add a few repos at a time and see what happens. This is a good task to do while waiting for something else.
 
-<img src="https://imgs.xkcd.com/comics/compiling.png" >
+<figure>
+  <img src="https://imgs.xkcd.com/comics/compiling.png" >
+  <figcaption class="figure-caption">source: https://xkcd.com/303/</figcaption>
+</figure> 
 
 
 Since not so long ago *Scalafix* updates are enabled by default, a nice enhancement. Also you can add your custom *scalafix* changes.
