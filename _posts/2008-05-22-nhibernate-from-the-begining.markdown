@@ -10,6 +10,6 @@ categories:
 - NHibernate
 ---
 
-I ve been suing NH for a while now, but i never started a project from the begining or used purely nHibernate (I mean without Castle Active Record) started to read NHibernate in Action ( the EAP edition) so lets see how it goes[^1].
+I've been using NHibernate for a while now, but I never started a project from the begining or used purely NHibernate (I mean without Castle Active Record).I started to read NHibernate in Action ( the EAP edition) so lets see how it goes[^1].
 
-[^1]: This is the first footnote.
+[^1]: NHibernate in Action Pierre Henri Kuaté, Tobin Harris, Christian Bauer, and Gavin King January 2009 https://www.manning.com/books/nhibernate-in-action
