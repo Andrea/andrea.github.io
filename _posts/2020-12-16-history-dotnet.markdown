@@ -29,8 +29,9 @@ I have created the following diagram to make following the topics of the talk si
 
 
 * [Microsoft: key facts- Irish Times](https://www.irishtimes.com/business/technology/microsoft-key-facts-1.2682924)
-* [Microsoft - Wikipedia](https://en.wikipedia.org/wiki/Microsoft)
-* A talk about ["The History of .net"]( https://www.youtube.com/watch?v=trHTLFNFoWk) from Richard Campbell from .Net Rocks
+* [History of Microsoft - Wikipedia](https://en.wikipedia.org/wiki/History_of_Microsoft)
+* [The History of .net]( https://www.youtube.com/watch?v=trHTLFNFoWk) from Richard Campbell from .Net Rocks
+
 
 ### Virtual Machines
 
@@ -45,6 +46,7 @@ I have created the following diagram to make following the topics of the talk si
 
 ### Java and the JVM
 
+* [History of Java](https://www.geeksforgeeks.org/the-complete-history-of-java-programming-language/)
 * [James Gosling talk about the beinnings of Java](https://www.infoq.com/presentations/gosling-jvm-lang-summit-keynote/)
 
 
@@ -53,9 +55,12 @@ I have created the following diagram to make following the topics of the talk si
 * [The history of C#](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-version-history)
 * [History of F#](https://fsharp.org/history/hopl-final/hopl-fsharp.pdf) by Don Syme
 * [Interesting discussion about tail calls in C#](https://web.archive.org/web/20140724090729/http://connect.microsoft.com/VisualStudio/feedback/details/166013/c-compiler-should-optimize-tail-calls)
+* [History of Mono](https://www.mono-project.com/docs/about-mono/history/)
+* [.NET Framework](https://en.wikipedia.org/wiki/.NET_Framework#History)
 
 ### .NET Generics
 
+* [Design and Implementation of Generics for the .NET Common Language Runtime - Paper - Andrew Kennedy , Don Syme](https://www.microsoft.com/en-us/research/wp-content/uploads/2001/01/designandimplementationofgenerics.pdf)
 * [Generics in C#](https://mattwarren.org/data/2018/03/csharp.html)
 * [How Generics were added to .Net](https://mattwarren.org/2018/03/02/How-generics-were-added-to-.NET/)
 * [Generics in the common type system](https://mattwarren.org/data/2018/03/clrgen-types.html)
