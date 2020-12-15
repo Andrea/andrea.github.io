@@ -1,8 +1,8 @@
 ---
 author: roundcrisis
-date: 2020-08-15 20:48:00+00:00
+date: 2020-12-16 20:48:00+00:00
 layout: post
-title: Chasing a trail or chasing our tail: History of .net from a PL perspective
+title: Chasing a trail or chasing our tail History of .net from a PL perspective
 categories:
 - .net
 - history of programming languages
@@ -12,7 +12,7 @@ categories:
 - csharp
 ---
 
-The abstract for this talk is:
+
 
 Using .net as an example we'll go over the technical decisions that influenced how todays languages look like. 
 We will look at some key technologies that enabled the creation of .net, the reasons for its creation and the origin of its core features.
