@@ -20,7 +20,9 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-size: 100%; }
+  font-size: 100%; 
+  margin: 1em;
+}
 
 h1 { margin-bottom: 1em; }
 p { margin: 1em 0; }
@@ -63,7 +65,7 @@ h1 a:hover {
 /*****************************************************************************/
 
 .site {
-  font-size: 115%;
+  font-size: 125%;
   text-align: justify;
   width: 42em;
   margin: 3em auto 2em;
