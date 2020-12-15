@@ -92,7 +92,8 @@ The results of running this were however a little closer to what I was looking f
     Process finished with exit code 0
 
 
-So, what we were looking for is a method called (`background`)[https://github.com/typelevel/cats-effect/blob/series/2.x/core/shared/src/main/scala/cats/effect/IO.scala#L405]  which returns a resource that will start execution of this IO in the background.
+So, what we were looking for is a method called (`background`)[https://github.com/typelevel/cats-effect/blob/series/2.x/core/shared/src/main/scala/cats/effect/IO.scala#L405]  which returns a resource that will start execution of this IO in the background. Which is pretty perfect for the kind of task this needs to do.
+
 
 ```
 object TimerBackground extends IOApp {
@@ -115,3 +116,5 @@ object TimerBackground extends IOApp {
 }
 ```
 
+
+And I think that is all for today, till the next time.
