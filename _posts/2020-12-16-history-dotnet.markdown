@@ -17,6 +17,9 @@ categories:
 Using .net as an example we'll go over the technical decisions that influenced how todays languages look like. 
 We will look at some key technologies that enabled the creation of .net, the reasons for its creation and the origin of its core features.
 
+Video of the talk starting at my talk, however the whole conference is very interesting:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UiNe9kWU9jg?start=2474" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 I have created the following diagram to make following the topics of the talk simpler. There are many ways to link these, and
 
