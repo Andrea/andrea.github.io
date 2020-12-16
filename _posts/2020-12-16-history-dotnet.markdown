@@ -17,7 +17,7 @@ categories:
 Using .net as an example we'll go over the technical decisions that influenced how todays languages look like. 
 We will look at some key technologies that enabled the creation of .net, the reasons for its creation and the origin of its core features.
 
-Video of the talk starting at my talk, however the whole conference is very interesting:
+Video of the conference (with video starting with at my talk. The whole conference is in that video) :
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UiNe9kWU9jg?start=2474" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -85,6 +85,8 @@ If you enjoyed this talk and the subject, I have done some other talks about his
 
  * [A brief and incomplete history of programming languages - Curry On](https://www.youtube.com/watch?v=ZuDm2PPQNMQ)
  * [Keynote: Inviting everyone to the party](https://www.youtube.com/watch?v=WBu43Tj0zOY)
- Be warned, history of PL is an appealing rabbit hole. If you want to delve (a lot) deeper into the history of PL the whole series of books on based on the [HoPL conferences books](https://dl.acm.org/action/doSearch?AllField=HoPL) are a great resource. 
+
+Be warned, history of PL is an appealing rabbit hole. If you want to delve (a lot) deeper into the history of PL the whole series of books on based on the [HoPL conferences books](https://dl.acm.org/action/doSearch?AllField=HoPL) are a great resource. 
+
 
 
