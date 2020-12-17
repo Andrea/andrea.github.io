@@ -47,7 +47,7 @@ error: aborting due to previous error
 For more information about this error, try `rustc --explain E0308`. 
 ```
 
-> error[E0308]: mismatched types
+># error[E0308]: mismatched types
 
 arrays of differnt sizes are different types. I thought that was really interesting. It is documented
 
