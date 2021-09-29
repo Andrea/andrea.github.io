@@ -14,11 +14,10 @@ People new to a codebase and those less experienced with programming generally h
 
 Here is an easy to try option: Run a Bytesize architecture session:
 
-
 * An hour long recurrent meeting with your team. Bi-weekly at the start and you can phase it to once a month as people run out of things to draw.
 * Decide together a subset of the architecture you want to draw. This is not a test, it's an opportunity to learn together about what you know and, most importantly, what you don't know.  
 * Set a timer for 5  minutes.
-* Separately, every draws in a piece of paper. If you don't know something, leave it blank. 
+* Separately, everyone draws in a piece of paper. If you don't know something, leave it blank. 
 * When the timer goes off show each other what you drew. Yes, it's kind of scary.
 * Discuss and find consensus on what is the resulting diagram should be. Finally record the diagram(s) created somewhere (e.g: draw.io, miro, plantuml, etc)
 
@@ -44,7 +43,7 @@ It is normal to forget some parts. Together you can make a better picture.
 ## What is this practise trying to address
 
 * In most teams there is at least one person that has a high fidelity image of the architecture in their heads. It is common for other people in the team to defer questions and decisions about the architecture to that person, this is great (is it tho?) until that person is not available. 
-* If everyone in the team has the same or similar picture of the architecture in their heads, they will make better decisions.
+* If everyone in the team has the same or similar picture of the architecture in their heads, they will make better decisions on their day to day.
 * I have tried this for a few years and it has proven super useful. Teams are happy to build this together and get a feeling of ownership. 
 
 
