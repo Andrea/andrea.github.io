@@ -10,7 +10,7 @@ categories:
 
 The more you do something, the better you get at it. It applies to software architecture too. How to do it more often?
 
-People new to a codebase and those less experienced with programming generally have incomplete or incorrect mental models about the codebase.  One would expect that as time passes, the mental models change and are corrected correct, how about being more deliberate about it?
+People new to a codebase and those less experienced with programming generally have incomplete or incorrect mental models about the codebase.  One would expect that as time passes, the mental models should become correct, how about being more deliberate about it?
 
 Here is an easy to try option: Run a Bytesize architecture session:
 
