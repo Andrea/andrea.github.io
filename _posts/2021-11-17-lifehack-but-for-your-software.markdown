@@ -30,7 +30,7 @@ The tools:
 
 
 I will link to the recording when it becomes available
-
+[Presentation Pdf]({{ site}}/presentations/The-best-life-hack-but-for-your-software.pdf)
 
 ## Resources
 
