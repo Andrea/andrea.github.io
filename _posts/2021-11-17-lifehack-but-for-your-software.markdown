@@ -34,16 +34,15 @@ I will link to the recording when it becomes available
 
 ## Resources
 
-* ADR resources and tooling https://adr.github.io/
-* Bytesize Architecture Sessions http://www.roundcrisis.com/2021/09/28/bytesize-architecture-sessions/
-* The C4 Model for Software Architecture  https://www.infoq.com/articles/C4-architecture-model/
+* [ADR resources and tooling](https://adr.github.io/)
+* [Bytesize Architecture Sessions](http://www.roundcrisis.com/2021/09/28/bytesize-architecture-sessions/)
+* [The C4 Model for Software Architecture](https://www.infoq.com/articles/C4-architecture-model/)
 * Domaing Storytelling: 
-
-   * https://domainstorytelling.org/
-   * Awesome Domain storytelling: https://github.com/hofstef/awesome-domain-storytelling
-  * Domain Storytelling - Facilitator's Guide to Enhance Learning in Your Organization by Mufrid Krilic - https://www.youtube.com/watch?v=ANfYEt16vRI
+   * [https://domainstorytelling.org/](https://domainstorytelling.org/)
+   * [Awesome Domain storytelling](https://github.com/hofstef/awesome-domain-storytelling)
+  * [Domain Storytelling - Facilitator's Guide to Enhance Learning in Your Organization by Mufrid Krilic](https://www.youtube.com/watch?v=ANfYEt16vRI)
 
 * Systems and Architecture
 
-    * Key characteristics of systems Russel Ackoff: https://www.youtube.com/watch?v=OqEeIG8aPPk
-    * What is architecture https://www.bredemeyer.com/whatis.htm
+    * [Key characteristics of systems Russel Ackoff 10 min video](https://www.youtube.com/watch?v=OqEeIG8aPPk)
+    * [What is architecture?](https://www.bredemeyer.com/whatis.htm)
