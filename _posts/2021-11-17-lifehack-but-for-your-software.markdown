@@ -1,8 +1,8 @@
 ---
 author: roundcrisis
-date: 2021-09-28 20:48:00+00:00
+date: 2021-11-17 20:48:00+00:00
 layout: post
-title:  Bytesize architecture Sessions
+title:  Lifehacks but for your software talk
 categories:
 - software architecture
 - practises
