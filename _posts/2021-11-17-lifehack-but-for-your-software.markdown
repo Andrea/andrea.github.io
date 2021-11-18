@@ -2,7 +2,7 @@
 author: roundcrisis
 date: 2021-11-17 20:48:00+00:00
 layout: post
-title:  Lifehacks but for your software talk
+title:  Talk: The best Lifehack, but for your software 
 categories:
 - software architecture
 - practises
