@@ -12,7 +12,7 @@ categories:
 In my previous post about [Bytesize Architecture sessions](http://www.roundcrisis.com/2021/09/28/bytesize-architecture-sessions/) I described briefly that one of the key aspects of the session is to have "Alone together" time where each of the participants of the session will have **a few minutes where they are working on the same task but not collaborating** , and they are in the same room (virtual or not). 
 
 
-![]({{ site.images }}/2022/2022-10-01-17-24-10.png)
+![A team (of caricature animals) working for a few minutes on the designated task]({{ site.images }}/2022/2022-10-01-17-24-10.png)
 
 The quiet time allows a break to engage on the task at hand and have some time to think (time to think during a meeting is sadly underrated ). Because of it, each participant learns to:
 
