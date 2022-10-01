@@ -5,3 +5,5 @@ name: Roundcrisis
 title: Roundcrisis
 description: roundcrisis's adventures in code.
 url: http://roundcrisis.com
+plugins:
+  - jekyll-feed
