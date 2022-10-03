@@ -20,5 +20,8 @@ The quiet time allows a break to engage on the task at hand and have some time t
 * For people new to the team or system, it builds confidence  in what they have learned by revising what they know. New people generally bring great questions. The questions some might have anyway but are tired of asking, or afraid to ask.
 * For some people with less confidence or experience, they generally realise how much they do know. It also has the effect of building on that experience since, this is a systems thinking exercise, with a very low failure risk.
 * Finally, with some iterations, the group can see that they have more or less homogeneous knowledge, and don't need to always lean on the same people
+* It helps people that find it hard to engage on fast interactions**
  
 Meetings are generally not very effective, getting all of that in a few minutes is  _the power of Alone Together_
+
+** Thanks Tolga Sofuoglu for your feedback.
