@@ -1,13 +1,3 @@
-# How to design and build great systems
-
-1. Define the goal the system 
-1. Plan how to implement the system
-1. Implement the system
-
-Note: Don't make any mistakes
-
-
-
 # Sharing your (Systems) knowledge with Bytesize Architecture Sessions
 
 It is not trivial to share knowledge about your systems with people in your team. Some sharing sessions try to it all at once, or be too long. 
