@@ -18,7 +18,7 @@ I suggest drawing what is know as a Context Diagram of the system as is **right 
 levels.
 
 If you are wondering why drawing the system as it is right now, these are a few reasons
- * It is important to anchor the diagrams in reality. This means that it is possible to check if the diagrams are correct. 
+ * It is important to anchor the diagrams in reality. This means that it's possible to check if the diagrams are correct. 
  * Any architecture effort needs information about the current state of the system, what better place to start than drawing something everyone knows about.
 
 
@@ -27,3 +27,7 @@ If your team is not familiar with C4,  teach them about it before a Bytesized Se
 <img src="https://static.structurizr.com/workspace/76748/diagrams/SystemContext.png" height=300px alt="Example of a Context Diagram. Source: C4model.com">
 
 Example of a Context Diagram. Source: C4model.com
+
+If your system is too big and you think it won't be possible to draw the whole Context diagram in one session, then break it up.
+Once you have a Context Diagram, it is a good idea to continue with the other parts of C4, at least do Container and Components. 
+
