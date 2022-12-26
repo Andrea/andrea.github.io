@@ -14,7 +14,7 @@ What I did not mention was what to do. This post fixes that.
 
 When I started running sessions I noticed that if you ask people to draw the system without any constraints each person draws at different levels of abstraction, some will add a lot of low level details, some will do a bit of high level and a bit of low level... most won't be able to finish which is not ideal.
 
-I suggest drawing what is know as a Context Diagram of the system as is **right now**. A Context diagram is the top level of the [C4 model](https://c4model.com/). C4 is a modeling technique for describing your system at different abstraction 
+I suggest drawing what is known as a Context Diagram of the system as is **right now**. A Context diagram is the top level of the [C4 model](https://c4model.com/). C4 is a modeling technique for describing your system at different abstraction 
 levels.
 
 If you are wondering why drawing the system as it is right now, these are a few reasons
