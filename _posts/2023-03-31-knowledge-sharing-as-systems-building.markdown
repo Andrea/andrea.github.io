@@ -1,6 +1,6 @@
 ---
 author: roundcrisis
-date: 2023-06-31 10:48:00+00:00
+date: 2023-03-31 10:48:00+00:00
 layout: post
 title:  Knowledge sharing is systems building
 categories:
