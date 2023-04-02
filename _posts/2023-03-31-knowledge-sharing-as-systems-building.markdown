@@ -17,6 +17,11 @@ If we needed a metaphor for the act of building systems, it would be something l
 
 ![The shadow of an elephant]({{ site.images }}/2023/shadow-elephant.jpg)
 
-After some consideration they decide they want to build the elephant, it takes time and effort and then at some point "it goes live". 
+After some consideration they decide they want to create an elephant, it takes time and effort and then at some point "it goes live". 
+
+When a group of people decide to start building a system, and as they continue, what they are building will be a bit of a mirage. It will be not clear and they are only likely to succeed in building  something useful if they communicate and collaborate on what their building.
 
 We need collaboration to bring something to life, and even more to keep it alive.
+
+
+
