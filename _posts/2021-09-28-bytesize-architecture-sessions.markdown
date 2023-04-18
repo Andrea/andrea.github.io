@@ -8,7 +8,7 @@ categories:
 - practises
 ---
 
-**Update**: see my new website [bytesizearchitecturesessions.com](https://bytesizearchitecturesessions.com/)
+**Update**: see Bytesize Architecure Sessions website [bytesizearchitecturesessions.com](https://bytesizearchitecturesessions.com/) 🎉
 
 The more you do something, the better you get at it. It applies to software architecture too. How to do it more often?
 
