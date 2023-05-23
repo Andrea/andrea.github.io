@@ -21,13 +21,13 @@ Sharing knowledge effectively is hard, in this talk I will present a technique c
 
 Some of the benefits of Bytesize Architecture Sessions are:
 
-    * Improved systems thinking.
-    * Enriching collaboration within the team.
-    * Understanding architecture practices and tools in a safe environment.
-    * A feedback loop controlled by the team that produces better documentation across sessions.
-    * Revealing the Bermuda Triangles!
+* Improved systems thinking.
+* Enriching collaboration within the team.
+* Understanding architecture practices and tools in a safe environment.
+* A feedback loop controlled by the team that produces better documentation across sessions.
+* Revealing the Bermuda Triangles!
 
-Since you are here you get a peak!     
+Since you are here you get a peak at one of my slides!     
 
 ![Sharing methods]({{ site.images }}/2023/sharing-methods.png)
 
