@@ -9,7 +9,7 @@ categories:
 - Bytesize Architecture sessions
 ---
 
-I am going to be talking at New Crafts this Friday. I'm planning to update this post with more info about how was the conference here, so I figured I will start this post now.
+I am going to be talking at [New Crafts](https://2023.ncrafts.io/agenda) this Friday. I'm planning to update this post with more info about how was the conference here, so I figured I will start this post now.
 
 ## My talk: Knowledge sharing is Systems building
 
