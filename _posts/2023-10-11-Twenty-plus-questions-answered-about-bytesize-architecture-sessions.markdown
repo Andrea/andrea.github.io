@@ -44,6 +44,9 @@ Below is the list of questions. If you have more questions please send them to m
 
 
 The first two questions could be bundled into one 
+
+![A group of people collaborating]({{ site.images }}/2023/team-collab.png)
+
 ## How many people should participate on a Bytesize Architecture Session ideally?
 ## What should be the maximum size of people attending a Bytesize Architecture Session?
 
