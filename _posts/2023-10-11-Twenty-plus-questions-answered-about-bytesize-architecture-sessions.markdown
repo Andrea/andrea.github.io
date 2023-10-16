@@ -10,7 +10,7 @@ categories:
 
 I am just back from the [Global Software Architecture Summit](https://gsas.io/#schedule) were I spoke recently about Bytesize Architecure Sessions. I got some interesting questions in the Q&A. We didn't get through all of them, so I figured I can answer them in a post.
 
-As I answered all of the questions, I realised that there were many ways to answer them, and that in many cases that was very useful too. So, I am going to answer a question per post, to keep it interesting.
+As I answered all of the questions, I realised that there were many ways to answer them, and that in many cases that was very useful too. So, I am going to answer a question or more (if they make sense together) per post, to keep it interesting. 
 
 Below is the list of questions. If you have more questions please send them to me via mastodon or LinkedIn and I can add them here and turn them into a post. 
 
@@ -36,11 +36,6 @@ Below is the list of questions. If you have more questions please send them to m
 * Who facilitates the Bytesize Architecture Sessions? How do you guide people to reach Consensus
 * Do you use this format in practice? it looks like it would costs too much time (& money) to include the whole team
 * When people in the session have different levels of expertise, how can we make this session work? Less experienced people might fear participation or might get stuck with their design.
-* Why not asking the people to come to the meeting with a proposal instead of letting everyone start thinking about the problem when they get to the meeting ?
-* how to implement byte size sessions on remote teams?
-* Responsibility for achitectural decision should be fully taken by architect. This format could make an impression of shared responsibility through the team. How do you avoid that?
-* Thanks for the neurodivergent awaresness
-* Who will be the facilitator of the session? E.g. for driving the discussion to a consensus.
 
 
 The first two questions could be bundled into one 
@@ -78,4 +73,6 @@ If you have a bigger problem maybe you need to try other modelling techniques fi
 
 Remember, team configuration is software architecture too!
 
+
+PS: Thanks Jacqui Read for the suggestion to group the posts by topic.
 
