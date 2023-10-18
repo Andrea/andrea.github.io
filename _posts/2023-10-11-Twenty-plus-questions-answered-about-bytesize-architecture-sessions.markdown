@@ -23,26 +23,48 @@ Questions about number of participants (answered below all these questions)
 [Questions about the goal of a session]({% post_url 2023-10-18-bas-goal-session %})
 * [How many sessions/weeks does it usually take to complete?]({% post_url 2023-10-18-bas-goal-session %}) 
 * [How to narrow the goal of the session to a specific case? How to reach a goal when the issue is is too big?]({% post_url 2023-10-18-bas-goal-session %})
+* Let's imagine that part of a team has implemented a few new services How do we share the knowledge with the rest of the team using Bytesize Architecture Sessions?
 
-* The idea that consensus is not only about agreement, but also about disagreement is very interesting. Was this a learning from the first sessions or does it come from somewhere else?
-* What makes Bytesize Architecture Sessions different?
-* Are there any companies using Bytesize Architecture Sessions?
-* How to avoid people talking on top of each other?
+
+Questions about where does Bytesize Architecture Sessions doesn't work as intended
 * Have you experienced this approach fail or not work as intended for the specific task at hand?
+
+Questions about team's attitude to collaboration 
+* How to avoid people talking on top of each other?
 * Are there any recommendations for when a team is very apathetic and low energy? How to infuse this energy and willingness to change?
+* One of the hardest things to do is to interrupt a developer passionatelly explaining their piece. Normally everyone gets too excited during discussions. Any tips on this?
+* When people in the session have different levels of expertise, how can we make this session work? Less experienced people might fear participation or might get stuck with their design.
+
+
+Questions about the "Consensus" part of the Sessions
+* The idea that consensus is not only about agreement, but also about disagreement is very interesting. Was this a learning from the first sessions or does it come from somewhere else?
+
+Questions about the specifics of Bytesize Architecture Sessions as a tool
+* What makes Bytesize Architecture Sessions different?
 * How is this collaboration tool different from Event Storming?
 
+Questions about companies using  Bytesize Architecture Sessions 
+* Are there any companies using Bytesize Architecture Sessions?
+
+Questions about Bytesize Architecture Sessions and do people forget between sessions
 * Do people forget what was done in the previous session?
+
+Questions about Bytesize Architecture Sessions and decision making
 * Isn't this technique favouring an organic architecture growth by making collaborative decisions around out of expertise areas?
-* Let's imagine that part of a team has implemented a few new service How do we share the knowledge with the rest of the team using Bytesize Architecture Sessions?
-* Why not ask people to come to the meeting with a proposal instead of letting everyone start thinking about the problem when they get into the meeting?
-* But we still need to write ADRs, don't we?
-* One of the hardest things to do is to interrupt a developer passionatelly explaining their piece. Normally everyone gets too excited during discussions. Any tips on this?
 * In terms of technical details of the architecture that require in-depth technical discussions How can developers and architects benefit from Bytesize Architecture Sessions to improve alignment of their ideas, have you experienced this?
 * Responsibility for architectural decisions should be fully taken by the architect. This format could imply shared responsibility with the team. How do you avoid that
+
+Questions about Bytesize Architecture Sessions and alternative formats
+* Why not ask people to come to the meeting with a proposal instead of letting everyone start thinking about the problem when they get into the meeting?
+
+Questions about Bytesize Architecture Sessions and other tools
+* But we still need to write ADRs, don't we?
+
+Questions about facilitating Bytesize Architecture Sessions 
 * Who facilitates the Bytesize Architecture Sessions? How do you guide people to reach Consensus
+
+Questions about the cost of Bytesize Architecture Sessions 
 * Do you use this format in practice? it looks like it would costs too much time (& money) to include the whole team
-* When people in the session have different levels of expertise, how can we make this session work? Less experienced people might fear participation or might get stuck with their design.
 
 
 The first two questions could be bundled into one 

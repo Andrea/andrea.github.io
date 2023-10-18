@@ -1,78 +1,38 @@
 ---
 date: 2023-10-11 12:13:00
 layout: post
-title: Twenty plus questions about Bytesize Architecture sessions - The plan and one answer
+title: Answering questions about Bytesize Architecture sessions - On the goal of the sessions
 categories:
 - bytesize-architecture-sessions
 - software architecture
--
+- goal of the session
 ---
 
-I am just back from the [Global Software Architecture Summit](https://gsas.io/#schedule) were I spoke recently about Bytesize Architecure Sessions. I got some interesting questions in the Q&A. We didn't get through all of them, so I figured I can answer them in a post.
+I recently spoke  about [Bytesize Architecure Sessions](https://bytesizearchitecturesessions.com/) at the [Global Software Architecture Summit](https://gsas.io/#schedule). I got some interesting questions in the Q&A. We didn't get through all of them, so have grouped them and answering in smaller posts. This one is about how to find the goal of the session.
 
-As I answered all of the questions, I realised that there were many ways to answer them, and that in many cases that was very useful too. So, I am going to answer a question or more (if they make sense together) per post, to keep it interesting. 
+### Other posts on the series:
+* [Questions about number of participants]({% post_url 2023-10-11-Twenty-plus-questions-answered-about-bytesize-architecture-sessions %})
 
-Below is the list of questions. If you have more questions please send them to me via mastodon or LinkedIn and I can add them here and turn them into a post. 
+Questions asked
 
-* How many people should participate on a Bytesize Architecture Session ideally?
-* What should be the maximum size of people attending a Bytesize Architecture Session?
 * How to narrow the goal of the session to a specific case? How to reach a goal when the issue is is too big?
-* The idea that consensus is not only about agreement, but also about disagreement is very interesting. Was this a learning from the first sessions or does it come from somewhere else?
-* What makes Bytesize Architecture Sessions different?
-* Are there any companies using Bytesize Architecture Sessions?
-* How to avoid people talking on top of each other?
-* Have you experienced this approach fail or not work as intended for the specific task at hand?
-* Are there any recommendations for when a team is very apathetic and low energy? How to infuse this energy and willingness to change?
-* How is this collaboration tool different from Event Storming?
-* how many sessions/weeks does it usually take to complete? 
-* Do people forget what was done in the previous session?
-* Isn't this technique favouring an organic architecture growth by making collaborative decisions around out of expertise areas?
-* Let's imagine that part of a team has implemented a few new service How do we share the knowledge with the rest of the team using Bytesize Architecture Sessions?
-* Why not ask people to come to the meeting with a proposal instead of letting everyone start thinking about the problem when they get into the meeting?
-* But we still need to write ADRs, don't we?
-* One of the hardest things to do is to interrupt a developer passionatelly explaining their piece. Normally everyone gets too excited during discussions. Any tips on this?
-* In terms of technical details of the architecture that require in-depth technical discussions How can developers and architects benefit from Bytesize Architecture Sessions to improve alignment of their ideas, have you experienced this?
-* Responsibility for architectural decisions should be fully taken by the architect. This format could imply shared responsibility with the team. How do you avoid that
-* Who facilitates the Bytesize Architecture Sessions? How do you guide people to reach Consensus
-* Do you use this format in practice? it looks like it would costs too much time (& money) to include the whole team
-* When people in the session have different levels of expertise, how can we make this session work? Less experienced people might fear participation or might get stuck with their design.
+* How many sessions/weeks does it usually take to complete?
+* Let's imagine that part of a team has implemented a few new services How do we share the knowledge with the rest of the team using Bytesize Architecture Sessions?
+
+All these questions are similar in that we are trying to understand how much work to attempt to do in one session, as well as to try to finish something across sessions.
+
+Let's start of with the bigger picture, what are you trying to achieve with these sessions.  
+If you are trying to get a team to be more homogeneous on their knowledge of their domain, then you can think about ways to break that up into diagrams that can be roughly drawn in 5 mimnutes, this is why I always suggest to [start with C4]({% post_url 2022-12-26-Why-start-with-C4-diagrams%})
+
+For example in one of the first teams we tried Butesize Session, as a team each of us knew some of the workflows well, but each of us didn't know all of them, and we had no diagrams for them. So, in each Bytesize Session we did boxes and arrow diagrams of the workflows, one diagram per Session.
 
 
-The first two questions could be bundled into one 
+If we now focus on the  how much the participants can model in one session. To answer consider 
 
-![A group of people collaborating]({{ site.images }}/2023/team-collab.png)
+* What can be modeled in the few minutes that you have set for Alone Together
+* How much experience do the participants have
+* If you are not sure, think about what you need, then try it yourself, with less time(maybe four minutes instead of five)
 
-## How many people should participate on a Bytesize Architecture Session ideally?
-## What should be the maximum size of people attending a Bytesize Architecture Session?
+As you iterate with the Sessions' participants you will all start getting a feel for what you can do.
 
-For a new group of people trying out Bytesize Architecture Sessions, the maximum number of participants is somewhere between 6 and 10 people, depending on the group dynamics and experience modelling together.
-
-If you have less people, things work just fine, I ran sessions with 3 people and it works in that it allows people to collaborate with some framework.
-
-
-### Why nine or less?
-
-A session lasts between 45 and 60 minutes:
-
-* When there are more people is unlikely that the participants have enough time and attention span to do Alone Together well, nevermind the rest of the session.
-* Hard to "known when to speak", so many will remain silent.
-* It's hard to not talk accidentally on top of one another 
-
-I've experienced teams resorting to "just have some people listening in".  Don't! 
-It really changes how the sessions feel, they become performative. 
-
-### What if you have more people?
-
-And the answer is: it depends on the problem you are trying to solve. 
-
-If you have a complicated team collaboration, you might want to choose a pair of people from each team to try to navigate to the solution over a series of Bytesize Sessions. 
-
-If your team is bigger than that, it might be a good time to think about where are the silos and why are they there. When it comes to teams configuration,  a good resource to check out is [Team Topologies](https://teamtopologies.com/book)
-
-If you have a bigger problem maybe you need to try other modelling techniques first and then, try some Bytesize Sessions. 
-
-Remember, team configuration is software architecture too!
-
-
-PS: Thanks Jacqui Read for the suggestion to group the posts by topic.
-
+Bytesize Architecture Sessions help you evolve an Architecture practice, in a safe space.
