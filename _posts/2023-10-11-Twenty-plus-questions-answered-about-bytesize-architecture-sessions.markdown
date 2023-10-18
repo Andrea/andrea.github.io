@@ -8,15 +8,22 @@ categories:
 -
 ---
 
-I am just back from the [Global Software Architecture Summit](https://gsas.io/#schedule) were I spoke recently about Bytesize Architecure Sessions. I got some interesting questions in the Q&A. We didn't get through all of them, so I figured I can answer them in a post.
+I am just back from the [Global Software Architecture Summit](https://gsas.io/#schedule) were I spoke recently about [Bytesize Architecure Sessions](https://bytesizearchitecturesessions.com/). I got some interesting questions in the Q&A. We didn't get through all of them, so I figured I can answer them in a post.
 
 As I answered all of the questions, I realised that there were many ways to answer them, and that in many cases that was very useful too. So, I am going to answer a question or more (if they make sense together) per post, to keep it interesting. 
 
 Below is the list of questions. If you have more questions please send them to me via mastodon or LinkedIn and I can add them here and turn them into a post. 
 
+
+
+Questions about number of participants (answered below all these questions) 
 * How many people should participate on a Bytesize Architecture Session ideally?
 * What should be the maximum size of people attending a Bytesize Architecture Session?
-* How to narrow the goal of the session to a specific case? How to reach a goal when the issue is is too big?
+
+[Questions about the goal of a session]({% post_url 2023-10-18-bas-goal-session %})
+* [How many sessions/weeks does it usually take to complete?]({% post_url 2023-10-18-bas-goal-session %}) 
+* [How to narrow the goal of the session to a specific case? How to reach a goal when the issue is is too big?]({% post_url 2023-10-18-bas-goal-session %})
+
 * The idea that consensus is not only about agreement, but also about disagreement is very interesting. Was this a learning from the first sessions or does it come from somewhere else?
 * What makes Bytesize Architecture Sessions different?
 * Are there any companies using Bytesize Architecture Sessions?
@@ -24,7 +31,7 @@ Below is the list of questions. If you have more questions please send them to m
 * Have you experienced this approach fail or not work as intended for the specific task at hand?
 * Are there any recommendations for when a team is very apathetic and low energy? How to infuse this energy and willingness to change?
 * How is this collaboration tool different from Event Storming?
-* how many sessions/weeks does it usually take to complete? 
+
 * Do people forget what was done in the previous session?
 * Isn't this technique favouring an organic architecture growth by making collaborative decisions around out of expertise areas?
 * Let's imagine that part of a team has implemented a few new service How do we share the knowledge with the rest of the team using Bytesize Architecture Sessions?
