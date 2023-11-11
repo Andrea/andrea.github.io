@@ -8,7 +8,7 @@ title: Another Debugger for IE
 wordpress_id: 13
 categories:
 - ie
-- ie debugger
+- [ie debugger]
 ---
 
 We all know how painful it is to debug websites in ie, (particularly 6 what a terrible browser that.... i ll rant properly about it another day) today i stumbled across this little tool call [DebugBar ](http://www.my-debugbar.com/wiki/) it was all great until I installed it in my machine and it doesn't work. (no contextual menus, no nothing)  
