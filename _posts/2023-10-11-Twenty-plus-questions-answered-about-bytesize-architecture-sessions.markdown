@@ -17,6 +17,7 @@ Below is the list of questions. If you have more questions please send them to m
 
 
 Questions about number of participants (answered below all these questions) 
+
 * How many people should participate on a Bytesize Architecture Session ideally?
 * What should be the maximum size of people attending a Bytesize Architecture Session?
 
