@@ -6,7 +6,7 @@ layout: default
 
 <p class="meta">{{ page.date | date_to_string }}</p>
  
-<p class="meta">Categories: <div class="post-categories">
+<div class="post-categories"><p >Categories: &nbsp;
     {% if post %}
       {% assign categories = post.categories %}
     {% else %}
@@ -16,7 +16,7 @@ layout: default
       {{category}}
     {% unless forloop.last %}&nbsp;{% endunless %}
     {% endfor %}
-  </div></p>
+  </p>
 
 <div class="post">
 {{ content }}
