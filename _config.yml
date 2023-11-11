@@ -7,3 +7,9 @@ description: roundcrisis's adventures in code.
 url: http://roundcrisis.com
 plugins:
   - jekyll-feed
+defaults:
+  - scope:
+      type: categories  # select all category pages
+    values:
+      layout: category_page
+      permalink: categories/:category/  
