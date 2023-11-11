@@ -6,7 +6,13 @@ layout: default
 
 <p class="meta">{{ page.date | date_to_string }}</p>
  
-<div class="post-categories"><p >Categories: &nbsp;
+
+
+<div class="post">
+{{ content }}
+</div>
+
+<div class="post-categories meta"><p>Categories: &nbsp;
     {% if post %}
       {% assign categories = post.categories %}
     {% else %}
@@ -18,9 +24,4 @@ layout: default
     {% endfor %}
   </p>
 
-<div class="post">
-{{ content }}
-</div>
-
-
-If you want to discuss this post, the best place right now for me is mastodon, please message me @roundcrisis@types.pl with your comment/question.
+Want to discuss this post? the best place right now for me is mastodon, please message me @roundcrisis@types.pl with your comment or question.
