@@ -26,16 +26,14 @@ Questions about number of participants (answered below all these questions)
 * [How to narrow the goal of the session to a specific case? How to reach a goal when the issue is is too big?]({% post_url 2023-10-18-bas-goal-session %})
 * Let's imagine that part of a team has implemented a few new services How do we share the knowledge with the rest of the team using Bytesize Architecture Sessions?
 
-
-Questions about where does Bytesize Architecture Sessions doesn't work as intended
-* Have you experienced this approach fail or not work as intended for the specific task at hand?
-
-Questions about team's attitude to collaboration 
+[Questions about team's attitude to collaboration]({% post_url 2024-01-05-bytesize-sessions-collaboration %})
 * How to avoid people talking on top of each other?
 * Are there any recommendations for when a team is very apathetic and low energy? How to infuse this energy and willingness to change?
 * One of the hardest things to do is to interrupt a developer passionatelly explaining their piece. Normally everyone gets too excited during discussions. Any tips on this?
 * When people in the session have different levels of expertise, how can we make this session work? Less experienced people might fear participation or might get stuck with their design.
 
+Questions about where does Bytesize Architecture Sessions doesn't work as intended
+* Have you experienced this approach fail or not work as intended for the specific task at hand?
 
 Questions about the "Consensus" part of the Sessions
 * The idea that consensus is not only about agreement, but also about disagreement is very interesting. Was this a learning from the first sessions or does it come from somewhere else?

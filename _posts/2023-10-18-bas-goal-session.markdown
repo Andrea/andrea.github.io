@@ -12,8 +12,9 @@ I recently spoke  about [Bytesize Architecure Sessions](https://bytesizearchitec
 
 ### Other posts on the series:
 * [Questions about number of participants]({% post_url 2023-10-11-Twenty-plus-questions-answered-about-bytesize-architecture-sessions %})
+* [Questions about team's attitude to collaboration]({% post_url 2024-01-05-bytesize-sessions-collaboration %})
 
-Questions asked
+Questions about the goal of the session
 
 * How to narrow the goal of the session to a specific case? How to reach a goal when the issue is is too big?
 * How many sessions/weeks does it usually take to complete?
