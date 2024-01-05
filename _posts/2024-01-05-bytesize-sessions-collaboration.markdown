@@ -1,7 +1,7 @@
 ---
 date: 2024-01-05 12:13:00
 layout: post
-title: Answering questions about Bytesize Architecture sessions - On the the team and collaboration
+title: Answering questions about Bytesize Architecture sessions - On the the team attitude to collaboration
 categories:
 - bytesize-architecture-sessions
 - software-architecture
