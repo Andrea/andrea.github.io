@@ -1,14 +1,17 @@
 ---
 date: 2023-10-11 12:13:00
 layout: post
-title: Twenty plus questions about Bytesize Architecture sessions - The plan and one answer
+title: GSAS presentation and twenty plus questions about Bytesize Architecture sessions - The plan and part one
 categories:
 - bytesize-architecture-sessions
 - software architecture
--
+- gsas
+- conferences
 ---
 
 I am just back from the [Global Software Architecture Summit](https://gsas.io/#schedule) were I spoke recently about [Bytesize Architecure Sessions](https://bytesizearchitecturesessions.com/). I got some interesting questions in the Q&A. We didn't get through all of them, so I figured I can answer them in a post.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rOv8rgVzFdE?si=dyk9kjSCx1VwEvUV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 As I answered all of the questions, I realised that there were many ways to answer them, and that in many cases that was very useful too. So, I am going to answer a question or more (if they make sense together) per post, to keep it interesting. 
 

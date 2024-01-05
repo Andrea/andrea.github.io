@@ -1,14 +1,14 @@
 ---
 date: 2024-01-05 12:13:00
 layout: post
-title: Answering questions about Bytesize Architecture sessions - On the the team attitude to collaboration
+title: Answering questions about Bytesize Architecture sessions - On the team attitude to collaboration
 categories:
 - bytesize-architecture-sessions
 - software-architecture
 - Goal-of-the-Session
 ---
 
-I recently spoke  about [Bytesize Architecure Sessions](https://bytesizearchitecturesessions.com/) at the [Global Software Architecture Summit](https://gsas.io/#schedule). I got some interesting questions in the Q&A. We didn't get through all of them, so have grouped them and answering in smaller posts. This one is about how to find the goal of the session.
+During October I spoke about [Bytesize Architecure Sessions](https://bytesizearchitecturesessions.com/) at the [Global Software Architecture Summit](https://gsas.io/#schedule). I got some interesting questions in the Q&A. We didn't get through all of them, so have grouped them and answering in smaller posts. This one is about the team attitude to collaboration.
 
 ### Other posts on the series:
 * [Questions about number of participants]({% post_url 2023-10-11-Twenty-plus-questions-answered-about-bytesize-architecture-sessions %})
