@@ -1,4 +1,3 @@
-
 ---
 date: 2024-01-23 12:13:00
 layout: post
@@ -14,7 +13,7 @@ categories:
 ---
 
 
-This idea, of posting a weekly(ish) post with interesting reads started of after reading [Please, Own Your RSS Links](https://web.archive.org/web/20240114004354/https://heydingus.net/blog/2024/1/please-own-your-rss-links). This is a post which could be summed up as
+This idea, of writing a weekly(ish) post with interesting reads started of after reading [Please, Own Your RSS Links](https://web.archive.org/web/20240114004354/https://heydingus.net/blog/2024/1/please-own-your-rss-links). This is a post which could be summed up as
 
 > Own your writting so that when stuff goes wrong you can change the source and keep going
 
