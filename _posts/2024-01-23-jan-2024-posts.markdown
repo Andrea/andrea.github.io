@@ -1,0 +1,44 @@
+
+---
+date: 2024-01-23 12:13:00
+layout: post
+title: Interesting things January 2024
+categories:
+- RSS
+- software-architecture
+- DDD
+- team-topologies
+- impact-on-teams
+- phylosophy
+- postgres
+---
+
+
+This idea, of posting a weekly(ish) post with interesting reads started of after reading [Please, Own Your RSS Links](https://web.archive.org/web/20240114004354/https://heydingus.net/blog/2024/1/please-own-your-rss-links). This is a post which could be summed up as
+
+> Own your writting so that when stuff goes wrong you can change the source and keep going
+
+Nothing ground breaking but a good remminder to make sure that if you post, put a tiny bit of effort and have an RSS feed.
+This led me to look for a good RSS reader, which has been hard since google reader died. It also made me realise that not only do I want a reader I want to make some notes for my future self about what I read and what I liked about it, maybe some thoughts.
+
+So here are some interesting links with some commentary
+
+* [DDD in large product portfolios - Andreas Pinhammer - DDD Europe](https://www.youtube.com/watch?v=FzycqiJVioI) An excellent video where Andreas goes over a case study of using Event Storming, team topologies and DDD to manage multiple products in insurance. Delivered in a very simple manner. 
+
+![Alt text]({{ site.images }}/2024/pinhammer-talk.png)
+
+* [The Power of Being New: A Proven Recipe for High Impact](https://hazelweakly.me/blog/the-power-of-being-new--a-proven-recipe-for-high-impact/) I really like how the points here are actionable things that you can do on a new or not new gig. I also like that it tells you why it's recommending each thing, for example
+
+> You still have zero prestige among the team, and zero trust; you need to meet them where they’re at and address things they care about.   
+
+
+* [From Vexing Uncertainty to Intellectual Humility](https://web.archive.org/web/20240116171324/https://academic.oup.com/schizophreniabulletin/advance-article/doi/10.1093/schbul/sbad173/7517011?login=false) A post from a philosophy professor about his strugles with Schizophrenia, how important is to be with people, and eventually about finding intellectual humility. Very nicely written, the only sour note was would this be posted where it was if this wasn't who it is? 
+
+* [Postgres Cheatsheet](https://wiki.postgresql.org/wiki/Operations_cheat_sheet#Introduction) A really handy reference to browse or search when the need arises. 
+
+## Resources I want to check out
+
+* [Alicia Juarero at Complexity launch](https://vimeo.com/complexitylounge) Recomended by several people on different networks. Alicia Juarero is comes across as an academic with deep background on complexity. She wrote Dynamics in Action (2008) and Context Changes Everything (2023). Main reason to check it out: Alicia Juarero is an expert in this area
+
+* [Tools for Systems Thinkers: The 6 Fundamental Concepts of Systems Thinking](https://www.leylaacaroglu.com/blog//tools-for-systems-thinkers-the-6-fundamental-concepts-of-systemsnbspthinking) by the looks of it this has been around for a while but this is the first time I see this. Main reason to check it out: it looks very promising from my very fast scan
+
