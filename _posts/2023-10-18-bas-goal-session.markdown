@@ -12,7 +12,7 @@ I recently spoke  about [Bytesize Architecure Sessions](https://bytesizearchitec
 
 ### Other posts on the series
 * [How this series started]({% post_url 2023-10-11-Twenty-plus-questions-answered-about-bytesize-architecture-sessions %})
-[Questions about number of participants]({% post_url 2023-10-12-bytesize-architecture-sessions-number-of-participants})
+[Questions about number of participants]({% post_url 2023-10-12-bytesize-architecture-sessions-number-of-participants %})
 * [Questions about team's attitude to collaboration]({% post_url 2024-01-05-bytesize-sessions-collaboration %})
 
 ## Questions about the goal of the session

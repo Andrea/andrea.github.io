@@ -12,7 +12,7 @@ categories:
 
 ### Other posts on the series
 * [How this series started]({% post_url 2023-10-11-Twenty-plus-questions-answered-about-bytesize-architecture-sessions %})
-[Questions about number of participants]({% post_url 2023-10-12-bytesize-architecture-sessions-number-of-participants})
+[Questions about number of participants]({% post_url 2023-10-12-bytesize-architecture-sessions-number-of-participants %})
 * [Questions about team's attitude to collaboration]({% post_url 2024-01-05-bytesize-sessions-collaboration %})
 
 ![A group of people collaborating]({{ site.images }}/2023/team-collab.png)

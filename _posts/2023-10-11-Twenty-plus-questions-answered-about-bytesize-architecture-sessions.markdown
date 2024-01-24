@@ -19,7 +19,7 @@ Below is the list of questions. If you have more questions please send them to m
 
 
 
-[Questions about number of participants]({% post_url 2023-10-12-bytesize-architecture-sessions-number-of-participants })
+[Questions about number of participants]({% post_url 2023-10-12-bytesize-architecture-sessions-number-of-participants %})
 
 * How many people should participate on a Bytesize Architecture Session ideally?
 * What should be the maximum size of people attending a Bytesize Architecture Session?
