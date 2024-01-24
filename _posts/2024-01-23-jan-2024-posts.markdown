@@ -24,7 +24,7 @@ So here are some interesting links with some commentary
 
 * [DDD in large product portfolios - Andreas Pinhammer - DDD Europe](https://www.youtube.com/watch?v=FzycqiJVioI) An excellent video where Andreas goes over a case study of using Event Storming, team topologies and DDD to manage multiple products in insurance. Delivered in a very simple manner. 
 
-![Alt text]({{ site.images }}/2024/pinhammer-talk.png)
+![Screenshot of talk by Andreas Pinhammer]({{ site.images }}/2024/pinhammer-talk.png)
 
 * [The Power of Being New: A Proven Recipe for High Impact](https://hazelweakly.me/blog/the-power-of-being-new--a-proven-recipe-for-high-impact/) I really like how the points here are actionable things that you can do on a new or not new gig. I also like that it tells you why it's recommending each thing, for example
 
