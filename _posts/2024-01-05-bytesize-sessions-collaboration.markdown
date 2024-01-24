@@ -10,11 +10,14 @@ categories:
 
 During October I spoke about [Bytesize Architecure Sessions](https://bytesizearchitecturesessions.com/) at the [Global Software Architecture Summit](https://gsas.io/#schedule). I got some interesting questions in the Q&A. We didn't get through all of them, so have grouped them and answering in smaller posts. This one is about the team attitude to collaboration.
 
-### Other posts on the series:
-* [Questions about number of participants]({% post_url 2023-10-11-Twenty-plus-questions-answered-about-bytesize-architecture-sessions %})
+
+### Other posts on the series
+* [How this series started]({% post_url 2023-10-11-Twenty-plus-questions-answered-about-bytesize-architecture-sessions %})
+[Questions about number of participants]({% post_url 2023-10-12-bytesize-architecture-sessions-number-of-participants})
+* [Questions about team's attitude to collaboration]({% post_url 2024-01-05-bytesize-sessions-collaboration %})
 * [Questions about the goal of a session]({% post_url 2023-10-18-bas-goal-session %})
 
-## Questions about how people collaborate and how Bytesize Architecture Sessions can help 
+# Some collaboration anti-patterns and can Bytesize Architecture Sessions can help?
 
 When people are disengaged or interrupt each other often, these can be signals of team issues, some chaos is to be expected when many people attend a meeting but the patterns are something to pay attention to in the long run.
 

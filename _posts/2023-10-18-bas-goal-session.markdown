@@ -10,11 +10,12 @@ categories:
 
 I recently spoke  about [Bytesize Architecure Sessions](https://bytesizearchitecturesessions.com/) at the [Global Software Architecture Summit](https://gsas.io/#schedule). I got some interesting questions in the Q&A. We didn't get through all of them, so have grouped them and answering in smaller posts. This one is about how to find the goal of the session.
 
-### Other posts on the series:
-* [Questions about number of participants]({% post_url 2023-10-11-Twenty-plus-questions-answered-about-bytesize-architecture-sessions %})
+### Other posts on the series
+* [How this series started]({% post_url 2023-10-11-Twenty-plus-questions-answered-about-bytesize-architecture-sessions %})
+[Questions about number of participants]({% post_url 2023-10-12-bytesize-architecture-sessions-number-of-participants})
 * [Questions about team's attitude to collaboration]({% post_url 2024-01-05-bytesize-sessions-collaboration %})
 
-Questions about the goal of the session
+## Questions about the goal of the session
 
 * How to narrow the goal of the session to a specific case? How to reach a goal when the issue is is too big?
 * How many sessions/weeks does it usually take to complete?
