@@ -30,7 +30,7 @@ Nice to read Steve's writing. I remember watching some of his talks and what I a
 * [The outcome of the strategy becomes culture  by Aleix Morgadas](https://learnings.aleixmorgadas.dev/p/the-outcome-of-the-strategy-becomes)
 
 A series of posts about technical strategy. It's great to see other people's journeys, isn't it?  
-I really enjoyed the raw honesty and self-awareness of the post and the transition to new "levels" of strategy/ 
+I really enjoyed the raw honesty and self-awareness of the post and the transition to new "levels" of awareness and learning strategy. 
 
 ![Aleix realises that learning needs to happen]({{ site.images }}/2024/aleix-strategy.png)
 
