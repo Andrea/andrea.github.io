@@ -16,9 +16,9 @@ So here are some interesting links with some commentary about programming langua
 
 #### [Rust's Golden Rule](https://steveklabnik.com/writing/rusts-golden-rule) - Steve Klabnik. 
 
-The post is about:
+The golder rule referred to is the following
 
-> Whenever the body of a function contradicts the function’s signature, the signature takes precedence; the signature is right and the body is wrong.
+    Whenever the body of a function contradicts the function’s signature, the signature takes precedence; the signature is right and the body is wrong.
 
 And the implications of applying this to language design and also how it affects language usage. It made me think about cognitive loads when programming and how much I welcomed other decisions in other languages. 
 
@@ -59,7 +59,7 @@ It's takes a bit of reading but I think it's worth it. Not all the examples are 
 
 At some point while you read this you might feel rather _Macchiavelian_ but if that is the situation you are in, you might as well have some idea about what tools to use **and** what tools others are using. 
 
-Like most people, I started reading this series on part three and what really hooked me on reading the series of posts was  the references to other resources. 
+Like most people, I started reading this series on part three. The  hook, that kept me reading the series of posts was the many references to other resources. 
 
 ## Resources for later in the week
 
