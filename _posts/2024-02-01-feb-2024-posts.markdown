@@ -1,0 +1,65 @@
+---
+date: 2024-02-01 12:13:00
+layout: post
+title: Interesting reads and talks - February 2024 
+categories:
+- rust
+- programming-language-design
+- technical strategy
+- long-running-workflows
+- Influence mapping
+---
+
+
+So here are some interesting links with some commentary about programming languages, strategy, etc. Since a lot of the links are not short reads, I'm going to keep it brief.
+
+
+#### [Rust's Golden Rule](https://steveklabnik.com/writing/rusts-golden-rule) - Steve Klabnik. 
+
+The post is about:
+
+> Whenever the body of a function contradicts the function’s signature, the signature takes precedence; the signature is right and the body is wrong.
+
+And the implications of applying this to language design and also how it affects language usage. It made me think about cognitive loads when programming and how much I welcomed other decisions in other languages. 
+
+Nice to read Steve's writing. I remember watching some of his talks and what I always enjoyed in those is that it's an invitation to think. He shows you what he's thinking and then you are left with more thinking to do, which is absolutely perfect. 
+
+
+
+
+* [The outcome of the strategy becomes culture  by Aleix Morgadas](https://learnings.aleixmorgadas.dev/p/the-outcome-of-the-strategy-becomes)
+
+A series of posts about technical strategy. It's great to see other people's journeys, isn't it?  
+I really enjoyed the raw honesty and self-awareness of the post and the transition to new "levels" of strategy/ 
+
+![Aleix realises that learning needs to happen]({{ site.images }}/2024/aleix-strategy.png)
+
+Basically I enjoyed this post because:
+
+* Relatable journey
+* Acknowledged you hadn't learn (courageous, and also the only way to move forward)
+* Shows that Aleix strived to find tools than helped him and,
+* With a handy example it highlights how important context is.
+
+![Importance of Context](saleix-strategy-post-context.png)
+
+#### [It’s a Feature, Not a Bug: A Step-by-step Guide to Architectural Decisions - Sonya Natanzon](https://www.youtube.com/watch?v=chrjl9ALtKQ) 
+
+I was there at the talk when originally presented and I shared this link more than once because it's a no nonsense  structured way to find some common ground. Like most processes, it's up to you to find the parts that make or not make sense for your context and do that. Especially good to watch if you don't have this problem yet (because you do, just haven't realised) 
+
+
+#### [Influce mapping series - Charles Lambdin](https://charleslambdin.com/2021/12/14/influence-mapping-part-1/) 
+
+Not only this is a well written series of articles, influence mapping is a super useful tool. 
+
+It's takes a bit of reading but I think it's worth it. Not all the examples are ones I would use, however I did enjoy how the larger examples mapped to ideas of what you can do in your situation. 
+
+At some point while you read this you might feel rather _Macchiavelian_ but if that is the situation you are in, you might as well have some idea about what tools to use **and** what tools others are using. 
+
+Like most people, I started reading this series on part three and what really hooked me on reading the series of posts was  the references to other resources. 
+
+## Resources I want to check out
+
+* [An Introduction to Residuality Theory by Barry M O'Reilly](https://virtualddd.com/sessions/83) Heard great things about this and I am going to be missing this at the London DDD meetup so, need to catch this up.
+
+* [Migrating long running workflows across clouds with zero downtime](https://www.inngest.com/blog/migrating-across-clouds-with-zero-downtime) I have dealt with a similar problem before, curious. 
