@@ -18,7 +18,7 @@ So here are some interesting links with some commentary about programming langua
 
 The golder rule referred to is the following
 
-    Whenever the body of a function contradicts the function’s signature, the signature takes precedence; the signature is right and the body is wrong.
+> Whenever the body of a function contradicts the function’s signature, the signature takes precedence; the signature is right and the body is wrong.
 
 And the implications of applying this to language design and also how it affects language usage. It made me think about cognitive loads when programming and how much I welcomed other decisions in other languages. 
 
