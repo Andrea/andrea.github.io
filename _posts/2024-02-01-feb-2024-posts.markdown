@@ -41,7 +41,7 @@ Basically I enjoyed this post because:
 * Shows that Aleix strived to find tools than helped him and,
 * With a handy example it highlights how important context is.
 
-![Importance of Context](saleix-strategy-post-context.png)
+![Importance of Context]({{ site.images }}/2024/aleix-strategy-post-context.png)
 
 #### [It’s a Feature, Not a Bug: A Step-by-step Guide to Architectural Decisions - Sonya Natanzon](https://www.youtube.com/watch?v=chrjl9ALtKQ) 
 
@@ -58,7 +58,7 @@ At some point while you read this you might feel rather _Macchiavelian_ but if t
 
 Like most people, I started reading this series on part three and what really hooked me on reading the series of posts was  the references to other resources. 
 
-## Resources I want to check out
+## Resources for later in the week
 
 * [An Introduction to Residuality Theory by Barry M O'Reilly](https://virtualddd.com/sessions/83) Heard great things about this and I am going to be missing this at the London DDD meetup so, need to catch this up.
 
