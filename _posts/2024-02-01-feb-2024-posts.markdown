@@ -34,18 +34,21 @@ I really enjoyed the raw honesty and self-awareness of the post and the transiti
 
 ![Aleix realises that learning needs to happen]({{ site.images }}/2024/aleix-strategy.png)
 
-Basically I enjoyed this post because:
+This post:
 
-* Relatable journey
-* Acknowledged you hadn't learn (courageous, and also the only way to move forward)
-* Shows that Aleix strived to find tools than helped him and,
-* With a handy example it highlights how important context is.
+* Has a relatable journey
+* The author acknowledged they hadn't learn and that they needed to do that (courageous, and also the only way to move forward)
+* The author strived to find tools than helped them and,
+* With a nice example it highlights how important context is, you can't use the same tools in differnt contexts and expect the same results.
 
 ![Importance of Context]({{ site.images }}/2024/aleix-strategy-post-context.png)
 
 #### [It’s a Feature, Not a Bug: A Step-by-step Guide to Architectural Decisions - Sonya Natanzon](https://www.youtube.com/watch?v=chrjl9ALtKQ) 
 
-I was there at the talk when originally presented and I shared this link more than once because it's a no nonsense  structured way to find some common ground. Like most processes, it's up to you to find the parts that make or not make sense for your context and do that. Especially good to watch if you don't have this problem yet (because you do, just haven't realised) 
+I was in attendance when this talk was originally delivered and since then I shared this link multiple times. 
+It's a no nonsense, well-structured way to find some common ground when making decisions. Like most processes, it's up to you to find the parts that make sense for your context, and do that. 
+
+Watching thia talk is especially beneficial if you believe your organisation doesn't struggle with decision making, as you may discover unrecognized challenges in your process.
 
 
 #### [Influce mapping series - Charles Lambdin](https://charleslambdin.com/2021/12/14/influence-mapping-part-1/) 
