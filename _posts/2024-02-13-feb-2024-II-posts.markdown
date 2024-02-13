@@ -58,7 +58,7 @@ There were mentions of follow up posts that I didn't find. I look forward to the
 If you do read the post, you might find some of the images included are a bit blurry, making them hard to read.
 
 Edit: I didn't know what cellular architecture was. My initial reading tells me it's a way to contain failure by having partial or full copies of software systems (cloud providers probably love this 💸). [Link to aws article on how to implement cell based architecture](https://aws.amazon.com/solutions/guidance/cell-based-architecture-on-aws/)
-* 
+ 
 
 #### [Scaling the Practice of Architecture, Conversationally - Andrew Harmel-Law](https://web.archive.org/save/https://martinfowler.com/articles/scaling-architecture-conversationally.html) 
 
