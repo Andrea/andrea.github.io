@@ -10,7 +10,7 @@ categories:
 ---
 
 
-So here are some interesting links with some commentary about programming languages for distributed systems, cellular architecture, and advisor process for  etc. Since a lot of the links are not short reads, I'm going to keep it brief.
+So here are some interesting links with some commentary about programming languages for distributed systems, cellular architecture, and advisory process for teams.
 
 
 #### [Programming the cloud ought to be delightful](https://web.archive.org/web/20240212160042/https://www.unison.cloud/our-approach/) 
