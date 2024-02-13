@@ -1,7 +1,7 @@
 ---
 date: 2024-02-01 12:13:00
 layout: post
-title: Interesting reads and talks - February 2024 
+title: Interesting learning resources - February 2024 
 categories:
 - rust
 - programming-language-design

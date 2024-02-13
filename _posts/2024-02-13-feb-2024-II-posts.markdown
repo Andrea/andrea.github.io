@@ -1,0 +1,79 @@
+---
+date: 2024-02-13 11:13:00
+layout: post
+title: Interesting learning resources - February 2024 - part 2
+categories:
+- programming-languages
+- unison
+- distributed-systems
+- advisory-process
+---
+
+
+So here are some interesting links with some commentary about programming languages, strategy, etc. Since a lot of the links are not short reads, I'm going to keep it brief.
+
+
+#### [Programming the cloud ought to be delightful](https://web.archive.org/web/20240212160042/https://www.unison.cloud/our-approach/) 
+
+The article could be summed up with:
+
+
+* Microservices can get complicated 
+
+* Managing infrastrure is painful and different from programming the domain
+
+* Programming languages have a lot of tooling that we can't use for infrastructure work in a cohesive way
+
+![Programming options]({{ site.images }}/2024/unison.png)
+
+* Ideally, it would be nicer if we could:
+
+    1.  Deploy with a function call
+    1.  Service calls are one line of code
+    1.  Storage is typed too
+
+What happened is that they implemented this ideal into something that you can test, now and for free.
+
+Many concerns come to mind when considering using this in a "real-life project"
+* Where is it actually deployed and how? 
+* How to implement metrics and logs that one wants? I can kind of guess this, but I wonder if this is part of the language
+* How to deal with errors? 
+
+I am sure a lot o can be answered by playing around with it 
+Still,  I might try it out and see what I can learn from it.  
+
+
+
+#### [Slack’s Migration to a Cellular Architecture - Cooper Bethea](https://web.archive.org/web/20240213115847/https://slack.engineering/slacks-migration-to-a-cellular-architecture/) 
+
+It can be interesting to read these types of write ups. This post goes over:
+
+*   Detecting failures in distributed systems is a hard problem. Some examples.  
+*   Interesting link to a paper on grey failures, meaning a subtle underlying fault. The paper is called: Gray Failure: The Achilles’ Heel of Cloud-Scale Systems [Link to paper](https://www.microsoft.com/en-us/research/wp-content/uploads/2017/06/paper-1.pdf) and how these types of errors generally result in poor performance and other types of inefficacies.
+*   Due to these pervasive grey failures, they decided to make some changes in the architecture. 
+*   The post includes some details about the changes to infrastructure. 
+
+
+There were mentions of follow up posts that I didn't find. I really look forward to a next post where they describe how they decided to use this solutions and what alternatives they considered and why.
+Sadly some of the images included are a bit hard to read.
+
+
+#### [Scaling the Practice of Architecture, Conversationally - Andrew Harmel-Law](https://web.archive.org/save/https://martinfowler.com/articles/scaling-architecture-conversationally.html) 
+
+Another post I keep coming back to, either to read or share. At it's core, it explains in detail what many of us had to find by trail and error because the existing way didn't lead to shipping software. And it's so well written! (yes, I am envious!).
+
+The reason why you should go and read it is that the article explains how top down decision making doesn't work and what you can get when you work collaboratively. 
+
+The premise is that everyone can make decisions as long as they consult with those affected by that decision and people with experience in that aread.
+
+The article goes over how this affects teams, the role of the architect, how this approach works with the company strategy.
+
+
+
+
+## Resources for later in the week
+
+* [An Introduction to Residuality Theory by Barry M O'Reilly](https://virtualddd.com/sessions/83) I watched this and I really enjoyed it,  I am compiling notes about it, so this is comming on the next post.
+
+* [Being a PM at Microsoft: Thriving in ambiguity](https://ssbipolar.com/2024/01/29/being-a-pm-at-microsoft-thriving-in-ambiguity/) I watched the video associated with this and liked it, so this is for the future too
+
