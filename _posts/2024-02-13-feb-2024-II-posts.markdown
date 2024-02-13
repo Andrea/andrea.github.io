@@ -54,15 +54,15 @@ It can be interesting to read these types of write ups. This post goes over:
 *   The post includes some details about the changes to infrastructure. 
 
 
-There were mentions of follow up posts that I didn't find. I look forward the next post where the author maybe will describe how they came to these decisions and what alternatives they considered.
+There were mentions of follow up posts that I didn't find. I look forward to the next post where the author maybe will describe how they came to these decisions and what alternatives they considered.
 If you do read the post, you might find some of the images included are a bit blurry, making them hard to read.
 
+Edit: I didn't know what cellular architecture was. My initial reading tells me it's a way to contain failure by having partial or full copies of software systems (cloud providers probably love this 💸). [Link to aws article on how to implement cell based architecture](https://aws.amazon.com/solutions/guidance/cell-based-architecture-on-aws/)
+* 
 
 #### [Scaling the Practice of Architecture, Conversationally - Andrew Harmel-Law](https://web.archive.org/save/https://martinfowler.com/articles/scaling-architecture-conversationally.html) 
 
-A blog post I keep coming back to, either to read or share. At it's core it explains in detail what many of us had to find by trial and error becasue the old way didn't lead to shipping software. And it's so well written! (yes, I am envious!).
-
-One reason to read it is that the article explains why top-down decision making doesn't work and what you can get when you work collaboratively. 
+A blog post I keep coming back to, either to read or share. At it's core it explains why top-down decision making doesn't work and what you can get when you work collaboratively. And it's so well written (yes I am envious!)
 
 The premise is that everyone can make decisions as long as they consult with those affected by that decision and people with experience in that area. There are four activities that support this premise:  Decision Records to document decisions, an Architecture Advisory Forum for conversations, Team-sourced Architectural Principles to provide guidance, and a Technology Radar to understand the landscape. Are they all totally suitable to you right now? It depends 😀. It does give you some strong foundations to try for something that works in your teams and organisations.
 
