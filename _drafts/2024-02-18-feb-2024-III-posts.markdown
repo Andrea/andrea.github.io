@@ -1,0 +1,70 @@
+---
+date: 2024-02-27 12:13:00
+layout: post
+title: Interesting learning resources - February 2024 - part 3
+categories:
+- ambiguity
+---
+
+In this post we go look at dealing with ambiguity, a high level of what is OODA loops, getting better at debugging , and some other smaller posts.
+
+On a bit of a tangent, I wasn't sure how to approach posts from newsletters (some of them behind paywalls). I decided that if I am able to web archive it, then I will include them, so there is one at the bottom.
+
+
+#### [Being a PM at Microsoft: Thriving in ambiguity](https://ssbipolar.com/2024/01/29/being-a-pm-at-microsoft-thriving-in-ambiguity/)
+
+
+
+#### [How to Change a Workshop In-Person Game to a Remote Simulation for Effective Results](https://web.archive.org/web/20240212174241/https://www.jrothman.com/mpd/2024/02/how-to-change-a-workshop-in-person-game-to-a-remote-simulation-for-effective-results/) 
+Started reading one her books and I was impressed, as someone that finds a lot of value in orchestrated collaboration and games, I was intrigued.
+
+#### [What can air combat teach us about software project failure?](https://web.archive.org/web/20240214143333/https://www.rubick.com/engineering-leaders-should-obsess-over-feedback-loops/)
+
+If you do programming for a living,  at some point someone metioned OODA loops.
+
+* **O**bserve
+* **O**rient
+* **D**ecide, and
+* **A**ct
+
+This post explains it a bit more and can be a good reference. Funny that the url is not the title. Also feedback loops are what makes a system 
+
+#### [Futurespectives: learning from failures that haven’t happened yet](https://neil-vass.com/futurespectives-learning-from-failures-that-havent-happened-yet/)
+
+
+#### [](https://www.infoq.com/articles/asynchronous-collaboration-software-teams/)
+To read
+
+#### [](https://wizardzines.com/zines/debugging/) 
+
+If you never came across these zines by [Julia Evans aka b0rk](https://social.jvns.ca/@b0rk) I think this might make your day. If you want to learn the basics and also in depth about something, these zines are just so so so good, I am linking to a debugging one because I really liked it but all of the ones I read are brilliant
+
+#### [](https://www.inngest.com/blog/migrating-across-clouds-with-zero-downtime)
+
+#### [](https://cep.dev/posts/every-infrastructure-decision-i-endorse-or-regret-after-4-years-running-infrastructure-at-a-startup/)
+
+Nice write up with very concrete reasoning. No need to agree with all the points, however great to see how the decision matured.
+
+#### [](https://www.lambdafunctions.com/articles/elixir-and-rust)
+
+great experiment I always wonder what happens 3 ~5 years later in this projects 
+
+#### [How we evaluated the impact of GitHub Copilot for 3 months ](https://commercetools.com/blog/how-we-evaluated-the-impact-of-github-copilot-for-3-months) 
+
+It's what it says in the tin, really useful to see other people's collective experience.
+One thing that would be a great adition to this post is to have some of those numbers broken down by programming language and framework. 
+At least in my experience the value you get of CoPilot depends a lot on that.
+
+#### [5 Mistakes That Made My Documents Terrible by Raviraj Achar](https://web.archive.org/web/20240227103008/https://newsletter.techleadmentor.com/p/5-mistakes-that-made-my-documents?r=z1gf1)
+
+This post caught my eye because I could easily relate to the journey the author had experienced. And from there he goes of to suggest how to address the problems. 
+
+ 
+
+## Resources for later in the week
+
+* [An Overview of Distributed PostgreSQL Architectures - Marco Slot](https://www.crunchydata.com/blog/an-overview-of-distributed-postgresql-architectures) seems worth a read
+
+* [Book Review: Trust in Numbers - Lorin Hochstein](https://surfingcomplexity.blog/2024/02/11/book-review-trust-in-numbers/)
+
+* [systemd by example](https://seb.jambor.dev/posts/systemd-by-example-part-1-minimization/)
