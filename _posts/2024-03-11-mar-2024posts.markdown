@@ -20,11 +20,12 @@ I wasn't sure how to approach posts from newsletters (some of them behind paywal
 
 This quote is why I wanted to share this article here
 
-![Running in the dark with a flashlight]({{ site.images }}/2024/ms-pm2.png)
+![Running in the dark with a flashlight]({{ site.images }}/2024/pm-ms2.png)
+![Programming options]({{ site.images }}/2024/unison.png)
 
 ... and the following is another good quote
 
-![Keep taking action even in uncertainty]({{ site.images }}/2024/ms-pm1.png)
+![Keep taking action even in uncertainty]({{ site.images }}/2024/pm-ms1.png)
 
 The article main focus is on goals. I enjoyed the examples on how to "eliminate ambiguity" by analysing how aligned are the stakeholders. 
 
