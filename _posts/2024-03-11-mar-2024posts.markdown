@@ -56,7 +56,7 @@ If you never came across these zines by [Julia Evans aka b0rk](https://social.jv
 
 
 
-#### [(Almost) Every infrastructure decision I endorse or regret after 4 years running infrastructure at a startup by ](https://web.archive.org/web/20240311172850/https://cep.dev/posts/every-infrastructure-decision-i-endorse-or-regret-after-4-years-running-infrastructure-at-a-startup/)
+#### [(Almost) Every infrastructure decision I endorse or regret after 4 years running infrastructure at a startup by Jack ](https://web.archive.org/web/20240311172850/https://cep.dev/posts/every-infrastructure-decision-i-endorse-or-regret-after-4-years-running-infrastructure-at-a-startup/)
 
 Nice write up with very concrete reasoning. No need to agree with all the points, however great to learn from other's experience and see how the decisions matured.
 
@@ -82,12 +82,12 @@ The common problems are about mindset, understanding who you are writing for, cl
 
 * [systemd by example](https://seb.jambor.dev/posts/systemd-by-example-part-1-minimization/)
 
-* [Futurespectives: learning from failures that haven’t happened yet](https://neil-vass.com/futurespectives-learning-from-failures-that-havent-happened-yet/)
+* [Futurespectives: learning from failures that haven’t happened yet by Neil Vass](https://neil-vass.com/futurespectives-learning-from-failures-that-havent-happened-yet/) I heard about this practice before and so it's time to learn more about it!
 
 
-* [Adopting Asynchronous Collaboration in Distributed Software Teams](https://www.infoq.com/articles/asynchronous-collaboration-software-teams/) I'm trying to find ways to run [Bytesize Architecture Sessions](https://bytesizearchitecturesessions.com/) asyncronously and researching options
+* [Adopting Asynchronous Collaboration in Distributed Software Teams](https://www.infoq.com/articles/asynchronous-collaboration-software-teams/) I'm trying to find ways to run [Bytesize Architecture Sessions](https://bytesizearchitecturesessions.com/) asynchronously and researching options
 
-* [How to Change a Workshop In-Person Game to a Remote Simulation for Effective Results](https://web.archive.org/web/20240212174241/https://www.jrothman.com/mpd/2024/02/how-to-change-a-workshop-in-person-game-to-a-remote-simulation-for-effective-results/)  Started reading one her books and I was impressed, as someone that finds a lot of value in orchestrated collaboration and games, I was intrigued. Also, as above some research material for running [Bytesize Architecture Sessions](https://bytesizearchitecturesessions.com/) asyncronously.
+* [How to Change a Workshop In-Person Game to a Remote Simulation for Effective Results](https://web.archive.org/web/20240212174241/https://www.jrothman.com/mpd/2024/02/how-to-change-a-workshop-in-person-game-to-a-remote-simulation-for-effective-results/)  Started reading one her books and I was impressed, as someone that finds a lot of value in orchestrated collaboration and games, I was intrigued. Also, as above some research material for running [Bytesize Architecture Sessions](https://bytesizearchitecturesessions.com/) asynchronously.
 
 * [Managing mutable data in Elixir with Rust by Mike Clarke](https://web.archive.org/web/20240311165806/https://www.lambdafunctions.com/articles/elixir-and-rust) I scanned this post on the experiment and looks interesting tho I wonder if there are general take away points. When I see projects like this starting I always wonder what happens 3~5 years later who and how this is maintained. 
 
