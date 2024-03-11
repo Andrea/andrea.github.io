@@ -11,29 +11,26 @@ categories:
 - copilot
 ---
 
-In this post we go look at dealing with ambiguity, a high level of what is OODA loops, getting better at debugging , and other  posts.
+In this post we look at dealing with ambiguity, a high level of what does OODA loops mean, getting better at debugging , and more.
 
-On a bit of a tangent, I wasn't sure how to approach posts from newsletters (some of them behind paywalls). I decided that if I am able to archive it, then I will include them.
+I wasn't sure how to approach posts from newsletters (some of them behind paywalls). My current standpoint is that if I am able to archive it, then I will include them.
 
 
 #### [Being a PM at Microsoft: Thriving in ambiguity -  By Matthew Roche](https://web.archive.org/web/20240212173446/https%3A%2F%2Fssbipolar.com%2F2024%2F01%2F29%2Fbeing-a-pm-at-microsoft-thriving-in-ambiguity%2F)
 
-This quote is why I wanted to share this article with you 
+This quote is why I wanted to share this article here
 
 ![Running in the dark with a flashlight]({{ site.images }}/2024/ms-pm2.png)
 
-... and the following is another really good quote
+... and the following is another good quote
 
 ![Keep taking action even in uncertainty]({{ site.images }}/2024/ms-pm1.png)
 
-All in all the article has great insight on the task of Project Managers at Microsoft. 
-
-
-It's great to see the focus on goals. I enjoyed the examples on how to "eliminate ambiguity" by analysing how aligned are the stakeholders. 
+The article main focus is on goals. I enjoyed the examples on how to "eliminate ambiguity" by analysing how aligned are the stakeholders. 
 
 Reading about the focus on goals also raises a few questions
 
-* How represented other PMs feel by this article? some of this work mentioned here seems more like the type of work a team lead might do or an Engineneering Manager. 
+* How represented other PMs feel by this article? some of this work mentioned here seems more like the type of work a team lead might do or an Engineering Manager. 
 * Is a lot of the work at Microsoft project based? I thought that was not the case but, if not then how does this focus on goals apply to the team dynamics?
 
 The videos are pretty interesting too and it's a nice touch that they are not just hosted in youtube. Extra internet point to you
@@ -42,7 +39,7 @@ The videos are pretty interesting too and it's a nice touch that they are not ju
 
 #### [What can air combat teach us about software project failure? by Jade Rubick](https://web.archive.org/web/20240214143333/https://www.rubick.com/engineering-leaders-should-obsess-over-feedback-loops/)
 
-If you do programming for a living,  at some point someone metioned OODA loops near this is a handy reference to it.
+If you do programming for a living,  at some point someone mentioned OODA loops near this is a handy reference to it.
 
 * **O**bserve
 * **O**rient
@@ -57,17 +54,17 @@ Not only does the post does a high level of what OODA loops are but also it help
 
 If you never came across these zines by [Julia Evans aka b0rk](https://social.jvns.ca/@b0rk) I think this might make your day. If you want to learn the basics and also in depth about something, these zines are just so so so good, I am linking to a debugging one because I really liked it but all of the ones I read are brilliant
 
-#### [](https://www.inngest.com/blog/migrating-across-clouds-with-zero-downtime)
 
-#### [](https://cep.dev/posts/every-infrastructure-decision-i-endorse-or-regret-after-4-years-running-infrastructure-at-a-startup/)
 
-Nice write up with very concrete reasoning. No need to agree with all the points, however great to see how the decision matured.
+#### [(Almost) Every infrastructure decision I endorse or regret after 4 years running infrastructure at a startup by ](https://web.archive.org/web/20240311172850/https://cep.dev/posts/every-infrastructure-decision-i-endorse-or-regret-after-4-years-running-infrastructure-at-a-startup/)
+
+Nice write up with very concrete reasoning. No need to agree with all the points, however great to learn from other's experience and see how the decisions matured.
 
 
 #### [How we evaluated the impact of GitHub Copilot for 3 months by Tobias Deekens](https://web.archive.org/web/20240311171701/https://commercetools.com/blog/how-we-evaluated-the-impact-of-github-copilot-for-3-months) 
 
 It's what it says in the tin, and it's valuable to learn from the shared experiences of others.
-A great adition to this post would be if the surveys included information broken down by programming language and framework. At least in my experience the value you get of CoPilot depends a lot on that.
+A great addition to this post would be if the surveys included information broken down by programming language and framework. At least in my experience the value you get of CoPilot depends a lot on that.
 
 EDIT: I reached out to the author of this post and it turns out that CoPilot doesn't break down metrics by programming language. 
 
@@ -92,4 +89,6 @@ The common problems are about mindset, understanding who you are writing for, cl
 
 * [How to Change a Workshop In-Person Game to a Remote Simulation for Effective Results](https://web.archive.org/web/20240212174241/https://www.jrothman.com/mpd/2024/02/how-to-change-a-workshop-in-person-game-to-a-remote-simulation-for-effective-results/)  Started reading one her books and I was impressed, as someone that finds a lot of value in orchestrated collaboration and games, I was intrigued. Also, as above some research material for running [Bytesize Architecture Sessions](https://bytesizearchitecturesessions.com/) asyncronously.
 
-* [Managing mutable data in Elixir with Rust by Mike Clarke](https://web.archive.org/web/20240311165806/https://www.lambdafunctions.com/articles/elixir-and-rust) I scanned this post on the experiment and looks interesting tho I wonder if there are general take aways...I always wonder what happens 3 ~5 years later in these types of projects. 
+* [Managing mutable data in Elixir with Rust by Mike Clarke](https://web.archive.org/web/20240311165806/https://www.lambdafunctions.com/articles/elixir-and-rust) I scanned this post on the experiment and looks interesting tho I wonder if there are general take away points. When I see projects like this starting I always wonder what happens 3~5 years later who and how this is maintained. 
+
+* [Migrating long running workflows across clouds with zero downtime by Dan Farrelly](https://web.archive.org/web/20240311173324/https://www.inngest.com/blog/migrating-across-clouds-with-zero-downtime) I've written some systems that were long running frameworks before so I'm curious to read this. This is the first time I hear about Inngest 
