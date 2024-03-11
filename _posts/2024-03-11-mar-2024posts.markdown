@@ -21,7 +21,7 @@ I wasn't sure how to approach posts from newsletters (some of them behind paywal
 This quote is why I wanted to share this article here
 
 ![Running in the dark with a flashlight]({{ site.images }}/2024/pm-ms2.png)
-![Programming options]({{ site.images }}/2024/unison.png)
+
 
 ... and the following is another good quote
 
