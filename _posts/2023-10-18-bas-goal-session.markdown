@@ -26,7 +26,7 @@ All these questions are similar in that we are trying to understand how much wor
 Let's start of with the bigger picture, what are you trying to achieve with these sessions.  
 If you are trying to get a team to be more homogeneous on their knowledge of their domain, then you can think about ways to break that up into diagrams that can be roughly drawn in 5 mimnutes, this is why I always suggest to [start with C4]({% post_url 2022-12-26-Why-start-with-C4-diagrams%})
 
-For example in one of the first teams we tried Butesize Session, as a team each of us knew some of the workflows well, but each of us didn't know all of them, and we had no diagrams for them. So, in each Bytesize Session we did boxes and arrow diagrams of the workflows, one diagram per Session.
+For example in one of the first teams we tried Bytesize Sessions, as a team each of us knew some of the workflows well, but each of us didn't know all of them, and we had no diagrams for them. So, in each Bytesize Session we did boxes and arrow diagrams of the workflows, one diagram per Session.
 
 
 If we now focus on the  how much the participants can model in one session. To answer consider 
