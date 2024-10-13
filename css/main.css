@@ -6,8 +6,8 @@
 
 /* Global Reset */
 * {
-  margin: 0;
-  padding: 0;
+  margin: auto;
+  padding: initial;
 }
 
 html, body { height: 100%; }
