@@ -1,5 +1,5 @@
 ---
-date: 2024-08-21 12:13:00
+date: 2024-10-13 12:13:00
 layout: post
 title: The making of a decision - reading materials
 categories:
