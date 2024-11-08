@@ -10,4 +10,4 @@ categories:
 
 These are the slides for the talk I did yesterday at ADA Conf in Melbourne
 
-<object data="https://www.roundcrisis.com/presentations/2024-11-ADAConf-the-making-of-a-decision_blog.pdf" height="600" type="application/pdf"></object>
+<object data="https://www.roundcrisis.com/presentations/2024-11-ADAConf-the-making-of-a-decision_blog.pdf" width="600" type="application/pdf"></object>
