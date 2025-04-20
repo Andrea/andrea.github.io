@@ -8,7 +8,7 @@ categories:
 - knowledge-sharing
 ---
 
-A lot of these links are 
+A lot of these links are related to learning and collaboration, I blame excellent resources shared by [Donna Benjamin](https://www.linkedin.com/in/donnabenjamin/), [Cat Hicks](https://www.linkedin.com/in/drcathicks/) 
 
 
 * [Bot Bowl](https://njustesen.github.io/botbowl/) : Bot Bowl is an annual artificial intelligence competition centred around the tabletop game Blood Bowl (from the past). Hard for AI to beat because of the type of game and the fact that is not such a popular game.

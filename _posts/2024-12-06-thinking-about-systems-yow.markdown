@@ -27,10 +27,12 @@ Some resources that came up either during [the workshop](https://gotopia.tech/se
 * [Collaborative Software Design - How to facilitate domain modeling decisions](https://www.manning.com/books/collaborative-software-design) Book by Evelyn van Kelle, Gien Verschatse, and Kenny Baas-Schwegler. Not only this is a great book to learn about Collaborative software design, in the tittle after all, it does have sections on Event Storming and it does mention Bytesize Architecture Sessions!
 
 
-These are the slides for Yow Australia
+## Video and slides for Yow Australia
+
+  
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/SIIiNLoPDFA?si=WxqmNp4KKGxqzwc4" title="Thinking About Systems with Bytesize Architecture Sessions • Andrea Magnorsky • YOW! 2024" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 
 <object data="https://www.roundcrisis.com/presentations/2024-12-Yow-Australia-Thinking-about-Systems-with-BAS-small.pdf" width="600" height="600" type="application/pdf"></object>
 
-And Video 
-
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/SIIiNLoPDFA?si=WxqmNp4KKGxqzwc4" title="Thinking About Systems with Bytesize Architecture Sessions • Andrea Magnorsky • YOW! 2024" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
