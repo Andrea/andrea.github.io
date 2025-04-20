@@ -1,0 +1,39 @@
+---
+date: 2024-10-27 12:13:00
+layout: post
+title: Interesting learning resources - October 2024 
+categories:
+- writing
+---
+
+* [Hartman Proficiency Taxonomy by Maria Hartman](https://marianhartman.com/proficiency-taxonomy) - This is about understanding learning, better. The bottom of the taxonomy being called Thought Leader which ... not a name that works for me, but I can see where the author is going. 
+
+* [How to build and rebuild trust - Frances Fei](https://www.ted.com/talks/frances_frei_how_to_build_and_rebuild_trust?subtitle=en) - Great talk about how to build trust. There are some gems about why being able to be your true self is important and how it links to what I know as [Rhetorical Triangle](https://simple.wikipedia.org/wiki/Rhetorical_Triangle).
+
+* [Left-hand Column](https://leadingperformance.com.au/wp-content/uploads/2016/07/5.5-Left-Hand-Column.pdf) Created by Chris Argyris. Left-hand Column is a tool that helps you review how you think and feel as you have difficult conversations. The core idea here is to take notes during or after a meeting and record what we think and feel and what we think the others are thinking and feeling. I have referenced this as "Left margin technique" before by mistake, apologies.  
+
+* [Double Loop learning organisations By Chris Argyris](https://hbr.org/1977/09/double-loop-learning-in-organizations) More from the creator of Left-hand column. 
+
+* [Psychological Affordances Can Provide a Missing Explanatory Layer for Why Interventions to Improve Developer Experience Take Hold or Fail By Catherine M. Hicks](https://osf.io/preprints/psyarxiv/qz43x) 
+
+* [When (‌modular) monolith is the better way to build software ](https://www.thoughtworks.com/en-us/insights/blog/microservices/modular-monolith-better-way-build-software)
+
+
+* [Observations on the practice of software architecture - III](https://techlead.net/observations-on-the-practice-of-software-architecture-part-3/)
+
+https://www.liberatingstructures.com/
+
+https://www.cs.umd.edu/~nau/cmsc421/norvig-lisp-style.pdf
+
+### To Read 
+
+* [Liskov's gun](https://www.baldurbjarnason.com/2024/liskovs-gun/)
+
+* [Case Study: Influence mapping](https://charleslambdin.com/planful-influence/)
+
+* [How to make small games](https://farawaytimes.blogspot.com/2023/02/how-to-make-good-small-games.html) It starts really well by explaining why this is hard and recommend this read because  I've been to too many wasted game jams. 
+
+* [Three concepts of power: Foucault, Bourdieu, and Habermas by Gerd Christensen 2023](https://journals.sagepub.com/doi/full/10.1177/17577438231187129) 
+
+
+https://monotropism.org/2023/mq/
