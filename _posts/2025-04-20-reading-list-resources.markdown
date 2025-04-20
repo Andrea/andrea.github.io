@@ -1,7 +1,7 @@
 ---
 date: 2025-04-20 00:13:00
 layout: post
-title: Interesting resources - How we learn
+title: Interesting learning resources - April 2025
 categories:
 - software-architecture
 - decisions
