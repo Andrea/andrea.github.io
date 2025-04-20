@@ -9,7 +9,7 @@ categories:
 ---
 
 
-Some resources that came up either during [the workshop]() or the talk : 
+Some resources that came up either during [the workshop](https://gotopia.tech/sessions/3461/thinking-about-your-systems-with-bytesize-architecture-sessions) or the talk : 
 
 * [Bytesize Architecture Sessions](https://bytesizearchitecturesessions.com/) The site with practical information and case studies for Bytesize Architecture Sessions.
 * [Russ Ackhoff "Ted Talk" about systems](https://www.youtube.com/watch?v=OqEeIG8aPPk) - A short and rather memorable video about what are systems.
