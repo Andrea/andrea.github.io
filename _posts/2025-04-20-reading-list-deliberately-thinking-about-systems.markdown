@@ -1,7 +1,7 @@
 ---
 date: 2024-12-06 12:13:00
 layout: post
-title: Yow Australia - Talk Slides and bonus links 
+title: 
 categories:
 - software-architecture
 - decisions
@@ -14,7 +14,7 @@ Some resources that came up either during [the workshop]() or the talk :
 * [Bytesize Architecture Sessions](https://bytesizearchitecturesessions.com/) The site with practical information and case studies for Bytesize Architecture Sessions.
 * [Russ Ackhoff "Ted Talk" about systems](https://www.youtube.com/watch?v=OqEeIG8aPPk) - A short and rather memorable video about what are systems.
 * [Programmer vs Developer - Einar Host]() In a team each person has a role, I really like how Einar describes what I think a lot of us that write programs do in a team, and the reason I tend to introduce myself as a Programmer.
-* [Event Storming - Alberto Brandolini](https://www.eventstorming.com/) - A great workshop format to collectively learn some key elements of your domain.
+* [Event Storming - Alberto Brandolini](https://www.eventstorming.com/) - A great workshop format to collectively learn some key elements of your domain driven by value and systems events.
 * [Programming as Theory Building - Peter Naur(1985)](https://pablo.rauzy.name/dev/naur1985programming.pdf) During the workshop we had a moment where we discussed documentation, and having this reference nearly feels like cheating, it's too well written ! 
 
 ### Books
