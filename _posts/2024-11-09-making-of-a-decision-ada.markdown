@@ -16,3 +16,5 @@ These are the slides for the talk I did yesterday at ADA Conf in Melbourne
 
 ## Posts about the conference
 <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7260562718967881728?collapsed=1" height="265" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+
+<iframe src="https://www.linkedin.com/pulse/ada-conf-2024-alison-rosewarne-hvjic" height="265" width="504" frameborder="0" allowfullscreen="" title="Alison Rosewarne review of ADA Conf"></iframe>
