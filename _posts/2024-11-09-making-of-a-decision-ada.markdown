@@ -17,4 +17,8 @@ These are the slides for the talk I did yesterday at ADA Conf in Melbourne
 ## Posts about the conference
 <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7260562718967881728?collapsed=1" height="265" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
 
-<iframe src="https://www.linkedin.com/pulse/ada-conf-2024-alison-rosewarne-hvjic" height="265" width="504" frameborder="0" allowfullscreen="" title="Alison Rosewarne review of ADA Conf"></iframe>
+[ADA Conf 2024 - Alison Rosewarne Exec Mgr, Architecture at REA Group](https://www.linkedin.com/pulse/ada-conf-2024-alison-rosewarne-hvjic) A complete review from the conference, with summaries for each of the talks. I was super happy to read:
+
+> Andrea Magnorsky closed out the day with the final talk – on the making of a decision.
+>
+>Every talk today was fantastic, but I might declare this my favourite as it packed in so much information and also held me riveted right to the end – at 5:20pm on a Friday afternoon!!
