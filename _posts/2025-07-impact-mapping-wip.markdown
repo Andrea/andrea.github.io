@@ -1,5 +1,5 @@
 ---
-date: 2025-07-22 00:13:00
+date: 2025-07-21 00:13:00
 layout: post
 title: Impact Mapping solo 
 categories:
@@ -38,7 +38,4 @@ Please let me know if you see ways the map can be improved.
 * Gojko Adzic's book "[Impact Mapping: Making a Big Impact with Software Products and Projects](https://www.impactmapping.org/book.html)" which provides the foundational theory.
 * [Mark Dalgarno's comprehensive guide](https://createchange.io/what-is-impact-mapping%ef%bf%bc/) offers excellent practical insights from an active practitioner's perspective.
 * [LogRocket's impact mapping guide](https://blog.logrocket.com/product-management/impact-mapping-guide/) provides a product management lens on the technique.
-* For teams seeking maximum return on investment, [Mark Levison's detailed exploration](https://agilepainrelief.com/blog/to-get-bang-for-your-buck-try-impact-mapping/) demonstrates how to extract the most value from the process. 
-
-
-
+* For teams seeking maximum return on investment, [Mark Levison's detailed exploration](https://agilepainrelief.com/blog/to-get-bang-for-your-buck-try-impact-mapping/) demonstrates how to extract the most value from the process
