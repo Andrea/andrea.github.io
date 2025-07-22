@@ -13,7 +13,7 @@ categories:
 
 
 
-I've been meaning to do some improvements to the [Bytesize Architecture Sessions]' website to integrate what I've learned lately, but I wasn't clear on how to focus on when and how. That changed when I saw Krisztina Hirth's awesome session on [Impact Mapping: The Secret Sauce](https://virtualddd.com/sessions/impact-mapping-the-secret-sauce/) at Virtual DDD. 
+I've been meaning to do some improvements to the [Bytesize Architecture Sessions](https://bytesizearchitecturesessions.com/)' website to integrate what I've learned lately, but I wasn't clear on how to focus on when and how. That changed when I saw Krisztina Hirth's awesome session on [Impact Mapping: The Secret Sauce](https://virtualddd.com/sessions/impact-mapping-the-secret-sauce/) at Virtual DDD. 
 
 
 While impact mapping is traditionally presented as a collaborative team technique, it's always valuable to model things solo. What struck me most was the great value it brought in focussing on outcomes and personas rather than features, making everything measurable by default. 
