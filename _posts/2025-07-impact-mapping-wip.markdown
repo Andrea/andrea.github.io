@@ -1,7 +1,7 @@
 ---
 date: 2025-07-22 00:13:00
 layout: post
-title: Impact mapping solo 
+title: Impact Mapping solo 
 categories:
 - software-architecture
 - impact-mapping
