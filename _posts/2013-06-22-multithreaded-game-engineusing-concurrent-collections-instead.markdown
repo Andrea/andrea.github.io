@@ -5,7 +5,7 @@ date:   2013-06-22 21:40:10
 categories: ""
 ---
 
-So, while I was trying to implement the double buffer (previous post available [here][1]) I started thinking about perhaps a simpler implementation with one of the concurrent collections, so I tried with a [ConcurrentQueue&lt;T>][2].
+So, while I was trying to implement the double buffer (previous post available [here][1]) I started thinking about perhaps a simpler implementation with one of the concurrent collections, so I tried with a [ConcurrentQueue&lt;T>](http://msdn.microsoft.com/en-us/library/dd267265.aspx).
 
 The idea behind it is pretty simple. Instead of having the two collections of RenderCommand we have a ConcurrentQueue&lt;RenderCommand[]> so we think of each of the elements of the queue as a frame, ready to be rendered.
 
@@ -13,7 +13,28 @@ As before, we are starting off with the primitives3DWindows sample. A bit obviou
 
 From the world We’ll add all necessary cubes to a renderCommand, using the AddCube() method. At the end, we’ll need to add that collection to the queue by calling EndFrame(). Like this
 
-{% gist 8195397 %}
+```
+public void AddCube(Cube primitive)
+{
+    var translation = Matrix.CreateFromYawPitchRoll(
+        primitive.Rotation.X, primitive.Rotation.Y, primitive.Rotation.Z) * 
+        Matrix.CreateTranslation(primitive.Position);
+    _updatingRenderCommands.Add(new RenderCommand
+                                    {
+                                        Color = primitive.Color, 
+                                        Radius = primitive.Radius, 
+                                        World = translation
+                                    });
+}
+ 
+public void EndFrame()
+{
+    var renderCommands = new RenderCommand[_updatingRenderCommands.Count];
+    _updatingRenderCommands.CopyTo(renderCommands, 0);
+    _concurrentRenderCommandsThatRepresentAFrame.Enqueue(renderCommands);
+    _updatingRenderCommands.Clear();
+}
+```
 
 These methods are public because they are called from World, however, as you can see from the sequence diagram below we check if the renderer CanAcceptCommands(), the reason for this is that we don’t regulate how often we run world.Update() and in reality we only want to have one frame (or RenderCommand collection ready to render) when we call Draw so that there is no latency.
 
@@ -21,7 +42,23 @@ These methods are public because they are called from World, however, as you can
 
 With the update done, we now need to render. At this point this is pretty trivial. Code below
 
-{% gist 8195523 %}
+```
+public void Draw(Matrix view, Matrix projection)
+{
+    RenderCommand[] renderCommands;
+    if (!_concurrentRenderCommandsThatRepresentAFrame.TryDequeue(out renderCommands))
+        return;
+ 
+    foreach (var renderingRenderCommand in renderCommands)
+    {
+        _cubePrimitive.Draw(
+                              renderingRenderCommand.World, 
+                              view, 
+                              projection, 
+                              renderingRenderCommand.Color);
+    }
+}
+```
 
 I think what is happening here is pretty self explanatory, but I will do it anyway.  If we call Draw() and we TryDequeue and we can’t we call return, there is no point in trying to Draw and empty array of RenderCommands (I believe that would be the result). Alternatively if we successfully dequeue, we will let the CubePrimitive draw each of the commands.
 
@@ -43,5 +80,5 @@ Next I’m going to try with a concurrent collection that doesn’t use spin wai
 
 
 [1]:[http://roundcrisis.com/2013/05/24/multithreading-rendering-in-a-game-engine-with-cdouble-buffer-implementation/] 
-[2]:[http://msdn.microsoft.com/en-us/library/dd267265.aspx] 
+ 
 [6]:[http://msdn.microsoft.com/en-us/library/dd267312.aspx]
