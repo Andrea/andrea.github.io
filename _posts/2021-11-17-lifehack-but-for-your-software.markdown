@@ -9,8 +9,8 @@ categories:
 - domain storytelling
 - wardley maps
 - ADRs
-- Bytesize architecture sessions
-- C4
+- bytesize-architecture-sessions
+- c4-model
 ---
 
 I did at talk about tools of software architecture 🎉. 
@@ -26,7 +26,7 @@ The tools:
 * 🔨 Understand the systems and their context: C4, UML sequence diagrams, CRC, etc
 * 🪚  Record expensive decisions: ADRs
 * ⛏️  Analyse your current context and strategy: Wardley maps
-* 🪛 Keep doing all the above: [Bytesize Architecture Sessions](http://www.roundcrisis.com/2021/09/28/bytesize-architecture-sessions/) you have all the tools above. When do you do this how do you keep it up to date? The recommended format would need some modification if you do workshops formats.
+* 🪛 Keep doing all the above: [Bytesize Architecture Sessions](https://bytesizearchitecturesessions.com/) you have all the tools above. When do you do this how do you keep it up to date? The recommended format would need some modification if you do workshops formats.
 
 
 I will link to the recording when it becomes available
@@ -35,7 +35,7 @@ I will link to the recording when it becomes available
 ## Resources
 
 * [ADR resources and tooling](https://adr.github.io/)
-* [Bytesize Architecture Sessions](http://www.roundcrisis.com/2021/09/28/bytesize-architecture-sessions/)
+* [Bytesize Architecture Sessions](https://bytesizearchitecturesessions.com/)
 * [The C4 Model for Software Architecture](https://www.infoq.com/articles/C4-architecture-model/)
 * Domaing Storytelling: 
    * [https://domainstorytelling.org/](https://domainstorytelling.org/)

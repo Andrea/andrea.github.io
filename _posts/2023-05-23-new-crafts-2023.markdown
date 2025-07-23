@@ -4,9 +4,10 @@ date: 2023-05-23 03:48:00+00:00
 layout: post
 title:  New Crafts Paris May 2023 
 categories:
-- collaboration
 - software architecture
-- Bytesize Architecture sessions
+- bytesize-architecture-sessions
+- conference
+- new-crafts
 ---
 
 I am going to be talking at [New Crafts](https://2023.ncrafts.io/agenda) this Friday. I'm planning to update this post with more info about how was the conference here, so I figured I will start this post now.

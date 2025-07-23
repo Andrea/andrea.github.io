@@ -5,7 +5,7 @@ title: GSAS presentation video and twenty plus questions about Bytesize Architec
 categories:
 - bytesize-architecture-sessions
 - software architecture
-- gsas
+- GSAS
 - conferences
 ---
 
