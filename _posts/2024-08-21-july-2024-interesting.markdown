@@ -3,7 +3,10 @@ date: 2024-08-21 12:13:00
 layout: post
 title: Interesting learning resources - August 2024 
 categories:
-- writing
+- observability
+- systems-thinking
+- software-architecture
+
 ---
 
 * [Is It Time To Version Observability? (Signs Point To Yes) By Charity Majors](https://charity.wtf/2024/08/07/is-it-time-to-version-observability-signs-point-to-yes/) 

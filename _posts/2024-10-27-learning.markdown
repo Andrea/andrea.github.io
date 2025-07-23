@@ -4,6 +4,11 @@ layout: post
 title: Interesting learning resources - October 2024 
 categories:
 - writing
+- left-hand
+- power-dynamics
+- context
+- monoliths
+- software-architecture
 ---
 
 * [Hartman Proficiency Taxonomy by Maria Hartman](https://marianhartman.com/proficiency-taxonomy) - This is about understanding learning, better. The bottom of the taxonomy being called Thought Leader which ... not a name that works for me, but I can see where the author is going. 
@@ -19,11 +24,11 @@ categories:
 * [When (‌modular) monolith is the better way to build software ](https://www.thoughtworks.com/en-us/insights/blog/microservices/modular-monolith-better-way-build-software) I want to say that this is like having a name for a nice sandwich (which we do). I remember that we need to communicate these ideas and leading by example doesn't always scale. 
 
 
-* [Observations on the practice of software architecture - III](https://techlead.net/observations-on-the-practice-of-software-architecture-part-3/)
+* [Observations on the practice of software architecture - III](https://techlead.net/observations-on-the-practice-of-software-architecture-part-3/) Great article about software architecture practices (it mentions Bytesize Architecture Sessions)
 
 * [Liberating Structures](https://www.liberatingstructures.com/) - A library of ways to collaborate.
 
-* [A list programming guide](https://notebooklm.google.com/notebook/04b2d776-89dc-4ee4-b8f7-5da57632f58b) By Peter Norvig - I mean, I didn't know it existed and it was going to be great, right? It is.
+* [A lisp programming guide](https://notebooklm.google.com/notebook/04b2d776-89dc-4ee4-b8f7-5da57632f58b) By Peter Norvig - I mean, I didn't know it existed and it was going to be great, right? It is.
 
 
 * [How to make small games](https://farawaytimes.blogspot.com/2023/02/how-to-make-good-small-games.html) It starts really well by explaining why this is hard and recommend this read because  I've been to too many wasted game jams. 
