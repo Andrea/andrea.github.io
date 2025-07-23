@@ -4,7 +4,7 @@ layout: post
 title: The importance of win times
 categories:
 - programming 
-- development
+- book-recommendation
 - how I learn
 ---
 

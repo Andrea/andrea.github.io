@@ -20,7 +20,7 @@ The idea of doing this port is to show the progression of the code from C# to F#
 
 ### About Duality
 
-The engine, Duality, is a C# engine that follows some of the C# idioms. It is not in our inmediate plans to make a wrapper to make the engine more f# friendly, I find don't find it too hard to work with the two languages, however it might be because I am familiar with it enough to not feel much of the pain.
+The engine, Duality, is a C# engine that follows some of the C# idioms. It is not in our immediate plans to make a wrapper to make the engine more f# friendly, I find don't find it too hard to work with the two languages, however it might be because I am familiar with it enough to not feel much of the pain.
 
 These are bits of code we will se over and over
 
@@ -75,6 +75,6 @@ Then there is the find the (not null) component. In the example below we are loo
 
 
 
-What does all of this mean? well I though it might be useful to sunmarize what I have seen so far.  I'll update this post with more if I think of any other repeating pattern.
+What does all of this mean? well I though it might be useful to summarize what I have seen so far.  I'll update this post with more if I think of any other repeating pattern.
 
-Untill the next time :D
+Until the next time :D

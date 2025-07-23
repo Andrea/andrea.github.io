@@ -8,7 +8,7 @@ categories:
 - scheme
 ---
 
-For a while, I've been trying to learn functional programming and after a lot of proding I chose to learn F# this year, the reasons:
+For a while, I've been trying to learn functional programming and after a lot of prodding I chose to learn F# this year, the reasons:
 
 - I though I should learn Haskell, the ideas behind the language are great.  I learned a little bit, but, when I tried to build something with a UI or web or a game, the dependencies just weren't three. And windows support just doesn't seem to be there. It doesn't mean I'll never learn it, but I just  want to get learning.
 - F# has a great community, I am looking forward to learning more so that I can perhaps sometime contribute some code.

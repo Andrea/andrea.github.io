@@ -10,7 +10,7 @@ categories:
 
 Recently I saw a post about a simple FSM implementation in F# ([link][fsmf]), and that got me thinking about our Behaviour Trees and how simple or complex it would be to implement them in F#. 
 
-##What are behaviour trees?
+## What are behaviour trees?
 
 There is a longer intro to the topic [here][adba] and a more extensive one in this [paper][pape]. 
 What I remember when I think about them is that there are 2 types of constructs:
@@ -29,7 +29,7 @@ Then I tried starting at the top, implementing the implementations of the action
 
 Turns out it pointed me to my total lack of understanding of the F# type system.
 
-##Types
+## Types
 
 It turns out I had to leave my very practical approach to learning F# and go get my read on. I heard that F# has a pretty advanced type system, and I was just about to learn why.
 

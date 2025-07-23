@@ -54,15 +54,15 @@ Not all of us build software with a narrow specific focus
 This session felt like therapy, all the crazy bugs that are gamedev specific, exposed
 
 * Three types of bugs: temporal, graphical, content.
-* sometimes terrible hakcs,
-* Domain specific debbugers
+* sometimes terrible hacks,
+* Domain specific debuggers
 
 
 He also recommended and missed Valgrind. The Valgrind tool suite provides a number of debugging and profiling tools that help you make your programs faster and more correct. The most popular of these tools is called Memcheck. It can detect many memory-related errors that are common in C and C++ programs and that can lead to crashes and unpredictable behaviour.
 
-## Yan Cui, Neo 4 J
+## Yan Cui, Neo4J
 
-Very cool tool about the complexity of their game and economy and how they are suing this graph database to curb it.
+Very cool tool about the complexity of their game and economy and how they are using this graph database to curb it.
 I am not sure we can/should use this because we don't have the same scaling issues, but great to see none the less.
 Awesome style of presentation too. 
 
@@ -88,26 +88,26 @@ As developers our tools are also important:
 
  * Languages
  * Ecosystem
- * Comunities
+ * Communities
  
-Tools model the way we think, it might be worth trying out something totally different just to see what though process it bring us.
+Tools model the way we think, and so it might be worth trying out something totally different just to see what though process it bring us.
 
 ## Alex Champandard
 
-Talked about AI on the GPU. Great talk and presentation. Not only content but style (impecable)
+Talked about AI on the GPU. Great talk and presentation. Not only content but style (impeccable)
 
 * OpenCL and what we can do
 * can do A*
-* seaparate GPU for processing and rendering
+* Separate GPU for processing and rendering
 * Sycl 
 * A lot of cool ideas perhaps not ready for production yet.
 
 
 ## Ramsey and Tims
 
-This is the second time i see this presentation however, it was totally different than the last time I saw it
+This is the second time I see this presentation however, it was totally different than the last time I saw it
 
-* Simplify game development by using a more terse language (I can relate :) )
+* Simplify game development by using a more terse language (I can relate 😄 )
 * [Arcadia](https://github.com/arcadia-unity/Arcadia), using CLR implementation of Clojure on top of Unity.
 * REPL as a way to game design
 * extra bonus points because they showed a game with cats!
@@ -115,12 +115,12 @@ This is the second time i see this presentation however, it was totally differen
 
 ## Keynote: Chad Fowler
 
-* the theme of the keynote was tiny
+* The theme of the keynote was tiny
 * Big tends to fail
-* Some of his experince with failure
-* where are we now.
+* Some of his experience with failure
+* Where are we now.
 
-Left me thinking 
+Left me thinking, which is the purpose of all keynotes. 
 
 ## Typed Clojure in Practice - Ambrose Bonnaire-Sergeant
 
@@ -143,4 +143,4 @@ Really liked checking out Shake and Bake, and how people are deplying things in 
 
 ## Summary
 
-As you see, my notes got sparse towards the end, but ... I'll learn to take better notes hopefully. Again, one of the most interesting things about conferences is that, you get to talk to a lot of people thinking similar or totally diffrent thoughts to yours about similar topics. Left inspired and looking forward to next year!
+As you see, my notes got sparse towards the end, but ... I'll learn to take better notes hopefully. Again, one of the most interesting things about conferences is that, you get to talk to a lot of people thinking similar or totally different thoughts to yours about similar topics. Left inspired and looking forward to next year!

@@ -4,8 +4,8 @@ layout: post
 title: Dojo fractal forest in F# (with pictures)
 categories:
 - programming 
-- development
-- f sharp
+- fsharp
+- fractals
 ---
 
 A week or so ago I was lucky to be in San Francisco for "the" Game Developer Conference, while I was there I was able to meet [Mathias Brandewinder][mb], we got to chat about loads of things (and eat some really nice breakfast) two of the many things we talked about were FsCheck and the dojo fractal forest.

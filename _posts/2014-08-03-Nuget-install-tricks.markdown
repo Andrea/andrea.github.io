@@ -7,7 +7,7 @@ categories:
 - development
 ---
 
-Recently I was finishing off the great work [Carsten](http://gettingsharper.de/) started (well pretty much completed, I was just adding the nuget package and change the build so it would build the aformentioned package )  on the Nunit addin for [FsCheck](https://github.com/fsharp/FsCheck) and I had to use a not very common feature of Nuget, running powershell scripts automatically on install.
+Recently I was finishing off the great work [Carsten](http://gettingsharper.de/) started (well pretty much completed, I was just adding the nuget package and change the build so it would build the aforementioned package )  on the Nunit add-in for [FsCheck](https://github.com/fsharp/FsCheck) and I had to use a not very common feature of Nuget, running powershell scripts automatically on install.
 
 Disclaimer: I don't like powershell, it is better than nothing, but every time I use is harder that it needs to be.
 

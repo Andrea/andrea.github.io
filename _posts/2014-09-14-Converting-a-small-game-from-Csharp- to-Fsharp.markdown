@@ -89,4 +89,4 @@ We will continue in the next post :D
 
 Fun and games FTW!! 
 
-OT: Best of luck to all the people involved in Minecraft and this transition to Microsoft. I can emphatize with where [@notch](http://twitter.com/notch) is coming from.
+OT: Best of luck to all the people involved in Minecraft and this transition to Microsoft. I can empathise with where [@notch](http://twitter.com/notch) is coming from.

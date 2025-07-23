@@ -171,11 +171,11 @@ Being able to use pre-existing libraries and paradigms can be very useful.
 
 I'm sure there is a lot more to it, but the main thing for me is that it makes testing C# code shorter, and works both ways.  
 
-##Cross platform. 
+## Cross platform. 
 
 It runs on mono and there are people using F# with Xamarin tools for mobile. Also F# has an OCaml compatibility mode (that I haven't tested yet). The experience on non windows machines keeps improving. And in windows it is really nice once you get F# Power Tools. Before I installed that I found the significant whitespace a bit confusing, but now I literally can see what is the problem. 
 
-##Type providers
+## Type providers
 
 This is a feature of F# 3.0, with them you get typed access to a wide variety of data sources, without requiring code generation. There are a few common type providers included . This means you can do a lot of data exploration with very little 
 
@@ -230,7 +230,7 @@ Just for the craic (and to double check on my madness level) I asked on twitter 
 It might seem like there is a lot to know to just even get started, but I think if you just jump right in, you have a lot to win. Most of the names of the features come from a maths background, it can feel a bit of putting, but it's really not that bad.
 Maybe it's because diving into a new language is just new and exciting, but it's been a while since my brain reacts so positively to learning something new. Sometimes I get stuck but then that's when the community aspect really kicks in.
 
-##Resources
+## Resources
 
 - Books:
 	* [Expert F# 3.0 by Don Syme, Adam Granicz, Antonio Cisternino](http://www.apress.com/9781430246503)
