@@ -14,7 +14,7 @@ tags:
 - functional
 ---
 
-I‘ve been feeling that I m missing out by not knowing much about functional programming and this book was recommended to my many times, so I started reading it. 
+I‘ve been feeling that I'm missing out by not knowing much about functional programming and this book was recommended to my many times, so I started reading it. 
 
  
 
@@ -22,14 +22,13 @@ I‘ve been feeling that I m missing out by not knowing much about functional pr
 
  
 
-I expect to learn more about functional programing , I would like to be able to translate the ideas to other functional programming languages.
+I expect to learn more about functional programming, I would like to be able to translate the ideas to other functional programming languages.
 
  
 
 ### Objective
 
  
-
 I would like to be able to use functional programming ideas day to day on game development, there is a lot of asynchronous flow control in games that I hope, can be improved. The problem with this is that features that are ok to use in other types of development, such as LINQ, don’t perform well enough on game development, at least that’s what the performance analysis was showing us in some sectors of the code.
 
  
@@ -47,7 +46,7 @@ Going over some basic functional ideas, but I m already feeling I should have re
  
 
   
-  * There are some parts of the chapter where I feel like the author is trying to sell me the idea, I can understand why, but I m already reading the book, no need for that.
+  * There are some parts of the chapter where I feel like the author is trying to sell me the idea, I can understand why, but I'm already reading the book, no need for that.
    
   * I like the way important concepts are highlighted
    
