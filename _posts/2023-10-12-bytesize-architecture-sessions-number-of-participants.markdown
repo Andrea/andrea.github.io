@@ -5,7 +5,7 @@ title: GSAS presentation and twenty plus questions about Bytesize Architecture s
 categories:
 - bytesize-architecture-sessions
 - software architecture
-- systems-modedlling
+- systems-modelling
 - participant-numbers-in-meeting
 ---
 

@@ -1,6 +1,7 @@
 ---
 date: 2025-05-12 00:13:00
-layout: post
+layout: single
+classes: wide
 title: Decisions KP Map What happens during decision making
 categories:
 - software-architecture

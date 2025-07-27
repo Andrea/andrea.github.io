@@ -1,11 +1,13 @@
 ---
-layout: default
-title: Presentations and similar
+layout: single
+classes: wide
+permalink: /speaking/
 ---
 
-<div id="home">
-<h1>Conference talks and other engagements</h1>
 
+## Conference talks and other engagements
+
+List of talks
 
 <h2> 2025 </h2>
 <ul>
@@ -17,7 +19,7 @@ title: Presentations and similar
     <strong><a href="https://webdirections.org/leaders/speakers/andrea-magnorsky.php" target="_blank"> Web Directions Code Leaders </a></strong> The making of a decision - June 2025 - Melbourne
   </li>
   <li>
-    <strong><a href="https://www.meetup.com/tech-leading-ladies/events/307279273/" target="_blank"> Tech Leading Ladies </a></strong> Thinking about your systems with Bytesize Architecture Sessions - May 2025 - Online Australia friendly timezone
+    <strong><a href="https://www.meetup.com/tech-leading-ladies/events/307279273/" target="_blank"> Tech Leading Ladies </a></strong> Thinking about your systems with Bytesize Architecture Sessions - May 2025 - Online Australia friendly time zone
   </li>  
   <li>
     <strong><a href="https://www.cloudnativesummit.co/The-deliberate-practice-of-thinking-about-your-systems-2025.html" target="_blank"> Cloud Native Summit Keynote </a></strong> The deliberate practice of thinking about your systems - April 2025 - Auckland

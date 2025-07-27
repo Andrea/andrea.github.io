@@ -7,3 +7,9 @@ To run locally
 ```bash
 docker run -p 4000:4000 -v $(pwd):/site bretfisher/jekyll-serve
 ```
+
+To install things
+
+```bash
+docker run -v $(pwd):/site bretfisher/jekyll-serve bundle install
+```

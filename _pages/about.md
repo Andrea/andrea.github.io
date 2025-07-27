@@ -1,6 +1,7 @@
 ---
-layout: default
-title: Roundcrisis.Find<Solution>()
+layout: single
+classes: wide
+permalink: /about/
 ---
 
 <div id="home">

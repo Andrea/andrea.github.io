@@ -49,7 +49,7 @@ For more information about this error, try `rustc --explain E0308`.
 
 ># error[E0308]: mismatched types
 
-arrays of differnt sizes are different types. I thought that was really interesting. It is documented
+arrays of different sizes are different types. I thought that was really interesting. It is documented
 
 >This limitation on the size N exists because Rust does not yet support code that is generic over the size of an array type. [Foo; 3] and [Bar; 3] are instances of same generic type [T; 3], but [Foo; 3] and [Foo; 5] are entirely different types. As a stopgap, trait implementations are statically generated up to size 32. (from [source](https://doc.rust-lang.org/std/primitive.array.html))
 
@@ -57,7 +57,7 @@ arrays of differnt sizes are different types. I thought that was really interest
 
 (BTW kudos to the Rust people for very nice error messages)
 
-If one really wants to use a set lenght array you can still do
+If one really wants to use a set length array you can still do
 
 ```
 let mut xs : [u32; 8] = [1,2,3,4,5,6,7,8];

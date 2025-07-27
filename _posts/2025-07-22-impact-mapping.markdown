@@ -1,6 +1,7 @@
 ---
 date: 2025-07-22 00:13:00
-layout: post
+layout: single
+classes: wide
 title: Impact Mapping solo 
 categories:
 - software-architecture

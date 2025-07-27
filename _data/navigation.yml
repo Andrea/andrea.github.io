@@ -1,0 +1,10 @@
+  main:
+    - title: "Home"
+      url: /
+    - title: "About"
+      url: /about/
+    - title: "Presentations"
+      url: /speaking/
+    - title: "Bytesize Architecture Sessions"
+      url: https://bytesizearchitecturesessions.com/
+      target: _blank

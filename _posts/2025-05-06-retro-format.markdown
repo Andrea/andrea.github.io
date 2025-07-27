@@ -1,6 +1,6 @@
 ---
 date: 2025-04-20 00:13:00
-layout: post
+layout: single
 title: Testing a new modelling retro format - Gaps Growth Great Grind
 categories:
 - software-architecture

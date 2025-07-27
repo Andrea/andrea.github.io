@@ -1,15 +1,77 @@
+# Site Settings
+name: roundcrisis
+title: roundcrisis.com
+description: roundcrisis's adventures in code.
+url: http://roundcrisis.com
+baseurl: ""
+
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+paginate_path: /page:num/
 permalink:    /:year/:month/:day/:title/
 paginate:     10
 images:       /images
-name: Roundcrisis
-title: Roundcrisis
-description: roundcrisis's adventures in code.
-url: http://roundcrisis.com
+
+# Plugins
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-include-cache
+  - jekyll-paginate
+
+
+# Theme
+
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "default" 
+locale: "en-UK"
+logo: "/images/roundcrisis.png"
+show_date: true
+search: true
+lunr:
+  search_within_pages: true
+include: ["_pages"]
+analytics:
+  provider: "custom"
+
+
+# Site Author
+author:
+  name: "Andrea Magnorsky"
+  avatar: "/images/roundcrisis.png"  
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/magnorsky/"
+    - label: "Mastodon"
+      icon: "fab fa-fw fa-mastodon"
+      url: "https://types.pl/@roundcrisis"
+
+
 defaults:
+ # _posts
   - scope:
-      type: categories  # select all category pages
+      path: ""
+      type: posts
     values:
-      layout: category_page
-      permalink: categories/:category/  
+      layout: single
+      author_profile: false
+      read_time: false
+      comments: true
+      share: false
+      related: true
+  # _pages  
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true    
+
+footer:
+  since: 2008
+
+
