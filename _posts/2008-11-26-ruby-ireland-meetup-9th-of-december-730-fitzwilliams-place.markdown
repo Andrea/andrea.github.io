@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2008-11-26 15:01:00+00:00
-layout: post
+layout: single
+classes: wide
 slug: ruby-ireland-meetup-9th-of-december-730-fitzwilliams-place
 title: Ruby Ireland Meetup - 9th of December 7.30 Fitzwilliams Place
 wordpress_id: 49

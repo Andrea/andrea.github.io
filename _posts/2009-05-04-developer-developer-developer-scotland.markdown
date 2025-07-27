@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2009-05-04 19:18:01+00:00
-layout: post
+layout: single
+classes: wide
 slug: developer-developer-developer-scotland
 title: Developer Developer Developer Scotland
 wordpress_id: 242

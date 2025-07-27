@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2011-07-09 11:49:46+00:00
-layout: post
+layout: single
+classes: wide
 slug: tdd-tools-for-net-developers
 title: TDD tools for net developers
 wordpress_id: 828

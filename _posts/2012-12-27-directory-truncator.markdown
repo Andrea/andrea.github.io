@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2012-12-27 14:45:06+00:00
-layout: post
+layout: single
+classes: wide
 slug: directory-truncator
 title: Directory Truncator
 wordpress_id: 1039

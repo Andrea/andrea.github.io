@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2008-08-29 10:13:00+00:00
-layout: post
+layout: single
+classes: wide
 slug: trying-gxt-extjs-in-gwt
 title: Trying GXT (ExtJs in GWT)
 wordpress_id: 43

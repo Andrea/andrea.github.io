@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2019-01-04 10:48:00+00:00
-layout: post
+layout: single
+classes: wide
 title: Rust, array type not generic over the size of an array type.
 categories:
 - programming languages

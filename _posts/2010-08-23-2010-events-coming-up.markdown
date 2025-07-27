@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2010-08-23 21:49:09+00:00
-layout: post
+layout: single
+classes: wide
 slug: 2010-events-coming-up
 title: 2010 Events Coming Up
 wordpress_id: 652

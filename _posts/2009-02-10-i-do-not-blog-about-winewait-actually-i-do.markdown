@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2009-02-10 11:44:30+00:00
-layout: post
+layout: single
+classes: wide
 slug: i-do-not-blog-about-winewait-actually-i-do
 title: I do not blog about WINE...wait actually I Do!
 wordpress_id: 136

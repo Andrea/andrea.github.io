@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2011-01-23 19:38:11+00:00
-layout: post
+layout: single
+classes: wide
 slug: why-setters-and-getters-are-considered-a-code-smell-in-your-aggregate-roots
 title: Why Setters and Getters are considered a code smell in your Aggregate Roots
 wordpress_id: 768

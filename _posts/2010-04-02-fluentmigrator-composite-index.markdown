@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2010-04-02 10:19:22+00:00
-layout: post
+layout: single
+classes: wide
 slug: fluentmigrator-composite-index
 title: FluentMigrator Composite Index
 wordpress_id: 538

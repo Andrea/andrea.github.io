@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2012-04-19 15:21:10+00:00
-layout: post
+layout: single
+classes: wide
 slug: xna-a-simple-2d-camera
 title: XNA - A Simple 2D Camera
 wordpress_id: 962

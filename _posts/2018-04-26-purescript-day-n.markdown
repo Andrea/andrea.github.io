@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2018-04-26 10:48:00+00:00
-layout: post
+layout: single
+classes: wide
 title: TIL in Purescript
 categories:
 - Purescript

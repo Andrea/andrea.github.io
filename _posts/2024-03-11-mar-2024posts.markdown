@@ -1,6 +1,7 @@
 ---
 date: 2024-03-11 12:13:00
-layout: post
+layout: single
+classes: wide
 title: Interesting learning resources - March 2024 
 categories:
 - ambiguity

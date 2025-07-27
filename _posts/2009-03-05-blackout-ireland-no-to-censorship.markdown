@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2009-03-05 12:07:28+00:00
-layout: post
+layout: single
+classes: wide
 slug: blackout-ireland-no-to-censorship
 title: Blackout Ireland - No to censorship
 wordpress_id: 186

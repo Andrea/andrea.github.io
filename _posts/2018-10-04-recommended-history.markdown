@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2018-10-04 10:48:00+00:00
-layout: post
+layout: single
+classes: wide
 title: Recommended history of computing books
 categories:
 - history of computing

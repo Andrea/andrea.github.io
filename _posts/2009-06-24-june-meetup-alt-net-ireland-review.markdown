@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2009-06-24 10:46:40+00:00
-layout: post
+layout: single
+classes: wide
 slug: june-meetup-alt-net-ireland-review
 title: June Meetup Alt Net Ireland Review
 wordpress_id: 302

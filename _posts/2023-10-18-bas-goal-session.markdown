@@ -1,6 +1,7 @@
 ---
 date: 2023-10-11 12:13:00
-layout: post
+layout: single
+classes: wide
 title: Answering questions about Bytesize Architecture sessions - On the goal of the sessions
 categories:
 - bytesize-architecture-sessions

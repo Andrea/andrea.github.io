@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2009-06-25 08:00:04+00:00
-layout: post
+layout: single
+classes: wide
 slug: gwt-ext-hack-formpanel-and-panel
 title: Gwt-Ext Hack FormPanel and Panel
 wordpress_id: 304

@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2009-01-20 01:57:58+00:00
-layout: post
+layout: single
+classes: wide
 slug: a-talk-about-castle-on-the-way
 title: A Talk about Castle on the way
 wordpress_id: 99

@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2011-12-06 13:27:59+00:00
-layout: post
+layout: single
+classes: wide
 slug: windows-phone-7-game-development-experience
 title: Windows Phone 7 - Game Development Experience
 wordpress_id: 915

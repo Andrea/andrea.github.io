@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2008-11-26 13:06:00+00:00
-layout: post
+layout: single
+classes: wide
 slug: what-s-happening
 title: What s happening
 wordpress_id: 48

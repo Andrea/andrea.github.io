@@ -1,6 +1,7 @@
 ---
 date: 2024-10-13 12:13:00
-layout: post
+layout: single
+classes: wide
 title: The making of a decision @ ADA Conf Melbourne
 categories:
 - software-architecture

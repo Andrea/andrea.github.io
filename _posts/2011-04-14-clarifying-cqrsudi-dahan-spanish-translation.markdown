@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2011-04-14 18:10:58+00:00
-layout: post
+layout: single
+classes: wide
 slug: clarifying-cqrsudi-dahan-spanish-translation
 title: Clarifying CQRS[Udi Dahan] Spanish Translation
 wordpress_id: 799

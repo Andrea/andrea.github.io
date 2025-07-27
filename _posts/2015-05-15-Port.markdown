@@ -1,6 +1,7 @@
 ---
 date: 2015-05-13 13:13:00
-layout: post
+layout: single
+classes: wide
 title: Porting an engine to Android 1
 categories:
 - programming 

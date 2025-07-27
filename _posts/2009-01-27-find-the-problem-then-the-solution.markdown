@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2009-01-27 12:19:43+00:00
-layout: post
+layout: single
+classes: wide
 slug: find-the-problem-then-the-solution
 title: Find the problem, then the solution
 wordpress_id: 110

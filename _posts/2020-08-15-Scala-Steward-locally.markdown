@@ -1,7 +1,8 @@
 ---
 author: roundcrisis
 date: 2020-08-15 20:48:00+00:00
-layout: post
+layout: single
+classes: wide
 title: Running scala steward on private repos
 categories:
 - scala

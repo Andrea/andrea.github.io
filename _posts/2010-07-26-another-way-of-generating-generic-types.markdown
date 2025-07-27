@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2010-07-26 19:39:15+00:00
-layout: post
+layout: single
+classes: wide
 slug: another-way-of-generating-generic-types
 title: Another way of generating generic types
 wordpress_id: 633

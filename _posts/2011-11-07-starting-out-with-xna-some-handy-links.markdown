@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2011-11-07 21:19:03+00:00
-layout: post
+layout: single
+classes: wide
 slug: starting-out-with-xna-some-handy-links
 title: Starting out with XNA? some handy links
 wordpress_id: 887

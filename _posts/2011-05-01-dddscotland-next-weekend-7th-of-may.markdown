@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2011-05-01 16:26:50+00:00
-layout: post
+layout: single
+classes: wide
 slug: dddscotland-next-weekend-7th-of-may
 title: DDDScotland next weekend 7th Of May
 wordpress_id: 815

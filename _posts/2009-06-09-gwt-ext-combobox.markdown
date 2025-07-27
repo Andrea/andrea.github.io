@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2009-06-09 08:41:36+00:00
-layout: post
+layout: single
+classes: wide
 slug: gwt-ext-combobox
 title: GWT-Ext ComboBox loading from XML
 wordpress_id: 277

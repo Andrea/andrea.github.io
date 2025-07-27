@@ -1,6 +1,7 @@
 ---
 date: 2014-01-21 22:44:00
-layout: post
+layout: single
+classes: wide
 title: The first Functional Katas meetup
 categories:
 - f#

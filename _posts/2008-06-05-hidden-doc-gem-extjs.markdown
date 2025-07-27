@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2008-06-05 12:44:00+00:00
-layout: post
+layout: single
+classes: wide
 slug: hidden-doc-gem-extjs
 title: Hidden Doc Gem - ExtJS
 wordpress_id: 12

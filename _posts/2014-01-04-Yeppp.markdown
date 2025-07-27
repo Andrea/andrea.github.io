@@ -1,6 +1,7 @@
 ---
 date: 2014-01-04 10:13:00
-layout: post
+layout: single
+classes: wide
 title: Yeppp!... for numbers
 categories:
 - MEF

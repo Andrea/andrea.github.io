@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2010-02-12 01:02:01+00:00
-layout: post
+layout: single
+classes: wide
 slug: push-on-green-deployment-brain-dump
 title: Push on Green Deployment - (Brain Dump)
 wordpress_id: 462

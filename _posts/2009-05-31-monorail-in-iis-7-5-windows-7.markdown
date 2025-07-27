@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2009-05-31 13:23:56+00:00
-layout: post
+layout: single
+classes: wide
 slug: monorail-in-iis-7-5-windows-7
 title: Monorail in IIS 7.5 (windows 7)
 wordpress_id: 259

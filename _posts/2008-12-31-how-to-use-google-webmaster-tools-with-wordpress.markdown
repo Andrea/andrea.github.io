@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2008-12-31 11:27:00+00:00
-layout: post
+layout: single
+classes: wide
 slug: how-to-use-google-webmaster-tools-with-wordpress
 title: How to use Google webmaster tools with wordpress
 wordpress_id: 72

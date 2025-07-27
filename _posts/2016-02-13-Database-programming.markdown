@@ -1,6 +1,7 @@
 ---
 date: 2016-02-13 19:13:00
-layout: post
+layout: single
+classes: wide
 title: Database of programming languages?
 categories:
 - programming

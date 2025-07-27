@@ -1,6 +1,7 @@
 ---
 date: 2015-03-01 23:13:00
-layout: post
+layout: single
+classes: wide
 title: Lambda Days and dev At Lodz
 categories:
 - programming 

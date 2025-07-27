@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2010-11-12 15:02:09+00:00
-layout: post
+layout: single
+classes: wide
 slug: storyq-review
 title: StoryQ Review
 wordpress_id: 724

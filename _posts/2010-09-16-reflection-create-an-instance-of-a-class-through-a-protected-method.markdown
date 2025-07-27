@@ -1,7 +1,8 @@
 ---
 author: roundcrisis
 date: 2010-09-16 20:01:04+00:00
-layout: post
+layout: single
+classes: wide
 slug: reflection-create-an-instance-of-a-class-through-a-protected-method
 title: Reflection - Create an instance of a class through a protected method
 wordpress_id: 674

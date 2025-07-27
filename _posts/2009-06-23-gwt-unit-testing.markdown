@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2009-06-23 11:12:13+00:00
-layout: post
+layout: single
+classes: wide
 slug: gwt-unit-testing
 title: GWT Unit Testing
 wordpress_id: 299

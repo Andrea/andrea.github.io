@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2018-01-30 10:48:00+00:00
-layout: post
+layout: single
+classes: wide
 title: Things I wish some told me when I started my computing degree
 categories:
 - code

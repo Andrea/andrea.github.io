@@ -1,6 +1,7 @@
 ---
 date: 2014-12-12 11:44:00
-layout: post
+layout: single
+classes: wide
 title: FSharp and games in celebration times
 categories:
 - programming 

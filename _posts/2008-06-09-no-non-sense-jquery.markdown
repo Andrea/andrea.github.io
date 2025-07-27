@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2008-06-09 19:28:00+00:00
-layout: post
+layout: single
+classes: wide
 slug: no-non-sense-jquery
 title: No Non-sense jQuery
 wordpress_id: 15

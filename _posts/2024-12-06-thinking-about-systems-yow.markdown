@@ -1,6 +1,7 @@
 ---
 date: 2024-12-06 12:13:00
-layout: post
+layout: single
+classes: wide
 title: Yow Australia - Talk Slides and bonus links 
 categories:
 - software-architecture

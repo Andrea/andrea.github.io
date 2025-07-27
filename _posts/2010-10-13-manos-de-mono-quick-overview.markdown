@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2010-10-13 20:00:45+00:00
-layout: post
+layout: single
+classes: wide
 slug: manos-de-mono-quick-overview
 title: Manos de Mono - Quick overview
 wordpress_id: 704

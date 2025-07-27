@@ -1,6 +1,7 @@
 ---
 date: 2017-01-12 23:13:00
-layout: post
+layout: single
+classes: wide
 title: Many shapes and the same function
 categories:
 - programming

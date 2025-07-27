@@ -1,6 +1,7 @@
 ---
 date: 2015-06-17 19:13:00
-layout: post
+layout: single
+classes: wide
 title: Computation expressions at NDC
 categories:
 - programming 

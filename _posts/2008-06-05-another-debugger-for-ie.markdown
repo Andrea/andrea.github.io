@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2008-06-05 19:21:00+00:00
-layout: post
+layout: single
+classes: wide
 slug: another-debugger-for-ie
 title: Another Debugger for IE
 wordpress_id: 13

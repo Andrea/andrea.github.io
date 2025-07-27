@@ -1,7 +1,8 @@
 ---
 author: roundcrisis
 date: 2020-12-16 20:48:00+00:00
-layout: post
+layout: single
+classes: wide
 title: Chasing a trail or chasing our tail History of .net from a PL perspective
 categories:
 - .net

@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2011-01-03 13:20:19+00:00
-layout: post
+layout: single
+classes: wide
 slug: what-is-cqrs-and-other-related-terms-modelling-and-testing-part-3
 title: What is CQRS and other related terms - Modelling and testing - Part 3
 wordpress_id: 761

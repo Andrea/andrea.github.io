@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2009-03-24 18:21:05+00:00
-layout: post
+layout: single
+classes: wide
 slug: ada-lovelace-daybarbara-liskov
 title: Ada Lovelace Day:Barbara Liskov
 wordpress_id: 197

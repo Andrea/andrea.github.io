@@ -1,7 +1,8 @@
 ---
 author: roundcrisis
 date: 2022-12-26 12:48:00+00:00
-layout: post
+layout: single
+classes: wide
 title:  Bytesize architecture sessions - Why start with C4 Diagrams
 categories:
 - collaboration

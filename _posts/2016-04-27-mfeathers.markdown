@@ -1,6 +1,7 @@
 ---
 date: 2016-04-27 23:13:00
-layout: post
+layout: single
+classes: wide
 title: Michael Feathers on Types
 categories:
 - programming

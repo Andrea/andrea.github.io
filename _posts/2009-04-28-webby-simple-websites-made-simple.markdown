@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2009-04-28 13:24:40+00:00
-layout: post
+layout: single
+classes: wide
 slug: webby-simple-websites-made-simple
 title: Webby - simple websites made simple
 wordpress_id: 238

@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2010-03-19 13:00:03+00:00
-layout: post
+layout: single
+classes: wide
 slug: irish-open-spaces-coding-day-ii
 title: Irish Open Spaces Coding Day II
 wordpress_id: 519

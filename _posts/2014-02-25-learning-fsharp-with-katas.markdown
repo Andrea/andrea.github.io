@@ -1,6 +1,7 @@
 ---
 date: 2014-02-25 10:48:00+00:00
-layout: post
+layout: single
+classes: wide
 title: Learning F# with Katas
 categories:
 - f#

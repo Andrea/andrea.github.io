@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2010-11-30 19:00:47+00:00
-layout: post
+layout: single
+classes: wide
 slug: what-is-cqrs-and-other-related-terms-part-2-2
 title: What is CQRS and other related terms - Part 2
 wordpress_id: 741

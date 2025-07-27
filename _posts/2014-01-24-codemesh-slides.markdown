@@ -1,6 +1,7 @@
 ---
 date: 2014-01-24 12:13:00
-layout: post
+layout: single
+classes: wide
 title: CodeMesh presentation slides
 categories:
 - codemesh

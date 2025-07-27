@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2010-10-16 11:52:48+00:00
-layout: post
+layout: single
+classes: wide
 slug: open-source-and-you-resources
 title: Open Source and you - Resources
 wordpress_id: 709

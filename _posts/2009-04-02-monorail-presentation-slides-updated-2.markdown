@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2009-04-02 08:46:11+00:00
-layout: post
+layout: single
+classes: wide
 slug: monorail-presentation-slides-updated-2
 title: Monorail Presentation Slides Updated
 wordpress_id: 226

@@ -1,6 +1,7 @@
 ---
 date: 2015-12-06 19:13:00
-layout: post
+layout: single
+classes: wide
 title: Computation expressions and microphones
 categories:
 - programming

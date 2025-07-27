@@ -1,5 +1,6 @@
 ---
-layout: post
+layout: single
+classes: wide
 title:  "The dying platform: .Net"
 date:   2013-05-15 10:40:10
 

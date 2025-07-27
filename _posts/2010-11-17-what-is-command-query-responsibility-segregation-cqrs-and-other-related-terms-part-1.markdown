@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2010-11-17 22:19:37+00:00
-layout: post
+layout: single
+classes: wide
 slug: what-is-command-query-responsibility-segregation-cqrs-and-other-related-terms-part-1
 title: What is Command Query Responsibility Segregation (CQRS ) and other related
   terms - part 1

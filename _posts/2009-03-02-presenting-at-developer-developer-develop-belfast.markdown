@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2009-03-02 12:42:20+00:00
-layout: post
+layout: single
+classes: wide
 slug: presenting-at-developer-developer-develop-belfast
 title: 'Presenting at Developer Developer Developer Belfast '
 wordpress_id: 177

@@ -1,6 +1,7 @@
 ---
 date: 2016-02-14 11:50:00
-layout: post
+layout: single
+classes: wide
 title: Database of programming languages II
 categories:
 - programming

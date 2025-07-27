@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2009-08-14 11:31:07+00:00
-layout: post
+layout: single
+classes: wide
 slug: formating-in-gwt-ext
 title: Format(ing) in GWT-Ext
 wordpress_id: 359

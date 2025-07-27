@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2010-07-13 22:33:22+00:00
-layout: post
+layout: single
+classes: wide
 slug: when-could-not-load-file-or-assembly
 title: When  "Could not load file or assembly" happens
 wordpress_id: 613

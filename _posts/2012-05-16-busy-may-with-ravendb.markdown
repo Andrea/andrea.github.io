@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2012-05-16 10:17:23+00:00
-layout: post
+layout: single
+classes: wide
 slug: busy-may-with-ravendb
 title: Busy May  with RavenDB
 wordpress_id: 1001

@@ -1,7 +1,8 @@
 ---
 author: roundcrisis
 date: 2023-05-23 03:48:00+00:00
-layout: post
+layout: single
+classes: wide
 title:  New Crafts Paris May 2023 
 categories:
 - software architecture

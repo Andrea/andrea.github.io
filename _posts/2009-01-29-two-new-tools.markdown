@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2009-01-29 17:43:59+00:00
-layout: post
+layout: single
+classes: wide
 slug: two-new-tools
 title: Two New tools
 wordpress_id: 117

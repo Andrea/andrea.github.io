@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2013-03-15 16:22:57+00:00
-layout: post
+layout: single
+classes: wide
 slug: more-mono-for-android-xamarin-android-little-tips
 title: More Mono for android (Xamarin.Android) little tips.
 wordpress_id: 1062

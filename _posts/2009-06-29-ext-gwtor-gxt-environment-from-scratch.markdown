@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2009-06-29 09:26:43+00:00
-layout: post
+layout: single
+classes: wide
 slug: ext-gwtor-gxt-environment-from-scratch
 title: 'Ext-GWT(or GXT) Environment from scratch '
 wordpress_id: 309

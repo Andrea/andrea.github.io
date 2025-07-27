@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2012-07-23 16:32:06+00:00
-layout: post
+layout: single
+classes: wide
 slug: reading-diary-real-world-functional-programming-day-2
 title: 'Reading Diary: Real World Functional Programming - Day 2'
 wordpress_id: 1012

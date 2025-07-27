@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2008-12-10 16:57:04+00:00
-layout: post
+layout: single
+classes: wide
 slug: ruby-ireland-meet-up
 title: 'Ruby Ireland Meet up '
 wordpress_id: 60

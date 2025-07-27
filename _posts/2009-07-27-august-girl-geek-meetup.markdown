@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2009-07-27 13:56:27+00:00
-layout: post
+layout: single
+classes: wide
 slug: august-girl-geek-meetup
 title: August Girl Geek Meetup
 wordpress_id: 352

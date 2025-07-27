@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2011-11-22 09:40:04+00:00
-layout: post
+layout: single
+classes: wide
 slug: programming-science
 title: Programming Science
 wordpress_id: 900

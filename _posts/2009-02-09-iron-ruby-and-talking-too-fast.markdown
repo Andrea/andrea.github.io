@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2009-02-09 15:03:54+00:00
-layout: post
+layout: single
+classes: wide
 slug: iron-ruby-and-talking-too-fast
 title: Iron Ruby and talking too fast
 wordpress_id: 131

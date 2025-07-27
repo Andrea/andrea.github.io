@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2009-10-20 19:00:54+00:00
-layout: post
+layout: single
+classes: wide
 slug: ext-js-bits
 title: 'Ext Js bits '
 wordpress_id: 415

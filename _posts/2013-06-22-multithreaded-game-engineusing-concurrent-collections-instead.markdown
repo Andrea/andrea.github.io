@@ -1,5 +1,6 @@
 ---
-layout: post
+layout: single
+classes: wide
 title:  "Multithreaded game engine -Using Concurrent collections instead"
 date:   2013-06-22 21:40:10
 categories: ""

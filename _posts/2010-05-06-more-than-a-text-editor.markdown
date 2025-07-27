@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2010-05-06 08:00:34+00:00
-layout: post
+layout: single
+classes: wide
 slug: more-than-a-text-editor
 title: 'More than a text editor '
 wordpress_id: 566

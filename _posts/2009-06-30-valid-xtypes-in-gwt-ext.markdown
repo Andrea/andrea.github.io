@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2009-06-30 11:19:11+00:00
-layout: post
+layout: single
+classes: wide
 slug: valid-xtypes-in-gwt-ext
 title: Valid xtypes in GWT-Ext
 wordpress_id: 324

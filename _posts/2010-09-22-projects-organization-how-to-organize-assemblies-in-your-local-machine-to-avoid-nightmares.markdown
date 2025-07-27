@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2010-09-22 19:11:20+00:00
-layout: post
+layout: single
+classes: wide
 slug: projects-organization-how-to-organize-assemblies-in-your-local-machine-to-avoid-nightmares
 title: Projects Organization - How to organize assemblies in your local machine to
   avoid nightmares

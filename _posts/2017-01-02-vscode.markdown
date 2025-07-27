@@ -1,6 +1,7 @@
 ---
 date: 2017-01-02 23:13:00
-layout: post
+layout: single
+classes: wide
 title: VS Code + Ionide-FSharp
 categories:
 - programming

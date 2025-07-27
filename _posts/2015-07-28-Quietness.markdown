@@ -1,6 +1,7 @@
 ---
 date: 2015-07-28 19:13:00
-layout: post
+layout: single
+classes: wide
 title: Quietness 
 categories:
 - programming 

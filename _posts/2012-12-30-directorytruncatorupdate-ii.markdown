@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2012-12-30 22:33:03+00:00
-layout: post
+layout: single
+classes: wide
 slug: directorytruncatorupdate-ii
 title: DirectoryTruncator - Update II
 wordpress_id: 1040

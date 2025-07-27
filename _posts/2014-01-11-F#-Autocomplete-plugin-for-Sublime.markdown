@@ -1,6 +1,7 @@
 ---
 date: 2014-01-11 16:11:00
-layout: post
+layout: single
+classes: wide
 title: F# Autocomplete plugin for Sublime
 categories:
 - f#

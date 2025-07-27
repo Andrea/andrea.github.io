@@ -1,6 +1,7 @@
 ---
 date: 2014-08-31 11:44:00
-layout: post
+layout: single
+classes: wide
 title: F#n and games
 categories:
 - programming 

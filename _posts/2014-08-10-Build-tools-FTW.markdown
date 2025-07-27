@@ -1,6 +1,7 @@
 ---
 date: 2014-08-10 14:13:00
-layout: post
+layout: single
+classes: wide
 title: Build tools FTW
 categories:
 - programming 

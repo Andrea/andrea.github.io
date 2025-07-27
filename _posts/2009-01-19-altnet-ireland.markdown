@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2009-01-19 10:26:17+00:00
-layout: post
+layout: single
+classes: wide
 slug: altnet-ireland
 title: Alt.net Ireland
 wordpress_id: 93

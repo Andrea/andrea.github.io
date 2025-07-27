@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2009-08-05 13:41:02+00:00
-layout: post
+layout: single
+classes: wide
 slug: nvelocity-help
 title: Nvelocity help
 wordpress_id: 355

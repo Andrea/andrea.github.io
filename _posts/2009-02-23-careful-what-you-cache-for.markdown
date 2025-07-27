@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2009-02-23 18:07:05+00:00
-layout: post
+layout: single
+classes: wide
 slug: careful-what-you-cache-for
 title: Careful What you Cache For
 wordpress_id: 162

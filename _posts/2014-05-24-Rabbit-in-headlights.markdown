@@ -1,6 +1,7 @@
 ---
 date: 2014-05-24 14:13:00
-layout: post
+layout: single
+classes: wide
 title: Devsum14-Like a rabbit in headlights presentation slides
 categories:
 - programming 

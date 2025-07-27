@@ -1,6 +1,7 @@
 ---
 date: 2015-12-06 20:13:00
-layout: post
+layout: single
+classes: wide
 title: More Computation expressions
 categories:
 - programming

@@ -1,5 +1,6 @@
 ---
-layout: post
+layout: single
+classes: wide
 title:  "Moved to Jekyll!"
 date:   2013-12-31 23:40:10
 categories: jekyll

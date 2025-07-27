@@ -1,6 +1,7 @@
 ---
 date: 2014-02-12 12:13:00
-layout: post
+layout: single
+classes: wide
 title: Game AI pro review
 categories:
 - Ai 

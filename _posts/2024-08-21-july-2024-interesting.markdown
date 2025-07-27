@@ -1,6 +1,7 @@
 ---
 date: 2024-08-21 12:13:00
-layout: post
+layout: single
+classes: wide
 title: Interesting learning resources - August 2024 
 categories:
 - observability

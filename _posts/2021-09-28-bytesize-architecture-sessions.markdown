@@ -1,7 +1,8 @@
 ---
 author: roundcrisis
 date: 2021-09-28 20:48:00+00:00
-layout: post
+layout: single
+classes: wide
 title:  Bytesize architecture Sessions
 categories:
 - software architecture

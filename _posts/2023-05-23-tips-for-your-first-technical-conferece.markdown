@@ -1,7 +1,8 @@
 ---
 author: roundcrisis
 date: 2023-05-23 02:48:00+00:00
-layout: post
+layout: single
+classes: wide
 title:  Tips for your first technical conference (Non-academic) 2023
 categories:
 - collaboration

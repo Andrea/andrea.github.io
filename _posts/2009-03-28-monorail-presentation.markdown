@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2009-03-28 00:48:02+00:00
-layout: post
+layout: single
+classes: wide
 slug: monorail-presentation
 title: Monorail Presentation
 wordpress_id: 204

@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2010-01-31 22:55:41+00:00
-layout: post
+layout: single
+classes: wide
 slug: lessons-learned-in-unit-testing-session-ddd8
 title: Lessons Learned in Unit Testing Session - DDD8
 wordpress_id: 467

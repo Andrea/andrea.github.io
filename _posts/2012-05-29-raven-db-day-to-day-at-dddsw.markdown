@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2012-05-29 09:13:00+00:00
-layout: post
+layout: single
+classes: wide
 slug: raven-db-day-to-day-at-dddsw
 title: 'Raven DB: Day to day at #DDDSW'
 wordpress_id: 1003

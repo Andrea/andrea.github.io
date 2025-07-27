@@ -3,7 +3,8 @@ author: roundcrisis
 comments: true
 date: 2009-02-15 12:40:39+00:00
 excerpt: Now Updated to add Rhino Commons
-layout: post
+layout: single
+classes: wide
 slug: tool-set-for-net-development
 title: Tool set for .net  development
 wordpress_id: 151

@@ -1,6 +1,7 @@
 ---
 date: 2008-11-30 17:56:00
-layout: post
+layout: single
+classes: wide
 title: Linking images in Monorail
 categories:
 - monorail

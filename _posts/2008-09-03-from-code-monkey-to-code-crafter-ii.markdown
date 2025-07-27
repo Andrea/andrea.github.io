@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2008-09-03 10:34:00+00:00
-layout: post
+layout: single
+classes: wide
 slug: from-code-monkey-to-code-crafter-ii
 title: From Code Monkey to Code Crafter II
 wordpress_id: 44

@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2013-12-31 14:37:32+00:00
-layout: post
+layout: single
+classes: wide
 slug: 2013-in-review-and-moving-on
 title: 2013 in review and moving on
 wordpress_id: 1142

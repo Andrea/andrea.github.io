@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2009-01-26 10:27:00+00:00
-layout: post
+layout: single
+classes: wide
 slug: dublin-alt-net-meetup-12th-of-feb-7pm
 title: Dublin Alt Net Meetup - 12th of Feb 7pm
 wordpress_id: 103

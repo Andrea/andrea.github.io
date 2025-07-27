@@ -1,6 +1,7 @@
 ---
 date: 2014-11-24 11:44:00
-layout: post
+layout: single
+classes: wide
 title: NDC London slides
 categories:
 - programming 

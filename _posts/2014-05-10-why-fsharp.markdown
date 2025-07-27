@@ -1,6 +1,7 @@
 ---
 date: 2014-05-10 14:13:00
-layout: post
+layout: single
+classes: wide
 title: Why F sharp and functional programming in general.
 categories:
 - programming 

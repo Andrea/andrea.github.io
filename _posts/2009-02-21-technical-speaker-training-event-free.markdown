@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2009-02-21 11:00:16+00:00
-layout: post
+layout: single
+classes: wide
 slug: technical-speaker-training-event-free
 title: Technical Speaker Training Event (free)
 wordpress_id: 164

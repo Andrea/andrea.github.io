@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2009-08-24 11:21:42+00:00
-layout: post
+layout: single
+classes: wide
 slug: meet-ups-conferences-visitors
 title: 'Meet ups Conferences Visitors '
 wordpress_id: 364

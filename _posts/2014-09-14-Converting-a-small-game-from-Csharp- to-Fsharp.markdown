@@ -1,6 +1,7 @@
 ---
 date: 2014-09-15 11:44:00
-layout: post
+layout: single
+classes: wide
 title: Converting a small game from C# to F# part 1
 categories:
 - programming 

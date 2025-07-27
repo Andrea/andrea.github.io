@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2009-03-30 13:46:33+00:00
-layout: post
+layout: single
+classes: wide
 slug: developer-developer-developer-belfast-this-saturday-4th-of-april
 title: Developer Developer Developer Belfast -This saturday 4th of April
 wordpress_id: 211

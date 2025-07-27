@@ -1,6 +1,7 @@
 ---
 date: 2024-02-13 11:13:00
-layout: post
+layout: single
+classes: wide
 title: Interesting learning resources - February 2024 - part 2
 categories:
 - programming-languages

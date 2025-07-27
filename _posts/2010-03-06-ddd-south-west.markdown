@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2010-03-06 09:00:23+00:00
-layout: post
+layout: single
+classes: wide
 slug: ddd-south-west
 title: DDD South West
 wordpress_id: 503

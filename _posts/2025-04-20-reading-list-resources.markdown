@@ -1,6 +1,7 @@
 ---
 date: 2025-04-20 00:13:00
-layout: post
+layout: single
+classes: wide
 title: Interesting learning resources - April 2025
 categories:
 - software-architecture

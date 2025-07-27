@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2010-03-13 14:20:25+00:00
-layout: post
+layout: single
+classes: wide
 slug: newswiped-development-machine-software-musts
 title: New/Swiped Development Machine - software musts
 wordpress_id: 508

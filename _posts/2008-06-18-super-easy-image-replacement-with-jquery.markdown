@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2008-06-18 17:52:00+00:00
-layout: post
+layout: single
+classes: wide
 slug: super-easy-image-replacement-with-jquery
 title: Super easy image replacement with jQuery
 wordpress_id: 20

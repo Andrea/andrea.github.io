@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2012-08-06 10:05:53+00:00
-layout: post
+layout: single
+classes: wide
 slug: fail-to-add-a-sprite-to-xna-content-project
 title: Fail to add a sprite to XNA content project
 wordpress_id: 1018

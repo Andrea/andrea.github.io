@@ -1,5 +1,6 @@
 ---
-layout: post
+layout: single
+classes: wide
 title:  "A better plugin solution, trying out Roslyn and MEF"
 date:   2013-12-28 21:40:10
 categories: c# Roslyn 

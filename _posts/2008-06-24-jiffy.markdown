@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2008-06-24 16:44:00+00:00
-layout: post
+layout: single
+classes: wide
 slug: jiffy
 title: Jiffy
 wordpress_id: 24

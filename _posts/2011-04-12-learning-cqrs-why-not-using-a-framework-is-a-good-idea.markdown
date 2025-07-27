@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2011-04-12 11:55:32+00:00
-layout: post
+layout: single
+classes: wide
 slug: learning-cqrs-why-not-using-a-framework-is-a-good-idea
 title: Learning CQRS. Why not using a framework is a good idea
 wordpress_id: 794

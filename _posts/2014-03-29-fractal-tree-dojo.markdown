@@ -1,6 +1,7 @@
 ---
 date: 2014-03-29 23:13:00
-layout: post
+layout: single
+classes: wide
 title: Dojo fractal forest in F# (with pictures)
 categories:
 - programming 

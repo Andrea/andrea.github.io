@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2008-08-05 08:40:00+00:00
-layout: post
+layout: single
+classes: wide
 slug: time-picker-png-transparency-fix
 title: Time picker / PNG Transparency fix
 wordpress_id: 38

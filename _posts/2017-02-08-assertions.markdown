@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2017-02-08 10:48:00+00:00
-layout: post
+layout: single
+classes: wide
 slug: Initialization Error on JVM based tests
 title: Initialization Error on JVM based tests
 categories:

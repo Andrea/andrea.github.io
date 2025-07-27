@@ -1,6 +1,7 @@
 ---
 date: 2023-10-12 13:13:00
-layout: post
+layout: single
+classes: wide
 title: GSAS presentation video and twenty plus questions about Bytesize Architecture Sessions - The plan
 categories:
 - bytesize-architecture-sessions

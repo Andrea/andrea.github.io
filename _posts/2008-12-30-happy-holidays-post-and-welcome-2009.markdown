@@ -3,7 +3,8 @@ author: roundcrisis
 comments: true
 date: 2008-12-30 13:20:05+00:00
 excerpt: Ramblings about 2009
-layout: post
+layout: single
+classes: wide
 slug: happy-holidays-post-and-welcome-2009
 title: Happy Holidays post and welcome 2009
 wordpress_id: 65

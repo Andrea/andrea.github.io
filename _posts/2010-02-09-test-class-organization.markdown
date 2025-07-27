@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2010-02-09 21:29:05+00:00
-layout: post
+layout: single
+classes: wide
 slug: test-class-organization
 title: Test Class Organization
 wordpress_id: 470

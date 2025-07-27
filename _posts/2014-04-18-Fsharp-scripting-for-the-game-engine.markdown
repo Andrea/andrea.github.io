@@ -1,6 +1,7 @@
 ---
 date: 2014-04-21 14:13:00
-layout: post
+layout: single
+classes: wide
 title: F# scripting for a component based game engine
 categories:
 - programming 

@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2012-09-11 15:34:53+00:00
-layout: post
+layout: single
+classes: wide
 slug: xna-psd-contentprocessor
 title: 'XNA PSD ContentProcessor '
 wordpress_id: 1026

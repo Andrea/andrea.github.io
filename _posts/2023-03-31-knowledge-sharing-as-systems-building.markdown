@@ -1,7 +1,8 @@
 ---
 author: roundcrisis
 date: 2023-03-31 02:48:00+00:00
-layout: post
+layout: single
+classes: wide
 title:  Knowledge sharing is systems building
 categories:
 - collaboration

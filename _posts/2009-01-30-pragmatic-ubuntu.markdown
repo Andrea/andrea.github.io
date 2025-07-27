@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2009-01-30 10:17:18+00:00
-layout: post
+layout: single
+classes: wide
 slug: pragmatic-ubuntu
 title: Pragmatic Ubuntu?
 wordpress_id: 122

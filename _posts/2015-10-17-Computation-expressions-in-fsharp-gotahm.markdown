@@ -1,6 +1,7 @@
 ---
 date: 2015-10-18 19:13:00
-layout: post
+layout: single
+classes: wide
 title: FSharp Gotham - Experience report
 categories:
 - programming

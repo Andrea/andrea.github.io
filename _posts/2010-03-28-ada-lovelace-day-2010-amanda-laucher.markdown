@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2010-03-28 08:57:39+00:00
-layout: post
+layout: single
+classes: wide
 slug: ada-lovelace-day-2010-amanda-laucher
 title: 'Ada Lovelace Day 2010: Amanda Laucher'
 wordpress_id: 529

@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2012-05-05 14:10:29+00:00
-layout: post
+layout: single
+classes: wide
 slug: xnaa-simple-spring-camera-in-2d
 title: XNA - A Simple Spring Camera in 2D
 wordpress_id: 990

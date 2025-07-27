@@ -3,7 +3,8 @@ author: roundcrisis
 comments: true
 date: 2009-01-07 12:41:44+00:00
 excerpt: Using caching on ViewComponent
-layout: post
+layout: single
+classes: wide
 slug: component-view-caching-with-castle
 title: Component View Caching with Castle
 wordpress_id: 74

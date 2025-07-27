@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2009-01-09 16:27:09+00:00
-layout: post
+layout: single
+classes: wide
 slug: ruby-jobs-live
 title: Ruby Jobs live!
 wordpress_id: 85

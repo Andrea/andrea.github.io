@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2019-05-25 20:48:00+00:00
-layout: post
+layout: single
+classes: wide
 title: No long term damage. Day 6
 categories:
 - environmental

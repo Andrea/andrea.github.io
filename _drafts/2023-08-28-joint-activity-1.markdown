@@ -1,7 +1,8 @@
 ---
 author: roundcrisis
 date: 2028-08-28 02:48:00+00:00
-layout: post
+layout: single
+classes: wide
 title:  A review of Common Ground and Coordination in Joint Activity - Part 1 Introduction
 categories:
 - collaboration

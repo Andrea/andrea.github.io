@@ -1,6 +1,7 @@
 ---
 date: 2014-12-09 11:44:00
-layout: post
+layout: single
+classes: wide
 title: FAKE, What is it and Why you should check it out
 categories:
 - programming 

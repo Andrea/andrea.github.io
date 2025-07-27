@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2013-02-24 12:18:10+00:00
-layout: post
+layout: single
+classes: wide
 slug: mono-for-androidbeyond-getting-started
 title: Mono for Android - Beyond getting started
 wordpress_id: 1053

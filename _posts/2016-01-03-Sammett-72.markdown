@@ -1,6 +1,7 @@
 ---
 date: 2016-01-03 20:13:00
-layout: post
+layout: single
+classes: wide
 title: Past and future
 categories:
 - programming

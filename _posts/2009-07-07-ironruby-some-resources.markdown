@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2009-07-07 11:45:09+00:00
-layout: post
+layout: single
+classes: wide
 slug: ironruby-some-resources
 title: IronRuby  - Some Resources
 wordpress_id: 330

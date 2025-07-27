@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2009-04-06 12:01:11+00:00
-layout: post
+layout: single
+classes: wide
 slug: monorail-sample-code-nettwitt
 title: Monorail Sample code - NetTwitt
 wordpress_id: 228

@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2013-03-15 16:06:25+00:00
-layout: post
+layout: single
+classes: wide
 slug: monogame-presentation-at-gig2013-and-gamesfleadh
 title: 'Monogame presentation at #gig2013 and #gamesFleadh'
 wordpress_id: 1060

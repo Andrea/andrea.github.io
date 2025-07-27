@@ -1,6 +1,7 @@
 ---
 date: 2014-12-31 11:44:00
-layout: post
+layout: single
+classes: wide
 title: What is a type system
 categories:
 - programming 

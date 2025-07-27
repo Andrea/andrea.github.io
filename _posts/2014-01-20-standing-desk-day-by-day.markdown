@@ -1,6 +1,7 @@
 ---
 date: 2014-01-20 12:13:00
-layout: post
+layout: single
+classes: wide
 title: Standing desk day to day 
 categories:
 - standing desk

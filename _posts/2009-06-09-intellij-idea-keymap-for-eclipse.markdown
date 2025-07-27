@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2009-06-09 08:50:38+00:00
-layout: post
+layout: single
+classes: wide
 slug: intellij-idea-keymap-for-eclipse
 title: IntelliJ IDEA keymap for Eclipse
 wordpress_id: 282

@@ -1,6 +1,7 @@
 ---
 date: 2014-02-11 12:13:00
-layout: post
+layout: single
+classes: wide
 title: Replay systems notes 1
 categories:
 - replay-systems

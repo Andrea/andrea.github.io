@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2011-01-21 15:31:24+00:00
-layout: post
+layout: single
+classes: wide
 slug: cqrses-presentation-in-belfast-yesterday
 title: CQRS/ES Presentation in Belfast yesterday
 wordpress_id: 775

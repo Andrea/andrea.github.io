@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2011-05-11 10:25:04+00:00
-layout: post
+layout: single
+classes: wide
 slug: ddd-scotland-review-and-slides
 title: DDD Scotland. Review and Slides
 wordpress_id: 819

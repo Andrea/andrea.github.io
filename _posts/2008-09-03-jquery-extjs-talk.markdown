@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2008-09-03 10:48:00+00:00
-layout: post
+layout: single
+classes: wide
 slug: jquery-extjs-talk
 title: jQuery ExtJS talk
 wordpress_id: 45

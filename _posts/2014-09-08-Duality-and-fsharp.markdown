@@ -1,6 +1,7 @@
 ---
 date: 2014-09-08 11:44:00
-layout: post
+layout: single
+classes: wide
 title: Writing Duality Components in FSharp
 categories:
 - programming 

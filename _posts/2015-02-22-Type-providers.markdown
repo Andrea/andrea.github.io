@@ -1,6 +1,7 @@
 ---
 date: 2015-02-22 19:44:00
-layout: post
+layout: single
+classes: wide
 title: Type providers
 categories:
 - type providers

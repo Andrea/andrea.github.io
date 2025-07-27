@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2011-09-25 12:06:09+00:00
-layout: post
+layout: single
+classes: wide
 slug: code-retreat-dublin17th-september
 title: Code Retreat Dublin - 17th September
 wordpress_id: 869

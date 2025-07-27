@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2009-05-11 10:48:17+00:00
-layout: post
+layout: single
+classes: wide
 slug: gwt-ext-charts
 title: GWT-Ext Charts
 wordpress_id: 249

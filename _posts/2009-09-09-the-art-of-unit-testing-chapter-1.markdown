@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2009-09-09 09:35:55+00:00
-layout: post
+layout: single
+classes: wide
 slug: the-art-of-unit-testing-chapter-1
 title: 'The Art of Unit Testing - Chapter 1 '
 wordpress_id: 372

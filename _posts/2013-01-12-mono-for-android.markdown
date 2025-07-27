@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2013-01-12 13:24:15+00:00
-layout: post
+layout: single
+classes: wide
 slug: mono-for-android
 title: Mono for android
 wordpress_id: 1043

@@ -1,7 +1,8 @@
 ---
 author: roundcrisis
 date: 2021-11-17 20:48:00+00:00
-layout: post
+layout: single
+classes: wide
 title:  Talk-The best Lifehack but for your software 
 categories:
 - software architecture

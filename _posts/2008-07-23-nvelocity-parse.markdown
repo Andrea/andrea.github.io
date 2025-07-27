@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2008-07-23 20:12:00+00:00
-layout: post
+layout: single
+classes: wide
 slug: nvelocity-parse
 title: NVelocity Parse
 wordpress_id: 37

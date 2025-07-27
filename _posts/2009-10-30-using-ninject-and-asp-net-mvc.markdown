@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2009-10-30 10:38:18+00:00
-layout: post
+layout: single
+classes: wide
 slug: using-ninject-and-asp-net-mvc
 title: 'Using Ninject and Asp.Net MVC '
 wordpress_id: 418

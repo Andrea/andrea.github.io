@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2009-09-16 19:33:47+00:00
-layout: post
+layout: single
+classes: wide
 slug: thoughs-on-1st-book-club-meetup
 title: Thoughs on 1st Book Club meetup
 wordpress_id: 380

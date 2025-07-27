@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2009-10-13 22:49:48+00:00
-layout: post
+layout: single
+classes: wide
 slug: barcamp-derry-presentation
 title: Barcamp Derry Presentation
 wordpress_id: 410

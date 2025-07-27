@@ -1,6 +1,7 @@
 ---
 date: 2025-04-20 00:13:00
-layout: post
+layout: single
+classes: wide
 title: Tech Waka Podcast & Leadership Collective in Auckland - Learn about your systems for Tech Leaders
 categories:
 - software-architecture

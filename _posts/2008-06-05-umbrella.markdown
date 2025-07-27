@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2008-06-05 12:22:00+00:00
-layout: post
+layout: single
+classes: wide
 slug: umbrella
 title: Umbrella
 wordpress_id: 11
@@ -11,7 +12,7 @@ categories:
 - umbrella project
 ---
 
-Today ayende blogged about this and i found it really interesting  
+Today Ayende blogged about this and i found it really interesting  
 here: [http://www.codeplex.com/umbrella#](http://www.codeplex.com/umbrella)  you can get the code and tests  
   
 [http://ayende.com/Blog/archive/2008/06/04/Review-Umbrella-project.aspx](http://ayende.com/Blog/archive/2008/06/04/Review-Umbrella-project.aspx) ayendes blog

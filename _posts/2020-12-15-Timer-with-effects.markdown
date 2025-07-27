@@ -1,7 +1,8 @@
 ---
 author: roundcrisis
 date: 2020-11-30 20:48:00+00:00
-layout: post
+layout: single
+classes: wide
 title: Timer with Cats Effects
 categories:
 - scala

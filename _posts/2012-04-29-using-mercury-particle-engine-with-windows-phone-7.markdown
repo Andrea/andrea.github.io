@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2012-04-29 17:46:18+00:00
-layout: post
+layout: single
+classes: wide
 slug: using-mercury-particle-engine-with-windows-phone-7
 title: Using Mercury Particle Engine with Windows Phone 7
 wordpress_id: 984

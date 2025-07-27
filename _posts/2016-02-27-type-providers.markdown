@@ -1,6 +1,7 @@
 ---
 date: 2016-02-27 23:13:00
-layout: post
+layout: single
+classes: wide
 title: Using Type providers
 categories:
 - programming

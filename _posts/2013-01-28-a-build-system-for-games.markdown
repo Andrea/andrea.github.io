@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2013-01-28 23:22:02+00:00
-layout: post
+layout: single
+classes: wide
 slug: a-build-system-for-games
 title: A build system for games
 wordpress_id: 1046

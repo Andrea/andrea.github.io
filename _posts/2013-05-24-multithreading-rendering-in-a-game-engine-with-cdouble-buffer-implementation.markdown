@@ -1,5 +1,6 @@
 ---
-layout: post
+layout: single
+classes: wide
 title:  "Multithreading rendering in a game engine with C# - Double buffer implementation"
 date:   2013-05-24 12:40:10
 categories: ""

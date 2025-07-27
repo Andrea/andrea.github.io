@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2009-12-17 21:30:51+00:00
-layout: post
+layout: single
+classes: wide
 slug: step-by-step-startersts-setup
 title: Step by Step StarterSTS Setup
 wordpress_id: 436

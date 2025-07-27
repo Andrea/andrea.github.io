@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2010-02-15 07:39:04+00:00
-layout: post
+layout: single
+classes: wide
 slug: the-art-of-unit-testing-review
 title: The Art of Unit Testing - Review
 wordpress_id: 443

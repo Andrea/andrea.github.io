@@ -1,6 +1,7 @@
 ---
 date: 2014-08-03 14:13:00
-layout: post
+layout: single
+classes: wide
 title: NuGet install tricks
 categories:
 - programming 

@@ -1,6 +1,7 @@
 ---
 date: 2015-02-19 11:44:00
-layout: post
+layout: single
+classes: wide
 title: Creating a vm for Haskell development
 categories:
 - programming 

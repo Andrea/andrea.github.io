@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2008-12-12 14:59:06+00:00
-layout: post
+layout: single
+classes: wide
 slug: languages
 title: Languages
 wordpress_id: 63

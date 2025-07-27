@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2008-06-05 06:57:00+00:00
-layout: post
+layout: single
+classes: wide
 slug: some-cool-things
 title: Some Cool Things
 wordpress_id: 10

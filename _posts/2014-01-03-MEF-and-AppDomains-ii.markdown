@@ -1,6 +1,7 @@
 ---
 date: 2014-01-03 10:13:00
-layout: post
+layout: single
+classes: wide
 title: MEF and AppDomains II
 categories:
 - MEF

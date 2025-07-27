@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2010-06-30 22:00:26+00:00
-layout: post
+layout: single
+classes: wide
 slug: on-pair-programming
 title: 'On Pair Programming '
 wordpress_id: 597

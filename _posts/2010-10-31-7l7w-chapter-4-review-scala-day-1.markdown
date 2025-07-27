@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2010-10-31 15:49:58+00:00
-layout: post
+layout: single
+classes: wide
 slug: 7l7w-chapter-4-review-scala-day-1
 title: 7L7W - Scala Day 1
 wordpress_id: 711

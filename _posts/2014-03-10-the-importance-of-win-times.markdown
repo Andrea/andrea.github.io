@@ -1,6 +1,7 @@
 ---
 date: 2014-03-10 12:13:00
-layout: post
+layout: single
+classes: wide
 title: The importance of win times
 categories:
 - programming 

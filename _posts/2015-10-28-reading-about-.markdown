@@ -1,6 +1,7 @@
 ---
 date: 2015-10-28 19:13:00
-layout: post
+layout: single
+classes: wide
 title: Reading about primes, type providers and more
 categories:
 - programming

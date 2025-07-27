@@ -1,7 +1,8 @@
 ---
 author: roundcrisis
 date: 2022-10-01 12:48:00+00:00
-layout: post
+layout: single
+classes: wide
 title:  Bytesize architecture sessions -The power of Alone Together
 categories:
 - collaboration

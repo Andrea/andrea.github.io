@@ -2,7 +2,8 @@
 author: roundcrisis
 comments: true
 date: 2009-03-27 15:03:48+00:00
-layout: post
+layout: single
+classes: wide
 slug: ossbarcamp-tomorrow-28032009-at-dit-kevin-street
 title: OssBarcamp tomorrow 28/03/2009 at DIT Kevin Street
 wordpress_id: 202
