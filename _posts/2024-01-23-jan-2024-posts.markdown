@@ -23,7 +23,7 @@ This led me to look for a good RSS reader, which has been hard since google read
 
 So here are some interesting links with some commentary
 
-* [DDD in large product portfolios - Andreas Pinhammer - DDD Europe](https://www.youtube.com/watch?v=FzycqiJVioI) An excellent video where Andreas goes over a case study of using Event Storming, team topologies and DDD to manage multiple products in insurance. Delivered in a very simple manner. 
+* [DDD in large product portfolios - Andreas Pinhammer - DDD Europe](https://www.youtube.com/watch?v=FzycqiJVioI) An excellent video where Andreas goes over a case study of using Event Storming, team topologies and DDD to manage multiple products in insurance. Delivered in an approachable manner. 
 
 ![Screenshot of talk by Andreas Pinhammer]({{ site.images }}/2024/pinhammer-talk.png)
 

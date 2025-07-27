@@ -28,7 +28,7 @@ plugins:
 theme: minimal-mistakes-jekyll
 minimal_mistakes_skin: "default" 
 locale: "en-UK"
-logo: "/images/roundcrisis.png"
+logo: ""
 show_date: true
 search: true
 lunr:

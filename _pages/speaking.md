@@ -66,7 +66,7 @@ List of talks
 <li>
   <strong><a href="https://2023.ncrafts.io/speaker/andreamagnorsky" target="_blank"> New Crafts 2023 </a></strong> May 2023 Paris - Knowledge sharing is Systems building <a href="https://vimeopro.com/newcrafts/newcrafts/video/842232215" target="_blank">Video</a>
 </li>
-<li>
+</ul>
 
 <h2> 2022 </h2>
 <ul>
@@ -171,7 +171,5 @@ List of talks
 <li><strong>DDD Reading 2010 – </strong>Lessons Learned in Unit Testing. Reading, UK</li>
 <li><strong>DDD Belfast 2009  </strong>An Introduction to Monorail. Belfast, UK<strong><br />
 </strong></li>
-<li><strong>OssBarcamp 2009 </strong>An Introduction to Monorail. Dublin, UK</li>
+<li><strong>OssBarcamp 2009 </strong>An Introduction to Monorail. Dublin, Ireland</li>
 </ul>
-</div>
-
