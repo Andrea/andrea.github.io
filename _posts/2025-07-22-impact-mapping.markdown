@@ -3,6 +3,9 @@ date: 2025-07-22 00:13:00
 layout: single
 classes: wide
 title: Impact Mapping solo 
+
+excerpt: "Discovering Clarity Through Personal Practice. I've been meaning to do some improvements to the Bytesize Architecture Sessions' website and I found a lot of depth in iterating on an Impact Map."
+image: "/images/2025/impact-map-bas.png"
 categories:
 - software architecture
 - solo modelling
