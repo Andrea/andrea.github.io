@@ -289,7 +289,7 @@ Finally we want to center the tank in the middle of each viewport and that’s w
 
 [![Capture](http://roundcrisis.files.wordpress.com/2012/04/capture_thumb5.png)](http://roundcrisis.files.wordpress.com/2012/04/capture5.png)
 
-And we are done ![Smile](http://roundcrisis.files.wordpress.com/2012/04/wlemoticon-smile.png) tho I m sure there are plenty of ways to improve the code, but hopefully it will help as a simple example.
+And we are done ![Smile](http://roundcrisis.files.wordpress.com/2012/04/wlemoticon-smile.png) tho I'm sure there are plenty of ways to improve the code, but hopefully it will help as a simple example.
 
 If you want to have a better look at the code, a working sample is available [here](https://github.com/Andrea/Simple-2D-camera-Sample). If you have any comments, improvements, questions, as always you are very welcome.
 

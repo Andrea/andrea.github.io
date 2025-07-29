@@ -51,7 +51,7 @@ Roy Osherove posted [this ](http://code.google.com/p/mocking-frameworks-compare/
 
 [Windsor/MicroKernel](http://castleproject.org/container/index.html)
 
-Windsor is an Inversion of Control container, it helps you decouple your code and by proxy, it makes your code more testable.  IT is pretty obvious I m not gonna go into detail, however I will say I found this to be very useful
+Windsor is an Inversion of Control container, it helps you decouple your code and by proxy, it makes your code more testable.  IT is pretty obvious I'm not gonna go into detail, however I will say I found this to be very useful
 
 [Structure Map](http://structuremap.sourceforge.net/Default.htm)
 
@@ -77,7 +77,7 @@ In my wish list and from JetBrains as well,  is to test [Team City](http://www.
 
  
 
-I m doing web development , this obviously means I m using Firebug. I found gotapi.com a really useful site (html, css and js reference amongst others)
+I'm doing web development , this obviously means I'm using Firebug. I found gotapi.com a really useful site (html, css and js reference amongst others)
 
 Browsers: my default is Chrome at the moment, however I use Firefox and ie ( to test that it works )
 

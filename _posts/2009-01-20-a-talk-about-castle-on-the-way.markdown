@@ -16,7 +16,7 @@ tags:
 ---
 
 Hi
-This should be pretty exciting, I m hoping to do a talk in [OSSBarcamp ](http://www.ossbarcamp.com/speakers/)( well not really a talk but  you know) and depending on votes, I might be talking in [DDD Ireland](http://developerdeveloperdeveloper.com/belfast/ProposedSessions.aspx) too, we will see.
+This should be pretty exciting, I'm hoping to do a talk in [OSSBarcamp ](http://www.ossbarcamp.com/speakers/)( well not really a talk but  you know) and depending on votes, I might be talking in [DDD Ireland](http://developerdeveloperdeveloper.com/belfast/ProposedSessions.aspx) too, we will see.
 
 The talk will be on Castle Project, a walk through of a sample application, the main focus on Monorail and Active Record as I saw some other people can cover IoC and DI ( which in itself is a really long talk).
 

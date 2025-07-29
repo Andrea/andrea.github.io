@@ -33,6 +33,6 @@ From my 15 min experience I can see that Its super easy to use, It generates a w
   * **goodness**. Because Webby is a wrapper around rake, you can simply deploy to a site server 
 
 
-I ll see what else I can use, but I really like it because it allows me to do something I m happy with very quickly and that means that I m actually waiting for my dad to send me the pictures and remaining content so i can deploy this site :p.
+I ll see what else I can use, but I really like it because it allows me to do something I'm happy with very quickly and that means that I'm actually waiting for my dad to send me the pictures and remaining content so i can deploy this site :p.
 
 Also it gives me room to add some eye candy, I was reading this related [post ](http://short.ie/ahm60t)and really liked it too.

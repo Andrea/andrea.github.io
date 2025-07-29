@@ -1,11 +1,12 @@
 ---
-date: 2025-04-20 00:13:00
+date: 2025-05-20 00:13:00
 layout: single
-title: Interesting learning resources - April 2025
+title: Interesting learning resources - May 2025
 categories:
 - software architecture
 - systems theory
 - power dynamics
+tags: [knowledge management, workplace dynamics, software architecture, epistemology, decision making, alert fatigue]
 ---
 
 Thanks [Dawn Ahukanna](https://mastodon.social/@dahukanna), [Iris Meredith](https://mastodon.social/@iris_meredith) for sharing great resources!!

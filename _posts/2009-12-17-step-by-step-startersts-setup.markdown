@@ -13,7 +13,7 @@ tags:
 - WIF
 ---
 
-I m planing on a series of blogs on WIF ( windows Identity Foundation) however that might or might not happen :), so meanwhile I  m posting this, StarterSTS is as the name implies a starter sts something to get you started on the world of Federeation Identity , claims and all that lovely stuff.
+I'm planing on a series of blogs on WIF ( windows Identity Foundation) however that might or might not happen :), so meanwhile I  m posting this, StarterSTS is as the name implies a starter sts something to get you started on the world of Federeation Identity , claims and all that lovely stuff.
 
 You can find a video about all this steps in the[ codeplex site ](http://startersts.codeplex.com/)to starter STS, however there are a few differences between what you can see in the config files there and whats in 0.95 ( this is what I've used)  .
 

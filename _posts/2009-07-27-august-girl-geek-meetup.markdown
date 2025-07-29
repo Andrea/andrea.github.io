@@ -13,7 +13,7 @@ tags:
 - GGD
 ---
 
-This coming Wednesday the 5th of August we are going to be meeting up in Kennedy's ( nearly opposite to Pearse Dart Station) Its been a while so I m really looking forward to catch up with the girls. More info [here](http://www.irelandgirlgeekdinners.com/?p=82)
+This coming Wednesday the 5th of August we are going to be meeting up in Kennedy's ( nearly opposite to Pearse Dart Station) Its been a while so I'm really looking forward to catch up with the girls. More info [here](http://www.irelandgirlgeekdinners.com/?p=82)
 Hope you can make it if you are a Girl Geek =)
 
 Cheers

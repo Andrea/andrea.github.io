@@ -14,6 +14,7 @@ tags:
 - cqrs
 - event store
 - events
+- software architecture
 ---
 
 ## CQRS with Event Sourcing
@@ -27,7 +28,7 @@ The aggregate root should now expose only behaviour, encapsulating all state, se
 
 One of the questions I got during the talk was about how to replay perhaps millions of events, without a huge delay, and the answer to that is **Snapshots**, basically you preserve the current state of the aggregate root, serialized . There are a few ways to do snapshots, but the principle is that you get your snapshot, which will be up to a particular version, and then replay any events from that version on ( if there are any).
 
-At the system level, it is important to note that, we now have an explicit state transition, what I m trying to say is that when your customer (ie the person that comes up with the requirements for the system) sais something like, when a customer is created, then that can be mapped directly to CustomerCreatedEvent ie, there is a close relationship between what happens and what caused the state transition and that can be relevant to the business. This, I think, is the biggest advantage of using CQRS
+At the system level, it is important to note that, we now have an explicit state transition, what I'm trying to say is that when your customer (ie the person that comes up with the requirements for the system) sais something like, when a customer is created, then that can be mapped directly to CustomerCreatedEvent ie, there is a close relationship between what happens and what caused the state transition and that can be relevant to the business. This, I think, is the biggest advantage of using CQRS
 
 Since the read storage and the Write storage are logically separated  and they can be physically separated too, that means, that they can have different scaling policies.
 
@@ -46,22 +47,20 @@ Lets forget about the UI for a second and think of a system from the point of: I
 Every time you send a command, the system handles the command, more than likely, an aggregate root will be involved and an operation on it will occur, this will result in one or many events being published; once the event(s ) have been published, the subscribers will get this message. One of the subscribers is the Event store, that will append this new event. There are variations of this description but this will do for now. Lets say the
 
 
-[sourcecode language="csharp" padlinenumbers="true"]
+```
 public void Handle(CustomerMovedCommand command)
         {
 				var customer = _repository.Get&lt;Customer&gt;(command.CustomerId);
 				customer.Moved(command.AddressLine1, command.AddressLine2, command.Postcode );
 				_repository.Save(customer);
         }
-[/sourcecode]
-
-
+```
 
 
 the aggregate root (Customer) code for that method could look something like this
 
 
-[sourcecode language="csharp"]
+```
 public void Moved(string line1, string line2, string postcode)
 {
     ApplyEvent(new CustomerMovedEvent()
@@ -71,7 +70,7 @@ public void Moved(string line1, string line2, string postcode)
                             PostCode = postcode
                         });
 }
-[/sourcecode]
+```
 
 
 

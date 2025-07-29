@@ -20,7 +20,7 @@ tags:
 
 A few weeks ago I bit the bullet and bought Mono for Android. I also decided to update to all devices to Ice Cream Sandwich as the UI is just so much better. Should have done that ages ago, but I was just afraid Kies would brick my phone again.
 
-Anyway, the new features that I m sure anyone interested in android development already know about: Services, fragments, new UI. Cool stuff, it also meant a lot to learn ![Open-mouthed smile](http://roundcrisis.files.wordpress.com/2013/02/wlemoticon-openmouthedsmile.png).
+Anyway, the new features that I'm sure anyone interested in android development already know about: Services, fragments, new UI. Cool stuff, it also meant a lot to learn ![Open-mouthed smile](http://roundcrisis.files.wordpress.com/2013/02/wlemoticon-openmouthedsmile.png).
 
 Some things that you might want to try out if you are starting this out:
 

@@ -76,7 +76,7 @@ That code would have probably lived in a service, or even worse, in a controller
 
 
 
-Instead, you can write an AddStock method, which in reality would do something a bit more explicit ( I m sure you could call it StockDelivered or similar, but I guess it depends on your domain …)
+Instead, you can write an AddStock method, which in reality would do something a bit more explicit ( I'm sure you could call it StockDelivered or similar, but I guess it depends on your domain …)
 
 
 

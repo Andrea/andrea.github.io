@@ -48,4 +48,4 @@ Again this inspired me to look at [StoryTeller](http://storyteller.tigris.org/).
   * Channerl 9 [Podcast](http://channel9.msdn.com/posts/Glucose/Hanselminutes-on-9-Storyteller-with-Jeremy-Miller/)
 
 
-[](http://elegantcode.com/2009/08/26/code-cast-30-story-teller-with-jeremy-miller/) I m now looking at the samples from it but that ll be in other post :)
+[](http://elegantcode.com/2009/08/26/code-cast-30-story-teller-with-jeremy-miller/) I'm now looking at the samples from it but that ll be in other post :)

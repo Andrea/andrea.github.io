@@ -10,13 +10,13 @@ wordpress_id: 529
 categories:
 - .net
 tags:
-- ALD
+- Ada Lovelace Day
 - f#
 ---
 
-I m late with the Ada Lovelace Day article, I had the choice of making it on time but incomplete, or put some time and be late, and I chose the later this time. I really though the person and the topic deserved in depth investigation.
+I'm late with the Ada Lovelace Day article, I had the choice of making it on time but incomplete, or put some time and be late, and I chose the later this time. I really though the person and the topic deserved in depth investigation.
 
-I didnt really know how to aproach the Ada Lovelace Day last year and this year I still dont know now, I think the best homage I can do is learn more about F# in this case.
+I didn't really know how to approach the Ada Lovelace Day last year and this year I still don't know now, I think the best homage I can do is learn more about F# in this case.
 
 This post is about Amanda Laucher and about F#. Amanda is the author of [F# in Action](http://www.manning.com/laucher/). A speaker and most importantly a software developer, when you see her talking you can see she really likes what she does, and that fact is pretty inspirational.
 
@@ -28,18 +28,18 @@ I found quite a few of her presentations online
   * QCon London 2010 - [Pragmatic F# in Action](http://www.infoq.com/presentations/Pragmatic-F-Sharp-in-Action)
 
 	
-  * QCon London 2009 - [Concurrent Programing with F#](http://www.infoq.com/presentations/Concurrent-Programming-with-Microsoft-F-Amanda-Laucher)
+  * QCon London 2009 - [Concurrent Programming with F#](http://www.infoq.com/presentations/Concurrent-Programming-with-Microsoft-F-Amanda-Laucher)
 
 	
-  * Channel 9  - 2008 Ted [Newward and Amanda Laucher on F#](http://www.dotnetrocks.com/default.aspx?ShowNum=377)
+  * Channel 9  - 2008 Ted [Neward and Amanda Laucher on F#](http://www.dotnetrocks.com/default.aspx?ShowNum=377)
 
 	
-  * I m sure there is more but that ll get you going =)
+  * I'm sure there is more but that'll get you going =)
 
 
 Then I also found some other F# resources
 
-Wikipedia had a pleasant surprise in store for me with a really comprehensive [introduction to the language](http://en.wikipedia.org/wiki/F_Sharp_(programming_language)), and also pointed me to a [wikibook](http://en.wikibooks.org/wiki/F_Sharp_Programming) however when I started typing the code and tryng to run it I ran into problems because the parser looks at line breaks.
+Wikipedia had a pleasant surprise in store for me with a really comprehensive [introduction to the language](http://en.wikipedia.org/wiki/F_Sharp_(programming_language)), and also pointed me to a [wikibook](http://en.wikibooks.org/wiki/F_Sharp_Programming) however when I started typing the code and trying to run it I ran into problems because the parser looks at line breaks.
 
 **Disclaimer: I never done any f# before so anything below could be completely wrong (if so please let me know so I learn :) )**
 
@@ -71,7 +71,7 @@ F# is
 More detail
 
 	
-  * Everything is inmutable by default, but there are mutable objects ( apparently the objects that you can get by interoping with, say,a  c# dll are mutable but i m not sure)
+  * Everything is immutable by default, but there are mutable objects ( apparently the objects that you can get by interoping with, say,a  c# dll are mutable but I'm not sure)
 
 	
   * lazy evaluation
@@ -91,10 +91,10 @@ More detail
 
 After looking around I also found some good videos from Erik Meyer on the topic, hes got a series of them you can have a look [here](http://channel9.msdn.com/shows/Going+Deep/Lecture-Series-Erik-Meijer-Functional-Programming-Fundamentals-Chapter-1/), the series goes through the history of functional programming and principles, very interesting.
 
-I can see a lot of potential on this, I find functional programming a big mind switch and I m sure it will take me a good while to do it properly, however, the goodness of looking at this code comes from the ideas you can take from different aproaches.
+I can see a lot of potential on this, I find functional programming a big mind switch and I'm sure it will take me a good while to do it properly, however, the goodness of looking at this code comes from the ideas you can take from different approaches.
 
-One thing that did strike me so far is that i ve seen bad variable names and no unit testing on it at all, on the other hand, the power that you seem to sudenly have is just incredible, tho since the paradigm shift is so big, I found myself stumbling and not being able to do things that i find really simple in c# (like print an array to the console, the difficulty was on realising that the line breaks are significant)
+One thing that did strike me so far is that i ve seen bad variable names and no unit testing on it at all, on the other hand, the power that you seem to suddenly have is just incredible, tho since the paradigm shift is so big, I found myself stumbling and not being able to do things that i find really simple in c# (like print an array to the console, the difficulty was on realising that the line breaks are significant)
 
 The real life example from the QCon talk from 2009 was a really good way to see the value of the language as real life usage, the QCon  talk from 2010 was really good because it dived deep into the language, language usage, etc.
 
-I feel like I ve started learning something that will cahnge the way I code and I m really happy about that.
+I feel like I've started learning something that will change the way I code and I'm really happy about that.

@@ -48,7 +48,7 @@ After 8 hours of work I was really really tired. Sat down, I had trouble staying
 
 ## Day 4
 
-Started the day with a lot of energy (and an 8 mile cycle) I m after the first half and feeling good. I m noticing my upper-back is really way less tense than normal (ie never noticed how tense I was) also feeling a bit of pain in my lower back, I guess it's muscle building for standing for longer because it goes away.
+Started the day with a lot of energy (and an 8 mile cycle) I'm after the first half and feeling good. I'm noticing my upper-back is really way less tense than normal (ie never noticed how tense I was) also feeling a bit of pain in my lower back, I guess it's muscle building for standing for longer because it goes away.
 
 
 ## Day 5

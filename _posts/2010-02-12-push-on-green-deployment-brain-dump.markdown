@@ -41,16 +41,16 @@ Maybe I would start of an continuous open beta or, edge (somehow warning my user
 
 But then thats is just my application, lets imagine I produce code that is not public facing, but that , its an API, consumed by many other applications, how would they be aware and **react** to interface changes? More importantly, would this make software evolution slower  by persisting everlasting APIs? or would it induce APIs that are very noisy, hence harder to discover?
 
-I m asking this because:   lets forget about the barrier of web or desktop for a minute and focus on dlls, where they live and how we use them and consume them.
+I'm asking this because:   lets forget about the barrier of web or desktop for a minute and focus on dlls, where they live and how we use them and consume them.
 
 If my Operating System vendor/framework provider makes a push do i want my app to get that immediately?
 
-Say I m using an interface something like IEmailSender, that has the methods Send(IEmailTemplate, ISomethingElse) and that is replaced for the better designed IEmailSender.Send(Message) with the Send(Message[]) overload. In that example I agree with the change, I want to use the new code because the contract is better (lets assume we all agree is better ok); however, that would mean changing my application, re testing all those areas where I use IEmailSender and I most likely don't want that.
+Say I'm using an interface something like IEmailSender, that has the methods Send(IEmailTemplate, ISomethingElse) and that is replaced for the better designed IEmailSender.Send(Message) with the Send(Message[]) overload. In that example I agree with the change, I want to use the new code because the contract is better (lets assume we all agree is better ok); however, that would mean changing my application, re testing all those areas where I use IEmailSender and I most likely don't want that.
 
 I have to add, I would probably want to do an integration test anyway, or should I blindly trust the new IEmailSender implementation because we are all pushing on green now?
 
 So the option here seems to be, create the new contract but maintain the old one around for a while right?, but then your API will have all these Send methods, and that doesnt seem to be going into the better development practices direction
 
-Next I m gonna try heroku in anger and see if I get more ideas from using it, heroku is a service that runs ruby applications that are deployed when you commit.
+Next I'm gonna try heroku in anger and see if I get more ideas from using it, heroku is a service that runs ruby applications that are deployed when you commit.
 
 This is a brain dump on this and would love to hear thoughts from other people, corrections, feedback, etc always welcome :)

@@ -65,7 +65,7 @@ A lot has changed since version 1.5.3 the two more obvious things so far are: sp
 ## **Installing and using Ext-GWT (or GXT) 2.0 RC1**
 
 
-GXT 2.0 required GWT 1.6.x ( I m using 1.6.4) , at a glance, there are a lot of things that make GXT look really good, like active development and a roadmap :D, some new widgets, support plans, etc.
+GXT 2.0 required GWT 1.6.x ( I'm using 1.6.4) , at a glance, there are a lot of things that make GXT look really good, like active development and a roadmap :D, some new widgets, support plans, etc.
 
 There are a few steps required to make GXT work in the project I created in the previous step,
 

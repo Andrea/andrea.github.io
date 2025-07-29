@@ -5,8 +5,11 @@ classes: wide
 title: Impact Mapping solo 
 categories:
 - software architecture
-- impact mapping
 - solo modelling
+tag:
+- impact mapping
+- goals
+- virtual ddd
 ---
 
 

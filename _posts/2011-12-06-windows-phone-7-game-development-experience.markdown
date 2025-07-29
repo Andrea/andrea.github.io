@@ -64,6 +64,6 @@ Things I liked about the phone
   * Generally fast and non cluttered
 
 
-In general my perception of the phone has improved after trying it . And I have to add I m pretty impressed by the Zune software, it looks good, it worked flawlessly. Comparing to iTunes and Samsung Kies it's way ahead.
+In general my perception of the phone has improved after trying it . And I have to add I'm pretty impressed by the Zune software, it looks good, it worked flawlessly. Comparing to iTunes and Samsung Kies it's way ahead.
 
 I like XNA, and the fact that it was so transparent to deploy a game to the phone was really nice.

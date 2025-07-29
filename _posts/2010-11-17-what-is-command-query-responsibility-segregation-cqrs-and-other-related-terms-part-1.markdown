@@ -16,9 +16,9 @@ tags:
 - ddd
 ---
 
-I m preparing for a talk on CQRS and I though I’d support it with a series of posts on the subject. I’d love to get some feedback on this and all the following blog posts. (where I ll be possibly correcting stuff i say here, I can’t promise)
+I'm preparing for a talk on CQRS and I though I’d support it with a series of posts on the subject. I’d love to get some feedback on this and all the following blog posts. (where I ll be possibly correcting stuff i say here, I can’t promise)
 
-So, I decided to start at the beginning: definitions. When I started to learn about CQRS I just looked at a good few videos, read a bunch of blog posts and then dived into every code example I could find, and then I m working on a system that uses these principles. However, I wanted to roll back and see if I can somewhat formalise what I’ve learned so far. Starting with definitions
+So, I decided to start at the beginning: definitions. When I started to learn about CQRS I just looked at a good few videos, read a bunch of blog posts and then dived into every code example I could find, and then I'm working on a system that uses these principles. However, I wanted to roll back and see if I can somewhat formalise what I’ve learned so far. Starting with definitions
 
 
 ## What is CQRS?
@@ -36,7 +36,7 @@ Also if using CQRS, you ll find that your aggregate roots change shape, i.e. the
 
 The term CQRS, evolved from CQS(Command Query Separation) there is a CQS definition from  Meyer, that is very similar but it’s separating methods that change state, since the emphasis is on messages for CQRS, this was an important distinction.[[ref](http://codebetter.com/blogs/gregyoung/archive/2009/08/13/command-query-separation.aspx)]
 
-To prepare for the talk I m also preparing an example (more later), the interesting thing is that, I find that using CQRS and Event Sourcing, I find myself asking questions about the system and the domain, and that is great, because it makes you focus on what the system should do, not the how.
+To prepare for the talk I'm also preparing an example (more later), the interesting thing is that, I find that using CQRS and Event Sourcing, I find myself asking questions about the system and the domain, and that is great, because it makes you focus on what the system should do, not the how.
 
 That brings me to another important definition.
 

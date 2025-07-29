@@ -11,7 +11,7 @@ wordpress_id: 177
 
 Hi there
 
-I received an email yesterday confirming I will be presenting "An Introduction to Monorail" in Developer Develop Belfast the 4th of April. I m really excited with this. 
+I received an email yesterday confirming I will be presenting "An Introduction to Monorail" in Developer Develop Belfast the 4th of April. I'm really excited with this. 
 
 I just would like to say Thanks to you. And by you i mean people who are reading this :) because possibly you voted for my session.
 

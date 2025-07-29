@@ -13,7 +13,7 @@ categories:
 
 Hi there: 
 
-As a new chapter of [this post](http://roundcrisis.com/2008/08/27/from-code-monkey-to-code-crafter-ftw/) finally we are doing an  [Alt.net meet up](http://dublinalt.net/2009/01/23/meet-up-12th-of-february-7pm/), I can t wait and hope for the best.  The meet up will be the **12Th of February at 7pm in The Duke** (off Grafton Street). Unfortunately we didn't realise it was on the same day that twestival ( a charity event for twitterers) I think we are very different events, thou i m sorry I ll be missing it, as it is a worthy cause.
+As a new chapter of [this post](http://roundcrisis.com/2008/08/27/from-code-monkey-to-code-crafter-ftw/) finally we are doing an  [Alt.net meet up](http://dublinalt.net/2009/01/23/meet-up-12th-of-february-7pm/), I can t wait and hope for the best.  The meet up will be the **12Th of February at 7pm in The Duke** (off Grafton Street). Unfortunately we didn't realise it was on the same day that twestival ( a charity event for twitterers) I think we are very different events, thou I'm sorry I ll be missing it, as it is a worthy cause.
 
 I like the definition of Alt.net I found in [David Laribee's blog](http://laribee.com/blog/)
 
@@ -38,6 +38,6 @@ I like the definition of Alt.net I found in [David Laribee's blog](http://laribe
 
 
 
-I think we might be comming late into the party, however I m not interested on how are we called, I see it mostly as a way to learn and exchange ideas, solutions. Hope we can get talking about interesting topics and that we can come up with a plan for the next meet up.
+I think we might be comming late into the party, however I'm not interested on how are we called, I see it mostly as a way to learn and exchange ideas, solutions. Hope we can get talking about interesting topics and that we can come up with a plan for the next meet up.
 
 Anyway, hope to see you there :), if you have any suggestions or comments you are very welcome

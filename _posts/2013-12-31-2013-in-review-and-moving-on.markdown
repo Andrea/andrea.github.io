@@ -26,7 +26,7 @@ Here's an excerpt:
 
 [Click here to see the complete report.](http://roundcrisis.wordpress.com/2013/annual-report/)
 
-I m moving the blog over to github, the transition involves more steps than I would like, but still I think it will be worth it. If you want to see how it's going check [here, ](http://andrea.github.io/)this blog at roundcrisis.wordpress.com will stay live until the transition is complete.
+I'm moving the blog over to github, the transition involves more steps than I would like, but still I think it will be worth it. If you want to see how it's going check [here, ](http://andrea.github.io/)this blog at roundcrisis.wordpress.com will stay live until the transition is complete.
 
 
 ## Happy new year!!

@@ -30,7 +30,7 @@ The day flew by with great presentations. I got to see:
   * StyleCop – Breaking down the barriers to entry by Gary Park . Really well presented, and a few interesting details about team city and other extensions.
 
 	
-  * Raven DB: day to day, by me :D  I m probably the worse person to judge how this went, from my side of things, I heard you guys laugh and ask questions, in my books, that is pretty ok. Feedback from people always great ( Phil Thanks for yours already)
+  * Raven DB: day to day, by me :D  I'm probably the worse person to judge how this went, from my side of things, I heard you guys laugh and ask questions, in my books, that is pretty ok. Feedback from people always great ( Phil Thanks for yours already)
 
 	
   * During lunch I wanted to go to the grok talks however I ended up catching some sun and a really interesting chat with Matt (he contributes to RavenDB , trying to convince the man he should really write some posts about facets )

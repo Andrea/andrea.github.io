@@ -39,7 +39,7 @@ What I ve learned
   5. I actaully miss duck typing much more that what i remember
 
 	
-  6. something that I m obviously forgetting, that i though I should add and forgot
+  6. something that I'm obviously forgetting, that i though I should add and forgot
 
 
 Anyway

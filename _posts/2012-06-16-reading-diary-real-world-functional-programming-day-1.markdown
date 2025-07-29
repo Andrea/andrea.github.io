@@ -42,7 +42,7 @@ I think this objective is perhaps overly optimistic, the world would be too bori
 
  
 
-Going over some basic functional ideas, but I m already feeling I should have read this book earlier. Some comments as I go along:
+Going over some basic functional ideas, but I'm already feeling I should have read this book earlier. Some comments as I go along:
 
  
 

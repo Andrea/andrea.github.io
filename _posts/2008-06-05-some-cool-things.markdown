@@ -14,5 +14,5 @@ categories:
 
 Today's interesting find is [Browser Plus](http://re3-bplus-001.yos.re3.yahoo.com/docs/samples/) I heard about this first a few months ago but there was not much real info about it.  
 I have to say i was really impressed by the installer short, sweet and very intuitive.  
-Also the capabilities that it provides seem simple but powerful, i m very interested in the Ruby Interpreter Service  
+Also the capabilities that it provides seem simple but powerful, I'm very interested in the Ruby Interpreter Service  
 Promising.

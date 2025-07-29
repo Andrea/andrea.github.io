@@ -19,7 +19,7 @@ Continuous Integration:
   * Team City: I use it and really like it, simple to set up and use, if you want to try it they have a free professional edition .
 
 	
-  * Cruise Control.net: Open source, used it but didnt find it too friendly, I m aware a lot of people use it
+  * Cruise Control.net: Open source, used it but didn't find it too friendly, I'm aware a lot of people use it
 
 	
   * Hudson. Originally a Java only project but there are some success stories on the .net fence, has some features unavailable in the other two mentioned above.

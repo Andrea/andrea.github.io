@@ -38,7 +38,7 @@ It was great to have some hardware to play with, people really seem to get a goo
 
  
 
-I m hoping that other people will tell us about their experience yesterday (hint hint ;) ). 
+I'm hoping that other people will tell us about their experience yesterday (hint hint ;) ). 
 
  
 

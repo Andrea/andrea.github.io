@@ -21,11 +21,11 @@ Examples are not great, there are errors on some of them, and (possibly the wors
 
 If you download the code that accompanies the book, some of the tests (that are supposed to pass) fail.
 
-We sent an email with corrections but never heard back ( not sure if they didnt get it or what), which, to be honest, was a bit disappointing, if this code was on github I would have forked it just to get it fixed, tho I m not sure Is correct to do that if the code is not on github (if anyone knows please let me know).
+We sent an email with corrections but never heard back ( not sure if they didnt get it or what), which, to be honest, was a bit disappointing, if this code was on github I would have forked it just to get it fixed, tho I'm not sure Is correct to do that if the code is not on github (if anyone knows please let me know).
 
 Again on the code samples, some of the examples scenarios are not really that descriptive, I have to add, that after preparing the talk I gave in DDD, I have to say its really really hard to come up with good sample code, that demonstrates a smell and a solution in a clear way in not a lot of code... so maybe its not a fair criticism, but I really had to mentione it, because you read the sample and really **wtf? **a bit .
 
-The chapter on Mocking is not great either, Rhino mocks is not used in anger, and I m pretty sure Roy could have gotten someone with loads of experience in Rhino Mocks to look and review (and improve ) the example code.
+The chapter on Mocking is not great either, Rhino mocks is not used in anger, and I'm pretty sure Roy could have gotten someone with loads of experience in Rhino Mocks to look and review (and improve ) the example code.
 
 **Good things about the book**
 

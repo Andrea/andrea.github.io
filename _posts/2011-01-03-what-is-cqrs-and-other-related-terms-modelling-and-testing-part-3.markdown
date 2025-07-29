@@ -15,7 +15,8 @@ categories:
 tags:
 - cqrs/es
 - ddd
-- Modelling
+- modelling
+- software architecture
 ---
 
 This post belongs to a series of posts on CQRS/ES
@@ -30,26 +31,24 @@ I thought I’d put these two topics close, it seems to me  that they are relat
 
 [![DDDDevision_big](http://roundcrisis.files.wordpress.com/2011/01/ddddevision_big_thumb.jpg)](http://roundcrisis.files.wordpress.com/2011/01/ddddevision_big.jpg)
 
-After all, what I m testing is much more than a unit, and I m interested in the whole loop. What I find interesting here is that since we are talking about actions when we talk about commands and we are also talking about past events, the **Given**, **When**, **Then **become very rather obvious.
+After all, what I'm testing is much more than a unit, and I'm interested in the whole loop. What I find interesting here is that since we are talking about actions when we talk about commands and we are also talking about past events, the **Given**, **When**, **Then **become very rather obvious.
 
 So, you can say something like:
 
 
-[sourcecode language="text" padlinenumbers="true"]
+```
 Given a NewCustomerCommand with "Name"
-and a NewCustomerCommandHandler
+ and a NewCustomerCommandHandler
 When I Execute the Command
 Then a CustomerCreatedEvent is published
-and Customer with "Name" exists
-[/sourcecode]
-
-
+ and Customer with "Name" exists
+```
 
 
 and, if you, like me, are using StoryQ, this story can look like
 
 
-[sourcecode language="csharp"]
+```
 
                 .WithScenario("Create new customer")
                     .Given(ANewCustomerCommandWith_, "Name")
@@ -57,7 +56,7 @@ and, if you, like me, are using StoryQ, this story can look like
                     .When(IExecuteTheCommand)
                     .Then(ACustomerCreatedEventIsPublished)
                         .And(CustomerWithName_Exists, "Name")
-[/sourcecode]
+```
 
 
 

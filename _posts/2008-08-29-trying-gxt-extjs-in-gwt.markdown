@@ -89,4 +89,4 @@ OK I went to the [Ext GWT documentation web](http://extjs.com/helpcenter/topic/c
   
 ****  
   
-To be honest this took a while to get right, i m not used to java and the path convention is a bit too strange, i followed the video in the docs above and finally its working :)
+To be honest this took a while to get right, I'm not used to java and the path convention is a bit too strange, i followed the video in the docs above and finally its working :)

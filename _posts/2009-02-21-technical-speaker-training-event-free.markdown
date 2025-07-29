@@ -16,7 +16,7 @@ tags:
 
 Hi all:
 
-I m really glad this is happening, there is going to be a series of meet ups to learn how to do technical talks specially for woman in technology.
+I'm really glad this is happening, there is going to be a series of meet ups to learn how to do technical talks specially for woman in technology.
 
 The meet ups are going to be about an hour and a half long on how to do technical talks. This is something organized with the girls from Girl Geek Dinner. 
 

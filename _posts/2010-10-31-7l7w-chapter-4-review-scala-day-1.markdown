@@ -11,7 +11,7 @@ wordpress_id: 711
 
 In the Book Club, we are reading [7 Languages in 7 Weeks](http://www.pragprog.com/titles/btlang/seven-languages-in-seven-weeks) (for more info on the book club go to [Dublin Alt.Net mailing list](http://groups.google.com/group/dublinaltnet)) so far a really awesome book, Its helping me have a quick view of not only different languages, but also different programing paradigms. Which is really refreshing, but hard. The thing that I like the most about the book so far , is that you do much more than a hello world, but of course, you can learn in depth, however, the author makes a really good job of explaining what’s at the core of each language, sometimes, just trying to really grasp that is a tiny bit hard , when  it’s a paradigm you are unfamiliar with it, but the effort is well worth it.
 
-Anyway, since I haven’t been able to the last two meet ups, I thought I’d do a second read of the Scala chapter and put together some notes. Please note I m writing the notes as I read.
+Anyway, since I haven’t been able to the last two meet ups, I thought I’d do a second read of the Scala chapter and put together some notes. Please note I'm writing the notes as I read.
 
 - Scala is a hybrid language (a mix of OO and functional)
 - Hints that its a different kind of language

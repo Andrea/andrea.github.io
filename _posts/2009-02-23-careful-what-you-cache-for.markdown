@@ -30,6 +30,6 @@ In the view, there was an iterator in the Things Collection, so  just to confi
 
 removed the references to caching in the criteria  just to see what was happening, an the resulting query was getting what it supposed to get,  added the call in my view for each Thing in the Things Collection perfect, the query was running fine and not doing the n+1 .
 
-I decided to leave caching out just this one time and I m writing this post to remind myself to check exactly why this is happening, or maybe someone will have the answer already?
+I decided to leave caching out just this one time and I'm writing this post to remind myself to check exactly why this is happening, or maybe someone will have the answer already?
 
 Can't remember the definition of MyEntity, might add it to comments later

@@ -14,7 +14,7 @@ tags:
 - StoryQ
 ---
 
-We are evaluating BDD frameworks at the moment and I m going through [StoryQ](http://storyq.codeplex.com/).
+We are evaluating BDD frameworks at the moment and I'm going through [StoryQ](http://storyq.codeplex.com/).
 
 Note:
 

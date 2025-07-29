@@ -44,7 +44,7 @@ Some notes on the remaining of Chapter 1
        
     * it helps simplifying some patterns 
        
-    * make the code more readable (this I m not so sure about, I’ve read code from people who started learning functional programming and on my view the code was less readable and harder to follow, particularly on tests) 
+    * make the code more readable (this I'm not so sure about, I’ve read code from people who started learning functional programming and on my view the code was less readable and harder to follow, particularly on tests) 
        
    
   * Section 1.4 is all example based. Not mad about the fact they used WPF for one of them(not a fan), but no biggie, it gets the point across anyway . The author obviously wanted the reader to understand what declarative and imperative means and understand the difference 

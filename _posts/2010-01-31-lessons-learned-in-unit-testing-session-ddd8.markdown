@@ -27,7 +27,7 @@ Moving on swiftly to the meaty bit of the post:
 
 
 
-I've  uploaded the code and slides to [github](http://github.com/Andrea/LessonsLearnedInUnitTesting), I m hoping I can improve this samples with time, if there is anything wrong apologies in advance, first time using git as a committing to a project so I m bound to get it wrong. Looking forward to James Gregory E-Van on git so I can learn more on the topic :).
+I've  uploaded the code and slides to [github](http://github.com/Andrea/LessonsLearnedInUnitTesting), I'm hoping I can improve this samples with time, if there is anything wrong apologies in advance, first time using git as a committing to a project so I'm bound to get it wrong. Looking forward to James Gregory E-Van on git so I can learn more on the topic :).
 
 
 
@@ -188,7 +188,7 @@ If there are any questions or comments, please do let me know
 
 
 
-Thanks to the organizers and everyone there, it was a wonderful experience that I m hoping to repeat.
+Thanks to the organizers and everyone there, it was a wonderful experience that I'm hoping to repeat.
 
 
 
