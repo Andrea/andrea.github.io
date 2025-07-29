@@ -7,7 +7,7 @@ categories:
 - rust
 - programming-language-design
 - technical strategy
-- long-running-workflows
+- long running workflows
 - Influence mapping
 ---
 
@@ -28,7 +28,7 @@ Nice to read Steve's writing. I remember watching some of his talks and what I a
 
 
 
-#### [The outcome of the strategy becomes culture  by Aleix Morgadas](https://learnings.aleixmorgadas.dev/p/the-outcome-of-the-strategy-becomes)
+#### [The outcome of the strategy becomes culture by Aleix Morgadas](https://learnings.aleixmorgadas.dev/p/the-outcome-of-the-strategy-becomes)
 
 A series of posts about technical strategy. It's great to see other people's journeys, isn't it?  
 I really enjoyed the raw honesty and self-awareness of the post and the transition to new "levels" of awareness and learning strategy. 
@@ -49,10 +49,10 @@ This post:
 I was in attendance when this talk was originally delivered and since then I shared this link multiple times. 
 It's a no nonsense, well-structured way to find some common ground when making decisions. Like most processes, it's up to you to find the parts that make sense for your context, and do that. 
 
-Watching thia talk is especially beneficial if you believe your organisation doesn't struggle with decision making, as you may discover unrecognized challenges in your process.
+Watching this talk is especially beneficial if you believe your organisation doesn't struggle with decision making, as you may discover unrecognized challenges in your process.
 
 
-#### [Influce mapping series - Charles Lambdin](https://charleslambdin.com/2021/12/14/influence-mapping-part-1/) 
+#### [Influence mapping series - Charles Lambdin](https://charleslambdin.com/2021/12/14/influence-mapping-part-1/) 
 
 Not only this is a well written series of articles, influence mapping is a super useful tool. 
 

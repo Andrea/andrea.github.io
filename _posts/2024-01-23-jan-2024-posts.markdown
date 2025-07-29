@@ -5,11 +5,11 @@ classes: wide
 title: Interesting learning resources - January 2024
 categories:
 - RSS
-- software-architecture
+- software architecture
 - DDD
-- team-topologies
-- impact-on-teams
-- phylosophy
+- team topologies
+- impact on teams
+- philosophy
 - postgres
 ---
 

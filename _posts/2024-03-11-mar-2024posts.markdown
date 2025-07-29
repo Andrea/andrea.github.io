@@ -6,7 +6,7 @@ title: Interesting learning resources - March 2024
 categories:
 - ambiguity
 - writing
-- OODA-loops
+- OODA loops
 - debugging-tools
 - github
 - copilot

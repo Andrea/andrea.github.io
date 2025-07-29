@@ -4,9 +4,9 @@ layout: single
 classes: wide
 title: The making of a decision - reading materials
 categories:
-- software-architecture
+- software architecture
 - decisions
-- knowledge-sharing
+- knowledge sharing
 ---
 
 This is a shortlist of what I read to create the talk: The Making of a decision. 

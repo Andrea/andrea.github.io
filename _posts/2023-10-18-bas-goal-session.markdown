@@ -4,9 +4,9 @@ layout: single
 classes: wide
 title: Answering questions about Bytesize Architecture sessions - On the goal of the sessions
 categories:
-- bytesize-architecture-sessions
-- software-architecture
-- Goal-of-the-Session
+- bytesize architecture sessions
+- software architecture
+- goal of the session
 ---
 
 I recently spoke  about [Bytesize Architecure Sessions](https://bytesizearchitecturesessions.com/) at the [Global Software Architecture Summit](https://gsas.io/#schedule). I got some interesting questions in the Q&A. We didn't get through all of them, so have grouped them and answering in smaller posts. This one is about how to find the goal of the session.

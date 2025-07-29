@@ -5,8 +5,8 @@ classes: wide
 title: Interesting learning resources - August 2024 
 categories:
 - observability
-- systems-thinking
-- software-architecture
+- systems thinking
+- software architecture
 
 ---
 

@@ -6,7 +6,7 @@ classes: wide
 title:  New Crafts Paris May 2023 
 categories:
 - software architecture
-- bytesize-architecture-sessions
+- bytesize architecture sessions
 - conference
 - new-crafts
 ---

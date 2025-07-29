@@ -22,7 +22,6 @@ plugins:
   - jekyll-include-cache
   - jekyll-paginate
 
-
 # Theme
 
 theme: minimal-mistakes-jekyll
@@ -73,4 +72,10 @@ defaults:
 footer:
   since: 2008
 
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
 

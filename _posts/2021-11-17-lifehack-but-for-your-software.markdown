@@ -10,7 +10,7 @@ categories:
 - domain storytelling
 - wardley maps
 - ADRs
-- bytesize-architecture-sessions
+- bytesize architecture sessions
 - c4-model
 ---
 

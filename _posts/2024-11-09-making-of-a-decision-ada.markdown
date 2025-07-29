@@ -4,9 +4,9 @@ layout: single
 classes: wide
 title: The making of a decision @ ADA Conf Melbourne
 categories:
-- software-architecture
+- software architecture
 - decisions
-- knowledge-sharing
+- knowledge sharing
 ---
 
 These are the slides for the talk I did yesterday at ADA Conf in Melbourne

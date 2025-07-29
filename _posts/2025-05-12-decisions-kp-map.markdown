@@ -4,10 +4,10 @@ layout: single
 classes: wide
 title: Decisions KP Map What happens during decision making
 categories:
-- software-architecture
-- architectural-decision-making
+- software architecture
+- architectural decision making
 - knowledge
-- systems-thinking
+- systems thinking
 ---
 
 This is a post about understanding what is happening during architectural decision making. 

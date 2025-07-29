@@ -6,9 +6,9 @@ classes: wide
 title:  Knowledge sharing is systems building
 categories:
 - collaboration
-- software-architecture
-- bytesize-architecture-sessions
-- systems-thinking
+- software architecture
+- bytesize architecture sessions
+- systems thinking
 ---
 
 It is not uncommon to hear the parable about the blind people and the elephant when learning about systems. It's a story about a group of blind people who have never come across an elephant before, and who learn and imagine what an elephant is by touching it.

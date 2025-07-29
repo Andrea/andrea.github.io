@@ -4,9 +4,9 @@ layout: single
 classes: wide
 title: Interesting learning resources - April 2025
 categories:
-- software-architecture
+- software architecture
 - decisions
-- knowledge-sharing
+- knowledge sharing
 ---
 
 A lot of these links are related to learning and collaboration, I blame excellent resources shared by [Donna Benjamin](https://www.linkedin.com/in/donnabenjamin/), [Cat Hicks](https://www.linkedin.com/in/drcathicks/) 

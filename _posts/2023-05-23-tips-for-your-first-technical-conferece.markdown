@@ -14,6 +14,7 @@ I am going to be giving an in person talk after a long time (at New Crafts, [mor
 My advice
 
 ### Bring
+
 * Comfortable footwear. You'll be standing and walking for a lot longer than you planned 👟
 * Water and snacks. Especially water. There is food and drink in the conference but not always when you need it  🚰 🥜 🍏
 * Plasters and something for headaches. Especially the plasters can be life savers (for those of you that didn't bring comfy shoes) 🩹 💊

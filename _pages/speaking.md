@@ -145,7 +145,7 @@ List of talks
   <li><strong><a href="http://www.codemesh.io/" target="_blank">Code Mesh 2014 (London)</a></strong>3rd to 5th of November 2014 </li>
   <li><strong><a href="http://www.game-connection.com/rabbit-headlights-removing-oo-goggles" target="_blank">Game Connection 2014 (Paris) </a></strong>30th October 2014 </li>
   <li><strong><a href="http://buildstuff.lt/" target="_blank">Build Stuff 2014 </a></strong>19th-23rd November 2014 </li>
-  <li><strong><a href="http://ndc-london.com/ndc_speakers" target="_blank">NDC London 2014 </a></strong>1st-5th December 2014 </li>
+  <li><strong><a href="https://vimeo.com/113716254" target="_blank">NDC London 2014 </a></strong>1st-5th December 2014 </li>
 
 </ul>
 <h2> 2013 </h2>

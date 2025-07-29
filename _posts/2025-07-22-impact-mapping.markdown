@@ -4,9 +4,9 @@ layout: single
 classes: wide
 title: Impact Mapping solo 
 categories:
-- software-architecture
-- impact-mapping
-- solo-modelling
+- software architecture
+- impact mapping
+- solo modelling
 ---
 
 

@@ -4,9 +4,9 @@ layout: single
 classes: wide
 title: Yow Australia - Talk Slides and bonus links 
 categories:
-- software-architecture
+- software architecture
 - decisions
-- knowledge-sharing
+- knowledge sharing
 ---
 
 

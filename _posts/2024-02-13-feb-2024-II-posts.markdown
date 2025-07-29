@@ -7,7 +7,7 @@ categories:
 - programming-languages
 - unison
 - distributed-systems
-- advisory-process
+- architecture advise process
 ---
 
 
@@ -21,7 +21,7 @@ The article could be summed up with:
 
 * Microservices can get complicated 
 
-* Managing infrastrure is painful and different from programming the domain
+* Managing infrastructure is painful and different from programming the domain
 
 * Programming languages have a lot of tooling that we can't use for infrastructure work in a cohesive way
 

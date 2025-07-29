@@ -4,7 +4,7 @@ layout: single
 classes: wide
 title: GSAS presentation video and twenty plus questions about Bytesize Architecture Sessions - The plan
 categories:
-- bytesize-architecture-sessions
+- bytesize architecture sessions
 - software architecture
 - GSAS
 - conferences

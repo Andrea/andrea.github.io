@@ -4,9 +4,9 @@ layout: single
 classes: wide
 title: Testing a new modelling retro format - Gaps Growth Great Grind
 categories:
-- software-architecture
+- software architecture
 - retrospective
-- systems
+- systems thinking
 ---
 
 I've been running collaborative modelling sessions lately and noticed that some of the retrospective formats I tend to lean on don't work as well as it could, perhaps because they have other focus. I was thinking about how to better capture the type of thoughts that come up when you are working through a collaborative modelling session.

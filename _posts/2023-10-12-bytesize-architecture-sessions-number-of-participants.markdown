@@ -4,10 +4,10 @@ layout: single
 classes: wide
 title: GSAS presentation and twenty plus questions about Bytesize Architecture sessions - The plan
 categories:
-- bytesize-architecture-sessions
+- bytesize architecture sessions
 - software architecture
 - systems-modelling
-- participant-numbers-in-meeting
+- participant numbers in meeting
 ---
 
 

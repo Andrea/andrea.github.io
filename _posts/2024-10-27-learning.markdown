@@ -6,10 +6,10 @@ title: Interesting learning resources - October 2024
 categories:
 - writing
 - left-hand
-- power-dynamics
+- power dynamics
 - context
 - monoliths
-- software-architecture
+- software architecture
 ---
 
 * [Hartman Proficiency Taxonomy by Maria Hartman](https://marianhartman.com/proficiency-taxonomy) - This is about understanding learning, better. The bottom of the taxonomy being called Thought Leader which ... not a name that works for me, but I can see where the author is going. 
