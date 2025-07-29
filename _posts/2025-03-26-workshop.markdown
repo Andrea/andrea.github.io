@@ -15,6 +15,6 @@ It was great to get hands on with my new local community!
 Thanks everyone that came over and worked hard during this [workshop](https://www.meetup.com/tech-leaders-collective/events/306442951/)
 
 
-![Write from Stephen Barrnell on LI]({{site.images}}/2025/2025-03-workshop-li.png)
+![Write up from Stephen Barrnell on LI]({{site.images}}/2025/2025-03-workshop-li.png)
 
 [source](https://www.linkedin.com/posts/stephen-barrell-74022b62_nice-tech-waka-podcast-leadership-collective-activity-7311164010035322880-rdhb)

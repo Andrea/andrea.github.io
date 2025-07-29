@@ -8,10 +8,10 @@ categories:
 - power dynamics
 tags: [knowledge management, workplace dynamics, software architecture, epistemology, decision making, alert fatigue]
 ---
+These are some readings associated with work associated with [Decision KP Maps]({% post_url 2025-05-12-decisions-kp-map %})
+
 
 Thanks [Dawn Ahukanna](https://mastodon.social/@dahukanna), [Iris Meredith](https://mastodon.social/@iris_meredith) for sharing great resources!!
-
-These are some readings associated with work associated with  [Decision KP Maps]({{site.url}})
 
 * [Who has permission to know things?](https://deadsimpletech.com/blog/epistemology) - Iris Meredith. Touching on Knowledge and power. I have been thinking about this post a lot since I first read it a few months ago. Meredith argues sudden workplace "explosions" stem from "corporate epistemology," where **knowledge is largely defined and controlled by those in power**, often disregarding the insights and experiences of minority groups or those lower in the hierarchy. This systemic invalidation of legitimate knowledge from marginalised individuals creates an environment of structural violence, leading to frustration and resentment when their expertise is ignored, even when it pertains to objective facts.
 Some notable quotes:

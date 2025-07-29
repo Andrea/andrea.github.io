@@ -25,7 +25,7 @@ This paper tries to explain how a joint activity happens and what are the compon
 
 The paper starts off describing the interactions between two doctors and how, with two phrases they are able to convey a lot of information. How is this possible? 
 
-![Performance dependes on coordination]({{ site.images }}/2023/joint-activity-1.png.png)
+![Performance dependes on coordination]({{ site.images }}/2023/joint-activity-1.png)
 
 Clarks' previous work is on conversations. Conversations require a lot of coordination, and they change depending if this is someone we've just met or known all our lives.  Conversations are undirected. This paper extends that work with a range of coordinated activities.
 
