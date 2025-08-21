@@ -20,7 +20,7 @@ A great example of using DDD. ProTime faced scaling challenges in 2023 as they g
 
 ### [Operational and Denotational Strategies](https://noelwelsh.com/posts/operational-denotational-understanding/) by  Noel Welsh. 
 
-Noel is deliberate when it comes to semantics, and this post really shows it. In this post Noel explores operational and denotational approaches to understanding and exploring programming language concepts.Noel Welsh explores two complementary approaches to understanding and explaining programming concepts: operational and denotational explanations. Operational explanations describe how a program executes step-by-step (like walking through function parameter substitution), while denotational explanations focus on what features mean to programmers at a higher conceptual level (like describing functions as ways to generalize expressions with changeable parts). He demonstrates this with examples ranging from basic functions to advanced concepts like type classes, showing how both types of explanations say the same thing but at different levels of abstraction. Might help both in teaching others, and in self-assessment of one's own understanding.
+Noel is deliberate when it comes to semantics, and this post really shows it. In this post Noel explores operational and denotational approaches to understanding and exploring programming language concepts. Operational explanations describe how a program executes step-by-step (like walking through function parameter substitution), while denotational explanations focus on what features mean to programmers at a higher conceptual level (like describing functions as ways to generalize expressions with changeable parts). He demonstrates this with examples ranging from basic functions to advanced concepts like type classes, showing how both types of explanations say the same thing but at different levels of abstraction. Might help both when teaching others, and in self-assessment of one's own understanding.
 
 ### [All posts by John Cutler](https://publish.obsidian.md/cutlefish/Welcome). 
 
@@ -34,7 +34,7 @@ This post seems related to, but different to a post by [Hazel Weakly](https://ha
 
 ### [The Conflict-Intelligent Leader: In these turbulent times learning how to manage disputes is a must. by Peter T. Coleman](https://hbr.org/2025/07/the-conflict-intelligent-leader?ab=HP-magazine-text-2) 
 
-I highlighted some choice parts of the 
+I highlighted some choice parts of the post to give you an idea of what the post should give you. Talking about the Good-Friday agreement, which was such a meaningful and difficult work on peace is the cherry on the top of this article! 
 ![Emotional intelligence versus conflict intelligence]({{site.images}}/2025/eiq-ciq.png)
 
 ![Good Friday agreement]({{site.images}}/2025/good-friday.png)
@@ -65,4 +65,3 @@ the post shows how to apply this ideas with an example. Definitely read and book
 
 * [Navigating Firestorms: The Imperative of Conflict-Intelligent Leadership in a Turbulent World Open Access](https://direct.mit.edu/ngtn/article/40/1-2/5/123561/Navigating-Firestorms-The-Imperative-of-Conflict)
 
-* 
