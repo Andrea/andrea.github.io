@@ -11,7 +11,7 @@ image: "/images/2025/kp-ada-talk.png"
 tags: [ software architecture, organisational-power, workplace-dynamics, decision-making, software-development]
 ---
 
-This series goes over the topics described in [this talk](https://www.youtube.com/watch?v=Ie97Oe-t8Wk). If this is a format you prefer.
+This series goes over the topics described in [this talk](https://www.youtube.com/watch?v=Ie97Oe-t8Wk).
 
 
 Just shy of 30 years ago, I had a great opportunity that might have changed my life, at least in terms of education and work opportunities. The decision, ultimately outside my control, didn't go my way.  I've come to understand my family's reasoning better with time, but it was hard to accept. 
