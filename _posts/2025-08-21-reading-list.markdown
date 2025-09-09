@@ -59,13 +59,27 @@ This needs a post of it's own! I'm sure I'll be quoting part of this in the futu
 
 > "Models, whether for a software system, a development process, diseases, political systems, or otherwise, are a way to look at (a part of) the world. They explain how something behaves and how to modify that behavior. ... Models are reductionist; that is, they only show a selection of the subject they’re describing, and lose something in the process. And models are biased: they implicitly reflect the assumptions, constraints, and values of the model’s author." 
 
-Some of the heuristics, like most really important things, seem really obvious except this is the first time I see them all together in one place:
+These are the heuristics distilled in the post for reference, for full context the original post is the key:
+
 * If there are two ways of looking at something, look for a third
 * Compare different models to figure out what one model adds or omits, emphasizes, or downplays
 * Understand the underlying belief system that comes with the model
 * Determine whether the model confirms my existing belief system and values, or conflicts with them
 * Understand whether the model addresses or solves a problem that I’m interested in solving
 * Ascertain whether the model points me to problems I might have but haven’t yet considered
+* Compare different models to understand what you actually care about.
+* If a model doesn’t explicitly address something you value highly, try fitting in something from another model and see if the model still hangs together.
+* All models are created within a specific context. Does the original context match yours? Can it be adapted?
+* When you’re evaluating models, find questions that are relevant in your context, and use them to compare the models.
+* Are you fitting the model to your context, or are you force-fitting your context to the model?
+* Be more skeptical of nice models, be more open minded to jarring models.
+* Models are potentially useful worldviews, not truths.
+* Does this model help me see something clearly, or does it intend to create a change in behavior?
+* Find the prescriptions hidden in innocent looking models, and use them to your advantage.
+* Consider that some models may not actually have been tried by the authors
+* There’s always another possible model.    
+* Following a model as prescribed is not the same as achieving success.
+
 
 Also 
 ![presumptions of models]({{site.images}}/2025/models-rwb.png)
