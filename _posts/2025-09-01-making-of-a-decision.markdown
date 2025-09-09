@@ -34,9 +34,9 @@ In my experience of learning and talking about it, **power is uncomfortable to d
 
 There are two key definitions of power:
 
-**Power With** (Mary Parker Follett)[^follet]: "The ability to make things happen, to be a causal agent, to initiate change."
+**Power With** (Mary Parker Follett)[^follett]: "The ability to make things happen, to be a causal agent, to initiate change."
 
-**Power Over**: "The ability to make others do as you would have them do."
+**Power Over**: "The ability to make others do as you would have them do." 
 
 ### Sources of Power
 
@@ -62,4 +62,4 @@ There are many books with titles such as: "The n Laws of Power" or similar; they
 I hope you enjoyed this first part of "The making of a decision", the next post will be about knowledge.
 If you have any comments or questions please reach out via my social links
 
-[^follet]: Read more about it in Dynamic Adminstration, a book that collected the works by Mary Parker-Follet
+[^follett]: If you have never heard of Mary Parker-Follett, this is a day that can change you. Parker-Follett developed revolutionary ideas about collaborative leadership, power-sharing, and organizational dynamics decades before they became mainstream business concepts. Her central theory, that individuals and society shape each other equally, came from her work in community centers, not the boardroom. Where Taylor and Ford saw hierarchy, Follett saw networks. Read more about it in Dynamic Administration, a book that collected the works by Mary Parker-Follet
