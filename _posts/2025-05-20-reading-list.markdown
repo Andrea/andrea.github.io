@@ -13,14 +13,15 @@ These are some readings associated with work associated with [Decision KP Maps](
 
 Thanks [Dawn Ahukanna](https://mastodon.social/@dahukanna), [Iris Meredith](https://mastodon.social/@iris_meredith) for sharing great resources!!
 
-* [Who has permission to know things?](https://deadsimpletech.com/blog/epistemology) - Iris Meredith. Touching on Knowledge and power. I have been thinking about this post a lot since I first read it a few months ago. Meredith argues sudden workplace "explosions" stem from "corporate epistemology," where **knowledge is largely defined and controlled by those in power**, often disregarding the insights and experiences of minority groups or those lower in the hierarchy. This systemic invalidation of legitimate knowledge from marginalised individuals creates an environment of structural violence, leading to frustration and resentment when their expertise is ignored, even when it pertains to objective facts.
+* [Who has permission to know things?](https://deadsimpletech.com/blog/epistemology) - Iris Meredith. Touching on Knowledge and power. I have been thinking about this post a lot since I first read it a few months ago. Meredith argues sudden workplace "explosions" stem from "corporate epistemology," where **knowledge is largely defined and controlled by those in power**, often disregarding the insights and experiences of minority groups or those lower in the hierarchy. This systemic invalidation of legitimate knowledge from marginalised individuals creates an environment of structural violence, leading to frustration and resentment when their expertise is ignored.
+
 Some notable quotes:
 
 > While poisoning one's superiors isn't quite so common in corporate settings, this kind of sudden flash of anger often comes up in the workplace
 
->So, what do we find when we look at the average corporate environment? It certainly isn't that knowledge is built from evidence and reasoned discussion.
->
-> this experience and information that I have, thanks to my position in the hierarchy, didn't count as knowledge. 
+> So, what do we find when we look at the average corporate environment? It certainly isn't that knowledge is built from evidence and reasoned discussion.
+
+> ...this experience and information that I have, thanks to my position in the hierarchy, didn't count as knowledge. 
 
 * [Interpretive Labour: Bridging the Gap Between Map and Territory by Shauna Gordon McKeown](https://www.rethinkingpower.info/how-interpretive-labor-straddles-the-gap-between-rules-and-reality/) **Interpretive labour is the work of bridging an abstract model and the underlying reality. Privilege and power determine who does that work**. The post argues that while this labour is unavoidable, it becomes dysfunctional when it prevents feedback about systemic problems from reaching those who can implement change. The post is rather long, which can be feel like a bit of a commitment, I think it raises some interesting points tho.
 
