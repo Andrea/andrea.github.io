@@ -1,5 +1,5 @@
 ---
-date: 2025-10-27 00:12:00
+date: 2025-11-19 00:12:00
 layout: single
 title: The Making of a Decision - Part 2
 categories:
