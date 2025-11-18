@@ -10,6 +10,9 @@ permalink: /speaking/
 List of talks
 
 ## 2025 
+
+*   **[LAST Conference](https://confengine.com/user/andrea-magnorsky)** Understanding your systems with Bytesize Sessions - November 2025 - Melbourne, Australia
+*   **[Analysis Design Architecture Conference](https://www.linkedin.com/feed/update/urn:li:activity:7394832008863981568/)** On the same page: EventStorming for Understanding processes and systems together - with Paul Rayner (see [Paul's write up](https://virtualgenius.com/workshops/)) - November 2025 - Melbourne, Australia
 *   **[DataEng Auckland Meetup](https://www.meetup.com/auckland-data-engineering-meetup/events/308413150)** The deliberate practice of thinking about your systems - June 2025 - Auckland, Aotearoa New Zealand
 *   **[Web Directions Code Leaders](https://webdirections.org/leaders/speakers/andrea-magnorsky.php)** The making of a decision - June 2025 - Melbourne, Australia
 *   **[Tech Leading Ladies](https://www.meetup.com/tech-leading-ladies/events/307279273/)** Thinking about your systems with Bytesize Architecture Sessions - May 2025 - Online - Australia friendly time zone

@@ -29,7 +29,7 @@ This is a shortlist of what I read to create the talk: The Making of a decision.
 * Review of Graeber & Wengrow's *The Dawn of Everything: A New History of Humanity* by Giulio Ongaro (2021)
 * [Three concepts of power: Foucault, Bourdieu, and Habermas ](https://journals.sagepub.com/doi/full/10.1177/17577438231187129) by Gerd Christensen
 * [Mary Parker Follett - Wikipedia](https://en.wikipedia.org/w/index.php?title=Mary_Parker_Follett&oldid=1236612740)
-*  [Collaborative Software Design - How to facilitate domain modeling decisions](https://www.manning.com/books/collaborative-software-design) Book by Evelyn van Kelle, Gien Verschatse, and Kenny Baas-Schwegler 
-* [Pedagogy of the oppresed](https://en.wikipedia.org/wiki/Pedagogy_of_the_Oppressed) by Paulo Freire
+*  [Collaborative Software Design - How to facilitate domain modelling decisions](https://www.manning.com/books/collaborative-software-design) Book by Evelyn van Kelle, Gien Verschatse, and Kenny Baas-Schwegler 
+* [Pedagogy of the oppressed](https://en.wikipedia.org/wiki/Pedagogy_of_the_Oppressed) by Paulo Freire
 * [Six steps to distributed decision making - Here is where you start if you want autonomous distributed teams](https://www.remoteaf.co/blogs/steps-to-distributed-decision-making)
 

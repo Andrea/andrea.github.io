@@ -5,6 +5,7 @@ title: The Making of a Decision - Part 1
 categories:
 - software architecture
 - architectural decision
+- making of a decision
 - power
 excerpt: "Part 1 of a series exploring decision making in software teams. From solo programming freedom to complex team coordination, understanding organisational power isn't academic—it's essential for effectiveness. "
 image: "/images/2025/kp-ada-talk.png"
@@ -24,7 +25,7 @@ Decision-making is an essential part of building systems, and people dynamics co
 
 > "These decisions are a record of the power structures and the feedback loops that got it there." -Andrew Harmel-Law
 
-Very often, crucial decisions deviate from expectations and this has a negative effect. Why is that? This led me to examine what makes a decision happen.
+Very often, crucial decisions deviate from expectations and this has a negative effect. Why is that? This led me to learn more about what makes really comes into taking a decision.
 
 To make decisions about their systems, people generally need sufficient context on their software and people systems and the capability to change those systems somehow. Speaking in imprecise terms, one could say that this is all about knowledge and power.
 
@@ -47,6 +48,10 @@ I found the treatment from the book "The Dawn of Everything" most complete and r
 **Charisma** operates through leadership appeal, inspirational vision, and personal influence networks. This manifests in leaders who can motivate and direct others through force of personality, compelling vision, or personal magnetism, regardless of their formal position in the hierarchy.
 
 **Access to Knowledge** appears as information asymmetry and expertise-based authority. Senior management controls strategic information, financial data, and decision-making processes that employees cannot access. Experts wield power through specialised knowledge, whilst administrative systems create bureaucratic gatekeeping around information flow. This mirrors bureaucracy as a form of control over information as described in "The Dawn of Everything". Knowledge hoarding can become a tool for maintaining hierarchical advantage.
+
+
+For a study of Charisma see
+[Charisma in Everyday Life: Conceptualization and Validation of the General Charisma Inventory Konstantin O. Tskhay, Rebecca Zhu, Christopher Zou, and Nicholas O. Rule University of Toronto](https://www.researchgate.net/publication/318667785_Charisma_in_Everyday_Life_Conceptualization_and_Validation_of_the_General_Charisma_Inventory)
 
 ### Laws of Power
 
