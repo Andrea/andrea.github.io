@@ -1,7 +1,7 @@
 ---
-date: 2025-09-02 00:12:00
+date: 2025-12-02 00:12:00
 layout: single
-title: Interesting learning resources - September 2025
+title: Interesting learning resources - December 2025
 categories:
 - software architecture
 - iteration zero
