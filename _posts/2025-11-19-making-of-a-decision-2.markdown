@@ -18,17 +18,17 @@ This series goes over the topics described in [this talk](https://www.youtube.co
 This is part 2 of the series about decision making in software systems. The rest of the series
 
 * [Part 1]({% post_url 2025-09-01-making-of-a-decision %})
-* [This article]
+* This article
 
 
 
-After talking a little about power definitions, the items on the right side of this diagram, now lets discuss knowledge. Lets visit what it means to know something.
+After talking a little about power definitions (the items on the right side of the diagram below), let's now discuss knowledge. Let's visit what it means to know something.
 
 ![ingredients-of-a-decision]({{site.images}}/2025/kp-ada-talk.png)
 
 
 > "Knowledge sharing is (an essential task of) systems building" 
-[Post from2023]({% post_url 2023-03-31-knowledge-sharing-as-systems-building %})
+[Post from 2023]({% post_url 2023-03-31-knowledge-sharing-as-systems-building %})
 
 
 ## DIKW Pyramid
