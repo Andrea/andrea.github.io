@@ -11,34 +11,35 @@ image: "/images/2025/models-rwb.png"
 tags: [case study, event storming, software architecture, denotational understanding, operational understanding]
 ---
 
-## Domain, Subdomain, Bounded Context, Problem/Solution Space in DDD: Clearly Defined by Nick Tune
+
+### What Kind of Programming is Natural Language Programming?
+
+https://dsyme.net/2025/09/02/what-kind-of-programming-is-natural-language-programming/
+
+
+### Domain, Subdomain, Bounded Context, Problem/Solution Space in DDD: Clearly Defined by Nick Tune
 
 [link](https://medium.com/nick-tune-tech-strategy-blog/domains-subdomain-problem-solution-space-in-ddd-clearly-defined-e0b49c7b586c)
 
 In this post from 2020 Nick beautifully explains key DDD concepts in easy to understand ways
 
 
-![alt text](image.png) 
-Credit: Jeff Patton https://www.jpattonassociates.com/read-this-first/
+![alt text]({{site.images}}/2025/glad-we-all-agree-1.png) 
+Credit: [Jeff Patton](https://jpattonassociates.com/glad-we-all-agree-2/)
 
-## What Kind of Programming is Natural Language Programming?
 
-https://dsyme.net/2025/09/02/what-kind-of-programming-is-natural-language-programming/
-
-## No, Your Domains and Bounded Contexts Don’t Map 1 on 1 By Mathias Verraes
+### No, Your Domains and Bounded Contexts Don’t Map 1 on 1 - By Mathias Verraes
 Bounded Contexts are a design choice to suit engineering needs
 
 
 
 https://verraes.net/2025/08/domain-and-bounded-contexts-dont-map-one-on-one/
 
+
+
 ## LIV BOEREE - a non-zero hero by James
 
 [link](https://nonzerosum.games/nonzeroherolivboeree.html)
-
-## What 
-
-https://dsyme.net/2025/09/02/what-kind-of-programming-is-natural-language-programming/
 
 ## The Early History of F#
 
