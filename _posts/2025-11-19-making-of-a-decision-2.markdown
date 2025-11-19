@@ -41,25 +41,25 @@ The DIKW model makes it clear that context is the bridge between data and insigh
 
 This model might be a good starting point for everyday decision making. Say, the news that a library your organisation heavily depends on has changed its licence.
 
-    * Data. The facts: for example, the licence change in the next version introduces a fee for usage in commercial settings.
+* Data. The facts: for example, the licence change in the next version introduces a fee for usage in commercial settings.
 
-    * Information. Adding context. The raw facts are then interpreted and linked to the organisation’s own environment. For example this could highlight that, in the near future, the organisation will be liable to pay a significant amount to keep using this library. Not only do members of the organisation understand what changed, but also where it matters, when it will start affecting the system and why.
+* Information. Adding context. The raw facts are then interpreted and linked to the organisation’s own environment. For example this could highlight that, in the near future, the organisation will be liable to pay a significant amount to keep using this library. Not only do members of the organisation understand what changed, but also where it matters, when it will start affecting the system and why.
 
-    * Knowledge. Understanding and gaining deeper insights. With the contextualised information in hand, some of these activities would probably follow:
-        * Doing a survey of alternative libraries to find viable drop‑in replacements
-        * Estimating the cost of replacing the library across the organisation
-        * Considering security risks associated with onboarding a new library
-        * Looking back at a similar licence change and its effects
-        * Discussing with product owners, operations, finance, etc to understand acceptable service interruption or other disruptions
-    These activities would help build a coherent body of knowledge: the organisation now knows why the change is problematic, how severe the impact could be, and what realistic options exist.
+* Knowledge. Understanding and gaining deeper insights. With the contextualised information in hand, some of these activities would probably follow:
+    * Doing a survey of alternative libraries to find viable drop‑in replacements
+    * Estimating the cost of replacing the library across the organisation
+    * Considering security risks associated with onboarding a new library
+    * Looking back at a similar licence change and its effects
+    * Discussing with product owners, operations, finance, etc to understand acceptable service interruption or other disruptions
+These activities would help build a coherent body of knowledge: the organisation now knows why the change is problematic, how severe the impact could be, and what realistic options exist.
 
-    * Wisdom. Judgement informed by values and strategy over time.   From the knowledge the organisation is able to exercise broader judgement; for example it might consider:
-        * Creating policies. To avoid future vendor lock‑in, and another to monitor critical dependencies on a regular cadence
-        * If migration to a new library is necessary, providing default paths while recognising that this might not suit all teams and preparing for the extra cost in time and money
-        * Notifying customers, if it is deemed essential, with a brief notice explaining the migration and reaffirming the commitment to security and reliability
-        * Updating the dependency‑management operating procedure—reviewing whether a mandatory licence‑compatibility check should be required whenever a major version bump is announced
+* Wisdom. Judgement informed by values and strategy over time.   From the knowledge the organisation is able to exercise broader judgement; for example it might consider:
+    * Creating policies. To avoid future vendor lock‑in, and another to monitor critical dependencies on a regular cadence
+    * If migration to a new library is necessary, providing default paths while recognising that this might not suit all teams and preparing for the extra cost in time and money
+    * Notifying customers, if it is deemed essential, with a brief notice explaining the migration and reaffirming the commitment to security and reliability
+    * Updating the dependency‑management operating procedure—reviewing whether a mandatory licence‑compatibility check should be required whenever a major version bump is announced
 
-    Wisdom here blends technical facts with ethical, financial and strategic considerations, producing a holistic stance rather than a reactionary fix.
+Wisdom here blends technical facts with ethical, financial and strategic considerations, producing a holistic stance rather than a reactionary fix.
 
 
 
