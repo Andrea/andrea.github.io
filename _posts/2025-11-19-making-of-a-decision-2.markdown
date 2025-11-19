@@ -17,9 +17,9 @@ This series goes over the topics described in [this talk](https://www.youtube.co
 
 This is part 2 of the series about decision making in software systems. The rest of the series
 
-* [Part 1]({% post_url 2025-09-01-making-of-a-decision %})
-* This article
-
+* [The Making of a Decision - Part 1]({% post_url 2025-09-01-making-of-a-decision %})
+*  The Making of a Decision - Part 2 - This article
+*  The Making of a Decision - Part 3: Tools for Decision Making (coming soon)
 
 
 After talking a little about power definitions (the items on the right side of the diagram below), let's now discuss knowledge. Let's visit what it means to know something.
@@ -30,14 +30,17 @@ After talking a little about power definitions (the items on the right side of t
 > "Knowledge sharing is (an essential task of) systems building" 
 [Post from 2023]({% post_url 2023-03-31-knowledge-sharing-as-systems-building %})
 
+## Understanding Knowledge: The DIKW model
 
-## DIKW Pyramid
+### The DIKW Pyramid
 
 When I was preparing this talk, I spoke with [Dawn Ahukanna](https://www.linkedin.com/in/dawnahukanna/) who introduced me to the DIKW pyramid as good starting model for knowledge.
 
 The DIKW model makes it clear that context is the bridge between data and insight. Data turns into information only when it's interpreted within a relevant context, and it becomes knowledge when that information is applied repeatedly to gain experience. At the top of the pyramid sits wisdom, the least developed layer, demanding moral deliberation and the ability to apply knowledge across situations.
 
 ![Data Information Knowledge Wisdom Pyramid]({{site.images}}/2025/dikw-p.png)
+
+### Applying DIKW: A Practical Example
 
 This model might be a good starting point for everyday decision making. Say, the news that a library your organisation heavily depends on has changed its licence.
 
@@ -65,9 +68,11 @@ Wisdom here blends technical facts with ethical, financial and strategic conside
 
 For an extensive analysis of the DIKW pyramid please see: [The wisdom hierarchy: representations of the DIKW hierarchy- Jennifer Rowley Bangor Business School, University of Wales, Bangor, UK](https://www.academia.edu/38656728/The_wisdom_hierarchy_representations_of_the_DIKW_hierarchy) This paper revisits the Data–information–knowledge–wisdom (DIKW) hierarchy by examining the articulation of the hierarchy in a number of widely read textbooks, and analysing their statements about the nature of data, information, knowledge, and wisdom
 
-This seems like a good start, lets continue this journey by considering who is doing these activities.
+The DIKW model gives us a structure for understanding knowledge, but it raises an important question: who is doing these activities of transforming data into wisdom? In software development, we have a specific term for these people: **Knowledge Workers**.
 
-## Knowledge Workers
+
+
+### Knowledge Workers
 
 People who create software systems are knowledge workers. 
 
