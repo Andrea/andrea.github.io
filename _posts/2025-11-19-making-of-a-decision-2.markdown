@@ -137,5 +137,5 @@ The idea of accepted knowledge was not in the original talk, however it's an imp
 
 Learning and understanding knowledge has helped me make better decisions. I've long held the intuition that a key indicator of an organisation's health is the time its people dedicate to learning, particularly when they learn together about their systems
 
-I hope you enjoyed the second part of "The making of a decision", have ideas on how it could be better please let me know. The next post will be about tools that we can use to improve our decision making in terms of knowledge and power.
+I hope you enjoyed the second part of "The making of a decision", if you have ideas on how it could be better please let me know. The next post will be about tools that we can use to improve our decision making in terms of knowledge and power.
 
