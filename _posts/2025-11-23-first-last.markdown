@@ -14,6 +14,7 @@ It was ny first LAST conference,  it was an a great event however it will be my 
 
 
 ![A nice picture of Andrea by Sonal Premi]({{site.images}}/2025/last-sonal.png)
+
 [source](https://www.linkedin.com/feed/update/urn:li:activity:7397466149761867776/)
 
 For those of you that attended and requested the slides, or just curious:
