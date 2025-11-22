@@ -1,5 +1,5 @@
 ---
-date: 2025-11-23 00:01:00
+date: 2025-11-22 00:10:00
 layout: single
 classes: wide
 title: LAST Conference Melbourne - November 2025
