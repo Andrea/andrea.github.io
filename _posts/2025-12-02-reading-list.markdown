@@ -1,5 +1,5 @@
 ---
-date: 2025-12-02 00:12:00
+date: 2025-12-06 00:12:00
 layout: single
 title: Interesting learning resources - December 2025
 categories:
