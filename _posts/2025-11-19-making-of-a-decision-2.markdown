@@ -7,7 +7,7 @@ categories:
 - architectural decision
 - making of a decision
 - knowledge
-excerpt: "Part 2 of a series exploring decision making in software teams. From solo programming freedom to complex team coordination, understanding organisational power isn't academic—it's essential for effectiveness. "
+excerpt: "Part 2 of a series exploring decision making in software teams. From solo programming freedom to complex team coordination, understanding organisational knowledge is essential for effectiveness. "
 image: "/images/2025/kp-ada-talk.png"
 tags: [ software architecture, organisational-power, workplace-dynamics, decision-making, software-development]
 ---
@@ -60,24 +60,21 @@ These activities would help build a coherent body of knowledge: the organisation
     * Creating policies. To avoid future vendor lock‑in, and another to monitor critical dependencies on a regular cadence
     * If migration to a new library is necessary, providing default paths while recognising that this might not suit all teams and preparing for the extra cost in time and money
     * Notifying customers, if it is deemed essential, with a brief notice explaining the migration and reaffirming the commitment to security and reliability
-    * Updating the dependency‑management operating procedure—reviewing whether a mandatory licence‑compatibility check should be required whenever a major version bump is announced
+    * Updating the dependency‑management operating procedure. Reviewing whether a mandatory licence‑compatibility check should be required whenever a major version bump is announced
 
 Wisdom here blends technical facts with ethical, financial and strategic considerations, producing a holistic stance rather than a reactionary fix.
 
 
-
 For an extensive analysis of the DIKW pyramid please see: [The wisdom hierarchy: representations of the DIKW hierarchy- Jennifer Rowley Bangor Business School, University of Wales, Bangor, UK](https://www.academia.edu/38656728/The_wisdom_hierarchy_representations_of_the_DIKW_hierarchy) This paper revisits the Data–information–knowledge–wisdom (DIKW) hierarchy by examining the articulation of the hierarchy in a number of widely read textbooks, and analysing their statements about the nature of data, information, knowledge, and wisdom
 
-The DIKW model gives us a structure for understanding knowledge, but it raises an important question: who is doing these activities of transforming data into wisdom? In software development, we have a specific term for these people: **Knowledge Workers**.
-
+The DIKW model gives us a structure for understanding knowledge, but it raises an important question: who is doing these activities of transforming data into wisdom? They are called **Knowledge Workers**.
 
 
 ### Knowledge Workers
 
-People who create software systems are knowledge workers. 
+People who create software systems are knowledge workers. It's very likely the person reading this is a knowledge worker.
 
 > Knowledge workers are workers whose main capital is knowledge. These are workers whose job is to "think for a living".
-
 source: Thinking For A Living: How to Get Better Performance and Results From Knowledge Workers. Davenport, Thomas H. (2005).
 
 Our output is primarily thinking, the artifacts we create are in support of that thinking. Our capital, our stock, is knowledge. 
@@ -86,19 +83,20 @@ If our main capital is knowledge how does our knowledge system work?
 
 ## A Systems lens
 
-It is surprising that as we are building software systems, we rarely think in systemic terms about our own knowledge. Diana Montalion addresses this in her book [Learning Systems Thinking](https://mentrixgroup.com/mentrix-school-of-systems).
+It is surprising that as we are building software systems, we rarely think in systemic terms about our own knowledge. Diana Montalion addresses this in her book [Learning Systems Thinking](https://learningsystemsthinking.com/).
 She invites us to consider that:
 
 *Knowledge Stock*: This refers to the store of knowledge a knowledge worker has developed or can access. Knowledge workers are individuals whose profession involves being "paid to think"
 
 *Knowledge Flow*: This is defined as the "ability to transfer knowledge between people and people and systems in ways that change and shift the system in an effective way"
 
-As an industry we tend to highly value the _stock_ of knowledge, and not so much _flow_. However without knowledge flow it would be impossible to build systems.
+As an industry we tend to highly value the _stock_ of knowledge, and not so much _flow_. However without knowledge flow it would be impossible to build systems. And not just that, reading further on this I found out that it was essential to innovation.
 
-
+One of my Heuristics for the the health of an organisation is how much time they spend learning, and how much time they spend learning together. The closer those figures are to zero the most likely the organisation is suffering from slow delivery and lacking in innovation.
 
 ## Innovation
 
+Turns out that there is 
 > "Knowledge transfer among employees is thought to be crucial determinant of an organisation's capacity to utilise new knowledge and innovate."
 
 Source: Relationships between knowledge inertia, organizational learning and organization innovation Shu-hsien Liaoa, Wu-Chen Fei b , Chih-Tang Liu
