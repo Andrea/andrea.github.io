@@ -22,7 +22,8 @@ This is part 2 of the series about decision making in software systems. The rest
 *  The Making of a Decision - Part 3: Tools for Decision Making (coming soon)
 
 
-Part 1 of this series explored how power shapes organisational and architectural decision making, see items related to the right side of the diagram below. This article focuses on the left side of the diagram,  knowledge. We say we need to know and understand the context to build systems, however What does it mean to know something?
+Part 1 of this series explored how power shapes organisational and architectural decision making, it went over definitions of power, laws of power and more. This article focuses on knowledge, the left side of the diagram below. 
+We say we need to know and understand the context to build systems, however What does it mean to know something?
 
 ![ingredients-of-a-decision]({{site.images}}/2025/kp-ada-talk.png)
 
@@ -95,7 +96,7 @@ As an industry we tend to highly value the _stock_ of knowledge, and not so much
 
 ### Innovation
 
-Most organisations actively pursue innovation in what makes them unique, as a way to insure their growth and longevity. Given how critical innovation is to organisational survival, researchers have extensively studied what actually makes organisations innovative. Multiple papers examine the relationship between knowledge sharing and innovation, the results are consistent. As one study clearly spells it out
+Most organisations actively pursue innovation in what makes them unique, as a way to insure their growth and longevity. Given how critical innovation is to organisational survival, researchers have extensively studied what actually makes organisations innovative. Multiple papers examine the relationship between knowledge sharing and innovation, the results are consistent. As one study clearly spells it ou
 
 > "Knowledge transfer among employees is thought to be crucial determinant of an organisation's capacity to utilise new knowledge and innovate."
 
