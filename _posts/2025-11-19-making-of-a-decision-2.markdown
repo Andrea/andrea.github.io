@@ -22,7 +22,7 @@ This is part 2 of the series about decision making in software systems. The rest
 *  The Making of a Decision - Part 3: Tools for Decision Making (coming soon)
 
 
-After talking a little about power definitions (the items on the right side of the diagram below), let's now discuss knowledge. Let's visit what it means to know something.
+Part 1 of this series explored how power shapes organisational and architectural decision making, see items related to the right side of the diagram below. This article focuses on the left side of the diagram,  knowledge. We say we need to know and understand the context to build systems, however What does it mean to know something?
 
 ![ingredients-of-a-decision]({{site.images}}/2025/kp-ada-talk.png)
 
@@ -44,7 +44,7 @@ The DIKW model makes it clear that context is the bridge between data and insigh
 
 This model might be a good starting point for everyday decision making. Say, the news that a library your organisation heavily depends on has changed its licence.
 
-* Data. The facts: for example, the licence change in the next version introduces a fee for usage in commercial settings.
+* Data. The facts: for example, the licence change in the next version introduces a large fee for usage in commercial settings.
 
 * Information. Adding context. The raw facts are then interpreted and linked to the organisation’s own environment. For example this could highlight that, in the near future, the organisation will be liable to pay a significant amount to keep using this library. Not only do members of the organisation understand what changed, but also where it matters, when it will start affecting the system and why.
 
@@ -65,9 +65,9 @@ These activities would help build a coherent body of knowledge: the organisation
 Wisdom here blends technical facts with ethical, financial and strategic considerations, producing a holistic stance rather than a reactionary fix.
 
 
-For an extensive analysis of the DIKW pyramid please see: [The wisdom hierarchy: representations of the DIKW hierarchy- Jennifer Rowley Bangor Business School, University of Wales, Bangor, UK](https://www.academia.edu/38656728/The_wisdom_hierarchy_representations_of_the_DIKW_hierarchy) This paper revisits the Data–information–knowledge–wisdom (DIKW) hierarchy by examining the articulation of the hierarchy in a number of widely read textbooks, and analysing their statements about the nature of data, information, knowledge, and wisdom
+For an extensive analysis of the DIKW pyramid please see: [The wisdom hierarchy: representations of the DIKW hierarchy- Jennifer Rowley Bangor Business School, University of Wales, Bangor, UK](https://www.academia.edu/38656728/The_wisdom_hierarchy_representations_of_the_DIKW_hierarchy).
 
-The DIKW model gives us a structure for understanding knowledge, but it raises an important question: who is doing these activities of transforming data into wisdom? They are called **Knowledge Workers**.
+The DIKW model gives us a structure for understanding knowledge, but it raises an important question: who is doing these activities of transforming data into (eventually) wisdom? They are called **Knowledge Workers**.
 
 
 ### Knowledge Workers
@@ -83,7 +83,7 @@ If our main capital is knowledge how does our knowledge system work?
 
 ## A Systems lens
 
-It is surprising that as we are building software systems, we rarely think in systemic terms about our own knowledge. Diana Montalion addresses this in her book [Learning Systems Thinking](https://learningsystemsthinking.com/).
+It is surprising that as we are building software systems, we rarely think systemically about our own knowledge. Diana Montalion addresses this in her book [Learning Systems Thinking](https://learningsystemsthinking.com/).
 She invites us to consider that:
 
 *Knowledge Stock*: This refers to the store of knowledge a knowledge worker has developed or can access. Knowledge workers are individuals whose profession involves being "paid to think"
@@ -92,20 +92,20 @@ She invites us to consider that:
 
 As an industry we tend to highly value the _stock_ of knowledge, and not so much _flow_. However without knowledge flow it would be impossible to build systems. And not just that, reading further on this I found out that it was essential to innovation.
 
-One of my Heuristics for the the health of an organisation is how much time they spend learning, and how much time they spend learning together. The closer those figures are to zero the most likely the organisation is suffering from slow delivery and lacking in innovation.
 
-## Innovation
+### Innovation
 
-Turns out that there is 
+Most organisations actively pursue innovation in what makes them unique, as a way to insure their growth and longevity. Given how critical innovation is to organisational survival, researchers have extensively studied what actually makes organisations innovative. Multiple papers examine the relationship between knowledge sharing and innovation, the results are consistent. As one study clearly spells it out
+
 > "Knowledge transfer among employees is thought to be crucial determinant of an organisation's capacity to utilise new knowledge and innovate."
 
-Source: Relationships between knowledge inertia, organizational learning and organization innovation Shu-hsien Liaoa, Wu-Chen Fei b , Chih-Tang Liu
+Source: Relationships between knowledge inertia, organizational learning and organization innovation by Shu-hsien Liao, Wu-Chen Fei, Chih-Tang Liu
 
+As an industry, we have known for many decades that the need for knowledge transfer  is essential to build and  maintain complex  software systems
 
-## Continuity of the "Theory"
+## Historic lens: Continuity of the "Theory"
 
-Peter Naur's seminal paper from 1985, Programming as Theory Building, talks about the importance of people carrying the theory of the program
-or system. 
+Peter Naur's seminal paper from 1985, *Programming as Theory Building*, talks about the importance of people carrying the theory of the program or system. 
 
 > " Thus, again, the program text and its documentation has proven insufficient as a carrier of some of the most important design ideas"
 Source: Peter Naur, Programming as Theory Building 
@@ -120,21 +120,44 @@ Source: Peter Naur, Programming as Theory Building
 Forty years ago we already established the importance of stable teams to keep the program theory, especially needed as we are building more and more complex and complicated systems. 
 
 
-## Accepted knowledge
 
-The idea of accepted knowledge was not in the original talk, however it's an implicit problem that is rarely discussed. It's also the cause of many communication issues within a system. The post linked below explains it well.
+## The Hidden Barrier: Who Gets to Know? 
 
-[Who has permission to know things?](https://deadsimpletech.com/blog/epistemology) - Iris Meredith. Touching on Knowledge and power. In this post Meredith argues sudden workplace "explosions" stem from "corporate epistemology," where **knowledge is largely defined and controlled by those in power**, often disregarding the insights and experiences of minority groups or those lower in the hierarchy. This systemic invalidation of legitimate knowledge from marginalised  individuals creates an environment of structural violence, leading to frustration and resentment when their expertise is ignored. 
+Throughout this article, we've discussed how knowledge transforms into wisdom and flows through organizations. Do organisations accept knowledge from everyone within?  whose knowledge is deemed legitimate in the first place?
+
+This isn't just an ethical concern, it's a practical one that directly impacts decision quality. As Iris Meredith explores in ["Who has permission to know things?"](https://deadsimpletech.com/blog/epistemology), corporate epistemology determines which voices are heard and which expertise is valued. When organizations systematically invalidate knowledge they don't just create workplace frustration, they cut themselves off from crucial insights.
+
+> "Knowledge is largely defined and controlled by those in power"
+
+This structural barrier is why many organizations experience sudden "explosions"—accumulated resentment and overlooked expertise finally surfacing when problems become unavoidable. Building better decision making systems requires us to consciously examine: whose knowledge are we excluding, and what is that costing us?
+
 
 
 ## Resources and extra reading materials
 
 
-* [Slow down to speed up your decision-making – Gien Verschatse](https://virtualddd.com/sessions/slow-down-to-speed-up-your-decision-making-gien-verschatse/)
-* [Charisma in Everyday Life: Conceptualization and Validation of the General Charisma Inventory Konstantin O. Tskhay, Rebecca Zhu, Christopher Zou, and Nicholas O. Rule University of Toronto](https://www.researchgate.net/publication/318667785_Charisma_in_Everyday_Life_Conceptualization_and_Validation_of_the_General_Charisma_Inventory)
-* [The wisdom hierarchy: representations of the DIKW hierarchy- Jennifer Rowley Bangor Business School, University of Wales, Bangor, UK](https://www.academia.edu/38656728/The_wisdom_hierarchy_representations_of_the_DIKW_hierarchy) This paper revisits the Data–information–knowledge–wisdom (DIKW) hierarchy by examining the articulation of the hierarchy in a number of widely read textbooks, and analysing their statements about the nature of data, information, knowledge, and wisdom
+### Core Concepts
+- [The wisdom hierarchy: representations of the DIKW hierarchy- Jennifer Rowley Bangor Business School, University of Wales, Bangor, UK](https://www.academia.edu/38656728/The_wisdom_hierarchy_representations_of_the_DIKW_hierarchy) This paper revisits the Data–information–knowledge–wisdom (DIKW) hierarchy by looking at how different textbooks explain the hierarchy in a number of widely read textbooks, and analysing their statements about the nature of data, information, knowledge, and wisdom.
+
+- [Programming as Theory Building](link) - Peter Naur (1985). Seminal paper on the importance of maintaining program theory through stable teams.
+
+- [Learning Systems Thinking](https://mentrixgroup.com/mentrix-school-of-systems) - Diana Montalion. Explores systemic approaches to knowledge in organizations.
+
+### Knowledge and Power
+- [Who has permission to know things?](https://deadsimpletech.com/blog/epistemology) - Iris Meredith. Explores how corporate epistemology and power structures determine whose knowledge is valued.
 
 
+### Decision Making
+- [Slow down to speed up your decision-making](https://virtualddd.com/sessions/slow-down-to-speed-up-your-decision-making-gien-verschatse/) - Gien Verschatse
+
+
+### Related Research
+- [Relationships between knowledge inertia, organizational learning and organization innovation](link) - Shu-hsien Liaoa, Wu-Chen Fei, Chih-Tang Liu. On knowledge transfer as a determinant of innovation capacity.
+
+- [Charisma in Everyday Life: Conceptualization and Validation of the General Charisma Inventory](https://www.researchgate.net/publication/318667785_Charisma_in_Everyday_Life_Conceptualization_and_Validation_of_the_General_Charisma_Inventory) - Konstantin O. Tskhay et al., University of Toronto.
+
+### Previous Posts
+- [Knowledge sharing is systems building](link) - Post from 2023
 
 ## Conclusion
 
