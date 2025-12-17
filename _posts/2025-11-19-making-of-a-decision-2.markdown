@@ -107,7 +107,7 @@ Source: Relationships between knowledge inertia, organizational learning and org
 
 As an industry, we have known for many decades that the need for knowledge transfer is essential to build and  maintain complex software systems
 
-### Historic lens: Continuity of the "Theory"
+## Historic lens: Continuity of the "Theory"
 
 Peter Naur's seminal paper from 1985, *Programming as Theory Building*, talks about the importance of people carrying the theory of the program or system. 
 
@@ -131,8 +131,18 @@ This is an ethical concern and it's a practical concern too that directly impact
 
 > "Knowledge is largely defined and controlled by those in power"
 
-This structural barrier is why many organisations experience sudden "explosions"—accumulated resentment and overlooked expertise finally surfacing when problems become unavoidable. Building better decision making systems requires us to consciously examine: whose knowledge are we excluding, and what is that costing us?
+This structural barrier is why many organisations experience sudden "explosions", accumulated resentment and overlooked expertise finally surfacing when problems become unavoidable. Building better decision making systems requires us to consciously examine: whose knowledge are we excluding, and what is that costing us?
 
+
+## Conclusion
+
+The DIKW model provides a useful framework for moving from data to wisdom.
+Understanding knowledge workers and the importance of knowledge flow matters for innovation and outcomes, yet many organisations have yet to fully grasp this. At the intersection of knowledge and power sits a crucial question: whose knowledge is accepted? When changing an entire organisational culture proves difficult, recognising the barriers to knowledge sharing offers a practical starting point.
+Stable teams are essential for preserving the "theory", or domain knowledge, of a system. When seeking better ways to manage information, preventing its loss in the first place is remarkably efficient.
+
+
+As a side note, I've long held the intuition that a key indicator of an organisation's health is the time its people dedicate to learning, particularly when they learn together about their systems, and keep thinking of ways to validate or invalidate this intuition. If you have thoughts or comments about this or anything to do with this article please let me know  
+I hope you enjoyed the second part of "The making of a decision". The next post will be about tools that we can use to improve our decision making in terms of knowledge and power.
 
 
 ## Resources and extra reading materials
@@ -158,12 +168,4 @@ This structural barrier is why many organisations experience sudden "explosions"
 
 - [Charisma in Everyday Life: Conceptualization and Validation of the General Charisma Inventory](https://www.researchgate.net/publication/318667785_Charisma_in_Everyday_Life_Conceptualization_and_Validation_of_the_General_Charisma_Inventory) - Konstantin O. Tskhay et al., University of Toronto.
 
-### Previous Posts
-- [Knowledge sharing is systems building](link) - Post from 2023
-
-## Conclusion
-
-Learning and understanding knowledge has helped me make better decisions. I've long held the intuition that a key indicator of an organisation's health is the time its people dedicate to learning, particularly when they learn together about their systems
-
-I hope you enjoyed the second part of "The making of a decision", if you have ideas on how it could be better please let me know. The next post will be about tools that we can use to improve our decision making in terms of knowledge and power.
 
