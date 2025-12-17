@@ -12,7 +12,7 @@ image: "/images/2025/kp-ada-talk.png"
 tags: [ software architecture, organisational-power, workplace-dynamics, decision-making, software-development]
 ---
 
-This series goes over the topics described in [this talk](https://www.youtube.com/watch?v=Ie97Oe-t8Wk).
+This series goes over the topics described in [this talk](https://www.youtube.com/watch?v=Ie97Oe-t8Wk) with extra depth.
 
 
 This is part 2 of the series about decision making in software systems. Access to all the sections:
@@ -22,21 +22,22 @@ This is part 2 of the series about decision making in software systems. Access t
 *  The Making of a Decision - Part 3: Tools for Decision Making (coming soon)
 
 
-Part 1 of this series explored how power shapes organisational and architectural decision making, it went over definitions of power, laws of power and more. This article focuses on knowledge, the left side of the diagram below. 
-We say we need to know and understand the context to build systems, however What does it mean to know something?
+Part 1 of this series explored how power shapes organisational and architectural decision making by reviewing definitions, laws of power and more. This article focuses on knowledge. 
+
+We say we need to know and understand the context to build systems, however What does it mean to know something? What does it mean to know something in the context of an architectural and system design decision?
 
 ![ingredients-of-a-decision]({{site.images}}/2025/kp-ada-talk.png)
 
 
 > "Knowledge sharing is (an essential task of) systems building" 
 
-[Post from 2023]({% post_url 2023-03-31-knowledge-sharing-as-systems-building %})
+[Knowledge sharing is systems building (March 2023)]({% post_url 2023-03-31-knowledge-sharing-as-systems-building %})
 
 ## Understanding Knowledge: The DIKW model
 
 ### The DIKW Pyramid
 
-When I was preparing this talk, I spoke with [Dawn Ahukanna](https://www.linkedin.com/in/dawnahukanna/) about it, she introduced me to the DIKW pyramid as good starting model for knowledge.
+When I was preparing this talk, I spoke with [Dawn Ahukanna](https://www.linkedin.com/in/dawnahukanna/) about my thoughts on this talk and about how I was thinking about knowledge, she introduced me to the DIKW pyramid as good starting model it.
 
 The DIKW model makes it clear that context is the bridge between data and insight. Data turns into information only when it's interpreted within a relevant context, and it becomes knowledge when that information is applied repeatedly to gain experience. At the top of the pyramid sits wisdom, the least developed layer, demanding moral deliberation and the ability to apply knowledge across situations.
 
@@ -73,7 +74,7 @@ For an extensive analysis of the DIKW pyramid please see: [The wisdom hierarchy:
 The DIKW model gives us a structure for understanding knowledge. The people involved in deriving it are  **Knowledge Workers**.
 
 
-### Knowledge Workers
+## Knowledge Workers
 
 People who create software systems are knowledge workers. It's very likely the person reading this is a knowledge worker .
 
@@ -81,29 +82,20 @@ People who create software systems are knowledge workers. It's very likely the p
 
 source: Thinking For A Living: How to Get Better Performance and Results From Knowledge Workers. Davenport, Thomas H. (2005).
 
-Our output is primarily thinking, the artifacts we create are in support of that thinking. Our capital, our stock, is knowledge. Knowledge work is applying knowledge in such  way that solves perceived or real customer problems.
+Our output is primarily thinking, the artifacts we create are in support of that thinking. Our capital, our stock, is the things we know. In the context of an organisation, knowledge work is applying knowledge in such way that solves perceived or real customer problems.
 
-If our main capital is knowledge how does our knowledge system work?
+Given that our main capital is knowledge, how is it shared, and how can we reason about using it in the most useful and innovative ways?
 
 ## A Systems lens
 
-
-As Donella Meadows wrote in Thinking in Systems
-
-> , “A system stock is just what it sounds like: a store, a quantity of material or information that has built up over time.  It may be a population, an inventory, the wood in a tree, the water in a well, the money in a bank…Stocks change over time through the actions of flows, usually actual physical flows into or out of a stock–filling, draining, births, deaths, production, consumption, growth, decay, spending, saving.  Stocks, then, are accumulations, or integrals, of flows.”
-
-
-It is surprising that as we are building software *systems*, we rarely apply systemic concepts to our problems, including knowledge management.  Diana Montalion addresses this in her book [Learning Systems Thinking](https://learningsystemsthinking.com/). In chapter 6, she invites us to consider that:
+As Donella Meadows wrote in her book Thinking in Systems: "A system stock is just what it sounds like: a store, a quantity of material or information that has built up over time. It may be a population, an inventory, the wood in a tree, the water in a well, the money in a bank… Stocks change over time through the actions of flows, usually actual physical flows into or out of a stock–filling, draining, births, deaths, production, consumption, growth, decay, spending, saving. Stocks, then, are accumulations, or integrals, of flows."
+It is surprising that as we are building software systems, we rarely apply systemic concepts to our problems, including knowledge management. Diana Montalion addresses this in her book [Learning Systems Thinking](https://learningsystemsthinking.com/). In chapter 6, she invites us to consider:
 
 **Knowledge Stock**: This refers to the store of knowledge a knowledge worker has developed or can access. 
 
-**Knowledge Flow**: "The ability to transfer knowledge between people and people and systems in ways that change and shift the system in an effective way"
+**Knowledge Flow**: The ability to transfer knowledge between people and people and systems in ways that change and shift the system in an effective way.
 
-
-As an industry we tend to highly value the *stock* of knowledge, and not so much _flow_. However without knowledge flow it would be impossible to build systems. And not just that, reading further on this I found out that it was essential to innovation.
-
-
-
+As an industry we tend to highly value the *stock* of knowledge, and not so much *flow*. However without knowledge flow it would be impossible to build systems. And not just that, reading further on this I found out that it was essential to innovation.
 
 ### Innovation
 
@@ -113,33 +105,29 @@ Most organisations actively pursue innovation in what makes them unique, as a wa
 
 Source: Relationships between knowledge inertia, organizational learning and organization innovation by Shu-hsien Liao, Wu-Chen Fei, Chih-Tang Liu
 
-As an industry, we have known for many decades that the need for knowledge transfer  is essential to build and  maintain complex  software systems
+As an industry, we have known for many decades that the need for knowledge transfer is essential to build and  maintain complex software systems
 
-## Historic lens: Continuity of the "Theory"
+### Historic lens: Continuity of the "Theory"
 
 Peter Naur's seminal paper from 1985, *Programming as Theory Building*, talks about the importance of people carrying the theory of the program or system. 
 
 > " Thus, again, the program text and its documentation has proven insufficient as a carrier of some of the most important design ideas"
 
 
-
-I want to stress the fact that here we are talking about core design ideas of a program.
+I want to stress that the paper focuses on core design ideas of a program. 
 
 The paper continues:
 
 > "The conclusion seems inescapable that at least with certain kinds of large programs, the continued adaptation, modification and correction of errors in them, is essentially dependent on a certain kind of knowledge possessed by a group of programmers who are closely and continuously connected with them."  
 
-
-
-Forty years ago we already established the importance of stable teams to keep the program theory, especially needed as we are building more and more complex and complicated systems. 
-
+We've known for over forty years that stable teams are essential to maintaining the program theory, especially important as systems grow more complex. Yet as an industry, we keep repeating the same Sisyphean cycle, and act surprised each time the boulder rolls back down. Strangely, we do this in the name of cost effectiveness.  
 
 
 ## The Hidden Barrier: Who Gets to Know? 
 
 Throughout this article, we've discussed how knowledge transforms into wisdom and flows through organisations. Do organisations accept knowledge from everyone within?  whose knowledge is deemed legitimate in the first place?
 
-This isn't just an ethical concern, it's a practical one that directly impacts decision quality. As Iris Meredith explores in ["Who has permission to know things?"](https://deadsimpletech.com/blog/epistemology), corporate epistemology determines which voices are heard and which expertise is valued. When organisations systematically invalidate knowledge they don't just create workplace frustration, they cut themselves off from crucial insights.
+This is an ethical concern and it's a practical concern too that directly impacts decision quality. As Iris Meredith explores in ["Who has permission to know things?"](https://deadsimpletech.com/blog/epistemology), corporate epistemology determines which voices are heard and which expertise is valued. When organisations systematically invalidate knowledge they don't just create workplace frustration, they cut themselves off from crucial insights.
 
 > "Knowledge is largely defined and controlled by those in power"
 
