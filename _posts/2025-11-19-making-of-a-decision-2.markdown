@@ -15,7 +15,7 @@ tags: [ software architecture, organisational-power, workplace-dynamics, decisio
 This series goes over the topics described in [this talk](https://www.youtube.com/watch?v=Ie97Oe-t8Wk).
 
 
-This is part 2 of the series about decision making in software systems. The rest of the series
+This is part 2 of the series about decision making in software systems. Access to all the sections:
 
 * [The Making of a Decision - Part 1]({% post_url 2025-09-01-making-of-a-decision %})
 *  The Making of a Decision - Part 2 - This article
@@ -29,13 +29,14 @@ We say we need to know and understand the context to build systems, however What
 
 
 > "Knowledge sharing is (an essential task of) systems building" 
+
 [Post from 2023]({% post_url 2023-03-31-knowledge-sharing-as-systems-building %})
 
 ## Understanding Knowledge: The DIKW model
 
 ### The DIKW Pyramid
 
-When I was preparing this talk, I spoke with [Dawn Ahukanna](https://www.linkedin.com/in/dawnahukanna/) who introduced me to the DIKW pyramid as good starting model for knowledge.
+When I was preparing this talk, I spoke with [Dawn Ahukanna](https://www.linkedin.com/in/dawnahukanna/) about it, she introduced me to the DIKW pyramid as good starting model for knowledge.
 
 The DIKW model makes it clear that context is the bridge between data and insight. Data turns into information only when it's interpreted within a relevant context, and it becomes knowledge when that information is applied repeatedly to gain experience. At the top of the pyramid sits wisdom, the least developed layer, demanding moral deliberation and the ability to apply knowledge across situations.
 
@@ -43,24 +44,25 @@ The DIKW model makes it clear that context is the bridge between data and insigh
 
 ### Applying DIKW: A Practical Example
 
-This model might be a good starting point for everyday decision making. Say, the news that a library your organisation heavily depends on has changed its licence.
+This model might be a good starting point for everyday decision making. For example, imagine you learn that a library your organisation heavily depends on has changed its licence and will soon require a large fee for commercial usage. How can the DIKW model help you guide some of your next steps
 
-* Data. The facts: for example, the licence change in the next version introduces a large fee for usage in commercial settings.
+* **Data. The facts**.  The licence change to be introduced in the next version includes a large fee for usage in commercial settings.
 
-* Information. Adding context. The raw facts are then interpreted and linked to the organisation’s own environment. For example this could highlight that, in the near future, the organisation will be liable to pay a significant amount to keep using this library. Not only do members of the organisation understand what changed, but also where it matters, when it will start affecting the system and why.
+* **Information. Adding context**. The raw facts are interpreted and linked to the organisation’s own environment. For example, in the near future, the organisation will be liable to pay a significant amount to keep using this library, at this point you should know exactly how much in a given period. Perhaps you would also know the cost of migrating to another library, tho the figure might not be precise. Not only do members of the organisation understand what changed, but also where it matters, when it will start affecting the system and why.
 
-* Knowledge. Understanding and gaining deeper insights. With the contextualised information in hand, some of these activities would probably follow:
+* **Knowledge. Understanding and gaining deeper insights**. With the contextualised information in hand, some of these activities would probably follow:
     * Doing a survey of alternative libraries to find viable drop‑in replacements
     * Estimating the cost of replacing the library across the organisation
     * Considering security risks associated with onboarding a new library
-    * Looking back at a similar licence change and its effects
+    * Looking back at a similar licence change and its effects within the organisation
     * Discussing with product owners, operations, finance, etc to understand acceptable service interruption or other disruptions
+
 These activities would help build a coherent body of knowledge: the organisation now knows why the change is problematic, how severe the impact could be, and what realistic options exist.
 
-* Wisdom. Judgement informed by values and strategy over time.   From the knowledge the organisation is able to exercise broader judgement; for example it might consider:
-    * Creating policies. To avoid future vendor lock‑in, and another to monitor critical dependencies on a regular cadence
-    * If migration to a new library is necessary, providing default paths while recognising that this might not suit all teams and preparing for the extra cost in time and money
-    * Notifying customers, if it is deemed essential, with a brief notice explaining the migration and reaffirming the commitment to security and reliability
+* **Wisdom. Judgement informed by values and strategy over time**. Based on knowledge, the organisation is able to exercise broader judgement leveraging their people. At this point you might consider:
+    * Creating policies. To avoid future vendor lock‑in, and another policy to monitor critical dependencies on a regular cadence
+    * If migration to a new library is necessary, provide default paths while recognising that this might not suit all teams and prepare for the extra cost in time and money
+    * Notifying customers. if it is deemed necessary, with a brief notice explaining the migration and reaffirming the commitment to security and reliability
     * Updating the dependency‑management operating procedure. Reviewing whether a mandatory licence‑compatibility check should be required whenever a major version bump is announced
 
 Wisdom here blends technical facts with ethical, financial and strategic considerations, producing a holistic stance rather than a reactionary fix.
@@ -68,30 +70,39 @@ Wisdom here blends technical facts with ethical, financial and strategic conside
 
 For an extensive analysis of the DIKW pyramid please see: [The wisdom hierarchy: representations of the DIKW hierarchy- Jennifer Rowley Bangor Business School, University of Wales, Bangor, UK](https://www.academia.edu/38656728/The_wisdom_hierarchy_representations_of_the_DIKW_hierarchy).
 
-The DIKW model gives us a structure for understanding knowledge, but it raises an important question: who is doing these activities of transforming data into (eventually) wisdom? They are called **Knowledge Workers**.
+The DIKW model gives us a structure for understanding knowledge. The people involved in deriving it are  **Knowledge Workers**.
 
 
 ### Knowledge Workers
 
-People who create software systems are knowledge workers. It's very likely the person reading this is a knowledge worker.
+People who create software systems are knowledge workers. It's very likely the person reading this is a knowledge worker .
 
 > Knowledge workers are workers whose main capital is knowledge. These are workers whose job is to "think for a living".
+
 source: Thinking For A Living: How to Get Better Performance and Results From Knowledge Workers. Davenport, Thomas H. (2005).
 
-Our output is primarily thinking, the artifacts we create are in support of that thinking. Our capital, our stock, is knowledge. 
+Our output is primarily thinking, the artifacts we create are in support of that thinking. Our capital, our stock, is knowledge. Knowledge work is applying knowledge in such  way that solves perceived or real customer problems.
 
 If our main capital is knowledge how does our knowledge system work?
 
 ## A Systems lens
 
-It is surprising that as we are building software systems, we rarely think systemically about our own knowledge. Diana Montalion addresses this in her book [Learning Systems Thinking](https://learningsystemsthinking.com/).
-She invites us to consider that:
 
-*Knowledge Stock*: This refers to the store of knowledge a knowledge worker has developed or can access. Knowledge workers are individuals whose profession involves being "paid to think"
+As Donella Meadows wrote in Thinking in Systems
 
-*Knowledge Flow*: This is defined as the "ability to transfer knowledge between people and people and systems in ways that change and shift the system in an effective way"
+> , “A system stock is just what it sounds like: a store, a quantity of material or information that has built up over time.  It may be a population, an inventory, the wood in a tree, the water in a well, the money in a bank…Stocks change over time through the actions of flows, usually actual physical flows into or out of a stock–filling, draining, births, deaths, production, consumption, growth, decay, spending, saving.  Stocks, then, are accumulations, or integrals, of flows.”
 
-As an industry we tend to highly value the _stock_ of knowledge, and not so much _flow_. However without knowledge flow it would be impossible to build systems. And not just that, reading further on this I found out that it was essential to innovation.
+
+It is surprising that as we are building software *systems*, we rarely apply systemic concepts to our problems, including knowledge management.  Diana Montalion addresses this in her book [Learning Systems Thinking](https://learningsystemsthinking.com/). In chapter 6, she invites us to consider that:
+
+**Knowledge Stock**: This refers to the store of knowledge a knowledge worker has developed or can access. 
+
+**Knowledge Flow**: "The ability to transfer knowledge between people and people and systems in ways that change and shift the system in an effective way"
+
+
+As an industry we tend to highly value the *stock* of knowledge, and not so much _flow_. However without knowledge flow it would be impossible to build systems. And not just that, reading further on this I found out that it was essential to innovation.
+
+
 
 
 ### Innovation
@@ -109,14 +120,16 @@ As an industry, we have known for many decades that the need for knowledge trans
 Peter Naur's seminal paper from 1985, *Programming as Theory Building*, talks about the importance of people carrying the theory of the program or system. 
 
 > " Thus, again, the program text and its documentation has proven insufficient as a carrier of some of the most important design ideas"
-Source: Peter Naur, Programming as Theory Building 
+
+
 
 I want to stress the fact that here we are talking about core design ideas of a program.
 
 The paper continues:
 
 > "The conclusion seems inescapable that at least with certain kinds of large programs, the continued adaptation, modification and correction of errors in them, is essentially dependent on a certain kind of knowledge possessed by a group of programmers who are closely and continuously connected with them."  
-Source: Peter Naur, Programming as Theory Building 
+
+
 
 Forty years ago we already established the importance of stable teams to keep the program theory, especially needed as we are building more and more complex and complicated systems. 
 
@@ -124,13 +137,13 @@ Forty years ago we already established the importance of stable teams to keep th
 
 ## The Hidden Barrier: Who Gets to Know? 
 
-Throughout this article, we've discussed how knowledge transforms into wisdom and flows through organizations. Do organisations accept knowledge from everyone within?  whose knowledge is deemed legitimate in the first place?
+Throughout this article, we've discussed how knowledge transforms into wisdom and flows through organisations. Do organisations accept knowledge from everyone within?  whose knowledge is deemed legitimate in the first place?
 
-This isn't just an ethical concern, it's a practical one that directly impacts decision quality. As Iris Meredith explores in ["Who has permission to know things?"](https://deadsimpletech.com/blog/epistemology), corporate epistemology determines which voices are heard and which expertise is valued. When organizations systematically invalidate knowledge they don't just create workplace frustration, they cut themselves off from crucial insights.
+This isn't just an ethical concern, it's a practical one that directly impacts decision quality. As Iris Meredith explores in ["Who has permission to know things?"](https://deadsimpletech.com/blog/epistemology), corporate epistemology determines which voices are heard and which expertise is valued. When organisations systematically invalidate knowledge they don't just create workplace frustration, they cut themselves off from crucial insights.
 
 > "Knowledge is largely defined and controlled by those in power"
 
-This structural barrier is why many organizations experience sudden "explosions"—accumulated resentment and overlooked expertise finally surfacing when problems become unavoidable. Building better decision making systems requires us to consciously examine: whose knowledge are we excluding, and what is that costing us?
+This structural barrier is why many organisations experience sudden "explosions"—accumulated resentment and overlooked expertise finally surfacing when problems become unavoidable. Building better decision making systems requires us to consciously examine: whose knowledge are we excluding, and what is that costing us?
 
 
 
