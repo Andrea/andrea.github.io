@@ -1,5 +1,6 @@
 ---
 date: 2025-11-19 00:12:00
+last_modified_at:  2025-12-17 03:12:00
 layout: single
 title: The Making of a Decision - Part 2
 categories:
@@ -37,7 +38,7 @@ We say we need to know and understand the context to build systems, however What
 
 ### The DIKW Pyramid
 
-When I was preparing this talk, I spoke with [Dawn Ahukanna](https://www.linkedin.com/in/dawnahukanna/) about my thoughts on this talk and about how I was thinking about knowledge, she introduced me to the DIKW pyramid as good starting model it.
+When I was preparing this talk, I spoke with [Dawn Ahukanna](https://www.linkedin.com/in/dawnahukanna/) about my thoughts on this talk and about how I was thinking about knowledge, she introduced me to the DIKW pyramid as a good starting model it.
 
 The DIKW model makes it clear that context is the bridge between data and insight. Data turns into information only when it's interpreted within a relevant context, and it becomes knowledge when that information is applied repeatedly to gain experience. At the top of the pyramid sits wisdom, the least developed layer, demanding moral deliberation and the ability to apply knowledge across situations.
 
@@ -52,7 +53,7 @@ This model might be a good starting point for everyday decision making. For exam
 * **Information. Adding context**. The raw facts are interpreted and linked to the organisation’s own environment. For example, in the near future, the organisation will be liable to pay a significant amount to keep using this library, at this point you should know exactly how much in a given period. Perhaps you would also know the cost of migrating to another library, tho the figure might not be precise. Not only do members of the organisation understand what changed, but also where it matters, when it will start affecting the system and why.
 
 * **Knowledge. Understanding and gaining deeper insights**. With the contextualised information in hand, some of these activities would probably follow:
-    * Doing a survey of alternative libraries to find viable drop‑in replacements
+    * Conducting a survey of alternative libraries to find viable drop‑in replacements
     * Estimating the cost of replacing the library across the organisation
     * Considering security risks associated with onboarding a new library
     * Looking back at a similar licence change and its effects within the organisation
