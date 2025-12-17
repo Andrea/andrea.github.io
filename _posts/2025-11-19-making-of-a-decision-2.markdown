@@ -1,6 +1,6 @@
 ---
 date: 2025-11-19 00:12:00
-last_modified_at:  2025-12-17 03:12:00
+last_modified_at: 2025-12-17 03:12:00
 layout: single
 title: The Making of a Decision - Part 2
 categories:
@@ -10,7 +10,7 @@ categories:
 - knowledge
 excerpt: "Part 2 of a series exploring decision making in software teams. From solo programming freedom to complex team coordination, understanding organisational knowledge is essential for effectiveness. "
 image: "/images/2025/kp-ada-talk.png"
-tags: [ software architecture, organisational-power, workplace-dynamics, decision-making, software-development]
+tags: [ software architecture, knowledge-management, knowledge-sharing, decision-making, software-development]
 ---
 
 This series goes over the topics described in [this talk](https://www.youtube.com/watch?v=Ie97Oe-t8Wk) with extra depth.
