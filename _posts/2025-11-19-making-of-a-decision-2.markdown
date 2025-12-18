@@ -16,7 +16,7 @@ tags: [ software architecture, knowledge-management, knowledge-sharing, decision
 This series goes over the topics described in [this talk](https://www.youtube.com/watch?v=Ie97Oe-t8Wk) with extra depth.
 
 
-This is part 2 of the series about decision making in software systems. Access to all the sections:
+This is part 2 of the series about decision making in software systems. 
 
 * [The Making of a Decision - Part 1]({% post_url 2025-09-01-making-of-a-decision %})
 *  The Making of a Decision - Part 2 - This article
@@ -25,7 +25,7 @@ This is part 2 of the series about decision making in software systems. Access t
 
 Part 1 of this series explored how power shapes organisational and architectural decision making by reviewing definitions, laws of power and more. This article focuses on knowledge. 
 
-We say we need to know and understand the context to build systems, however What does it mean to know something? What does it mean to know something in the context of an architectural and system design decision?
+We say we need to know and understand the context to build systems, what does it mean to know something? What does it mean to know something in the context of an architectural and system design decision?
 
 ![ingredients-of-a-decision]({{site.images}}/2025/kp-ada-talk.png)
 
@@ -34,9 +34,8 @@ We say we need to know and understand the context to build systems, however What
 
 [Knowledge sharing is systems building (March 2023)]({% post_url 2023-03-31-knowledge-sharing-as-systems-building %})
 
-## Understanding Knowledge: The DIKW model
+## Understanding Knowledge: The DIKW Model
 
-### The DIKW Pyramid
 
 When I was preparing this talk, I spoke with [Dawn Ahukanna](https://www.linkedin.com/in/dawnahukanna/) about my thoughts on this talk and about how I was thinking about knowledge, she introduced me to the DIKW pyramid as a good starting model it.
 
@@ -50,7 +49,7 @@ This model might be a good starting point for everyday decision making. For exam
 
 * **Data. The facts**.  The licence change to be introduced in the next version includes a large fee for usage in commercial settings.
 
-* **Information. Adding context**. The raw facts are interpreted and linked to the organisation’s own environment. For example, in the near future, the organisation will be liable to pay a significant amount to keep using this library, at this point you should know exactly how much in a given period. Perhaps you would also know the cost of migrating to another library, tho the figure might not be precise. Not only do members of the organisation understand what changed, but also where it matters, when it will start affecting the system and why.
+* **Information. Adding context**. The raw facts are interpreted and linked to the organisation’s own environment. For example, in the near future, the organisation will be liable to pay a significant amount to keep using this library, at this point you should know exactly how much in a given period. Perhaps you would also know the cost of migrating to another library, the figure might not be precise. Not only do members of the organisation understand what changed, but also where it matters, when it will start affecting the system and why.
 
 * **Knowledge. Understanding and gaining deeper insights**. With the contextualised information in hand, some of these activities would probably follow:
     * Conducting a survey of alternative libraries to find viable drop‑in replacements
@@ -87,9 +86,12 @@ Our output is primarily thinking, the artifacts we create are in support of that
 
 Given that our main capital is knowledge, how is it shared, and how can we reason about using it in the most useful and innovative ways?
 
-## A Systems lens
+## A Systems Lens
 
-As Donella Meadows wrote in her book Thinking in Systems: "A system stock is just what it sounds like: a store, a quantity of material or information that has built up over time. It may be a population, an inventory, the wood in a tree, the water in a well, the money in a bank… Stocks change over time through the actions of flows, usually actual physical flows into or out of a stock–filling, draining, births, deaths, production, consumption, growth, decay, spending, saving. Stocks, then, are accumulations, or integrals, of flows."
+As Donella Meadows wrote in her book Thinking in Systems: 
+
+>"A system stock is just what it sounds like: a store, a quantity of material or information that has built up over time. It may be a population, an inventory, the wood in a tree, the water in a well, the money in a bank… Stocks change over time through the actions of flows, usually actual physical flows into or out of a stock–filling, draining, births, deaths, production, consumption, growth, decay, spending, saving. Stocks, then, are accumulations, or integrals, of flows."
+
 It is surprising that as we are building software systems, we rarely apply systemic concepts to our problems, including knowledge management. Diana Montalion addresses this in her book [Learning Systems Thinking](https://learningsystemsthinking.com/). In chapter 6, she invites us to consider:
 
 **Knowledge Stock**: This refers to the store of knowledge a knowledge worker has developed or can access. 
@@ -108,7 +110,7 @@ Source: Relationships between knowledge inertia, organizational learning and org
 
 As an industry, we have known for many decades that the need for knowledge transfer is essential to build and  maintain complex software systems
 
-## Historic lens: Continuity of the "Theory"
+## Historic Lens: Continuity of the "Theory"
 
 Peter Naur's seminal paper from 1985, *Programming as Theory Building*, talks about the importance of people carrying the theory of the program or system. 
 
@@ -146,7 +148,7 @@ As a side note, I've long held the intuition that a key indicator of an organisa
 I hope you enjoyed the second part of "The making of a decision". The next post will be about tools that we can use to improve our decision making in terms of knowledge and power.
 
 
-## Resources and extra reading materials
+## Resources and Extra Reading Materials
 
 
 ### Core Concepts
