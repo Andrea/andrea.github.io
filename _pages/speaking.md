@@ -5,9 +5,8 @@ permalink: /speaking/
 ---
 
 
-## Conference talks and other engagements
+## Public Presentations and Workshops
 
-List of talks
 
 ## 2025 
 
