@@ -17,17 +17,17 @@ This series goes over the topics described in [this talk](https://www.youtube.co
 
 Nearly 30 years ago, I had a great opportunity that might have changed my life in terms of education and work opportunities. The decision, outside my control, didn’t go my way. My family decided that they couldn't support it. Over time I've come to understand their reasoning, though it was difficult to accept when it affected my future far more than theirs. Programming helped me reclaim a sense of agency. I could create something out of nothing.
 
-That sense of creative freedom diminished as I moved to larger, more complex projects with bigger teams. As software systems grow, they become difficult to change, and more people are involved in making those changes. Remember:
+That sense of freedom and agency diminished as I moved to larger, more complex projects with bigger teams. As software systems grow, they become difficult to change, and more people are involved in making those changes. Remember:
 
 > "These decisions are a record of the power structures and the feedback loops that got it there." -Andrew Harmel-Law
 
-Issues with decision making are more pervasive in the bigger projects, I found again and again issues such as: strong biases for a particular decision, not validating inputs or outcomes, complex processes that promised safety but didn't deliver and a lot more. The issues were recurring but no clear pattern emerged. At times someone will say that "it was all because of politics" or "they don't have enough experience with the selected tech" or "<insert name> left". These catch phrases seem to be about dealing with the emotional cost of the decision rather than the underlying problem. I needed to learn more about what is happening and why. Ideally learn about ways to address some of the challenges. 
+Issues with decision making are more pervasive in the bigger projects, I found again and again issues such as: strong biases for a particular decision, not validating inputs or outcomes, complex processes that promised safety but didn't deliver and a lot more. The issues were recurring but no clear pattern emerged. People often attribute these failures to 'politics,' lack of technical experience, or key personnel departures. These reasons seem to be about dealing with the emotional cost of the decision rather than the underlying problem. I needed to understand more about what is happening and why. Ideally learn about ways to address some of the challenges. 
 
 As I started mapping how the people I've worked with (and myself) make decisions and what are the types of activities involved, I noticed that there were two key concepts that we use a lot but seem to mean different things to different people: knowledge and power.
 
 ![ingredients-of-a-decision]({{site.images}}/2025/kp-ada-talk.png)
 
-In my experience of learning and discussing it, power is uncomfortable to discuss but essential to understand: learning about power is essential to be effective, to be taken seriously and to not be taken advantage of.
+Power is uncomfortable to discuss but essential to understand: learning about power is essential to be effective, to be taken seriously and to not be taken advantage of.
 
 There are two key definitions of power that I find useful:
 
