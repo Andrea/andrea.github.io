@@ -10,7 +10,7 @@ categories:
 ---
 
 I ran a workshop at [LAST Conference](https://www.meetup.com/tech-leaders-collective/) on the 21th November. 
-It was ny first LAST conference,  it was an a great event however it will be my last. Don't worry! It will be my last one because they have decided to rebrand the conference to be Signal Not Noise.
+It was my first LAST conference,  it was an a great event however it will be my last. Don't worry! It will be my last one because they have decided to rebrand the conference to be Signal Not Noise.
 
 
 ![A nice picture of Andrea by Sonal Premi]({{site.images}}/2025/last-sonal.png)
