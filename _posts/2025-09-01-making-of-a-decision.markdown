@@ -1,5 +1,6 @@
 ---
 date: 2025-09-01 00:12:00
+last_modified_at: 2026-01-07 02:56:00
 layout: single
 title: The Making of a Decision - Part 1
 categories:
@@ -14,34 +15,31 @@ tags: [ software architecture, organisational-power, workplace-dynamics, decisio
 
 This series goes over the topics described in [this talk](https://www.youtube.com/watch?v=Ie97Oe-t8Wk).
 
+Just shy of 30 years ago, I had a great opportunity that might have changed my life in terms of education and work opportunities. The decision, ultimately outside my control, didn’t go my way. My family decided that they couldn't go with it. Over time  I’ve come to understand my family’s reasoning. It was difficult to let go when this decision would affect my future a lot more than theirs. Programming helped me reclaim a sense of agency. I was able to create something out of nothing. Time passed and as I've worked on bigger and more complicated projects with bigger teams, finishing anything become harder. 
 
-Just shy of 30 years ago, I had a great opportunity that might have changed my life, at least in terms of education and work opportunities. The decision, ultimately outside my control, didn't go my way.  I've come to understand my family's reasoning better with time, but it was hard to accept. 
-Programming helped me reclaim a sense of agency. I was able to create something out of nothing while being in control of all decisions. 
-
-As I've worked on bigger and more complicated projects with added difficulty and bigger teams, making anything becomes harder. After all:
-**Coordination is not free; the more systems (of software or people) need to interact to make change, the higher the cost.**
-
-Decision-making is an essential part of building systems, and people dynamics come into the fold, no matter how much we want them. Decision-making is an activity that involves a lot of people, in all types of organisations.
+As software systems grow they become difficult to change, and there is generally more people involved in making those changes. **Coordination is not free**; the more systems (of software and people) need to interact to make change, the higher the cost. Some changes are implicit decisions, others explicit, they are all  decisions. Remember:
 
 > "These decisions are a record of the power structures and the feedback loops that got it there." -Andrew Harmel-Law
 
-Very often, crucial decisions deviate from expectations and this has a negative effect. Why is that? This led me to learn more about what makes really comes into taking a decision.
+Over my career, I found again and again issues with decision making such as: strong biases for a particular decision, not validating inputs or outcomes, complex processes that promised safety but didn't deliver and a lot more. The issues were recurring but no clear pattern emerged. At times someone will say that "it was all because of politics" or "they don't have enough experience with the selected tech" or "<insert name> left". These catch phrases seem to be about dealing with the emotional cost of the decision rather than the underlying problem. I needed to learn more about what is happening and why. Ideally learn about ways to address some of the challenges. 
 
-To make decisions about their systems, people generally need sufficient context on their software and people systems and the capability to change those systems somehow. Speaking in imprecise terms, one could say that this is all about knowledge and power.
+
+As I started mapping how the people I've worked with (and myself) make decisions and what are the types of activities involved, I noticed that there were two key concepts that we use a lot but seem to mean different things to different people: knowledge and power.
 
 ![ingredients-of-a-decision]({{site.images}}/2025/kp-ada-talk.png)
 
-In my experience of learning and talking about it, **power is uncomfortable to discuss but essential to understand**: learning about power is essential to be effective, to be taken seriously and to not be taken advantage of.
+In my experience of learning and discussing it, power is uncomfortable to discuss but essential to understand: learning about power is essential to be effective, to be taken seriously and to not be taken advantage of.
 
-There are two key definitions of power:
+There are two key definitions of power that I find useful:
 
 **Power With** (Mary Parker Follett)[^follett]: "The ability to make things happen, to be a causal agent, to initiate change."
 
 **Power Over**: "The ability to make others do as you would have them do." 
 
+
 ### Sources of Power
 
-I found the treatment from the book "The Dawn of Everything" most complete and relatable. When transposing the ideas about sources of power from the book over current organisations,we might end up with: 
+I found the treatment from the book "The Dawn of Everything" most complete and relatable. When transposing the ideas about sources of power from the book over current organisations, we might end up with: 
 
 **Authority**: In organisations, this manifests as economic coercion rather than physical force. It's the power to fire, demote, or economically punish employees. It can manifest in access control. HR departments and security functions institutionalise this form of control, creating systems of compliance through the implied threat of economic harm.
 
