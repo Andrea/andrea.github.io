@@ -1,6 +1,6 @@
 ---
 date: 2025-09-01 00:12:00
-last_modified_at: 2026-01-07 02:56:00
+last_modified_at: 2026-01-07 03:45:00
 layout: single
 title: The Making of a Decision - Part 1
 categories:
