@@ -16,8 +16,8 @@ tags: [ software architecture, knowledge-management, knowledge-sharing, decision
 This series covers the topics described in [this talk](https://www.youtube.com/watch?v=Ie97Oe-t8Wk). This is part 2 of the series about decision making in software systems. 
 
 * [The Making of a Decision - Part 1]({% post_url 2025-09-01-making-of-a-decision %})
-*  The Making of a Decision - Part 2 - This article
-*  The Making of a Decision - Part 3: Tools for Decision Making (coming soon)
+* The Making of a Decision - Part 2 - This article
+* More coming soon
 
 
 Part 1 of this series explored how power shapes organisational and architectural decision making by reviewing definitions, laws of power and more. This article focuses on knowledge. 
