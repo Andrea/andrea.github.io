@@ -1,5 +1,5 @@
 ---
-date: 2026-01-09 00:12:00
+date: 2026-01-29 00:12:00
 last_modified_at:  2026-01-09 00:12:00
 layout: single
 title: The Making of a Decision - Part 3
@@ -32,12 +32,26 @@ When I did the talk that triggered this series I started off by pairing the prob
 * Overview of all the tools - include Decision KP Map
 
 
-![ingredients-of-a-decision]({{site.images}}/2025/kp-ada-talk.png)
+<!-- ![ingredients-of-a-decision]({{site.images}}/2025/kp-ada-talk.png) -->
+
+There are many tools, I'm selecting some to bring focus and awareness to them in the context of the topics discussed in the series.
+When I mention a tool, I will give an overview , explain how these tool relates to the topics discussed and provide links to more in depth research, these are threads for you to pull. 
 
 ## Across departments
 
 
+Decide what order these should be in and why 
+
 ### Architecture Advice Process
+
+The big idea behind this 
+> The Rule: anyone can make an architectural decision.
+>
+> The Qualifier: before making the decision, the decision-taker must consult two groups: The first is everyone who will be meaningfully affected by the decision. The second is people with expertise in the area the decision is being taken.
+
+
+
+In the context of helping with the issues of decision making I mentioned before, the 
 
 ### Team Topologies
 
