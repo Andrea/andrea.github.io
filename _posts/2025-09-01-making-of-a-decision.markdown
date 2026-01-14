@@ -18,6 +18,7 @@ This series of posts goes over the topics described in [this talk](https://www.y
 The other posts:
 * The Making of a Decision - Part 1 - Intro & Power 
 * [The Making of a Decision - Part 2 - Knowledge]({% post_url 2025-11-19-making-of-a-decision-2 %})
+* [The Making of a Decision - Part 3 - Tools for groups]({% post_url 2026-01-09-making-of-a-decision-3 %})
 * More coming soon
 
 Nearly 30 years ago, I had a great opportunity that might have changed my life in terms of education and work opportunities. The decision, outside my control, didn’t go my way. My family decided that they couldn't support it. Over time I've come to understand their reasoning, though it was difficult to accept when it affected my future far more than theirs. Programming helped me reclaim a sense of agency. I could create something out of nothing.

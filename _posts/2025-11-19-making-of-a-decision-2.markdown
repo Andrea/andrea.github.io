@@ -17,6 +17,7 @@ This series covers the topics described in [this talk](https://www.youtube.com/w
 
 * [The Making of a Decision - Part 1]({% post_url 2025-09-01-making-of-a-decision %})
 * The Making of a Decision - Part 2 - This article
+* [The Making of a Decision - Part 3 - Tools for groups]({% post_url 2026-01-09-making-of-a-decision-3 %})
 * More coming soon
 
 
