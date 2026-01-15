@@ -81,7 +81,9 @@ Learn more:
 
 * Impact of Conway's law. 
 > "Organizations which design systems are constrained to produce designs which are copies of the communication structures of these organizations." Melvin E. Conway, How Do Committees Invent?
-Team topologies gives you a tool to leverage this. 
+
+Team topologies gives you a tool to leverage this by designing communication structures based on value delivery. 
+
 * Team Autonomy. Organising teams is hard, this technique helps with creating autonomous teams that are aligned on value creation. In combination with the Architecture Advice Process this technique can help unblock teams.
 * Knowledge sharing within teams with high autonomy is high. Specifically creating teams to increase knowledge flow is a huge value unlock.
 
@@ -94,7 +96,7 @@ EventStorming is a collaborative domain modelling tool that helps understand and
 
 See below a timelapse of big picture EventStorming 
 <video style="max-width: 100%; height: auto;" controls autoplay loop muted>
-  <source src="{{site.images}}/2026/adaconf-2025-workshop-timelapse.mp4" type="video/mp4">
+  <source src="{{site.images}}/abstracts/adaconf-2025-workshop-timelapse.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
