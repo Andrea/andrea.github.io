@@ -13,7 +13,8 @@ image: "/images/2025/kp-ada-talk.png"
 tags: [ software architecture, knowledge-management, knowledge-sharing, decision-making, software-development]
 ---
 
-This series covers the topics described in [this talk](https://www.youtube.com/watch?v=Ie97Oe-t8Wk). This is part 2 of the series about decision making in software systems. 
+This is part 2 of the series about the common problems found when making architectural decisions, their underlying causes and how to address some of those issues with tools. This is part 2, all about what it means to know something, what are useful models to think about knowing something and whose knowledge is accepted. This series covers the topics described in [this talk](https://www.youtube.com/watch?v=Ie97Oe-t8Wk). 
+
 
 * [The Making of a Decision - Part 1]({% post_url 2025-09-01-making-of-a-decision %})
 * The Making of a Decision - Part 2 - This article
