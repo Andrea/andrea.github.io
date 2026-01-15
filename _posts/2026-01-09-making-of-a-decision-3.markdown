@@ -1,6 +1,6 @@
 ---
-date: 2026-01-16 00:12:00
-last_modified_at:  2026-01-14 00:12:00
+date: 2026-01-15 00:12:00
+last_modified_at:  2026-01-15 00:12:00
 layout: single
 title: The Making of a Decision - Part 3 - Tools for groups
 categories:
