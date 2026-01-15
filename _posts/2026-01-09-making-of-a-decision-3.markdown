@@ -22,12 +22,14 @@ This is part 3 of the series about the common problems found when making archite
 * More coming soon
 
 
-Part 1 of this series explored how power shapes organisational and architectural decision making by reviewing definitions, laws of power and more. Part 2 covered concepts and models relating to Knowledge, what we mean when we say we known something and who has the right to know things. 
+Part 1 of this series explored how power shapes organisational and architectural decision making by reviewing definitions, laws of power and more. Part 2 covered concepts and models relating to Knowledge, what we mean when we say we know something and who has the right to know things. 
 
 In this post, we will leverage what we learned and turn to tools that help to use these concepts in practice. The following is not a comprehensive list. These are tools I'm familiar with that helped me solve issues in the past. Each tool's 'Why use this tool' section explains how it tackles specific decision-making problems at a high level. For more nuance or extra details please see the resources I linked to or send me some comments or questions. 
 
-I decided to group these tools by size of group that it affects as this means the tools would be used by different roles
-As I introduce a tool, I will include an overview, provide links to learn more and explain how the tool relates to the topics discussed.  
+I decided to group these tools by the size of the group that it affects, as the decision to adopt them is with different roles.
+For each tool, I will include an overview, provide links to learn more and explain how the tool relates to the topics discussed.  
+
+As a side note, I wanted to add that describing a tool in a paragraph or so, is very hard. How to make justice to what comes to hundreds if not thousands of hours of work that went into creating these facilitation tools? 
 
 ## Across teams
 
@@ -43,8 +45,8 @@ The Architecture Advice Process is easy to remember and not so simple (yet very 
 >Architecture Advice Process
 >    People who have expertise in the area in which the decision is being taken
 
-Please note that the decision taker is not obligated to agree or follow the advice, they are required to listen and record the advice.  
-To support the Architecture Advice Process it is useful to use Architecture Decision Records (ADRs), Architecture Advisory Forum (AAF), collectively sourced Architecture Principles and a Technology Radar.
+Please note that the decision taker is not obligated to agree or follow the advice - they are required to listen and record the advice.  
+To support the Architecture Advice Process it's useful to use Architecture Decision Records (ADRs), Architecture Advisory Forum (AAF), collectively sourced Architecture Principles and a Technology Radar.
 
 
 Learn more:
@@ -61,8 +63,8 @@ A related book worth checking out is [Continuous Architecture in Practice](https
 
 The Architecture Advice Process can help organisations by giving guidance on how to implement ideas that are already familiar to most, but many are inexperienced applying them. You can expect: 
 
-* Removing bottlenecks. Both top down architecture and hands-on approaches block on people with authority to make decisions, by rebalancing the power dynamics of decision making it is possible to share expertise and remove bottlenecks. If you are curious about what is like to introduce this practise see [Elena Stojmilova experience](https://virtualddd.com/facilitating-archdes/team-led-architecture-advice-process/) and [The Architect’s Dilemma: What to Do When You Disagree With a Team’s Decision](https://virtualddd.com/facilitating-archdes/architects-disagreement-team-decision/)
-* Accountability and Responsibility Combined. When someone outside a team makes a decision for the team, the implementing team may not feel responsible for the outcome, they might not even implement the decision. This decentralised practice ensures that the person with the  need is also the one accountable for the result. The accountability acts as a necessary brake when required.
+* Removing bottlenecks. Both top down architecture and hands-on approaches block on people with authority to make decisions. By rebalancing the power dynamics of decision making it is possible to share expertise and remove bottlenecks. If you are curious about what is like to introduce this practise see [Elena Stojmilova experience](https://virtualddd.com/facilitating-archdes/team-led-architecture-advice-process/) and [The Architect’s Dilemma: What to Do When You Disagree With a Team’s Decision](https://virtualddd.com/facilitating-archdes/architects-disagreement-team-decision/)
+* Accountability and responsibility combined. When someone outside a team makes a decision for the team. The implementing team may not feel responsible for the outcome. They might not even implement the decision. This decentralised practice ensures that the person with the  need is also the one accountable for the result. The accountability acts as a necessary brake when required.
 * Open access learning. Anyone interested in a decision can read ADRs or attend the AAF to learn more about how a decision happen.
 
 ### Team Topologies
@@ -79,13 +81,10 @@ Learn more:
 
 #### Why use this tool, in the context of better decision making
 
-* Impact of Conway's law. 
-> "Organizations which design systems are constrained to produce designs which are copies of the communication structures of these organizations." Melvin E. Conway, How Do Committees Invent?
+* Impact of Conway's law. ".Organizations which design systems are constrained to produce designs which are copies of the communication structures of these organizations." Melvin E. Conway, How Do Committees Invent? Team topologies gives you a tool to leverage this by designing communication structures based on value delivery. 
 
-Team topologies gives you a tool to leverage this by designing communication structures based on value delivery. 
-
-* Team Autonomy. Organising teams is hard, this technique helps with creating autonomous teams that are aligned on value creation. In combination with the Architecture Advice Process this technique can help unblock teams.
-* Knowledge sharing within teams with high autonomy is high. Specifically creating teams to increase knowledge flow is a huge value unlock.
+* Team autonomy. Organising teams is hard, this technique helps with creating autonomous teams that are aligned on value creation. In combination with the Architecture Advice Process this technique can help unblock teams.
+* Knowledge sharing within teams with high autonomy is high. Specifically, creating teams to increase knowledge flow is a huge value unlock.
 
 
 ### EventStorming
@@ -116,6 +115,7 @@ Another great book on this is [The EventStorming Handbook](https://leanpub.com/e
 * Synchronising Fragmented Knowledge. EventStorming forces participants from different backgrounds to build a consistent timeline together, ensuring no single person’s incomplete version of the story dominates the decision. Probably the fastest way to establish current state.
 
 ## More to come...
-Hope you enjoyed this post about tools to help with architectural decision making. I would love to hear from you if you have used this tools what worked for you and what didn't.
-Next post is about tools for a smaller group of people, think a two pizza team.
+
+I Hope you enjoyed this post about tools to help with architectural decision making. I would love to hear from you if you have used these tools, what worked for you and what didn't.
+The next post is about tools for smaller groups of people.
 
