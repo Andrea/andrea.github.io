@@ -96,7 +96,7 @@ EventStorming is a collaborative domain modelling tool that helps understand and
 
 See below a timelapse of big picture EventStorming 
 <video style="max-width: 100%; height: auto;" controls autoplay loop muted>
-  <source src="{{site.url}}/abstracts/adaconf-2025-workshop-timelapse.mp4" type="video/mp4">
+  <source src="/abstracts/adaconf-2025-workshop-timelapse.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 

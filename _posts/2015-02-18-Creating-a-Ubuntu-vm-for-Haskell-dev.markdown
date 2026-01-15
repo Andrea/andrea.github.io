@@ -91,7 +91,6 @@ After doing this I was able to build the project however I can only run a few of
 my feelings exactly:
 
 <blockquote class="twitter-tweet" lang="en"><p>escaping cabal hell is like untangling a ball of yarn <a href="http://t.co/7EEnAQPxWR">pic.twitter.com/7EEnAQPxWR</a></p>&mdash; Kat Chuang, PhD (@katychuang) <a href="https://twitter.com/katychuang/status/563891948013223937">February 7, 2015</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Comments, questions, feedback as always welcome.
 
