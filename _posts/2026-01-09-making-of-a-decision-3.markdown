@@ -27,7 +27,7 @@ Part 1 of this series explored how power shapes organisational and architectural
 In this post, we will leverage what we learned and turn to tools that helps to use these concepts in practice. The following is not a comprehensive list. These are tools I'm familiar with that helped me solve issues in the past.
 
 I decided to group these tools by size of group that it affects as this means the tools would be used by different roles
-As I introduce a tool, I will give an overview , explain how these tool relates to the topics discussed and provide links to more in depth research, these are threads for you to pull. 
+As I introduce a tool, I will include an overview, provide links to learn more and explain how the tool relates to the topics discussed.  
 
 ## Across teams
 
@@ -44,7 +44,7 @@ The Architecture Advice Process is easy to remember and not so simple (yet very 
 >    People who have expertise in the area in which the decision is being taken
 
 Please note that the decision taker is not obligated to agree or follow the advice, they are required to listen and record the advice.  
-To support the Architecture Advice Process it is useful to use: Architecture Decision Records (ADRs), Architecture Advisory Forum (AAF), collectively sources Architecture Principles and a Technology Radar.
+To support the Architecture Advice Process it is useful to use Architecture Decision Records (ADRs), Architecture Advisory Forum (AAF), collectively sourced Architecture Principles and a Technology Radar.
 
 
 Learn more:
@@ -59,7 +59,7 @@ A related book worth checking out is [Continuous Architecture in Practice](https
 
 #### Why use this tool? In the context of better decision making
 
-The Architecture Advice Process can help organisations by giving guidance on how to implement ideas that are already familiar to most, but many are familiar with how to apply them (which is where we can see most failure). You can expect: 
+The Architecture Advice Process can help organisations by giving guidance on how to implement ideas that are already familiar to most, but many are inexperienced applying them. You can expect: 
 
 * Removing bottlenecks. Both top down architecture and hands-on approaches block on people with authority to make decisions, by rebalancing the power dynamics of decision making it is possible to share expertise and remove bottlenecks. If you are curious about what is like to introduce this practise see [Elena Stojmilova experience](https://virtualddd.com/facilitating-archdes/team-led-architecture-advice-process/) and [The Architect’s Dilemma: What to Do When You Disagree With a Team’s Decision](https://virtualddd.com/facilitating-archdes/architects-disagreement-team-decision/)
 * Accountability and Responsibility Combined. When someone outside a team makes a decision for the team, the implementing team may not feel responsible for the outcome, they might not even implement the decision. This decentralised practice ensures that the person with the  need is also the one accountable for the result. The accountability acts as a necessary brake when required.
@@ -73,7 +73,7 @@ Team Topologies is an approach that helps with structuring teams and their inter
 
 
 Learn more:
-* 📖 Book: [Team Topologies](https://facilitatingsoftwarearchitecture.com/). 
+* 📖 Book: [Team Topologies](https://teamtopologies.com/). 
 * 🗒️ A post: [Team Topologies Key Concepts](https://teamtopologies.com/key-concepts)
 * 📹 A video: [Monoliths vs Microservices is Missing the Point - Start with Team Cognitive Load - Matthew Skelton & Daniel Pais](https://teamtopologies.com/videos-slides/2019/07/10/monoliths-vs-microservices-is-missing-the-point-start-with-team-cognitive-load-does-eur-2019)
 
@@ -110,8 +110,8 @@ Another great book on this is [The EventStorming Handbook](https://leanpub.com/e
 
 * Probably the fastest way for a large group to get cohesive understanding of what the system currently does.
 * It allows you to learn both about details and about the big picture.
-* When there are power issues, they tend to surface during the workshop. These are visible throughout but they become specially visible in the voting phase of the workshop.
-* Synchronising Fragmented Knowledge. EventStorming forces participants from different backgrounds to build a consistent timeline together, ensuring no single person’s incomplete version of the story dominates the decision.Probably the fastest way to establish current state.
+* When there are power issues, they tend to surface during the workshop. These are visible throughout but they become especially visible in the voting phase of the workshop.
+* Synchronising Fragmented Knowledge. EventStorming forces participants from different backgrounds to build a consistent timeline together, ensuring no single person’s incomplete version of the story dominates the decision. Probably the fastest way to establish current state.
 
 ## More to come...
 Hope you enjoyed this post about tools to help with architectural decision making.
