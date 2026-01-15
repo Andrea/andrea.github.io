@@ -16,7 +16,7 @@ tags: [ software architecture, knowledge-management, knowledge-sharing, decision
 
 This is part 3 of the series about the common problems found when making architectural decisions, their underlying causes and how to address some of those issues with tools. This post covers tools for groups, such as across teams.
 
-* [The Making of a Decision - Part 1]({% post_url 2025-09-01-making-of-a-decision %})
+* [The Making of a Decision - Part 1 - Introduction & Power]({% post_url 2025-09-01-making-of-a-decision %})
 * [The Making of a Decision - Part 2 - Knowledge]({% post_url 2025-11-19-making-of-a-decision-2 %})
 * The Making of a Decision - Part 3: Tools for Decision Making - Tools for groups (this post) 
 * More coming soon
@@ -96,7 +96,7 @@ EventStorming is a collaborative domain modelling tool that helps understand and
 
 See below a timelapse of big picture EventStorming 
 <video style="max-width: 100%; height: auto;" controls autoplay loop muted>
-  <source src="{{site.images}}/abstracts/adaconf-2025-workshop-timelapse.mp4" type="video/mp4">
+  <source src="{{site.url}}/abstracts/adaconf-2025-workshop-timelapse.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
