@@ -24,7 +24,7 @@ This is part 3 of the series about the common problems found when making archite
 
 Part 1 of this series explored how power shapes organisational and architectural decision making by reviewing definitions, laws of power and more. Part 2 covered concepts and models relating to Knowledge, what we mean when we say we known something and who has the right to know things. 
 
-In this post, we will leverage what we learned and turn to tools that helps to use these concepts in practice. The following is not a comprehensive list. These are tools I'm familiar with that helped me solve issues in the past.
+In this post, we will leverage what we learned and turn to tools that help to use these concepts in practice. The following is not a comprehensive list. These are tools I'm familiar with that helped me solve issues in the past. Each tool's 'Why use this tool' section explains how it tackles specific decision-making problems at a high level. For more nuance or extra details please see the resources I linked to or send me some comments or questions. 
 
 I decided to group these tools by size of group that it affects as this means the tools would be used by different roles
 As I introduce a tool, I will include an overview, provide links to learn more and explain how the tool relates to the topics discussed.  
@@ -94,7 +94,7 @@ EventStorming is a collaborative domain modelling tool that helps understand and
 
 See below a timelapse of big picture EventStorming 
 <video style="max-width: 100%; height: auto;" controls autoplay loop muted>
-  <source src="{{site.images}}/2026adaconf-2025-workshop-timelapse.mp4" type="video/mp4">
+  <source src="{{site.images}}/2026/adaconf-2025-workshop-timelapse.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -114,6 +114,6 @@ Another great book on this is [The EventStorming Handbook](https://leanpub.com/e
 * Synchronising Fragmented Knowledge. EventStorming forces participants from different backgrounds to build a consistent timeline together, ensuring no single person’s incomplete version of the story dominates the decision. Probably the fastest way to establish current state.
 
 ## More to come...
-Hope you enjoyed this post about tools to help with architectural decision making.
+Hope you enjoyed this post about tools to help with architectural decision making. I would love to hear from you if you have used this tools what worked for you and what didn't.
 Next post is about tools for a smaller group of people, think a two pizza team.
 
