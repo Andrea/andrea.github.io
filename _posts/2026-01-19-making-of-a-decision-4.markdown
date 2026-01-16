@@ -1,6 +1,6 @@
 ---
-date: 2027-01-19 00:12:00
-last_modified_at:  2027-01-15 00:12:00
+date: 2026-01-29 00:12:00
+last_modified_at:  2026-01-15 00:12:00
 layout: single
 title: The Making of a Decision - Part 4 - Team and Personal Tools 
 categories:

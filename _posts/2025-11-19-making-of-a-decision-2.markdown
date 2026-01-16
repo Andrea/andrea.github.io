@@ -2,7 +2,7 @@
 date: 2025-11-19 00:12:00
 last_modified_at: 2025-12-17 03:12:00
 layout: single
-title: The Making of a Decision - Part 2
+title: The Making of a Decision - Part 2- Knowledge
 categories:
 - software architecture
 - architectural decision

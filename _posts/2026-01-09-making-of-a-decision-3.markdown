@@ -116,6 +116,6 @@ Another great book on this is [The EventStorming Handbook](https://leanpub.com/e
 
 ## More to come...
 
-I Hope you enjoyed this post about tools to help with architectural decision making. I would love to hear from you if you have used these tools, what worked for you and what didn't.
+I hope you enjoyed this post about tools to help with architectural decision making. I would love to hear from you if you have used these tools, what worked for you and what didn't.
 The next post is about tools for smaller groups of people.
 

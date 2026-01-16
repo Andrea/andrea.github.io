@@ -2,7 +2,7 @@
 date: 2025-09-01 00:12:00
 last_modified_at: 2026-01-07 03:45:00
 layout: single
-title: The Making of a Decision - Part 1
+title: The Making of a Decision - Part 1 - Intro & Power 
 categories:
 - software architecture
 - architectural decision
@@ -35,7 +35,7 @@ As I started mapping how the people I've worked with (and myself) make decisions
 
 Power is uncomfortable to discuss but essential to understand: learning about power is essential to be effective, to be taken seriously and to not be taken advantage of.
 
-There are two key definitions of power that I find useful:
+There are two key working[^power] definitions of power that I find useful:
 
 **Power With** (Mary Parker Follett)[^follett]: "The ability to make things happen, to be a causal agent, to initiate change."
 
@@ -70,4 +70,5 @@ There are many books with titles such as: "The n Laws of Power" or similar; they
 I hope you enjoyed this first part of "The making of a decision", the next post will be about knowledge.
 If you have any comments or questions please reach out via my social links
 
+[^power]: There is a lot of contention on the definition of power, these are some ways to think about the concept that I find useful
 [^follett]: If you have never heard of Mary Parker-Follett, this is a day that can change you. Parker-Follett developed revolutionary ideas about collaborative leadership, power-sharing, and organizational dynamics decades before they became mainstream business concepts. Her central theory, that individuals and society shape each other equally, came from her work in community centers, not the boardroom. Where Taylor and Ford saw hierarchy, Follett saw networks. Read more about it in Dynamic Administration, a book that collected the works by Mary Parker-Follet
