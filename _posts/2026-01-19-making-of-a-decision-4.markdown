@@ -14,7 +14,7 @@ image: "/images/2025/kp-ada-talk.png"
 tags: [ software architecture, knowledge-management, knowledge-sharing, decision-making, software-development]
 ---
 
-This series covers the topics described in [this talk](https://www.youtube.com/watch?v=Ie97Oe-t8Wk). This is part 3 of the series about decision making in software systems. 
+This series covers the topics described in [this talk](https://www.youtube.com/watch?v=Ie97Oe-t8Wk). This is part 4 of the series about decision making in software systems. 
 
 * [The Making of a Decision - Part 1]({% post_url 2025-09-01-making-of-a-decision %})
 * [The Making of a Decision - Part 2 - Knowledge]({% post_url 2025-11-19-making-of-a-decision-2 %})
@@ -44,7 +44,7 @@ Bytesize Architecture sessions are used in decision-making to facilitate collabo
 ![What is Bytesize Architecture Sessions]({{site.images}}/2026/BAS-infographic.png)
 Learn more:
 
-* 📹 A video: [Knowledge Sharing is Systems Building - Andrea Magnorsky](https://vimeo.com/842232215)
+* 📹 A Talk: [Knowledge Sharing is Systems Building - Andrea Magnorsky](https://vimeo.com/842232215)
 * 🗒️ Reference Site: [Bytesize Architecture Sessions](https://bytesizearchitecturesessions.com/)
 * 🏛️ OPL reference [Open Practice Library: Bytesize Architecture Sessions](https://openpracticelibrary.com/practice/event-storming/)
 * 📔Case Study : [Using Bytesize Sessions to Improve Documentation Practices by Jean de Barochez at Payfit](https://bytesizearchitecturesessions.com/news/jean-de-barocchez-documentation/)
@@ -142,7 +142,7 @@ It’s a map where you can place your subjective understanding of where people s
 A Decision KP Map always has a specific context, for example an architectural decision. Over the course of a decision, one would generate multiple maps. People can be added or removed as needed. 
 
 Learn more:
-* 🗒️ Blog post: [The making of a decision Part 5 - Introducing Decision KP Map] - this will be updated when it's posted. I have created this mapping tool after when in the context of making decisions I started mapping this way. After doing this a few times, I realised that this format might be useful to others and I asked many people to test it, I had positive feedback. The post goes will cover all that.
+* 🗒️ Blog post: [The making of a decision Part 5 - Introducing Decision KP Map] - The link will be updated when it's posted. I have created this mapping tool after doing this talk. After few personal experiments, I asked others if this was a useful format and  I had positive feedback. The post covers what it is, how it works, and most importantly how can it help you.
 
 #### Why use this tool, in the context of better decision making
 

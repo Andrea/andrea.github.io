@@ -19,6 +19,7 @@ This is part 3 of the series about the common problems found when making archite
 * [The Making of a Decision - Part 1 - Introduction & Power]({% post_url 2025-09-01-making-of-a-decision %})
 * [The Making of a Decision - Part 2 - Knowledge]({% post_url 2025-11-19-making-of-a-decision-2 %})
 * The Making of a Decision - Part 3: Tools for Decision Making - Tools for groups (this post) 
+* [The Making of a Decision - Part 4 - Team and Personal Tools]({% post_url 2026-01-19-making-of-a-decision-4 %})
 * More coming soon
 
 
