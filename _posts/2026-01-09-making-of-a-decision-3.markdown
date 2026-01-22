@@ -77,7 +77,7 @@ Team Topologies is an approach that helps with structuring teams and their inter
 Learn more:
 * 📖 Book: [Team Topologies](https://teamtopologies.com/). 
 * 🗒️ A post: [Team Topologies Key Concepts](https://teamtopologies.com/key-concepts)
-* 📹 A video: [Monoliths vs Microservices is Missing the Point - Start with Team Cognitive Load - Matthew Skelton & Daniel Pais](https://teamtopologies.com/videos-slides/2019/07/10/monoliths-vs-microservices-is-missing-the-point-start-with-team-cognitive-load-does-eur-2019)
+* 📹 A video: [Monoliths vs Microservices is Missing the Point - Start with Team Cognitive Load - Matthew Skelton & Manuel Pais](https://teamtopologies.com/videos-slides/2019/07/10/monoliths-vs-microservices-is-missing-the-point-start-with-team-cognitive-load-does-eur-2019)
 
 #### Why use this tool, in the context of better decision making
 
