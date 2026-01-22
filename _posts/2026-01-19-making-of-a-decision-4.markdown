@@ -113,12 +113,13 @@ Learn more:
 Influence Mapping is a visual tool used to navigate the "decision environment" surrounding a central decision-maker, or "the D". It addresses the ["Sir Galahad Fallacy"](https://www.linkedin.com/posts/charleslambdin_good-work-does-not-go-unnoticed-if-thats-activity-7311063535705300993-zIbO), the mistaken belief that technical facts and "better arguments" alone are sufficient to persuade others. Since architectural choices are often a record of hidden power structures, this tool helps externalise complex socio-technical forces.
 
 
-Some key steps:
-* Listing and Casting: Identifying the authority figure ("D") and categorising stakeholders as Coalition, Opposition, or co-players.
-* Rating Metrics: Plotting these individuals on a matrix based on their level of support and their organisational influence.
+Key steps:
+
+* Listing and Casting: Identifying the authority figure ("D") and categorising stakeholders.
+* Rating Metrics: Plotting individuals on a matrix based on their level of support and their organisational influence.
 * Visualising Relationships: Drawing arrows to show influence paths, where line thickness represents "permission", the level of receptivity one person has toward another’s influence.
 
-Ultimately, influence mapping helps with seen that  decision-making is more of a team sport, even if there is one person taking the full responsibility for it. It can help to evolve the broader decision landscape and leverage existing dynamics, ensuring that technical proposals are taken seriously within the organisation’s social context.
+Ultimately, influence mapping helps with understanding that decision-making is about the community around the decision, even if there is one person taking the full responsibility for it. It can help to evolve the broader decision landscape and leverage existing dynamics, ensuring that technical proposals are taken seriously within the organisation’s social context.
 
 #### Why use this tool, in the context of better decision making
 
