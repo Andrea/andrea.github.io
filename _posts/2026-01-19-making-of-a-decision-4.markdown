@@ -1,6 +1,6 @@
 ---
-date: 2026-01-23 00:12:00
-last_modified_at:  2026-01-23 00:12:00
+date: 2026-01-22 00:12:00
+last_modified_at:  2026-01-22 00:12:00
 layout: single
 title: The Making of a Decision - Part 4 - Team and Personal Tools 
 categories:
@@ -10,7 +10,6 @@ categories:
 - decision-making
 - tools
 excerpt: "Part 4 of a series exploring decision making in software teams. Tools to help you navigate decision making. Introducing Decision KP Map. "
-image: "/images/2025/kp-ada-talk.png"
 tags: [ software architecture, knowledge-management, knowledge-sharing, decision-making, software-development]
 ---
 
