@@ -1,6 +1,6 @@
 ---
 date: 2026-01-22 00:12:00
-last_modified_at:  2026-01-22 00:12:00
+last_modified_at:  2026-01-28 00:12:00
 layout: single
 title: The Making of a Decision - Part 4 - Team and Personal Tools 
 categories:
@@ -28,6 +28,7 @@ In this post, we will leverage what we learned and turn to tools that help to us
 I decided to group these tools by the size of the group that it affects, as the decision to adopt them is with different roles.
 For each tool, I will include an overview, provide links to learn more and explain how the tool relates to the topics discussed.  
 
+![Tools for teams and individuals]({{site.images}}/2026/tools-group-ind.png)
 
 
 ## Within a team
@@ -37,7 +38,9 @@ For each tool, I will include an overview, provide links to learn more and expla
 
 Bytesize Architecture Sessions are a workshop format that helps teams understand the systems they work on. Each session focuses on a small slice of a system. After a few sessions, your team will be understand their software systems more consistently, grow a common vocabulary and ultimately build tools to design the future together.
 
-Bytesize Architecture sessions are used in decision-making to facilitate collaborative software design through a structured workshop format that prioritises shared understanding. This approach involves small groups of eight to ten people engaging in repeated one-hour modelling sessions. It can be used in the Discovery phase of decision making for understanding the current state and in the Design phase to support option generation or to investigate each option as a group.
+Bytesize Architecture sessions are used in decision-making to facilitate collaborative software design through a structured workshop format that prioritises shared understanding. This approach focuses on cross-functional small groups of eight to ten people engaging in iterative one-hour modelling sessions. 
+
+It can be used in the Discovery phase of decision making for understanding the current state and in the Design phase to support option generation or to investigate each option as a group.
 
 
 ![What is Bytesize Architecture Sessions]({{site.images}}/2026/BAS-infographic.png)
@@ -51,7 +54,7 @@ Learn more:
 
 #### Why use this tool, in the context of better decision making
 
-* Easy to learn and introduce: Not a big time investment for knowledge sharing.
+* Easy to learn and introduce: Easy to try, can be a key unlock. Not a big time investment for knowledge sharing.
 * Improve Understanding: The sessions help groups improve their understanding of complex systems. Each participant "tells the story" of what they modelled, allowing the rest of the group to see exactly how their colleagues perceive the system
 * Improving Knowledge Flow: Since documentation alone is often insufficient to carry important design ideas, these sessions bridge the gap through continuous, close connection between team members. By coming together after individual work, the team benefits from the highest level of insight and combined experience of the group
 * Resetting Power Dynamics: "Alone Together" is a key aspect here. By having participants model solutions individually before sharing, the process ensures that no single person's voice influences or dominates the initial creative phase.
@@ -141,11 +144,14 @@ It’s a map where you can place your subjective understanding of where people s
 A Decision KP Map always has a specific context, for example an architectural decision. Over the course of a decision, one would generate multiple maps. People can be added or removed as needed. 
 
 Learn more:
-* 🗒️ Blog post: [The making of a decision Part 5 - Introducing Decision KP Map] - The link will be updated when it's posted. I have created this mapping tool after doing this talk. After few personal experiments, I asked others if this was a useful format and  I had positive feedback. The post covers what it is, how it works, and most importantly how can it help you.
+* 🗒️ Blog post: [Introducing Decision KP Map] - The post covers what it is, how it works, and most importantly, how can it help you.
+
 
 #### Why use this tool, in the context of better decision making
 
-* Understand what happened during an exchange (e.g. a meeting). An easy to learn tool that helps evaluate your [ladder of inference][argyris]
+
+* Understand and highlight misalignments. An easy to learn tool that helps evaluate your misalignments and question your  [ladder of inference][argyris].
+* Dynamic Tracking: Repeated use helps with capturing the dynamic interactions of the decision, which is essential in real-world decision processes.
 * Teach people new to leadership how to navigate decisions. Many people who write code (roles and titles vary) enter decision‑making with a significant level of technical knowledge but limited understanding of how the rest of the decision‑making process works. This tool can help them.
 
 
