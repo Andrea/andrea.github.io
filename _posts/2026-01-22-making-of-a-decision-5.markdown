@@ -34,7 +34,7 @@ The type of mapping I'm proposing here is something that is very likely you alre
 * Developing patterns and what to do about them
 
 
-### Decision KP Map
+# What is it ? 
 
 Below you'll find an example map where I added people from history and people's roles to help you see a baseline.
 
@@ -65,56 +65,79 @@ Example people, I added people from history. Also some roles as a way to show th
 
 Decision KP Map is a mapping tool that helps visualise the **subjective** perception of the community that helps make a decision, the **Key People**, in terms of their **Knowledge and Power**. Both concepts together are the source of KP in the name, key people and their knowledge and power.
 
-## Mapping a decision
 
-I will elaborate on the example from [Part 2]({% post_url 2025-11-19-making-of-a-decision-2%}/#applying-dikw-a-practical-example) of this series. 
+## How does it work? A simple example
 
-### Setting the scene
+To further understand how to create and read a map, please see the following map and description
 
-This is a fictional scenario based on some experiences I've have that are close to this. 
+![Initial state]({{site.images}}/2026/d-kp-map1.png)
 
-**The problem**: A library your organisation heavily depends on has changed its licence and will soon require a large fee for commercial usage.
+#### Upper Portion
 
-A setting like this is highly likely to be a little stressful. It is also likely to generate many meetings (some impromptu and others rather formal) and a lot of online interactions (slack, teams chat, email, etc).
+The map shows a person called D.P, an Engineer, who has a lot of knowledge on the subject of the decision.  This knowledge has been accepted and, as far as you know, it's correct.  They have some capability to make change happen . Please note that even tho BL outranks DP, DP has a little more capability to make change in the context of this decision. 
 
-I will map here some significant ones. Explain who are the participants and any interesting emerging comments and patterns
+In this section of the map we also see a person named BL, a Principal Engineer, who has a little less knowledge and also less capability to make change on the subject of the decision. 
+
+#### Left Side
+
+Going down the vertical axis, we see KJ, an Intern that knows about  half as much as BL on the subject matter of the decision and has very little leverage. 
+
+### Middle Right
+
+At about the same level of accepted knowledge we have MP who, has some capability to make change in this context. Finally, we have GZ, an Engineering Manager, who has a lot of capability to make change happen but doesn't have a lot of knowledge on the decision.
+
+#### Lower Middle Right
+
+Finally we have RH, an Engineering Manager that has about as much capability to make change as MP but their knowledge is incorrect and outdated, and they were not curious about validating their knowledge during this interaction.
 
 
-### Meeting 0: Initial Library Licensing Change Discovery
-
-Agenda 
-* The license change is explained in plain language
-* Timeline for enforcement is clarified. 
-* Agreement on whether to escalate 
-* Agree next steps
-
-## Meeting Summary
-
-* NC, a dev at the TX team shared the news of the change, and learned more about it (details of the licence change, alternatives others started evaluating)
-* During a weekly sync meeting I H gave the floor to NC to explain the problem
-* CO and CS Present and asked more questions - CO obvs looking at the strategic options company wide
-* Not useful comments from LG - the Principal from the MS team. Seems worried about derailing on side project. Confusing and took a lot of time.  
-* FJ - The principal from the LS team seemed better informed but she is in bad terms with  both CO and CS
-* AT - Product Owner for LS and TX tries to gather more context about immediate impact to in-flow initiatives.
-* Pretty much everyone understands we shouldn't panic but we need more info - CS (Eng manager) and AT (Product Owner) will come back to people on who and when can we do this
-* A slack channel created 
+**The Pattern**: This configuration commonly appears during unexpected technical incidents where decisions require coordination between those who understand the problem and those positioned to decide  on it.
 
 
 
+A few days have elapsed and things have changed. How? The map below depicts a meeting where things have changed slightly from the last mpa
+What happened: BL asked MP, someone GZ respects at a technical level, to have a chat with GZ about this decision. 
+This had the effect of levelling up GZ's knowledge as well as increasing MP's capability to make change, due to the influence increase oon GZ. It would also improve BL's capability to make change slightly as GL brokered the conversation between MP and GZ
+![After a few days ]({{site.images}}/2026/d-kp-map2.png)
 
 
+## Paper? Online? How to start mapping?
 
-### Lessons learned - How to create Decision KP Maps for a problem
 
-* Offline: Paper is a low friction solution and preferred by many, not so easy to share. 
+* **Offline**. Paper is a low friction solution and preferred by many, not so easy to share the maps but possible. 
     * For names, use initials or some code name and a reference page that you can easily move around.  Sticky notes with bluetack has worked well for me)
-    * Anything that is not a box, sometimes people add arrows or extra context, in a different colour than the main.
+    * If you are adding anything that is not a person to the map, sometimes people add arrows or extra context, add it in a different colour than the people.
 * Online: 
     * Any online board (Miro, tldraw, FigJam, etc) will support this. 
     * A board per decision - Use the problem statement until a decision has been made. Then rename to the problem statement
     * I use a colour per person if the group is small. if two people represent a group I use the same colour
     * I tend to copy the last map and move whatever is needed in the new map.
 * Some people have requested digital support for this tool. It might be worth building, tho to do that I would love to know that some of you would use it. Please try mapping with existing tools first and let me know what's missing. 
+
+
+
+
+## How can Decision KP Map help you make better decisions? 
+
+
+* Understand and highlight misalignments. An easy to learn tool that helps evaluate your misalignments and question your  [ladder of inference][argyris].
+* Dynamic Tracking: Repeated use helps with capturing the dynamic interactions of the decision, which is essential in real-world decision processes.
+* Teach people new to leadership how to navigate decisions. Many people who write code (roles and titles vary) enter decision‑making with a significant level of technical knowledge but limited understanding of how the rest of the decision‑making process works. This tool can help them.
+
+### Strengths
+
+* Effective at highlighting misalignments (e.g., those with power but little knowledge or vice versa) and can serve as a lightweight tool to prompt reflection, guide stakeholder engagement and discussion, and improve collaboration in organizational decisions." 
+
+* Clear and easy to learn: The core idea is easy to grasp. and does not require deep technical skills or complex software.
+* Dynamic Tracking: Repeated use after meetings allowed me to capture evolving dynamics, which is essential in real-world decision processes.
+* Encourages Pattern Recognition: Over time, it supported the discovery of a few basic behavioural patterns (and biases of individuals across decisions) and recurring bottlenecks.
+
+### Limitations
+
+* ideal for decisions with less than 15 stakeholders (too hard to track otherwise)
+* It takes time to map, especially when on back to back meetings . Can become a practice when doing it for a specially hairy thing / at the end of the day
+* Lack of digital support. I've started 
+
 
 ### Other uses 
 
@@ -134,30 +157,9 @@ These are some areas I haven't had the chance to investigate yet:
 
 If you are curious about any of these and would like to try the tool either with or without my guidance, please [reach out]() I would be very happy to hear about it.
 
-## Strengths
-
-* Effective at highlighting misalignments (e.g., those with power but little knowledge or vice versa) and can serve as a lightweight tool to prompt reflection, guide stakeholder engagement and discussion, and improve collaboration in organizational decisions." 
-
-* Clear and easy to learn: The core idea is easy to grasp. and does not require deep technical skills or complex software.
-* Dynamic Tracking: Repeated use after meetings allowed me to capture evolving dynamics, which is essential in real-world decision processes.
-* Encourages Pattern Recognition: Over time, it supported the discovery of a few basic behavioural patterns (and biases of individuals across decisions) and recurring bottlenecks.
-
-## Limitations
-
-* ideal for decisions with less than 15 stakeholders (too hard to track otherwise)
-* It takes time to map, especially when on back to back meetings . Can become a practice when doing it for a specially hairy thing / at the end of the day
-* Lack of digital support. I've started 
 
 
-#### Why use this tool, in the context of better decision making
-
-
-* Understand and highlight misalignments. An easy to learn tool that helps evaluate your misalignments and question your  [ladder of inference][argyris].
-* Dynamic Tracking: Repeated use helps with capturing the dynamic interactions of the decision, which is essential in real-world decision processes.
-* Teach people new to leadership how to navigate decisions. Many people who write code (roles and titles vary) enter decision‑making with a significant level of technical knowledge but limited understanding of how the rest of the decision‑making process works. This tool can help them.
-
-
-### A brief history
+## A brief history
 
 The more time I spent learning about about all these topics, the more others and myself spent time discussing these topics and dealing with everyday problems, I found myself starting to map the relationships between people in a lightweight fashion and it was the brilliant [Dawn]() who helped me realise this was a tool as she said something like I used your map, and then she pointed to  the diagram I ve been drawing over to talk about some point
 

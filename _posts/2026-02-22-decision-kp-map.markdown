@@ -15,46 +15,43 @@ tags: [ software architecture, knowledge-management, knowledge-sharing, decision
 
 
 
-The process of making a decision involves people that are able to make change and people that have some knowledge on the matter, sometimes people have both (or neither) and can make a difference in the decision. It’s very likely that you already do some version of this map in your head. By mapping you should be able to better understand:
+## Mapping a decision
 
-* Your perception of the interactions between the people and the decision
-* The dynamic aspect of the relationship between people involved and,
-* Developing patterns and what to do about them
+I will elaborate on the example from [Part 2]({% post_url 2025-11-19-making-of-a-decision-2%}/#applying-dikw-a-practical-example) of this series. 
 
+### Setting the scene
 
-### Decision KP Map
+This is a fictional scenario based on some experiences I've have that are close to this. 
 
-Below you'll find an example map where I added people from history and people's roles to help you see a baseline.
+**The problem**: A library your organisation heavily depends on has changed its licence and will soon require a large fee for commercial usage.
 
-![Decision KP Map Example]({{site.images}}/2026/decision-kp-map-default.png)
+A setting like this is highly likely to be a little stressful. It is also likely to generate many meetings (some impromptu and others rather formal) and a lot of online interactions (slack, teams chat, email, etc).
 
-
-Thing I want you to notice:
-
-* **Can / Can not make change happen**. The horizontal axis denotes the capability to make change. Generally people with management roles tend to be able to make change happen. At the same time other people might also be able to make change happen. In this diagram it's more important to notice that they can make change, then we can start thinking about the reason why . Could be due to role authority, charisma, influence or maybe you don't really know why but when this person wants something then it happens.
-* **Has accepted or valid knowledge**. The vertical axis is about knowledge and information. In your discussions who do you think knows about this particular decision in depth? Nuance is very important here, they might know a lot about other things but not about the subject of whatever you are mapping. 
-
-* **People position**. Consider that the boxes with names denote the top right corner (X marks the spot). Where do you position people depends on your subjective understanding, the important thing is that the whole map is consistent with what you experience
+I will map here some significant ones. Explain who are the participants and any interesting emerging comments and patterns
 
 
-Example people, I added people from history. Also some roles as a way to show the range of the map. 
+### Meeting 0: Initial Library Licensing Change Discovery
+
+Agenda 
+* The license change is explained in plain language
+* Timeline for enforcement is clarified. 
+* Agreement on whether to escalate 
+* Agree next steps
+
+## Meeting Summary
+
+* NC, a dev at the TX team shared the news of the change, and learned more about it (details of the licence change, alternatives others started evaluating)
+* During a weekly sync meeting I H gave the floor to NC to explain the problem
+* CO and CS Present and asked more questions - CO obvs looking at the strategic options company wide
+* Not useful comments from LG - the Principal from the MS team. Seems worried about derailing on side project. Confusing and took a lot of time.  
+* FJ - The principal from the LS team seemed better informed but she is in bad terms with  both CO and CS
+* AT - Product Owner for LS and TX tries to gather more context about immediate impact to in-flow initiatives.
+* Pretty much everyone understands we shouldn't panic but we need more info - CS (Eng manager) and AT (Product Owner) will come back to people on who and when can we do this
+* A slack channel created 
 
 
-* **Katherine Johnson**  @ Crewed NASA space flights. My knowledge on her role is based on reading online about her work after seeing the film [Hidden Figures](https://en.wikipedia.org/wiki/Hidden_Figures). We can understand that she was uniquely capable as well as extremely limited in capability to make change due to social and cultural constraints. Hence why she is in the top left quadrant.
-* **Don Syme @ F# Programming Language Project** . Don has the most knowledge about the F# programming language project as well as complete control over the direction of the language... as far as I know. If we were drawing a map about who we should probably involve when it comes to changes to the F# programming language, it would be a good idea to:
-    1. Attempt to validate that Don is the right person to talk to and,
-    1. Even if not correct, Don would have been someone you definitely want to ask for advice when it comes to 
-
-* **Intern**. Even if a given intern is extremely capable, it would be irresponsible to take either their knowledge or capability to make change for granted, at least until you know better. 
-* **Propaganda writer**. Please remember this is an example, very few people within companies act this way on purpose. If you ever had do interact with someone that is writing a piece that is either disinformation(deliberately hiding the truth) or misinformation(incorrect but not clear if deliberate) the result has similar outcomes. It's harder to make decisions when people like this are in the mix. They might have sufficient capability to make change to push outcomes towards their agenda based on information you know or suspect to be incorrect. 
 
 
-
-Decision KP Map is a mapping tool that helps visualise the **subjective** perception of the community that helps make a decision, the **Key People**, in terms of their **Knowledge and Power**. Both concepts together are the source of KP in the name, key people and their knowledge and power. Power is a tricky thing to think about and map so you will notice that the horizontal axis is all about the range in making change happen, which is a lot easier to think about. It's where you can place your understanding of where people sit in terms of:
-* How much accepted knowledge they can access and,
-* How much change they are able to effect. 
-
-A Decision KP Map always has a specific context, for example an architectural decision. Over the course of a decision, one would generate multiple maps. People can be added or removed as needed. 
 
 
 ## A decision viewed as maps 
