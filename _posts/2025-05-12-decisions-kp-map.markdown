@@ -8,11 +8,16 @@ categories:
 - architectural decision making
 - knowledge
 - systems thinking
+- decision-kp-map
+last_modified_at:  2026-02-02 00:12:00
 ---
 
 This is a post about understanding what is happening during architectural decision making. 
-Following up from the talk I did at ADA Conf I started working on something to help me see and reason what we discussed
+Following up from the talk I did at ADA Conf I started working on a mapping tool to help me see and reason what we discussed
 It's called Decision KP Map. 
+
+> Decision KP Map is a mapping tool that helps visualise the **subjective** perception of the community that enables decision making.The **Key People**, in terms of their **Knowledge and Power**. Both concepts together are the source of KP in the name, key people and their knowledge and power.
+
 I'm currently running a trial to see how it performs. If you are interested please contact me via mastodon, linkedIn or Bluesky.
 
 

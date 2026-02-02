@@ -6,7 +6,9 @@ categories:
 - software architecture
 - systems theory
 - power dynamics
+- decision-kp-map
 tags: [knowledge management, workplace dynamics, software architecture, epistemology, decision making, alert fatigue]
+
 ---
 These are some readings associated with work associated with [Decision KP Maps]({% post_url 2025-05-12-decisions-kp-map %})
 
