@@ -96,7 +96,9 @@ What happened:
 
 ## Who is this tool for
 
-This tool is specially helpful for people in roles where they assist or make decisions, and where knowledge on context is highly valuable. People that have software design , architecture or team leadership responsibilities might be the ones that find this tool most useful. 
+This tool is especially helpful for people who are part of the decision making process or who are the decision makers themselves. It’s useful for those who value knowledge in a particular context.
+
+People who do software design, architecture, or have team‑leadership responsibilities are likely to find this tool most useful.
 
 ## Strengths
 
