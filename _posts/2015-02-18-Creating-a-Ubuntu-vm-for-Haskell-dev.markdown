@@ -56,12 +56,12 @@ This is all for today, will update this post with a link to this VM hosted somew
 
 ## Another Day, another pain
 
-couldnt install glfw easily so I decided to create a new vm :|
+I couldn't install `glfw` easily so I decided to create a new vm 😑
 
-* New vm was easy, got ubuntu 14.10 because it had glfw package (it seemed easier to do this than to build from source, if you want to do this, there is a lenghty explanation [here]())
-* First thing I did was instal libglfw and it seemed to work
-* My resolution was 640x480, not fun -> resolution problem http://www.linuxbsdos.com/2014/10/31/solutions-for-low-screen-resolution-in-ubuntu-14-0414-10-and-virtualbox/
-* glfw installed yay!
+* New vm was easy, got ubuntu 14.10 because it had the `glfw` package (it seemed easier to do this than to build from source)
+* First thing I did was instal `libglfw` and it seemed to work
+* My resolution was 640x480, not fun -> resolution problem [Solutions for low screen resolution in Ubuntu 14.04/14.10 and VirtualBox](http://www.linuxbsdos.com/2014/10/31/solutions-for-low-screen-resolution-in-ubuntu-14-0414-10-and-virtualbox/)
+* `glfw` installed yay!
 
 ```
 sudo apt-get install libglfw3
