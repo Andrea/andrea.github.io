@@ -13,13 +13,13 @@ excerpt: "Part 4 of a series exploring decision making in software teams. Tools 
 tags: [ software architecture, knowledge-management, knowledge-sharing, decision-making, software-development]
 ---
 
-This series covers the topics described in [this talk](https://www.youtube.com/watch?v=Ie97Oe-t8Wk). This is part 4 of the series about decision making in software systems. 
+The series covers the topics described in [this talk: The Making of a Decision](https://www.youtube.com/watch?v=Ie97Oe-t8Wk). about decision making in software systems. 
 
 * [The Making of a Decision - Part 1]({% post_url 2025-09-01-making-of-a-decision %})
 * [The Making of a Decision - Part 2 - Knowledge]({% post_url 2025-11-19-making-of-a-decision-2 %})
 * [The Making of a Decision - Part 3 - Tools for groups]({% post_url 2026-01-09-making-of-a-decision-3 %})
 * The Making of a Decision - Part 4 - Team and Personal Tools  - This post
-* More coming soon
+* [The Making of a Decision - Part 5 - Introducing Decision KP Maps]({% post_url 2026-01-22-making-of-a-decision-5 %})
 
 Part 1 of this series explored how power shapes organisational and architectural decision making by reviewing definitions, laws of power and more. Part 2 covered concepts and models relating to Knowledge, what we mean when we say we know something and who has the right to know things. 
 
