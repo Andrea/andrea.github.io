@@ -71,15 +71,19 @@ To understand how to create and read a map, please see the following map and des
 
 ![Initial state]({{site.images}}/2026/d-kp-map1.png "Decision KP Map a simple example")
 
-* **Upper Portion**. The map shows DP, an Engineer, who has a great deal of knowledge about the decision. This knowledge is accepted and, as far as you know, correct. They also have some ability to make change happen. Although BL outranks DP, DP has slightly more capability to influence change in the context of this decision.
+* **Upper Portion** 
+     The map shows 🟨Danna P, an Engineer, who has a great deal of knowledge about the decision. This knowledge is accepted and, as far as you know, correct. They also have some ability to make change happen. Although 🟪Bo L outranks 🟨Danna P, 🟨Danna P has slightly more capability to influence change in the context of this decision.
 
-    Also in this part of the map is BL, a Principal Engineer, who has slightly less knowledge and slightly less capability to make change on this decision.
+    Also in this part of the map is 🟪Bo L,a Principal Engineer, who has slightly less knowledge and slightly less capability to make change on this decision.
 
-* **Left Side**. Moving down the vertical axis, we see KJ, an Intern who knows roughly half as much as BL about the subject of the decision and has very little leverage.
+* **Left Side**
+     Moving down the vertical axis, we see 🟦Keiko J, an Intern who knows roughly half as much as 🟪Bo L about the subject of the decision and has very little leverage.
 
-* **Middle Right**. At a similar level of accepted knowledge, we have MP, who has some capability to make change in this context. We also have GZ, an Engineering Manager, who has a great deal of capability to make change happen but does not have much knowledge about the decision.
+* **Middle Right**
+     At a similar level of accepted knowledge, we have ⬛Miles P, who has some capability to make change in this context. We also have 🟩Geordi Z, an Engineering Manager, who has a great deal of capability to make change happen but does not have much context or knowledge  about the decision.
 
-* **Lower Middle Right**. Finally, we have RH, an Engineering Manager with about the same level of capability to make change as MP. However, their knowledge is incorrect and outdated, and they did not show curiosity about validating it during this interaction.
+* **Lower Middle Right**
+     Finally, we have 🟧Ro H, an Engineering Manager with about the same level of capability to make change as ⬛Miles P. However, their knowledge is incorrect and outdated, and they did not show curiosity about validating it during this interaction.
 
 
 
@@ -89,8 +93,8 @@ Note: The shape of this map is a common pattern that often appears during unexpe
 Continuing with the example, a few days have elapsed and things have changed. How? The map below depicts a meeting where things have changed slightly since last time.
 
 What happened: 
-* BL asked MP, someone GZ respects at a technical level, to have a chat with GZ about this decision. This had the effect of levelling up GZ's knowledge as well as increasing MP's capability to make change, due to the influence increase on GZ. 
-* It improved BL's capability to make change slightly as GL brokered the conversation between MP and GZ
+* 🟪Bo L asked ⬛Miles P, someone 🟩Geordi Z respects at a technical level, to have a chat with 🟩Geordi Z about this decision. This had the effect of levelling up 🟩Geordi Z's knowledge as well as increasing ⬛Miles P's capability to make change, due to the influence increase on 🟩Geordi Z. 
+* It improved BL's capability to make change slightly as GL brokered the conversation between ⬛Miles P and 🟩Geordi Z
 
 ![After a few days ]({{site.images}}/2026/d-kp-map2.png "Decision KP Map example after a few days")
 
