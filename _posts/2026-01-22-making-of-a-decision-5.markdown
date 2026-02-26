@@ -1,6 +1,6 @@
 ---
 date: 2026-02-04 00:12:00
-last_modified_at:  2026-02-04 00:12:00
+last_modified_at:  2026-02-27 00:12:00
 layout: single
 title: The Making of a Decision - Part 5 - Introducing Decision KP Maps
 categories:
@@ -14,6 +14,11 @@ excerpt: "Part  of a series exploring decision making in software teams. Introdu
 tags: [ software architecture, knowledge-management, knowledge-sharing, decision-making, software-development, decision-kp-map]
 ---
 
+So much about decision making is about trust. Trust in the information and knowledge you have, trust in what your colleagues say they will do and how likely they are on delivering on their promises. 
+When I was working with a client a few months ago, they had some difficulties progressing 
+
+
+
 The series covers the topics described in [this talk: The Making of a Decision](https://www.youtube.com/watch?v=Ie97Oe-t8Wk). This is part 5 of the series about decision making in software systems. 
 
 * [The Making of a Decision - Part 1]({% post_url 2025-09-01-making-of-a-decision %})
@@ -24,6 +29,8 @@ The series covers the topics described in [this talk: The Making of a Decision](
 
 
 Part 1 of this series explored how power shapes organisational and architectural decision making by reviewing definitions, laws of power and more. Part 2 covered concepts and models relating to Knowledge, what we mean when we say we know something and who has the right to know things. Part 3 and 4 covered decision making tools for different group sizes. This is a post that introduces **Decision KP Map**, the tool I created as result of learning and discussing so much about the subject.
+
+
 
 
 # What is Decision KP Map? 
@@ -38,7 +45,7 @@ This type of mapping I'm proposing is something you very likely, already do intu
 
 > Decision KP Map is a mapping tool that helps visualise your **subjective** perception of the community that enables decision making.The **Key People**, in terms of their **Knowledge and Power**. Both concepts are the reason for the name of this tool .
 
-### Examples 
+### A sample Decision KP Map 
 
 Below you'll find an example map where I added people from history, and others described by roles to help create a baseline.
 
@@ -53,7 +60,7 @@ Below you'll find an example map where I added people from history, and others d
 * **People position**. Where you position people depends on your subjective understanding. What is important is that the whole map is self consistent. A good way to do this is place all the people and then check that all the people are placed somewhere that makes sense when comparing it with others in the map, for example you might think: JP knows as much as QW about this subject, AR is nearly as able to make change as RB but just not as much.
 
 
-To make it easier to learn I have added historical figures to the map, together with a few roles to illustrate its range. 
+I have added historical figures to the map, together with a few roles to illustrate the map's range:
 
 
 * **[Katherine Johnson](https://en.wikipedia.org/wiki/Katherine_Johnson)** @ Crewed NASA space flights team. My knowledge on her role is based on reading online about her work after seeing the film [Hidden Figures](https://en.wikipedia.org/wiki/Hidden_Figures). We can understand that she was uniquely capable as well as extremely limited in capability to make change due to social and cultural constraints. If I had to add her to a map she will be in the top left quadrant.
@@ -66,6 +73,7 @@ To make it easier to learn I have added historical figures to the map, together 
 
 
 ### How does it work? A simple example
+
 
 To understand how to create and read a map, please see the following map and description
 
@@ -98,6 +106,9 @@ What happened:
 
 ![After a few days ]({{site.images}}/2026/d-kp-map2.png "Decision KP Map example after a few days")
 
+
+
+
 ## Who is this tool for
 
 This tool is especially helpful for people who are part of the decision making process or who are the decision makers themselves. It’s useful for those who value knowledge in a particular context.
@@ -110,8 +121,8 @@ People who do software design, architecture, or have team‑leadership responsib
 * Highlight misalignments. It's a tool to prompt reflection, help you guide stakeholder engagement and discussion, and improve collaboration in decision making. It also helps you question your [ladder of inference][argyris].
 * Dynamic Tracking. Repeated use helps with capturing the dynamic interactions of the decision, which is essential in decision processes.
 * Clear and easy to learn. The core idea is straightforward, and does not require deep technical skills or complex software.
-* Discover patterns. Over time, it can help discover some basic patterns and biases of individuals across decisions. For example, you might notice that when certain people enter the room, knowledge-sharing stops, or specific topics become off-limits.These might be essential to the making of this decision. 
-* Scale up your leadership team. Mapping can help those new to leadership to navigate decision making, perhaps initially with some coaching. Many people who write code (roles and titles vary) enter decision making with a significant level of technical knowledge but limited understanding of how the rest of the decision‑making process works. This tool can help them.
+* Discover patterns. Over time, it can help discover some basic patterns and biases of individuals across decisions. For example, you might notice that when certain people enter the room, knowledge-sharing stops, or specific topics become off-limits. These might be essential to the making of this decision. I will be following up on the patterns that keep repapering in a another post soon.
+* Scale up your leadership team. Mapping can help those new to leadership to navigate decision making, perhaps initially with some coaching. Many people who write code (roles and titles vary) enter decision making with a significant level of technical knowledge but limited understanding of how the rest of the decision making process works. This tool can help them.
 
 ## Limitations
 
