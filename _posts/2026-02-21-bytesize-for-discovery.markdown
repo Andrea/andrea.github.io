@@ -6,70 +6,98 @@ title: Bytesize Architecture Sessions for DDD Discovery
 categories:
 - software architecture
 - tools
-- domain-driven-design
+- domain driven design
 - bytesize-architecture-sessions
+- ddd
+- ddd starter modelling process
 excerpt: "Using Bytesize Architecture Sessions for DDD Starter Modelling process - Discovery. Create a baseline model of what your current system is at. Example with a few teams "
 
-tags: [ software architecture, discovery, domain-driven-design, Bytesize-Architecture-Sessions, c4]
+tags: [ software architecture, discovery, domain-driven-design, Bytesize-Architecture-Sessions, Starter-Modelling-Process c4]
 ---
 
 
-The DDD Starter Modelling Process is an excellent guide when iterating through the design process. 
+The DDD Starter Modelling Process is an excellent guide when iterating through the design process. [It's recommended](https://github.com/ddd-crew/ddd-starter-modelling-process/blob/master/README.md#when-to-use-the-ddd-starter-modelling-process) when big changes have happened or will be happening in your software systems or in terms of personnel. Some good examples: Major programme of work, beginning brownfield migration, re-organising teams, etc.
 
-I have been using Bytesize Architecture Sessions in a few of the sections of the DDD modelling process and I noticed that I had not documented this anywhere. This post aims to address that, starting with [Discovery](https://github.com/ddd-crew/ddd-starter-modelling-process/blob/master/README.md#discover). 
+I have been using Bytesize Architecture Sessions in a few of the sections of the DDD modelling process, this write up highlights some of the hows and whys. This post focuses on the [Discovery](https://github.com/ddd-crew/ddd-starter-modelling-process/blob/master/README.md#discover) section of the starter process. 
 
 ![DDD Starter Modelling Process]( {{site.images}}/2026/ddd-crew-modelling-process--circles.png) 
 [DDD Starter Modelling Process by DDD-Crew](https://github.com/ddd-crew/ddd-starter-modelling-process)
 
+When domain knowledge is shared widely, the team builds a collective understanding that leads to software aligned with the domain and capable of evolving with the business. Discovery is an enabling step that opens the door for more team members to bring forward real innovation into the product.
 
-Discovery is an essential step of DDD, skipping it undermines every decision that follows. When domain knowledge is shared widely, the team builds a collective understanding that leads to software aligned with the domain and capable of evolving with the business. This step opens the door for more team members to bring forward real innovation into the product.
+## Discovery
+
 
 Starting Discovery with [EventStorming](https://www.eventstorming.com/#styles) is a great way to understand the system in terms on what domain experts truly care about, how the system behaves through time and so much more. 
 
-After EventStorming, it's useful to understand the current structural shape of your system, as it is right now. The best way to do this, in my experience, is running Bytesize Architecture Sessions. 
+After EventStorming, it's useful to understand the current structural shape of your system, as it is right now. When the people you work with have conflicting or incomplete ideas about the current structure of their systems,  the best is running Bytesize Architecture Sessions with C4. The way systems currently are organised heavily shape how people think about them and what is possible.
 
-The way systems currently are organised heavily shape how people think about them and what is possible.
-
-##  Running Bytesize Sessions: A Practical Walkthrough for a smaller team, for the first time
-
-If you work with a cross functional team of ten people or less then, the infographic below should inform the high level of the format we are about to follow.
+## What is Bytesize Architecture Sessions
 
 ![Bytesize Architecture Sessions Infographic]({{site.images}}/2026/BAS-infographic.png)
 
+Bytesize Architecture Sessions are a workshop format that helps groups of people understand the systems they work on. Each session focuses on a slice of a system. After some sessions your team will converge on better understanding of their systems, grow a consistent vocabulary and ultimately build tools to design the future together.
+
+Each session lasts between 45 and 90 minutes ⏲️, and has four well defined parts: Session Goal, Alone Together, Convergence and Summary. You can model your systems using different tools. I suggest starting with C4 Diagrams.
+
+## Overview of C4
+
+[C4](http://c4model.com). C4 is a simple, hierarchical and, easy to learn modelling tool. 
 
 
-* Teach the participants about [C4](http://c4model.com). C4 is a simple, hierarchical and, easy to learn modelling tool
-   ![C4 Infographic]({{site.images}}/2026/C4infographic.png)
+![C4 Infographic]({{site.images}}/2026/C4infographic.png)
 
-* State the **goal of the session**. The goal should be to "Create a System Context Diagram of the system as it **currently is**". Check for questions, ensure everyone is able to participate (e.g they have paper and markers ). Ask attendees to confirm they understand the goal and that everyone attending is expected to create a diagram
+##  Running Bytesize Architecture Sessions: A Practical Walkthrough for a smaller team
+
+If you work with a cross functional team of ten people or less then, run a series of Bytesize Architecture Session over a few days, to create System Context and selected Container Diagrams together.  
+It's ideal to run the first session in person to have time to address questions and gather feedback. Run the following sessions a few days later. 
+
+### Kick off day
+
+These are some necessary steps to kick the series of, 
+
+* Explain what is happening and why. What is the reason to do [Discovery]
+* Teach all the participants about [C4](http://c4model.com). A short explanation with examples works well.
+
+
+* State the **goal of the session**. The goal should be to "Create a System Context Diagram of the system as it **currently is**". Check for questions, ensure everyone is able to participate (e.g they can create a diagram individually ). Ask attendees to confirm they understand the goal and that everyone attending is expected to create a diagram
 * **Alone Together**. Set up a timer for 5 minutes. All attendees create a diagram. When the timer elapses, everyone listens as each person describes their diagram without interruptions
 * **Convergence**. With the context from the previous step, create one System Context diagram that that is the convergence of all ideas
 * **Introspection**. Five introspective minutes to consider what each participant thought of the session. I generally run this as a fast mini-retro
 
-It highly likely that the individual diagrams will vary significantly. A common pattern, especially for those less familiar with C4, is to have different levels of abstraction present in the diagram. It's important to remember that the goal of running Collaborative Design sessions like this is to grow understanding together. Participating and co-creating is the outcome, the picture we create is a tool to help the participants retrace their steps. 
-With this context in mind, plan for some extra sessions in a week or so. 
-
-* **Iterate**. With the context above in mind, run more one hour sessions. Let participants see the effect of iteration, how they can point at something in the diagram and understand how it got to the current state
-
-
-For this setup, the format online or in person is pretty similar. Please see the [tools section](https://bytesizearchitecturesessions.com/tools/#online) of the Bytesize Architecture Sessions website for more info on this.
+It highly likely that the individual diagrams will vary significantly. A common pattern, especially for those less familiar with C4, is to have different levels of abstraction present in the diagram. A good diagram is a useful outcome only if all attendees understand and learn why the diagram looks the way it does and what each item in the diagram represent.  It's important to remember that the goal of running Collaborative Design sessions like this, is to grow understanding together. 
 
 > Participating and co-creating is the outcome, the picture we create is a tool to help the participants retrace their steps. 
 
+### Next sessions
+
+Help participants see the effects of iteration, how they can point at something in the diagram and understand how it got to the current state. This is why the **Introspection** step at the end is so valuable.
+
+The format of each of the Bytesize Architecture Sessions will be the same. The goal should change according to how far people converge on the *System Context Diagram* and then, to the selected *Container Diagram*. 
+
+It is possible that after working on the *Container Diagram*, the *System Context Diagram* needs to be updated.
+
+
+### Logistics and Tooling
+
+For this setup, the format online or in person is pretty similar. Please see the [tools section](https://bytesizearchitecturesessions.com/tools/#online) of the Bytesize Architecture Sessions website for more info about options.
+
+
 ## Running Bytesize Sessions: A Practical Walkthrough for Bigger Systems
 
-Bigger systems tend to have more people involved. The most common case is when there are 3 to 5 teams working on a system. The teams might represent Engineering for the whole company or, for bigger organisations, they might be a department. 
+Bigger systems tend to have more people involved. The most common case is when there are 3 to 5 teams working on a system. The teams might represent Engineering for the whole company or, for bigger organisations, they might represent a department. 
 
-Engage with the organisation's leadership to learn about who to invite. It would generally depend on:
+Engage with the organisation's leadership to learn about who to invite, there should be no more than twenty people present. It would generally depend on:
 
 * Overall team size
 * Ensuring the right level of cross‑functional representation, including Engineering, QA, Design, Product, and Operations (especially teams handling configuration changes or customisation work)
 
 Required:
-* For a group this size a dedicated facilitator is needed. 
-* For an in person event, a room large enough to comfortably accommodate all participants. 
+
+* For a group this size a dedicated facilitator is needed
+* For an in person event, a room large enough to comfortably accommodate all participants
 * The room should have tables seating five people each
-* Access to a big screen or, alternatively as many large whiteboards as tables.
+* Access to a big screen or, alternatively as many large whiteboards as tables
 
 Once this has been agreed, and with a date set, the following is a representative set of steps to run the first event:
 
@@ -87,7 +115,7 @@ Once this has been agreed, and with a date set, the following is a representativ
 
 The steps above described an in person event. To facilitate this online I strongly recommend an experienced facilitator. 
 
-### Outcomes
+## Outcomes
 
 You might be wondering why should you go to all this trouble. After roughly one hour, the participants:
 
@@ -102,17 +130,17 @@ You might be wondering why should you go to all this trouble. After roughly one 
 With time, and assuming you adopt the practice with some cadence, you will see the following effects
 
 * People know where to go for advice when designing a new non-trivial thing
-* People learn that no-one knows everything, improved psycological safety 
+* People learn that no-one knows everything, improved psychological safety 
 * the designs become more nuanced, as People get better at modelling
 * people want to learn more DDD (sorry, not sorry)
 
 
 ## Common Anti‑Patterns 
 
-* Staying on a rabbit hole for too long, sometimes you need to document what is being discussed and move on towards the goal 
-* frustration because "not finished"
-* Treating Bytesize as a meeting instead of a learning loop
-* Don't plan the goal of the next bytesize session, last responsible moment is the way to go with this
+* Staying on one discussion for too long. If participants are staying on a topic and not agreeing perhaps more context is needed. The impasse can be either addressed offline or on a follow up session where more participants have more context. Document the question or what needs to be investigated with precision and move on towards the goal. 
+* Frustration because a diagram "not finished" and the timmer is elapsed. This can be a little frustrating, and also it means we are constraining on size rather than completion. We are clearly indicating that the important thing is the learning, the understanding, not the artifact. The models we are creating are mirrors of the system, and those are never done either. Make sure you help attendees to see the progression. 
+* Treating Bytesize Sessions as a meeting instead of a workshop. This can be a problem if there are some people that dominate the conversation. The format of the workshop can help, but this might require coaching.
+* Don't plan the goal of the next bytesize session. Make a decision about the goal as late as possible. Make sure you take feedback from recurrent attendees into account.
 
 ## Making Bytesize Sessions a Habit
 
@@ -122,8 +150,9 @@ With time, and assuming you adopt the practice with some cadence, you will see t
 
 ## Conclusion: Keep the Practices Short and Sweet
 
-Kicking off a design initiative generally brings a high level of uncertainty, Bytesize Sessions help by creating a safe space for design in deliberate manner. 
-Creating shared models help reduce risk and increase clarity. I have shared what works for me, I encourage you to try it and see how you it works for you, perhaps certain aspect of this practice needs to be adapted in some way. I would be very happy to hear about it.
+Kicking off a Design initiative generally brings a high level of uncertainty, Bytesize Sessions help by creating a safe space for design in deliberate manner. 
+Creating shared models help reduce risk and increase clarity. I have shared what works for me, I encourage you to try it and see how you it works for you. 
+Maybe, certain aspect of this practice needs to be adapted for your context in some way. I would be very happy to hear about it.
 
 
 I hope this has helped, if you are organising a session like this and have questions please do reach out. Next post will describe how to use Bytesize Architecture Sessions for [Define](https://github.com/ddd-crew/ddd-starter-modelling-process/blob/master/README.md#define). 
