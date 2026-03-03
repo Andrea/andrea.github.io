@@ -155,20 +155,19 @@ You might be wondering why should you go to all this trouble, after a few sessio
 
 With time, and assuming your organisation or teams adopt the practice, you will see the following effects:
 
-* With support from leadership to sustain the practice, people know this is a time and place for advice when when making significant changes
-* People learn that no-one knows everything, improved psychological safety 
-* the designs become more nuanced, as People get better at modelling
-* people want to learn more DDD 
+* With support from leadership to sustain the practice, participants know this is a time and place for advice when making significant changes
+* Participants learn that no one knows everything, this tends to improve psychological safety 
+* Designs become more nuanced, as participants get better at modelling
+* Everyone wants to learn more DDD 🕶️ 📖 
 
 
 ### Common Anti‑Patterns 
 
-* Staying on one discussion for too long. If participants are staying on a topic and not agreeing perhaps more context is needed. The impasse can be either addressed offline or on a follow up session where more participants have more context. Document the question or what needs to be investigated with precision and move on towards the goal. 
-* Frustration because a diagram "not finished" and the timer elapsed. This can be a little frustrating, and also it means we are constraining on time rather than completion. We are clearly indicating that the important thing is the learning, the understanding, not the artifact. The models we are creating are reflective of the systems, and those are never done either. Make sure you help attendees to see the progression. 
-* Focusing on creating the perfect diagram, rather than understanding how the system works together. 
-* Treating Bytesize Architecture Sessions as a meeting instead of a workshop. This can be a problem if there are people that dominate the conversation. The format of any workshop can only help so much, these type of issues might require coaching.
-* Don't plan the goal of the next Bytesize Architecture Session. Make a decision about the goal as late as possible. Make sure you take feedback from recurrent attendees into account.
-
+* Staying on one discussion for too long. If participants are staying on a topic and not agreeing perhaps more context is needed. The impasse can be either addressed offline or on a follow up session where more participants have more context. Document the question or what needs to be investigated with precision and move on towards the goal
+* Focusing on creating the perfect diagram, rather than understanding how the system works together
+* Frustration because a diagram "not finished" and the timer elapsed. This can be a little frustrating, and also it means we are constraining on time rather than completion. We are clearly indicating that the important thing is the learning, the understanding, not the artifact. The models we are creating are reflective of the systems, and those are never done either. Make sure you help attendees to see the progression
+* Treating Bytesize Architecture Sessions as a meeting instead of a workshop. This can be a problem if there are people that dominate the conversation. The format of any workshop can only help so much, these type of issues might require coaching
+* Plan precisely a series  of Bytesize Architecture Sessions. The way people collaborate requires some level of flexibility and meeting participants where they are at
 
 
 ## Success Metrics
