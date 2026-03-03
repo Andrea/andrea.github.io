@@ -7,12 +7,11 @@ categories:
 - software architecture
 - tools
 - domain driven design
-- bytesize-architecture-sessions
-- ddd
+- bytesize architecture sessions
 - ddd starter modelling process
 excerpt: "Using Bytesize Architecture Sessions for DDD Starter Modelling process - Discovery. Create a baseline model of what your current system is at. Example with a few teams "
 
-tags: [ software architecture, discovery, domain-driven-design, Bytesize-Architecture-Sessions, Starter-Modelling-Process c4]
+tags: [ software architecture, discovery, domain-driven-design, bytesize architecture sessions, starter modelling process, c4]
 ---
 
 
@@ -33,7 +32,7 @@ Starting Discovery with [EventStorming](https://www.eventstorming.com/#styles) i
 After EventStorming, it's useful to understand the current structural shape of your system, as it is right now. When the people you work with have conflicting or incomplete ideas about the current structure of their systems,  the best is running Bytesize Architecture Sessions with C4. 
 The way systems currently are organised heavily shape how people think about them, and what is possible.
 
-## What is Bytesize Architecture Sessions
+## Bytesize Architecture Sessions Overview
 
 ![Bytesize Architecture Sessions Infographic]({{site.images}}/2026/BAS-infographic.png)
 
@@ -41,7 +40,7 @@ Bytesize Architecture Sessions are a workshop format that helps groups understan
 
 Each Bytesize Architecture Session lasts between 45 and 90 minutes, and has four well defined parts: Session Goal, Alone Together, Convergence and Summary. You can model your systems using different tools. I suggest starting with C4 Diagrams.
 
-## Overview of C4
+## C4 Overview
 
 [C4](http://c4model.com) is a simple, hierarchical and, easy to learn modelling tool. 
 The four key diagrams that comprise this tool go from very high level of abstraction, thinking in terms of systems and external systems  (a forrest). Then down one level to the constituents parts of a system, a C4 Container(a tree). Then to the constituent parts of that C4 Container, C4 Components (a branch). And finally to Code (a leaf), this last diagram can be generated. 
@@ -50,7 +49,8 @@ The four key diagrams that comprise this tool go from very high level of abstrac
 
 
 
-##  Running Bytesize Architecture Sessions: A Practical Walkthrough for a smaller team
+##  Running Bytesize Architecture Sessions for Discovery: A Practical Walkthrough for Smaller Groups
+
 
 If you work with a cross functional team of ten people or less then, run a series of Bytesize Architecture Session over a few days, to create *System Context* and selected *Container Diagrams* together.  
 It's ideal to run the first session in person to have time to address questions and gather feedback. Run the following sessions a few days later. 
@@ -165,14 +165,26 @@ With time, and assuming you adopt the practice with some cadence, you will see t
 
 * Staying on one discussion for too long. If participants are staying on a topic and not agreeing perhaps more context is needed. The impasse can be either addressed offline or on a follow up session where more participants have more context. Document the question or what needs to be investigated with precision and move on towards the goal. 
 * Frustration because a diagram "not finished" and the timmer elapsed. This can be a little frustrating, and also it means we are constraining on time rather than completion. We are clearly indicating that the important thing is the learning, the understanding, not the artifact. The models we are creating are mirrors of the system, and those are never done either. Make sure you help attendees to see the progression. 
-* Treating Bytesize Sessions as a meeting instead of a workshop. This can be a problem if there are some people that dominate the conversation. The format of the workshop can help, but this might require coaching.
+* Focusing on creating the perfect diagram, rather than understanding how the system works together. 
+* Treating Bytesize Sessions as a meeting instead of a workshop. This can be a problem if there are people that dominate the conversation. The format of the workshop can help, but this might require coaching.
 * Don't plan the goal of the next bytesize session. Make a decision about the goal as late as possible. Make sure you take feedback from recurrent attendees into account.
 
-## Making Bytesize Sessions a Habit
 
-* It's great to have a kick off session, it takes some support work from leadership to turn this into a practice
-* Using them as a safe space for questions
+## Making Bytesize Sessions a Practice
+
+* Kick off sessions are extremely useful at showing what's possible and setting expectations. Bear in mind that it takes  support from leadership to turn this into a practice 
+* Use them as a safe space for questions
 * Keeping sessions fun and open.  
+
+## Success Metrics
+
+If you are trying out Bytesize Architecture Sessions or other techniques with similar goals. These can be useful metrics depending on your issues:
+
+* A couple of weeks after a knowledge sharing session, ask participants to explain why a system or decision is the way it is. Not what it does, but **Why**
+* New joiners capability to make decisions. Track when new joiners stop needing extra context or ask for validation on decisions. 
+* Incident response and diagnostic speeds up. How long does it take to identify the root cause, and how many people need to be involved?
+* Track the key-person risk. Identify top N people with the highest domain knowledge concentration in your organisation, over time, are those same top N people the ones with the highest domain knowledge concentration. Why?
+
 
 ## Conclusion
 
