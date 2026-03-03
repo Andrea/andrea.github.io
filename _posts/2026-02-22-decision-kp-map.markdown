@@ -1,5 +1,5 @@
 ---
-date: 2026-02-28 00:12:00
+date: 2027-02-28 00:12:00
 last_modified_at:  2026-01-28 00:12:00
 layout: single
 title: Decision KP Maps - More stuff
@@ -12,8 +12,6 @@ categories:
 excerpt: "Part  of a series exploring decision making in software teams. Introducing Decision KP Map. Examples and how to use."
 tags: [ software architecture, knowledge-management, knowledge-sharing, decision-making, software-development, decision-kp-map]
 ---
-
-
 
 ## Mapping a decision
 

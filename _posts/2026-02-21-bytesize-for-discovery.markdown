@@ -102,7 +102,7 @@ Engage with the organisation's leadership to learn about who to invite, there sh
 * Ensuring the right level of cross‑functional representation, including Engineering, QA, Design, Product, and Operations (especially teams handling configuration changes or customisation work)
 * With larger groups, its particularly valuable to do this first session in person, alongside other Design kick off activities. For example run a Big Picture EventStorming on day 1 and run this first session on day 2.
 
-Required:
+In addition to selecting the right participants, a few practical setup considerations are needed for the session to run smoothly.
 
 * For a group this size a dedicated facilitator is needed
 * For an in person event, a room large enough to comfortably accommodate all participants. The room should have tables seating five people each
