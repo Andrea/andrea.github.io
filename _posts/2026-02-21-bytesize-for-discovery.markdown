@@ -15,14 +15,14 @@ tags: [ software architecture, discovery, domain-driven-design, bytesize archite
 ---
 
 
-The DDD Starter Modelling Process is an excellent guide when iterating through the design process. [It's recommended](https://github.com/ddd-crew/ddd-starter-modelling-process/blob/master/README.md#when-to-use-the-ddd-starter-modelling-process) when big changes have happened or are planned for your software systems or, when there are changes in terms of personnel. Some good examples: major programme of work, beginning brownfield migration, re-organising teams, etc.
+The DDD Starter Modelling Process is an excellent guide when iterating through the design process. This process [is recommended](https://github.com/ddd-crew/ddd-starter-modelling-process/blob/master/README.md#when-to-use-the-ddd-starter-modelling-process) when big changes have happened, are planned, or when there are changes in terms of personnel. Some good examples: major programme of work, beginning brownfield migration, re-organising teams, etc.
 
-I have been using Bytesize Architecture Sessions in a few of the sections of the DDD modelling process, this write up highlights some of the hows and whys and focuses on the [Discovery](https://github.com/ddd-crew/ddd-starter-modelling-process/blob/master/README.md#discover) section of the starter process. 
+I have been using Bytesize Architecture Sessions in a few of the sections of the DDD modelling process, this write up highlights the hows and whys and focuses on the [Discovery](https://github.com/ddd-crew/ddd-starter-modelling-process/blob/master/README.md#discover) section of the starter process. 
 
 ![DDD Starter Modelling Process]( {{site.images}}/2026/ddd-crew-modelling-process--circles.png) 
 [DDD Starter Modelling Process by DDD-Crew](https://github.com/ddd-crew/ddd-starter-modelling-process)
 
-When domain knowledge is shared widely, the team builds a collective understanding that leads to software aligned with the domain and capable of evolving with the business. Discovery is an enabling step that opens the door for more team members to bring forward innovation for the product.
+Discovery is about sharing domain knowledge. When domain knowledge is shared widely, the team builds a collective understanding that leads to software aligned with the domain and capable of evolving with the business. Discovery is an enabling step that opens the door for more team members to bring forward innovation for the product.
 
 ## The Discovery Step
 
@@ -47,11 +47,12 @@ Each Bytesize Architecture Session lasts between 45 and 90 minutes and has four 
 ![C4 Infographic]({{site.images}}/2026/C4infographic.png)
 
 
+
 ##  Bytesize Architecture Sessions for Discovery: A Practical Walkthrough for Smaller Groups
 
-If you work with a cross‑functional team of ten people or fewer, the organisation of Discovery workshops can be streamlined.
+If you work with a cross‑functional team of ten people or fewer, the organisation of Discovery workshops is simpler.
 You may start with a *Big Picture* or a *Process Model* *EventStorming* workshop, then run a series of Bytesize Architecture Sessions over a few days to produce a System Context diagram and the chosen Container diagrams together.
-It’s best to hold the first session in person so you have time to answer questions and gather feedback, and to schedule the subsequent sessions a few days later. 
+It’s best to hold the first session in person, it's easier to address any issues this way. You also have time to answer questions and gather feedback, and to schedule the subsequent sessions a few days later. 
 
 ### Discovery Kick Off
 
@@ -140,9 +141,7 @@ The format of each of the Bytesize Architecture Sessions will follow the pattern
 It is possible that after working on the *Container Diagram*, the *System Context Diagram* needs to be updated. This reinforces the idea that the diagrams evolve with the group’s understanding rather than being fixed outputs.
 
 
-## Results
-
-### Outcomes
+## Outcomes
 
 You might be wondering why should you go to all this trouble, after a few sessions the participants:
 
@@ -161,7 +160,7 @@ With time, and assuming your organisation or teams adopt the practice, you will 
 * Everyone wants to learn more DDD 🕶️ 📖 
 
 
-### Common Anti‑Patterns 
+## Common Anti‑Patterns 
 
 * Staying on one discussion for too long. If participants are staying on a topic and not agreeing perhaps more context is needed. The impasse can be either addressed offline or on a follow up session where more participants have more context. Document the question or what needs to be investigated with precision and move on towards the goal
 * Focusing on creating the perfect diagram, rather than understanding how the system works together
@@ -190,4 +189,4 @@ I hope this has helped, if you are organising a session like this and have quest
 Until the next time.
 
 
-[^CoMo]: Collaborative modelling is an approach experts, practitioners, and end-users, work together to create, refine, and validate models. Leveraging the diverse perspectives and expertise of the participants to enhance the model's accuracy, relevance, and usability. By involving a wide range of contributors,it fosters a deeper understanding of complex systems and promotes shared ownership of the outcomes.
+[^CoMo]: Collaborative modelling is an approach experts, practitioners, and end-users, work together to create, refine, and validate models. Leveraging the diverse perspectives and expertise of the participants to enhance the model's accuracy, relevance, and usability. By involving a wide range of contributors,it fosters a deeper understanding of complex systems and promotes shared ownership of the outcomes. (Adapted from https://www.michael-ploed.com/collaborative-modeling)
