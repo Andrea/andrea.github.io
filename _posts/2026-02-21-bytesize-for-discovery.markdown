@@ -56,7 +56,7 @@ It’s best to hold the first session in person, it's easier to address any issu
 
 ### Discovery Kick Off
 
-These are some necessary steps to kick the series of, 
+These are some necessary steps to kick the series of: 
 
 * Explain why this group is doing this and an overview of what's the format. What is the reason to do Discovery
 * Teach all participants about [C4](http://c4model.com). A short explanation with examples works well.
@@ -76,9 +76,9 @@ A good diagram is a useful outcome only if all attendees understand and learn wh
 
 ### Next sessions
 
-Help participants notice the effects of iteration, how they can point at something in the diagram and understand how it got to the current state. This is why the **Introspection** step at the end of the Bytesize Architecture Session is so valuable.
+Help participants notice the effects of iteration, how they can point at an item in the diagram and understand how it got to it's current state. This is why the **Introspection** step at the end of the Bytesize Architecture Session is so valuable.
 
-The format for each of the Bytesize Architecture Sessions will be the same. The goal should change according to participants converge on the *System Context Diagram* and then, on the selected *Container Diagram*. 
+The format for each of the following Bytesize Architecture Sessions will be the same as the first one. The goal should change according to participants converge on the *System Context Diagram* and then, on the selected *Container Diagram*. 
 
 Iterating on the diagrams is to be expected. For example, it's common for the *System Context Diagram* to need updates after working on the *Container Diagram*. 
 
