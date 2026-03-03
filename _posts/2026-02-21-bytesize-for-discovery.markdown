@@ -91,12 +91,12 @@ For this setup, the format online or in person is pretty similar. Please see the
 
 Bigger systems tend to have more people involved. The most common case is when there are three to five teams working on a system. The teams might represent Engineering for the whole company or, for bigger organisations, they might represent a department. As systems grow and more teams become involved, the way people participate in these sessions becomes increasingly important.
 
-Before diving into the steps, it helps to clarify how people participate. Due to the number of people involved a neutral facilitator is strongly recommended. The facilitator guides the flow of the session, manages time, and ensures balanced participation. Theirs is an enabling role, creating the conditions for shared understanding. 
+Before diving into the steps, it helps to clarify how people participate. Due to the number of people involved a neutral facilitator is strongly recommended. The facilitator guides the flow of the session, manages time, and ensures balanced participation. Their role is both about keeping the group moving, and creating the conditions for shared understanding. 
 Participants with leadership responsibilities join as co‑explorers. They should pay especial attention to the language use, how mental models differ across participants and teams, and where boundaries or abstractions are unclear. Noticing and making these explicit is where they can add significant value.
 
 ### Before the sessions
 
-Engage with the organisation's leadership to learn about who to invite, there should be no more than twenty participants present. It depends on:
+Engage with the organisation's leadership to learn about who to invite, there should be at most twenty five participants present. It depends on:
 
 * Overall team size
 * Ensuring the right level of cross‑functional representation, including Engineering, QA, Design, Product, and Operations (especially teams handling configuration changes or customisation work)
@@ -109,22 +109,17 @@ Required:
 * Access to a big screen or, alternatively as many large whiteboards as tables, or both
 
 
-### Kick off day
+### Discovery Kick Off
 
-Once this has been agreed, and with a date set, the following is a representative set of steps to run the kick of Bytesize Session:
-
+Once the date is set, the participants confirmed, and a facilitator in place, the following is a representative set of steps to run the kick‑off day 
 
 *  **Logistics**.  In person, setup tables for up to 5 people per table. Once everyone has arrived, redistribute people so that each table has a variety of roles and team membership 
-*  **Teach C4**. A short overview is best, see infographic above. Mention that they are going try this in the next few minutes
-
-Now is time to get the participants involved
-
-
-*  **Goal of the session**. It's the same as in the case above, "Create a context diagram of the system as it is right now". Make sure to mention that when the timer starts everyone individually will create a diagram and that when the timer elapses they will have to explain the diagram to the rest of the table.
+*  **Teach C4**.  A short overview is best, and the infographic above provides a useful reference. Mention that they are going to try this in the next few minutes
+*  **Goal of the session**. It's the same as in the simpler case above, "Create a context diagram of the system as it is right now". Make sure to mention that when the timer starts everyone individually will create a diagram and that when the timer elapses they will have to explain the diagram to the rest of the table.
 *  **Alone together**. Start the timer. Five minutes is a good default. At this point the room should be silent. When the timer elapses, reiterate that each member of a table need to explain the diagram they created to others. Everyone else in the table is expected to listen and hold the questions and comments until everyone is done
 *  **Convergence**. Set a timmer for twenty minutes. On a per table basis, once everyone is done explaining their individual diagrams, they have to create one diagram together. This means they need to find what makes sense to the whole table
-    *  **Show and Tell**. Since there are many tables, we task the table to share the diagram that they've got to so far. A great practice is to ask the person that knows least about the system present this to the wider group. Set another timmer for 3 minutes and task the groups to clean up the diagram and help prepare the speaker to share what was learned. Once the timer is finished the facilitator takes pictures of these diagrams and displays them on a big screen , or if there is whiteboards the whole group walks to each of the whiteboards
-    It's usual that the diagrams look different to each other. Often times the language is generic, or the words used to describe the different parts of the system don't match. When the boundaries very unclear, the abstractions between system and container will be blurry. The key is for the participants to understand and bring the abstractions they know of, to the fore. 
+    *  **Show and Tell**. Since there are many tables, task each table with sharing the diagram they’ve created so far. A great practice is to ask the person who knows least (perhaps a new joiner) about the system to present it. Set another timer for three minutes and task the groups with cleaning up the diagram and preparing the speaker.
+    * **What to expect**. It's usual that the diagrams look different from each other. Often the language is generic, or the words used to describe the different parts of the system don't match. When the boundaries very unclear, the abstractions between system and container will be blurry. The key is for the participants to understand and bring the abstractions they know of, to the fore. 
 
 *  **Introspection**. Use sticky notes and a timer to run a short retrospective for the group at large. Identify themes and discuss. Maximum ten minutes long.
 
@@ -142,7 +137,7 @@ The steps above described an in person event. To facilitate this online, an expe
 
 The format of each of the Bytesize Architecture Sessions will follow the pattern of the infographic above. The goal should change according to how far people converge on the *System Context Diagram* and then, to the selected *Container Diagram*. 
 
-It is possible that after working on the *Container Diagram*, the *System Context Diagram* needs to be updated.
+It is possible that after working on the *Container Diagram*, the *System Context Diagram* needs to be updated. This reinforces the idea that the diagrams evolve with the group’s understanding rather than being fixed outputs.
 
 
 ## Results
