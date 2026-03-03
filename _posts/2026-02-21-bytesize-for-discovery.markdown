@@ -1,6 +1,6 @@
 ---
-date: 2026-02-21 00:12:00
-last_modified_at:  2026-02-26 00:12:00
+date: 2026-03-03 00:12:00
+last_modified_at:  2026-03-03 00:12:00
 layout: single
 title: Bytesize Architecture Sessions for DDD Discovery
 categories:
