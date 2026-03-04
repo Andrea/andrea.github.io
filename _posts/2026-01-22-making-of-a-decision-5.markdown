@@ -31,8 +31,6 @@ The series covers the topics described in [this talk: The Making of a Decision](
 Part 1 of this series explored how power shapes organisational and architectural decision making by reviewing definitions, laws of power and more. Part 2 covered concepts and models relating to Knowledge, what we mean when we say we know something and who has the right to know things. Part 3 and 4 covered decision making tools for different group sizes. This is a post that introduces **Decision KP Map**, the tool I created as result of learning and discussing so much about the subject.
 
 
-
-
 # What is Decision KP Map? 
 
 The process of making a decision involves people that have varying degrees of the capability to make change and people that have varying degrees of knowledge on the matter, sometimes people have both. 
@@ -43,9 +41,26 @@ This type of mapping I'm proposing is something you very likely, already do intu
 * Developing patterns and what to do about them
 
 
-> Decision KP Map is a mapping tool that helps visualise your **subjective** perception of the community that enables decision making.The **Key People**, in terms of their **Knowledge and Power**. Both concepts are the reason for the name of this tool .
+> Decision KP Map is a mapping tool that helps visualise your **subjective** perception of the community that enables decision making.The **Key People**, in terms of their **Knowledge and Power**. Both concepts are the reason for the name of this tool.
 
-### A sample Decision KP Map 
+
+Edit 04th March 2026:
+Given this definition of stakeholder[^StakeholderEW]
+>  A stakeholder in the architecture of a system is an individual, team, organization, or classes thereof, having an interest in the realization of the system.
+
+Key People are all stakeholders. Meaning that Decision KP Maps is another way to do stakeholder mapping. Thanks Dianing Yudono for your feedback
+
+[^StakeholderEW]: See source https://www.viewpoints-and-perspectives.info/home/stakeholders/
+
+
+
+## Who is this tool for
+
+This tool is especially helpful for people who are part of the decision making process or who are the decision makers themselves. It’s useful for those who value knowledge in a particular context.
+
+People who do software design, architecture, or have team‑leadership responsibilities are likely to find this tool most useful.
+
+## A sample Decision KP Map 
 
 Below you'll find an example map where I added people from history, and others described by roles to help create a baseline.
 
@@ -105,15 +120,6 @@ What happened:
 * It improved BL's capability to make change slightly as GL brokered the conversation between ⬛Miles P and 🟩Geordi Z
 
 ![After a few days ]({{site.images}}/2026/d-kp-map2.png "Decision KP Map example after a few days")
-
-
-
-
-## Who is this tool for
-
-This tool is especially helpful for people who are part of the decision making process or who are the decision makers themselves. It’s useful for those who value knowledge in a particular context.
-
-People who do software design, architecture, or have team‑leadership responsibilities are likely to find this tool most useful.
 
 ## Strengths
 
