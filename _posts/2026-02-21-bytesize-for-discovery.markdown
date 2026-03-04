@@ -17,7 +17,7 @@ tags: [ software architecture, discovery, domain-driven-design, bytesize archite
 
 The [DDD Starter Modelling Process](https://github.com/ddd-crew/ddd-starter-modelling-process/blob/master/README.md) is an excellent guide when iterating through the design process. This process [is recommended](https://github.com/ddd-crew/ddd-starter-modelling-process/blob/master/README.md#when-to-use-the-ddd-starter-modelling-process) when planning or following significant change, or when there are changes in terms of personnel. Some good examples: major programme of work, beginning brownfield migration, re-organising teams, etc.
 
-I have been using Bytesize Architecture Sessions in a few of the sections of the DDD modelling process. This article focuses on the [Discovery](https://github.com/ddd-crew/ddd-starter-modelling-process/blob/master/README.md#discover) section of the starter process. 
+I have been using Bytesize Architecture Sessions in a few of the sections of the Domain-Driven Design modelling process. This article focuses on the [Discovery](https://github.com/ddd-crew/ddd-starter-modelling-process/blob/master/README.md#discover) section of the starter process. 
 
 ![DDD Starter Modelling Process]( {{site.images}}/2026/ddd-crew-modelling-process--circles.png) 
 [DDD Starter Modelling Process by DDD-Crew](https://github.com/ddd-crew/ddd-starter-modelling-process)
@@ -35,7 +35,7 @@ After EventStorming, it's useful to understand the current structural shape of y
 
 ![Bytesize Architecture Sessions Infographic]({{site.images}}/2026/BAS-infographic.png)
 
-Bytesize Architecture Sessions are a workshop format that helps groups understand the systems they work on. Each session focuses on a specific section of a system. Over multiple sessions, the group will converge on a better shared understanding, develop a consistent vocabulary, and build a foundation for designing the future together.
+[Bytesize Architecture Sessions](https://bytesizearchitecturesessions.com) are a workshop format that helps groups understand the systems they work on. Each session focuses on a specific section of a system. Over multiple sessions, the group will converge on a better shared understanding, develop a consistent vocabulary, and build a foundation for designing the future together.
 
 Each Bytesize Architecture Session lasts between 45 and 90 minutes and has four well‑defined parts: Session Goal, Alone Together, Convergence, and Introspection. You can model your systems using different tools, such as C4, Context Mapping, or the Bounded Context Canvas. For teams new to modelling I recommend starting with C4.
 
@@ -186,7 +186,7 @@ These can be useful metrics depending on your issues:
 
 ## Conclusion
 
-Kicking off a Design initiative generally brings a high level of uncertainty. Bytesize Architecture Sessions help by creating a safe space for design, in a deliberate manner, in short and iterative bursts. 
+Significant changes generally bring a high level of uncertainty. Bytesize Architecture Sessions help by creating a safe space for design, in a deliberate manner, in short and iterative bursts. 
 Creating shared models help reduce risk and increase clarity. I have shared what works for me. I encourage you to try it and see how it works for you. Perhaps certain aspects of this practice needs to be adapted for your context in some way. I would be very happy to hear about it.
 
 The next post will describe how to use Bytesize Architecture Sessions for [Define](https://github.com/ddd-crew/ddd-starter-modelling-process/blob/master/README.md#define). 
