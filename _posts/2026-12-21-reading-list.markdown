@@ -1,7 +1,7 @@
 ---
 date: 2026-12-21 00:12:00
 layout: single
-title: Interesting learning resources - December 2025
+title: Interesting learning resources - February 2026
 categories:
 - software architecture
 - iteration zero
@@ -71,3 +71,8 @@ This is a common pattern most of us use when reviewing code
 * [Navigating Firestorms: The Imperative of Conflict-Intelligent Leadership in a Turbulent World Open Access](https://direct.mit.edu/ngtn/article/40/1-2/5/123561/Navigating-Firestorms-The-Imperative-of-Conflict)
 
 * https://www.caitlinsteele.com/open-pit-programming-silicon-valleys-industrial-extraction-of-human-potential-part-i-2/
+
+
+
+Practice is where we truly learn, and so with these case of results does Residuality give you, but also how to practically implement it within the context of practitioners that prefer to work collaboratively. 
+Residuality, as far as we understood at the beginning of the journey, is all about giving you an architecture that can withstand the stressors that you've analyse. Ideally, this generates residues that enable you to address multiple stressors with one residue, or with the outcomes of some residues, right? So you have a residual architecture at the end. What does DDD promise then? Residuality tells you that the software itself is not complex but complicated. DDD says that we have complexity in software systems, so that's at least one question that we want to try to answer. Another question that is really— so there's, there's what are we trying to learn. A) How do we integrate Residuality in the context of our practices? Like, concretely. B) What does it actually give you? As in, you do Residuality in some way and you do this exercise, what do you get out of it? Is it useful? Why? How is it useful? How long does it take? Can you easily quantify the effort? Who is needed? Who should participate in the activities related to Residuality? Why? Who's excluded? Also why? And finally, one of the kind of two key questions that we have is: what do you actually do with the residues? Now, as far as we understand, when you finish doing the, the residuality exercise, you end up with this residual architecture, and that means that you have a bunch of residues that you could implement. However, when it comes to— well, you can't do all of these things generally, so in theory you have a bunch of residues and there will be quite a delta between your current or /naive architecture and your residual architecture. How and why, what do you do with it? How do companies actually— how do organisations really use the outcome of this exercise? What does that mean? And that's pretty much what I've been doing.

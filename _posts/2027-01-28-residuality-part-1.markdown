@@ -5,15 +5,16 @@ layout: single
 title: Residuality - 
 categories:
 - software architecture
-- making of a decision
 - tools
 - residuality
 excerpt: "A . "
 
-tags: [ software architecture, software-architecture, residuality, decision-kp-map]
+tags: [ software architecture, software-architecture, residuality]
 ---
 
-This document describes a first experience using Residuality. The goal is to share what happened and what it questions it raised and record what it felt like for us.
+* This will be a series of posts all talking about our experience using Residuality capturing
+
+This document describes  first experience using Residuality in a professional context. The goal is to share what happened and what questions it raised and record what it felt like .
 
 * insert context about what is residuality
 * insert more info about what we are doing Contextive as a baseline 
