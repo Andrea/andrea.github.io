@@ -6,9 +6,11 @@ title: Residuality Real World Comparative Case Studies - Details and resources
 categories:
 - software architecture
 - architectural decision
-- making of a decision
-- decision-making
-- tools
+- residuality
+- randomness
+- residues
+- attractors
+- stressors
 excerpt: "Resources and further readings for Residuality:Real World Comparative Case Studies"
 tags: [ software architecture, residuality, case-study, randomness]
 ---
