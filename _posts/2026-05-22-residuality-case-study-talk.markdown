@@ -17,9 +17,11 @@ tags: [ software architecture, residuality, case-study, randomness]
 
 In collaboration with [Chris Simon](https://chrissimon.au/) we have worked on two case studies about [Residuality](https://www.sciencedirect.com/science/article/pii/S1877050920305585). This talk aims to share our experience of using it.
 
+[See resources from Chris' website](https://chrissimon.au/speaking/talks/residuality-comparative-case-studies/)
+
 ## Reading materials
 
-These are some resources I found useful in preparing for this talk
+These are some resources we either mentioned or that we found useful in preparing for the talk:
 
 ![bookshelf]({{site.images}}/2026/residuality.png)
 
@@ -28,6 +30,15 @@ These are some resources I found useful in preparing for this talk
 * 📹 [An Introduction to Residuality Theory by Barry O'Reilly](https://www.youtube.com/watch?v=PzRZLFWH1fY) Warning: please note that when you click on this link a video add will likely play (which degrades the experience significantly, unless you do something to not have ads)
 
 * 📗[The Black Swan: The Impact of the Highly Improbable by Nassim Nicholas Taleb](https://en.wikipedia.org/wiki/The_Black_Swan:_The_Impact_of_the_Highly_Improbable)
+
+* ATAM case studies [link](https://www.dataknobs.com/blog/architecture/atam/atam-case-studies.html)
+
+* [4+1 architectural model](https://en.wikipedia.org/wiki/4%2B1_architectural_view_model)
+
+* [Bytesize Architecture Sessions](https://bytesizearchitecturesessions.com/)
+
+* [C4 Model](https://c4model.com/)
+
 
 
 ## Where to see the talk live
