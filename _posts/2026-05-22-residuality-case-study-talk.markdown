@@ -2,7 +2,7 @@
 date: 2026-05-22 00:12:00
 last_modified_at:  2026-01-28 00:12:00
 layout: single
-title: Residuality Real World Comparative Case Studies - Details and resources
+title: Residuality Real World Comparative Case Studies - Talk details and resources
 categories:
 - software architecture
 - architectural decision
@@ -16,6 +16,9 @@ tags: [ software architecture, residuality, case-study, randomness]
 ---
 
 In collaboration with [Chris Simon](https://chrissimon.au/) we have worked on two case studies about [Residuality](https://www.sciencedirect.com/science/article/pii/S1877050920305585). This talk aims to share our experience of using it.
+
+
+<object data="https://www.roundcrisis.com/presentations/2026-DDDEU-Residuality-Case-Study.pdf" width="600" height="600" type="application/pdf"></object>
 
 [See resources from Chris' website](https://chrissimon.au/speaking/talks/residuality-comparative-case-studies/)
 

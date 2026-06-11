@@ -8,6 +8,28 @@ permalink: /speaking/
 ## Public Presentations and Workshops
 
 
+## 2026
+
+
+### YOW! Brisbane 2026
+December 7, 2026, Brisbane, Australia 🇦🇺 
+[Residuality: Real World Comparative Case Studies](https://yowcon.com/brisbane-2026/speakers/4430/andrea-magnorsky) - Slides and resource
+
+### YOW! Melbourne 2026
+December 3, 2026, Melbourne, Australia 🇦🇺
+[Residuality: Real World Comparative Case Studies](https://yowcon.com/melbourne-2026/speakers/4431/andrea-magnorsky)
+
+
+### Convex Summit 2026
+June 17, 2026, Madrid, Spain 🇪🇸
+[Residuality: Real World Comparative Case Studies](https://www.convexsummit.com/pages/schedule.html)
+
+
+### DDD Europe 2026
+June 10, 2026, Antwerp, Belgium 🇧🇪
+[Residuality: Real World Comparative Case Studies](https://2026.dddeurope.com/program/residuality-real-world-comparative-case-studies/)
+
+
 ## 2025 
 
 *   **[LAST Conference](https://confengine.com/user/andrea-magnorsky)** Understanding your systems with Bytesize Sessions - November 2025 - Melbourne, Australia
