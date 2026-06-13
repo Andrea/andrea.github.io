@@ -13,21 +13,23 @@ permalink: /speaking/
 
 ### YOW! Brisbane 2026
 December 7, 2026, Brisbane, Australia 🇦🇺 
-[Residuality: Real World Comparative Case Studies](https://yowcon.com/brisbane-2026/speakers/4430/andrea-magnorsky) - Slides and resource
+Residuality: Real World Comparative Case Studies  [Slides & Resources](({% post_url 2026-05-22-residuality-case-study-talk %})) [Conference site](https://yowcon.com/brisbane-2026/speakers/4430/andrea-magnorsky)
+
 
 ### YOW! Melbourne 2026
 December 3, 2026, Melbourne, Australia 🇦🇺
-[Residuality: Real World Comparative Case Studies](https://yowcon.com/melbourne-2026/speakers/4431/andrea-magnorsky)
-
+Residuality: Real World Comparative Case Studies  [Slides & Resources](({% post_url 2026-05-22-residuality-case-study-talk %})) [Conference site](https://yowcon.com/melbourne-2026/speakers/4431/andrea-magnorsky)
 
 ### Convex Summit 2026
 June 17, 2026, Madrid, Spain 🇪🇸
-[Residuality: Real World Comparative Case Studies](https://www.convexsummit.com/pages/schedule.html)
+* [The Making of a Decision]({% post_url 2025-09-01-making-of-a-decision %})
+* Residuality: Real World Comparative Case Studies  [Slides & Resources](({% post_url 2026-05-22-residuality-case-study-talk %})) [Conference site](https://www.convexsummit.com/pages/schedule.html)
 
 
 ### DDD Europe 2026
 June 10, 2026, Antwerp, Belgium 🇧🇪
-[Residuality: Real World Comparative Case Studies](https://2026.dddeurope.com/program/residuality-real-world-comparative-case-studies/)
+Residuality: Real World Comparative Case Studies  [Slides & Resources](({% post_url 2026-05-22-residuality-case-study-talk %})) [Conference site](https://2026.dddeurope.com/program/residuality-real-world-comparative-case-studies/)
+
 
 
 ## 2025 
