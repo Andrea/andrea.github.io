@@ -18,7 +18,12 @@ Residuality: Real World Comparative Case Studies  [Slides & Resources](({% post_
 
 ### YOW! Melbourne 2026
 December 3, 2026, Melbourne, Australia 🇦🇺
-Residuality: Real World Comparative Case Studies  [Slides & Resources](({% post_url 2026-05-22-residuality-case-study-talk %})) [Conference site](https://yowcon.com/melbourne-2026/speakers/4431/andrea-magnorsky)
+Residuality: Real World Comparative Case Studies  [Slides & Resources](({% post_url 2026-05-22-residuality-case-study-talk %})) [Conference site](https://yowcon.com/Decision Required
+Option Making
+Decision Taking
+Decision Sharing
+Decision Implemented
+Decidingmelbourne-2026/speakers/4431/andrea-magnorsky)
 
 ### Convex Summit 2026
 June 17, 2026, Madrid, Spain 🇪🇸
