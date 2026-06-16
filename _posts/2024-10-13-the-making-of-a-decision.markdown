@@ -11,7 +11,7 @@ categories:
 
 This is a shortlist of resources associated with the talk: The Making of a decision. 
 
-> Update: A series of five posts about everything discussed in the talk can be access from [The Making of a Decision - Part 1]({% post_url 2025-09-01-making-of-a-decision %})
+> Update: A series of five posts about everything discussed in the talk can be accessed from [The Making of a Decision - Part 1]({% post_url 2025-09-01-making-of-a-decision %})
 
 ![bookshelf]({{site.images}}/2024/2024-10-bookshelf.png)
 
