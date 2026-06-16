@@ -2,15 +2,16 @@
 date: 2024-10-13 12:13:00
 layout: single
 classes: wide
-title: The making of a decision - reading materials
+title: The making of a decision - reading materials & associated resources
 categories:
 - software architecture
 - decisions
 - knowledge sharing
 ---
 
-This is a shortlist of what I read to create the talk: The Making of a decision. 
+This is a shortlist of resources associated with the talk: The Making of a decision. 
 
+> Update: A series of five posts about everything discussed in the talk can be access from [The Making of a Decision - Part 1]({% post_url 2025-09-01-making-of-a-decision %})
 
 ![bookshelf]({{site.images}}/2024/2024-10-bookshelf.png)
 
@@ -32,4 +33,5 @@ This is a shortlist of what I read to create the talk: The Making of a decision.
 *  [Collaborative Software Design - How to facilitate domain modelling decisions](https://www.manning.com/books/collaborative-software-design) Book by Evelyn van Kelle, Gien Verschatse, and Kenny Baas-Schwegler 
 * [Pedagogy of the oppressed](https://en.wikipedia.org/wiki/Pedagogy_of_the_Oppressed) by Paulo Freire
 * [Six steps to distributed decision making - Here is where you start if you want autonomous distributed teams](https://www.remoteaf.co/blogs/steps-to-distributed-decision-making)
+
 
