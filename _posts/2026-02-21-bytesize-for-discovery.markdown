@@ -33,7 +33,8 @@ After EventStorming, it's useful to understand the current structural shape of y
 
 ## Bytesize Architecture Sessions Overview
 
-![Bytesize Architecture Sessions Infographic]({{site.images}}/2026/BAS-infographic.png)
+
+{% include figure popup=true image_path="/images/2026/BAS-infographic.png" alt="Bytesize Architecture Sessions Infographic" caption="Bytesize Architecture Sessions Infographic" %}
 
 [Bytesize Architecture Sessions](https://bytesizearchitecturesessions.com) are a workshop format that helps groups understand the systems they work on. Each session focuses on a specific section of a system. Over multiple sessions, the group will converge on a better shared understanding, develop a consistent vocabulary, and build a foundation for designing the future together.
 
@@ -45,7 +46,7 @@ Each Bytesize Architecture Session lasts between 45 and 90 minutes and has four 
 [C4](http://c4model.com) is a simple, hierarchical, and easy‑to‑learn modelling tool. It has four key diagrams. They move from high level abstractions of the *System Context* where you think in terms of systems and people, the forest. Then, one level down are *C4 Containers*, the trees. Below that are the *C4 Components*, the branches. And at the most detailed level is the *Code Diagram*, the leaves. This last diagram is customarily generated automatically.
 
 ![C4 Infographic]({{site.images}}/2026/C4infographic.png)
-
+{% include figure popup=true image_path="/images/2026/C4infographic.png" alt="C4 Infographic" caption="C4 Infographic" %}
 
 
 ##  Bytesize Architecture Sessions for Discovery: A Practical Walkthrough for Smaller Groups
