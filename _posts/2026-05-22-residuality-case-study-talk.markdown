@@ -27,6 +27,7 @@ In collaboration with [Chris Simon](https://chrissimon.au/) we have worked on tw
 These are some resources we either mentioned or that we found useful in preparing for the talk:
 
 ![bookshelf]({{site.images}}/2026/residuality.png)
+{% include figure popup=true image_path='{{site.images}}/2026/residuality.png' alt="Description of image" caption="Optional caption text" %}
 
 * 📗[Residues: Time, Change, and Uncertainty in Software Architecture](https://leanpub.com/residuality)
 
