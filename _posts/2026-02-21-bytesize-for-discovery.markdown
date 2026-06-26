@@ -19,7 +19,7 @@ The [DDD Starter Modelling Process](https://github.com/ddd-crew/ddd-starter-mode
 
 I have been using Bytesize Architecture Sessions in a few of the sections of the Domain-Driven Design modelling process. This article focuses on the [Discovery](https://github.com/ddd-crew/ddd-starter-modelling-process/blob/master/README.md#discover) section of the starter process. 
 
-![DDD Starter Modelling Process]( {{site.images}}/2026/ddd-crew-modelling-process--circles.png) 
+{% include figure popup=true image_path="/images/2026/ddd-crew-modelling-process--circles.png" alt="DDD Starter Modelling Process" caption="DDD Starter Modelling Process" %}
 [DDD Starter Modelling Process by DDD-Crew](https://github.com/ddd-crew/ddd-starter-modelling-process)
 
 Discovery is about sharing domain knowledge. When domain knowledge is shared widely, the team builds a collective understanding that leads to software aligned with the domain. This enables both the team and the software to evolve with the business. Discovery is an enabling step that opens the door for more team members to bring forward innovation for the product.
