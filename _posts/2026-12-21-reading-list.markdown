@@ -32,7 +32,6 @@ Credit: [Jeff Patton](https://jpattonassociates.com/glad-we-all-agree-2/)
 Bounded Contexts are a design choice to suit engineering needs
 
 
-
 https://verraes.net/2025/08/domain-and-bounded-contexts-dont-map-one-on-one/
 
 

@@ -1,18 +1,58 @@
 ---
-date: 2027-01-29 00:12:00
-last_modified_at:  2027-01-29 00:12:00
+date: 2027-12-26 00:12:00
+last_modified_at:  2026-06-26 00:12:00
 layout: single
-title: Residuality - 
+title: Residuality case studies - Introduction
 categories:
 - software architecture
 - tools
 - residuality
-excerpt: "A . "
-
+excerpt: " "
 tags: [ software architecture, software-architecture, residuality]
+gallery:
+  - url: /images/2026/ddd-eu/eric-evans-ddd-eu-20260610_1.jpg
+    image_path: /images/2026/ddd-eu/eric-evans-ddd-eu-20260610_1.jpg
+    alt: "Ten years and counting"
+    title: "Ten years and counting"
+  - url: /images/2026/ddd-eu/eric-evans-ddd-eu-20260610_2.jpg
+    image_path: /images/2026/ddd-eu/eric-evans-ddd-eu-20260610_2.jpg
+    alt: "Curiosity, fun, wonder"
+    title: "Curiosity, fun, wonder"
+  - url: /images/2026/ddd-eu/eric-evans-ddd-eu-20260610_3.jpg
+    image_path: /images/2026/ddd-eu/eric-evans-ddd-eu-20260610_3.jpg
+    alt: "Wnat I've been studying"
+    title: "Image 3 title caption"
+  - url: /images/2026/ddd-eu/eric-evans-ddd-eu-20260610_4.jpg
+    image_path: /images/2026/ddd-eu/eric-evans-ddd-eu-20260610_4.jpg
+    alt: "placeholder image 1"
+    title: "Image 1 title caption"
+  - url: /images/2026/ddd-eu/eric-evans-ddd-eu-20260610_5.jpg
+    image_path: /images/2026/ddd-eu/eric-evans-ddd-eu-20260610_5.jpg
+    alt: "placeholder image 2"
+    title: "Image 2 title caption"
+  - url: /images/2026/ddd-eu/eric-evans-ddd-eu-20260610_6.jpg
+    image_path: /images/2026/ddd-eu/eric-evans-ddd-eu-20260610_6.jpg
+    alt: "placeholder image 2"
+    title: "Image 2 title caption"    
+  - url: /images/2026/ddd-eu/eric-evans-ddd-eu-20260610_7.jpg
+    image_path: /images/2026/ddd-eu/eric-evans-ddd-eu-20260610_7.jpg
+  - url: /images/2026/ddd-eu/eric-evans-ddd-eu-20260610_8.jpg
+    image_path: /images/2026/ddd-eu/eric-evans-ddd-eu-20260610_8.jpg
+  - url: /images/2026/ddd-eu/eric-evans-ddd-eu-20260610_9.jpg
+    image_path: /images/2026/ddd-eu/eric-evans-ddd-eu-20260610_9.jpg
+  - url: /images/2026/ddd-eu/eric-evans-ddd-eu-20260610_10.jpg
+    image_path: /images/2026/ddd-eu/eric-evans-ddd-eu-20260610_10.jpg
+  - url: /images/2026/ddd-eu/eric-evans-ddd-eu-20260610_11.jpg
+    image_path: /images/2026/ddd-eu/eric-evans-ddd-eu-20260610_11.jpg
+  - url: /images/2026/ddd-eu/eric-evans-ddd-eu-20260610_12.jpg
+    image_path: /images/2026/ddd-eu/eric-evans-ddd-eu-20260610_12.jpg    
+
 ---
 
 * This will be a series of posts all talking about our experience using Residuality capturing
+
+{% include gallery caption="Eric Evans at the opening keynote for **DDD Europe**." %}
+
 
 This document describes  first experience using Residuality in a professional context. The goal is to share what happened and what questions it raised and record what it felt like .
 
