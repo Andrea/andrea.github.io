@@ -1,0 +1,25 @@
+{% assign today = 'now' | date: '%s' %}
+{% assign upcoming = "" | split: "" %}
+
+{% for workshop in site.data.workshops %}
+  {% assign wdate = workshop.date | date: '%s' %}
+  {% if wdate >= today %}
+    {% assign upcoming = upcoming | push: workshop %}
+  {% endif %}
+{% endfor %}
+
+{% if upcoming.size > 0 %}
+<div class="notice--warning  workshops-snippet">
+  <h4>🗓 Upcoming Workshops</h4>
+  <ul>
+    {% assign sorted = upcoming | sort: "date" %}
+    {% for workshop in sorted %}
+    <li>
+      <strong><a href="{{ workshop.url }}" target="_blank">{{ workshop.title }}</a></strong><br>
+      {{ workshop.date | date: "%B %d, %Y" }} to {{ workshop.date-end | date: "%B %d, %Y" }} &mdash; {{ workshop.location }}<br>
+
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}
