@@ -1,6 +1,6 @@
 ---
 date: 2026-05-22 00:12:00
-last_modified_at:  2026-01-28 00:12:00
+last_modified_at:  2026-07-16 00:12:00
 layout: single
 title: Residuality Real World Comparative Case Studies - Talk details, recording and extra resources
 categories:
@@ -11,6 +11,7 @@ categories:
 - residues
 - attractors
 - stressors
+- models
 excerpt: "Resources and further readings for Residuality:Real World Comparative Case Studies"
 tags: [ software architecture, residuality, case-study, randomness]
 toc: true
@@ -45,18 +46,17 @@ These are some resources we either mentioned or that we found useful in preparin
 
 * 📗[Residues: Time, Change, and Uncertainty in Software Architecture](https://leanpub.com/residuality)
 
-* 📹 [An Introduction to Residuality Theory by Barry O'Reilly](https://www.youtube.com/watch?v=PzRZLFWH1fY) Warning: please note that when you click on this link a video add will likely play (which degrades the experience significantly, unless you do something to not have ads)
+* 📹 [An Introduction to Residuality Theory by Barry O'Reilly](https://www.youtube.com/watch?v=PzRZLFWH1fY) Warning: please note that when you click on this link a video advertisement will likely play, which degrades the experience significantly(unless you do something to not have ads)
 
 * 📗[The Black Swan: The Impact of the Highly Improbable by Nassim Nicholas Taleb](https://en.wikipedia.org/wiki/The_Black_Swan:_The_Impact_of_the_Highly_Improbable)
 
 * ATAM case studies [link](https://www.dataknobs.com/blog/architecture/atam/atam-case-studies.html)
 
-* [4+1 architectural model](https://en.wikipedia.org/wiki/4%2B1_architectural_view_model)
+* [4+1 architectural model](https://en.wikipedia.org/wiki/4%2B1_architectural_view_model): 4+1 is a model used for "describing the architecture of software-intensive systems, based on the use of multiple, concurrent views".[Kruchten, Philippe (1995, November)] The views are used to describe the system from the viewpoint of different stakeholders, such as end-users, developers, system engineers, and project managers. The four views of the model are logical, development, process, and physical views. 
 
 * [Bytesize Architecture Sessions](https://bytesizearchitecturesessions.com/)
 
 * [C4 Model](https://c4model.com/)
-
 
 
 ### Where to see the talk live
