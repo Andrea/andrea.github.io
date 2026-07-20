@@ -38,6 +38,22 @@ Please note, the recording defaults to dubbed english, **change the language in 
 
 More resources at [Chris' website](https://chrissimon.au/speaking/talks/residuality-comparative-case-studies/)
 
+### Abstract
+
+Residuality Theory has disrupted the software architecture landscape by introducing a new approach based on complexity science and random simulation. Its goal is to help architects design systems that are statistically more resilient across a wider range of possible futures.
+
+In parallel, Domain-Driven Design has been a key driver of the speakers design and architecture practice.
+
+This talk explores whether these approaches are compatible, and how Residuality can be integrated into the architecture toolbox.
+
+Drawing from real-world experience across two different organizations, the speakers reflect on key questions:
+
+How do we translate this new architectural approach into tangible business value?
+How do we communicate decisions when the design process is unfamiliar to the wider organization?
+And how do we manage the inevitable trade-offs when building real, operational systems based on a more adaptive architectural vision?
+
+Through comparative case studies, this session shares practical lessons learned and insights on applying Residuality in modern system design and modernisation.
+
 ### Reading materials
 
 These are some resources we either mentioned or that we found useful in preparing for the talk:
