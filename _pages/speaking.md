@@ -21,11 +21,17 @@ December 3, 2026 -  Melbourne, Australia 🇦🇺
 Residuality: Real World Comparative Case Studies  [Slides & Resources]({% post_url 2026-05-22-residuality-case-study-talk %})  - [Conference site](https://yowcon.com/melbourne-2026/speakers/4431/andrea-magnorsky)
 
 
+
 ### KanDDDinsky - October 2026
 October 14-16, 2026 -  Berlin, Germany  🇩🇪
 * Collaborative Software Modelling and Design with Bytesize Sessions - [Conference site](https://kandddinsky.de/workshop/collaborative_modelling_masterclass_magnorsky_2026)
 * The Making of a Decision [Slides & Resources]({% post_url 2025-09-01-making-of-a-decision %}) - [Conference site](https://kandddinsky.de/2026/sessions/the-certainty-of-uncertainty-how-did-we-get-here-where-do-we-go)
 
+
+### GOTO Copenhagen - October 2026
+September 30th to October 2nd, 2026 -  Copenhagen, Denmark 🇩🇰
+* The Making of a Decision [Slides & Resources]({% post_url 2025-09-01-making-of-a-decision %}) - [Conference site](https://gotocph.com/2026/speakers/4563/andrea-magnorsky)
+* Unscripted Session - Over-engineering with Barry O'Reilly  - [Conference site](https://gotocph.com/2026/speakers/4563/andrea-magnorsky)
 
 
 ### Convex Summit 2026
