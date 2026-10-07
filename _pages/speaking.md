@@ -24,8 +24,7 @@ Residuality: Real World Comparative Case Studies  [Slides & Resources]({% post_u
 
 ### KanDDDinsky - October 2026
 October 14-16, 2026 -  Berlin, Germany  🇩🇪
-* Collaborative Software Modelling and Design with Bytesize Sessions - [Conference site](https://kandddinsky.de/workshop/collaborative_modelling_masterclass_magnorsky_2026)
-* The Making of a Decision [Slides & Resources]({% post_url 2025-09-01-making-of-a-decision %}) - [Conference site](https://kandddinsky.de/2026/sessions/the-certainty-of-uncertainty-how-did-we-get-here-where-do-we-go)
+* The Certainty of Uncertainty [Slides & Resources]({% post_url 2026-10-07-certainty-of-uncertainty %})- [Conference site](https://kandddinsky.de/2026/sessions/the-certainty-of-uncertainty-how-did-we-get-here-where-do-we-go)
 
 
 ### GOTO Copenhagen - October 2026
