@@ -2,7 +2,7 @@
 date: 2026-09-29 00:12:00
 last_modified_at: 2026-09-29 00:12:00
 layout: single
-title: How does your organisation make decisions? Learn by running a review.
+title: How does your organisation make decisions? Not sure? Learn by running a review.
 categories:
 - software architecture
 - architectural decision
@@ -12,8 +12,8 @@ excerpt: "Learning about how the organisation is actually making decisions is al
 tags: [ software architecture, decision making, architectural decision making]
 ---
 
-Checking how your organisation is actually making decisions is generally humbling. 
-I had good outcomes running this as a 90 min workshop
+
+Lack of clarity on how decision making happens is a source of confusion and errors, yet it's very common to not have clear guidelines about how to bring transparency to decision-making. Checking how your organisation is actually making decisions is generally humbling. I had good outcomes running this as a 90 min workshop.
 
 
 ![decision review overview]({{site.images}}/2026/2026-decision-review.png)
