@@ -18,7 +18,10 @@ Solving problems through systems requires knowledge, creativity, and hard work. 
 
 This talk is a tour of real-world situations, examining the mindset needed to move forward when your signals tell you the system shouldn't be in this state, and yet here we are. How to learn to understand the system of software and people, find the leverage points, even when the path ahead is unclear.
 
+### Slides
 
+
+<object data="https://www.roundcrisis.com/presentations/KanDDDisnky-2026-TheCertainty-Uncertainty.pdf" width="560" height="380" type="application/pdf"></object>
 
 ### Resources
 
