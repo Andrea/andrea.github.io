@@ -20,6 +20,26 @@ This talk is a tour of real-world situations, examining the mindset needed to mo
 
 
 
+### Resources
+
+![books]({{site.images}}/2026/uncertainty-books.png)
+
+#### Books
+* Good Strategy, Bad Strategy. Richard Rumelt
+* Residues: Time, uncertainty and change in software architecture. Barry O’Reilly
+* Polarity Management™: Barry Johnson PhD
+* Facilitating Software Architecture. Andrew Harmel-Law
+* Willful Ignorance: The Mismeasure of Uncertainty. Herbert Weisberg
+* Software Systems Architecture. Nick Rozanski, Eoin Woods
+
+#### Papers
+
+* Common Ground and Coordination in Joint Activity
+Gary Klein, Paul J. Feltovich, Jeffrey M. Bradshaw, David D. Woods
+
+* Sense of Community: A Definition and Theory
+David W. McMillan and David M. Chavis
+
 ### Where to see the talk live
 
 #### KanDDDinsky - October 2026
